@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Introduction to Dementia}{3}
+\contentsline {section}{\numberline {2}Assessment of Language function in Dementia}{3}
+\contentsline {section}{\numberline {3}Current ways of diagnosing Dementia using Language}{3}
+\contentsline {section}{\numberline {4}Existing studies that have used Natural Language Processing to help in diagnosing psychological difficulties}{4}
+\contentsline {section}{\numberline {5}What progress has been made in this area already?}{4}
+\contentsline {section}{\numberline {6}State of literature into Natural Language processing techniques}{4}
+\contentsline {section}{\numberline {7}Conclusion}{4}
