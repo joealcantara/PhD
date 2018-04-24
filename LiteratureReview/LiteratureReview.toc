@@ -1,7 +1,14 @@
-\contentsline {section}{\numberline {1}Introduction to Dementia}{3}
-\contentsline {section}{\numberline {2}Assessment of Language function in Dementia}{3}
-\contentsline {section}{\numberline {3}Current ways of diagnosing Dementia using Language}{3}
-\contentsline {section}{\numberline {4}Existing studies that have used Natural Language Processing to help in diagnosing psychological difficulties}{4}
-\contentsline {section}{\numberline {5}What progress has been made in this area already?}{4}
-\contentsline {section}{\numberline {6}State of literature into Natural Language processing techniques}{4}
-\contentsline {section}{\numberline {7}Conclusion}{4}
+\contentsline {section}{\numberline {1}Introduction to Dementia and the Literature Review}{3}
+\contentsline {section}{\numberline {2}Description of Dementia}{3}
+\contentsline {subsection}{\numberline {2.1}Alzheimer's Disease}{3}
+\contentsline {subsection}{\numberline {2.2}Vascular Dementia}{3}
+\contentsline {subsection}{\numberline {2.3}Dementia with Lewy Bodies}{3}
+\contentsline {subsection}{\numberline {2.4}Parkinson's disease dementia}{3}
+\contentsline {subsection}{\numberline {2.5}Fronto-temporal dementia}{3}
+\contentsline {subsection}{\numberline {2.6}Mild Cognitive Impairment}{3}
+\contentsline {section}{\numberline {3}Assessment of Language function in Dementia}{3}
+\contentsline {section}{\numberline {4}Current ways of diagnosing Dementia using Language}{4}
+\contentsline {section}{\numberline {5}Existing studies that have used Natural Language Processing to help in diagnosing psychological difficulties}{4}
+\contentsline {section}{\numberline {6}What progress has been made in this area already?}{4}
+\contentsline {section}{\numberline {7}State of literature into Natural Language processing techniques}{4}
+\contentsline {section}{\numberline {8}Conclusion}{4}

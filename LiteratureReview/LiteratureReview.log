@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.29)  22 APR 2018 16:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.29)  24 APR 2018 09:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -48,34 +48,47 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Lite
-ratureReview.toc)
+ratureReview.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+)
 \tf@toc=\write3
 \openout3 = `LiteratureReview.toc'.
 
  [2]
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
+
+ []
+
 Missing character: There is no Â in font cmr10!
 Missing character: There is no £ in font cmr10!
 Missing character: There is no Â in font cmr10!
 Missing character: There is no £ in font cmr10!
 Missing character: There is no Â in font cmr10!
 Missing character: There is no £ in font cmr10!
- [3] [4]
-(./LiteratureReview.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
+
+ []
+
+[3] [4] (./LiteratureReview.aux) ) 
 Here is how much of TeX's memory you used:
- 241 strings out of 492995
- 2734 string characters out of 6132703
+ 244 strings out of 492995
+ 2777 string characters out of 6132703
  58074 words of memory out of 5000000
- 3857 multiletter control sequences out of 15000+600000
- 7588 words of font info for 27 fonts, out of 8000000 for 9000
+ 3860 multiletter control sequences out of 15000+600000
+ 7895 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,6n,17p,1058b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr17.pfb>
-Output written on LiteratureReview.pdf (4 pages, 78520 bytes).
+ 23i,6n,18p,1058b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr17.pfb>
+Output written on LiteratureReview.pdf (4 pages, 81831 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream
