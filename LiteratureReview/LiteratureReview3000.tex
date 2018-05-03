@@ -1,0 +1,94 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Document Class
+\documentclass[a4paper]{article}
+
+%% Packages
+\input{settings/packages}
+
+%% Page Settings
+\input{settings/page}
+
+%% Own Commands
+\input{settings/macros}
+
+\title{Literature Review}
+\date{2018-04-26}
+\author{Jomar Alcantara}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin {document}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+\section{Introduction}
+
+\par
+According to a recent report commissioned by the Alzheimer's Society, they estimate the prevalence of Dementia in the UK at approximately 815,000 people. This represents 1 in 14 of the population aged 65 or over. This report also estimates an annual healthcare spend on £4.3 billion of which approximately £85 million is spend solely on diagnosis. They also estimate that the overall impact of dementia (excluding the costs associated with early onset dementia) is £26.3 billion annually. Globally, this picture is a lot bleaker. A recent report suggests that in 2015 there were 46 million people with a diagnosis of dementia and that number is expected to hit 131.5 million by 2050 \cite{Prince2015}. The report also states that the worldwide cost of dementia in 2018 is estimated to be in the region of one trillon US dollars.
+\newline
+\par
+The purpose of this review is to seek to understand how dementia impacts speech and language production from a psychological and linguistic perspective with a view to potentially using natural language processing and technology to aid in the early diagnosis of dementia and/or Mild Cognitive Impairment.
+\newline
+\par
+A search of the literature was conducted mainly from a psychological perspective as this would inform the theoretical side of things. Next, a search of the literature from a Computer Science perspective was also made with a view to exploring the how domain of machine learning and more specifically natural language processing can be applied to this problem. Finally a search was carried out to see what work has already been done in this area.
+
+All stages of this literature review were completed by myself. 
+
+\section{Description of Dementia}
+
+Language - DSM-V
+'Major' Has significant difficulties with expressive or receptive language. Often uses general-use phrases such as "that thing" and "you know what I mean," and prefers general pronouns rather than names. With severe impairment, may not even recall names of closer friends and family. Idiosyncratic word usage, grammatical errors, and spontaneity of output and economy of utterances occur. Stereotypy of speech occurs; echolalia and automatic speech typically precede mutism.
+
+'Mild' Has noticeable word-finding difficulty. May substitute general for specific terms. May avoid use of specific names of acquaintances. Grammatical errors involve subtle omission or incorrect use of articles, prepositions, auxiliary verbs, etc.
+
+\subsection{Alzheimer's Disease}
+\subsection{Vascular Dementia}
+\subsection{Dementia with Lewy Bodies}
+\subsection{Parkinson's disease dementia}
+\subsection{Fronto-temporal dementia}
+\subsection{Primary Progressive Aphasia}
+\subsection{Mild Cognitive Impairment}
+
+\section{Assessment of Language function in Dementia}
+
+Language can be defined as the ability to encode ideas into words and/or symbols for the means of communication. Difficulty in language, both spoken and written, are often described as symptoms of various types of Alzheimers' disease (AD). One of the challenges when using speech as a predictor is recognising whether there is a problem with language production or with the motor skills. Impairments in speech that arise from any process that disrupts the neuraxis from the cortex to muscle and encompass dysarthria (disturbance in articulation) and dysphonia (disturbance in the production in vocal sounds). However it is important to use language as a tool to aid the diagnosis of Dementia, as it provides vital clues to aid a clinician in differentiating in the different types of Dementia, which will in turn aid a clinician in an attempt to manage an individual case of Dementia. Due to the subtle nature of the languages changes that are experienced in those who suffer with different types of Dementia, it is often misdiagnosed.
+
+
+Emery \cite{Emery2000}, states that you can see language decline as Hierarchical. According to a semiotic model there are four ranks of language based on their cognitive complexity. These ranks are Phonology, Morphology, Syntax and Semantics. She conducted a review studies which looked at language decline from the perspective of these hierarchical ranks. Her conclusion is that language decline is related to the complexity of the language task given to a participant and that language decline is hierarchical in that the language forms we learn last (the most complex language forms) are the first to deteriorate.
+
+A common way for clinicians' to diagnose dementia is through use of the Mini-Mental State Examination. The Mini-Mental State Examination (MMSE) has shown to be particularly effective at differentiating betweeen Dementia and other psychological disorders such as clinical depression, schitzophrenia and personality disorder and is currently the most widely used measure of diagnosing Dementia within clinical psychology.  However, it is not without it's faults...
+
+\section{Current ways of diagnosing Dementia using Language}
+\subsection{Free Cued Selective Recall Test}
+The Free Cued Selective Recall Test (FCSRT) was created by Grober and his team \cite{Grober1988}. This is a test that primarily tests memory but also tests a subjects ability to name objects. Four items are presented at a time on a card and each participant is asked to name and recall with and without cues. 
+
+\subsection{Mini-Mental State Examination}
+
+Battery of tests to differentiate between Controls, those with MCI, those with AD. 
+\begin{itemize}
+	\item FCSRDT - As most effective 
+	\item Mini Mental State Examination (MMSE)
+	\item Addenbrooke's Cognitive Examination (ACE-III)
+	\item Dementia Rating Scale (DRS)
+	\item Western Aphasia Battery (WAB)
+	\item Boston Diagnostic Aphasia Examination (BDAE)
+	\item Boston Naming Test (BNT)
+\end{itemize}
+
+\section{Existing studies that have used Natural Language Processing to help in diagnosing psychological difficulties, particularly language difficulties}
+
+\subsection{Nun Study - Snowdon (1996)}
+\subsection{Comparing Presidents Speeches - Berisha et al (2015)}
+
+\section{State of literature into Natural Language processing techniques}
+
+\section{Conclusion}
+\par
+Identification of language impairment is important in Dementia because it aids diagnosis of specific types of dementia, which in turn can alter the prognosis and change the management of the degenerative disorder. As these differences in language are quite subtle, the varying subtypes of dementia are frequently misdiagnosed.
+\newline
+\par 
+Given the burden on the diagnosis of dementia on clinicians, it appears to be useful to find some non-invasive protocols for the early diagnosis of dementia. It has already been shown that analysis of speech and language has shown markers that pre-date the official diagnosis of dementia (Snowdon et al, 1996;)\cite{Berisha2015}.
+
+\bibliographystyle{unsrt}
+\bibliography{LiteratureReview}
+\end {document}
