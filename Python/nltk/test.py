@@ -19,3 +19,12 @@ print('Length of test2', len(words2))
 intersect = set(words1) & set(words2)
 print(sorted(intersect))
 print(len(intersect))
+
+import numpy
+from keras.models import Sequential
+from keras.layers import Dense
+from keras.layers import Dropout
+from keras.layers import LSTM
+from keras.callbacks import ModelCheckpoint
+from keras.utils import np_utils
+

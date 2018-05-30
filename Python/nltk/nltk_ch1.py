@@ -45,4 +45,34 @@ print(len(set(text3)))
 # Measure of lexical diversity
 # Term one, number of unique words or tokens 
 # Term two, length of text
+print("Lexical Diversity")
 print(len(set(text3)) / len(text3))
+
+# Count the number of times a given word passed to this function appears in a given text document.
+print("Number of times 'smote' appears in this document.")
+print(text3.count("smote"))
+
+def lexical_diversity(text):
+    """
+    Takes in text, returns number of unique tokens / total tokens
+    """
+    return len(set(text)) / len(text)
+
+def percentage(count, total):
+    """
+    takes in count, and total returns percentage
+    """
+    return 100 * count / total
+
+# Examples of using the function
+print(lexical_diversity(text3))
+print(lexical_diversity(text5))
+
+print(percentage(4, 5))
+print(percentage(text4.count('a'), len(text4)))
+
+sent1 = ['Call', 'me', 'Ishmael', '.']
+
+print(len(sent1))
+
+print(lexical_diversity(sent1))
