@@ -71,8 +71,98 @@ print(lexical_diversity(text5))
 print(percentage(4, 5))
 print(percentage(text4.count('a'), len(text4)))
 
+# Create a tokenized sentence
 sent1 = ['Call', 'me', 'Ishmael', '.']
 
+# Check to see that the sentence was created correctly and that the functions are working as intended.
 print(len(sent1))
-
 print(lexical_diversity(sent1))
+
+# Print to check that sentences have loaded.
+print(sent2)
+print(sent3)
+
+# Create a new sentence and append two lists together.
+words = ["Monty", "Python"] + ["and", "the", "Holy", "Grail"]
+print(words)
+
+# Append two lists together
+words = sent4 + sent1
+print(words)
+
+# Append a word to an existing sentence
+sent1.append("Some")
+print(sent1)
+
+# Working with indexes - Print the 173rd token in the given text
+print(text4[173])
+
+# Find the index in the given text where the given word is passed
+print(text4.index("awaken"))
+
+# Can use indexes to take segments, known as slices, out of a text document. Returns a list.
+print(text5[16715:16735])
+print(text6[1600:1625])
+
+# Exploring indexes.
+sent = ["word1", "word2", "word3", "word4", "word5",
+        "word6", "word7", "word8", "word9", "word10"]
+
+# Looking into how indexes are constructed.
+print(sent[0])
+print(sent[9])
+print(sent[5:8])
+print(sent[5])
+print(sent[6])
+print(sent[7])
+print(sent[:3])
+
+print(text2[141525:])
+
+sent[0] = "First"
+sent[9] = "Last"
+
+print(len(sent))
+
+print(type(sent))
+sent[1:9] = ["Second", "Third"]
+print(sent[1:9])
+print(sent)
+
+sent1 = ["Call", "me", "Ishmael", "."]
+
+my_sent = ["Bravely", "bold", "Sir", "Robin", ".", "rode",
+            "forth", "from", "Camelot"]
+
+noun_phrase = my_sent[1:4]
+print(noun_phrase)
+
+wOrDs = sorted(noun_phrase)
+print(wOrDs)
+
+vocab = set(text1)
+vocab_size = len(vocab)
+print(vocab_size)
+
+name = "Monty"
+print(name[0])
+print(name[:4])
+
+print(name*2)
+print(name + '!')
+
+print(" ".join(["Monty", "Python"]))
+print('Monty Python'.split())
+
+saying = ["After", "all", "is", "said", "and", "done",
+            "more", "is", "said", "than", "done"]
+tokens = set(saying)
+tokens = sorted(tokens)
+print(tokens[-2:])
+
+fdist1 = FreqDist(text1)
+print(fdist1)
+print(fdist1.most_common(50))
+print(fdist1["whale"])
+
+fdist1.plot(50, cumulative=True)
