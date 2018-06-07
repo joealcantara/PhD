@@ -166,3 +166,7 @@ print(fdist1.most_common(50))
 print(fdist1["whale"])
 
 fdist1.plot(50, cumulative=True)
+
+V = set(text1)
+long_words = [w for w in V if len(w) > 15]
+print(sorted(long_words))
