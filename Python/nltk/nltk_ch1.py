@@ -1,4 +1,6 @@
 from nltk.book import *
+import nltk
+
 
 # concordance shows every occurance of the word passed to the function as well as some context.
 text1.concordance("monstrous")
@@ -170,3 +172,13 @@ fdist1.plot(50, cumulative=True)
 V = set(text1)
 long_words = [w for w in V if len(w) > 15]
 print(sorted(long_words))
+
+fdist5 = FreqDist(text5)
+print(sorted(w for w in set(text5) if len(w) > 7 and fdist5[w] > 7))
+print(list(nltk.bigrams(['more', 'is', 'said', 'than', 'done'])))
+
+print(text4.collocations())
+print(text6.collocations())
+print(text8.collocations())
+
+print([len(w) for w in text1])
