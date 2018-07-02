@@ -14,20 +14,24 @@ I have started a trial of the Amazon Echo tool (Echo SCraper and ClAssifier of P
 \par 
 As such I have conceptualised a datapipe line. This is currently based on the assumption that I will be using the Amazon Echo to collect data. Firstly, I will use ESCAPE to capture and transcribe the speech and output to a data file. I will then split each interaction into sentences and run this through the stanford parser to tag for various features. This will then be converted into features that can then be used in a Machine Learning algorithm to classify AD or Not AD. \newline
 \par
-I have collected a number of datasets, most notably the DementiaBank corpus of cognitive interviews. This has a total of xxx Participants with Dementia as well as controls who complete the Boston Cookie Theft exercise. I have access to other data such as the Presidents Speeches and Conferences archive. Currently I'm in the process of detagging these interviews as these are marked up in a different format. \newline
+I have collected a number of datasets, most notably the DementiaBank corpus of cognitive interviews. This has a total of 240 Participants with Dementia as well as controls who complete the Boston Cookie Theft exercise. I have access to other data such as the Presidents Speeches and Conferences archive. Currently I'm in the process of detagging these interviews as these are marked up in a different format. \newline
 \par
-I have conducted literature searches using Web of Science and Scopus which have highlighted a number of papers to read in the relevant areas. I have collected a number of these papers to read through which will contribute to my literature review. Periodically I conduct new searches and add to these papers. 
+I have conducted literature searches using Web of Science and Scopus which have highlighted a number of papers to read in the relevant areas. I have collected a number of these papers to read through which will contribute to my literature review. Periodically I conduct new searches and add to these papers and I have searches set up to automatically update me on papers.
 \section{What I intend to do over the next two months - end of August}
-In the next two months I plan to complete and submit an initial literature review as well an initial experimental idea formalised and finally I would like to submit a first work-in-progress draft of the Qualifying Report. I also intend to look into NHS ethics
+In the next two months I plan to complete and submit an initial literature review as well an initial experimental idea formalised and finally I would like to submit a first work-in-progress draft of the Qualifying Report. I also intend to look into the NHS ethics procedure as it's likely that I will need to be able to submit this before
+\newline
+I would like to look into how to measure the complexity of a sentence as I think a predictor could be how complex a sentence is. This certainly fits in with the idea that generating sentences increases cognitive load. Are the sentences required by Alexa to activate commands complex enough?
+\newline
+I would like to explore further the idea of Deep Learning for Natural Language Processing - the idea of pre-processing (One-Hot Encoding) vs vector representations.
 \section{Further down the line}
 It's my intention to attend the 2019 Alzheimer's Society Conference and as part of this I would like to submit a paper/poster presentation detailing my research so far. In addition, I will be attending the Natural Language Processing conference in Brussels (October / November 2018).
 
 \section{Questions and thoughts}
 Question - Is there any training you can recommend on Natural Language Processing? Particularly the Stanford Parser.
 \newline
-Question - The literature points to voice patterns as an area to explore, is this necessary?
+Question - The literature points to voice patterns as an area to explore, is this necessary? How might this work? Pauses might be useful to measure?
 \newline
 Thought - What if the language used in interacting with the Amazon Echo is not diverse enough? Test to see with my data? Vs DementiaBank
 \newline
-
+Thought - Is there a stage before collecting data with Amazon Echo where we just look at natural language in terms of speech between controls and those with dementia. Cookie Theft Picture + Semi Structured Interview?
 \end {document}
