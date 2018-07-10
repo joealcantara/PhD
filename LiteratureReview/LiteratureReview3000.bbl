@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{AmericanPsychiatricAssociation2013}
 {American Psychiatric Association}.
@@ -37,17 +37,35 @@ V~O Emery.
 \newblock {\em International Journal of Psychiatry in Medicine},
   30(2):145--164, 2000.
 
+\bibitem{Boschi2017}
+Veronica Boschi, Eleonora Catrical{\`{a}}, Monica Consonni, Cristiano Chesi,
+  Andrea Moro, and Stefano~F. Cappa.
+\newblock {Connected speech in neurodegenerative language disorders: A review},
+  2017.
+
 \bibitem{Kaplan2010}
 E.~Kaplan, H.~Goodglass, and S.~Weintraub.
 \newblock {Boston Naming Test}.
 \newblock In {\em The Corsini encyclopedia of psychology}, page 2009. 2010.
 
-\bibitem{Thomas2005}
-C.~Thomas, V.~Keselj, N.~Cercone, K.~Rockwood, and E.~Asp.
-\newblock {Automatic detection and rating of dementia of Alzheimer type through
-  lexical analysis of spontaneous speech}.
-\newblock {\em IEEE International Conference Mechatronics and Automation,
-  2005}, 3(February 2005):1569--1574, 2005.
+\bibitem{Giles1996}
+Elaine Giles, Karalyn Patterson, and John~R. Hodges.
+\newblock {Performance on the Boston Cookie Theft picture description task in
+  patients with early dementia of the Alzheimer's type: Missing information}.
+\newblock {\em Aphasiology}, 10(4):395--408, 1996.
+
+\bibitem{Sajjadi2012}
+Seyed~Ahmad Sajjadi, Karalyn Patterson, Michal Tomek, and Peter~J. Nestor.
+\newblock {Abnormalities of connected speech in semantic dementia vs
+  Alzheimer's disease}.
+\newblock {\em Aphasiology}, 26(6):847--866, 2012.
+
+\bibitem{Ash2012}
+S~Ash, E~Evans, J~O'Shea, K~Chandrasekaran, A~Boller, L~Burkholder, E~Camp,
+  D~Weinberg, J~Haley, K~Kitain, and C~McMillan.
+\newblock {Differentiating primary progressive aphasias in connected speech
+  production}.
+\newblock {\em Dementia and Geriatric Cognitive Disorders}, 34:246, 2012.
 
 \bibitem{Orimaye2017}
 Sylvester~O. Orimaye, Jojo~S.M. Wong, Karen~J. Golden, Chee~P. Wong, and
@@ -55,5 +73,47 @@ Sylvester~O. Orimaye, Jojo~S.M. Wong, Karen~J. Golden, Chee~P. Wong, and
 \newblock {Predicting probable Alzheimer's disease using linguistic deficits
   and biomarkers}.
 \newblock {\em BMC Bioinformatics}, 18(1):1--13, 2017.
+
+\bibitem{Konig2018}
+Alexandra Konig, Aharon Satt, Alex Sorin, Ran Hoory, Alexandre Derreumaux,
+  Renaud David, and Phillippe~H. Robert.
+\newblock {Use of Speech Analyses within a Mobile Application for the
+  Assessment of Cognitive Impairment in Elderly People}.
+\newblock {\em Current Alzheimer Research}, 15(2), 2018.
+
+\bibitem{Mueller2018a}
+Kimberly~D. Mueller, Rebecca~L. Koscik, Bruce~P. Hermann, Sterling~C. Johnson,
+  and Lyn~S. Turkstra.
+\newblock {Declines in connected language are associated with very early mild
+  cognitive impairment: Results from the Wisconsin Registry for Alzheimer's
+  Prevention}.
+\newblock {\em Frontiers in Aging Neuroscience}, 9(JAN):1--14, 2018.
+
+\bibitem{Fraser2015}
+Kathleen~C. Fraser, Jed~A. Meltzer, and Frank Rudzicz.
+\newblock {Linguistic features identify Alzheimer's disease in narrative
+  speech}.
+\newblock {\em Journal of Alzheimer's Disease}, 49(2):407--422, 2015.
+
+\bibitem{Fraser2014}
+Kathleen~C. Fraser, Jed~A. Meltzer, Naida~L. Graham, Carol Leonard, Graeme
+  Hirst, Sandra~E. Black, and Elizabeth Rochon.
+\newblock {Automated classification of primary progressive aphasia subtypes
+  from narrative speech transcripts}.
+\newblock {\em Cortex}, 55(1):43--60, 2014.
+
+\bibitem{DeLira2011}
+Juliana~Onofre {De Lira}, Karin~Zazo Ortiz, Aline~Carvalho Campanha, Paulo
+  Henrique~Ferreira Bertolucci, and Tha{\'{i}}s Soares~Cianciarullo Minett.
+\newblock {Microlinguistic aspects of the oral narrative in patients with
+  Alzheimer's disease}.
+\newblock {\em International Psychogeriatrics}, 23(3):404--412, 2011.
+
+\bibitem{Thomas2005}
+C.~Thomas, V.~Keselj, N.~Cercone, K.~Rockwood, and E.~Asp.
+\newblock {Automatic detection and rating of dementia of Alzheimer type through
+  lexical analysis of spontaneous speech}.
+\newblock {\em IEEE International Conference Mechatronics and Automation,
+  2005}, 3(February 2005):1569--1574, 2005.
 
 \end{thebibliography}
