@@ -1,12 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.5.10)  9 JUL 2018 14:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.29)  10 JUL 2018 07:05
 entering extended mode
-**./LiteratureReview3000.tex
-(LiteratureReview3000.tex
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**LiteratureReview3000.tex
+(./LiteratureReview3000.tex
 LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -21,8 +23,8 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(settings/packages.tex) (settings/page.tex) (settings/macros.tex)
-(LiteratureReview3000.aux)
+(./settings/packages.tex) (./settings/page.tex) (./settings/macros.tex)
+(./LiteratureReview3000.aux)
 \openout1 = `LiteratureReview3000.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -45,7 +47,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 20.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (LiteratureReview3000.toc
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Lite
+ratureReview3000.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -55,17 +58,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout3 = `LiteratureReview3000.toc'.
 
  [2]
-Missing character: There is no Â in font cmr10!
-Missing character: There is no £ in font cmr10!
-Missing character: There is no Â in font cmr10!
-Missing character: There is no £ in font cmr10!
-Missing character: There is no Â in font cmr10!
-Missing character: There is no £ in font cmr10!
-
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
+Missing character: There is no Â in font cmr10!
+Missing character: There is no £ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no £ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no £ in font cmr10!
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
@@ -77,99 +79,105 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
  []
 
 
-LaTeX Warning: Citation `GilesPattersonHodges1995' on page 3 undefined on input
- line 33.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
+
+
+LaTeX Warning: Citation `GilesPattersonHodges1995' on page 3 undefined on input
+ line 35.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
-[3]
+
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
-
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
 
-Overfull \hbox (115.11185pt too wide) in paragraph at lines 45--58
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+Overfull \hbox (115.11185pt too wide) in paragraph at lines 47--60
  [] 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
 
-LaTeX Warning: Citation `Thomas2005' on page 5 undefined on input line 64.
+LaTeX Warning: Citation `Thomas2005' on page 5 undefined on input line 66.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 65--67
 
  []
 
-[5]
+
 Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--84
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
-[7] (LiteratureReview3000.bbl) [8] (LiteratureReview3000.aux)
+[7] (./LiteratureReview3000.bbl) [8] (./LiteratureReview3000.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 257 strings out of 493323
- 2950 string characters out of 3139057
- 61648 words of memory out of 3000000
- 3855 multiletter control sequences out of 15000+200000
- 8241 words of font info for 29 fonts, out of 3000000 for 9000
+ 256 strings out of 492995
+ 3019 string characters out of 6132703
+ 62074 words of memory out of 5000000
+ 3868 multiletter control sequences out of 15000+600000
+ 8241 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,6n,18p,2973b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmti10.pfb>
-Output written on LiteratureReview3000.pdf (8 pages, 109338 bytes).
+ 23i,6n,18p,2970b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on LiteratureReview3000.pdf (8 pages, 103425 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
+ 55 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
