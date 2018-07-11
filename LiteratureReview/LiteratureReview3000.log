@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.29)  10 JUL 2018 10:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.29)  11 JUL 2018 19:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -119,6 +119,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
  []
 
 
+LaTeX Warning: Citation `Zimmerer2016' on page 5 undefined on input line 66.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
@@ -139,17 +142,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--74
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--81
+LaTeX Warning: Citation `Guinn2015' on page 6 undefined on input line 78.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
@@ -158,7 +164,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-[7]
+
 Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
@@ -169,32 +175,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--89
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--97
+LaTeX Warning: Citation `Pennebaker2015' on page 7 undefined on input line 90.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
-[8] (./LiteratureReview3000.bbl [9]) [10] (./LiteratureReview3000.aux) ) 
+[7]
+
+LaTeX Warning: Citation `Zimmerer2016' on page 8 undefined on input line 95.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
+
+ []
+
+
+LaTeX Warning: Citation `Zimmerer2016' on page 8 undefined on input line 102.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+[8] (./LiteratureReview3000.bbl [9]) [10] (./LiteratureReview3000.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 269 strings out of 492995
- 3153 string characters out of 6132703
+ 273 strings out of 492995
+ 3206 string characters out of 6132703
  62074 words of memory out of 5000000
- 3881 multiletter control sequences out of 15000+600000
+ 3885 multiletter control sequences out of 15000+600000
  8241 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,6n,18p,2970b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/l
-ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on LiteratureReview3000.pdf (10 pages, 113155 bytes).
+ 23i,6n,18p,1253b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on LiteratureReview3000.pdf (10 pages, 116185 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
