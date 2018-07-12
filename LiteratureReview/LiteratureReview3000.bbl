@@ -67,19 +67,18 @@ S~Ash, E~Evans, J~O'Shea, K~Chandrasekaran, A~Boller, L~Burkholder, E~Camp,
   production}.
 \newblock {\em Dementia and Geriatric Cognitive Disorders}, 34:246, 2012.
 
+\bibitem{Zimmerer2016}
+Vitor~C. Zimmerer, Mark Wibrow, and Rosemary~A. Varley.
+\newblock {Formulaic Language in People with Probable Alzheimer's Disease: A
+  Frequency-Based Approach}.
+\newblock {\em Journal of Alzheimer's Disease}, 53(3):1145--1160, 2016.
+
 \bibitem{Orimaye2017}
 Sylvester~O. Orimaye, Jojo~S.M. Wong, Karen~J. Golden, Chee~P. Wong, and
   Ireneous~N. Soyiri.
 \newblock {Predicting probable Alzheimer's disease using linguistic deficits
   and biomarkers}.
 \newblock {\em BMC Bioinformatics}, 18(1):1--13, 2017.
-
-\bibitem{Konig2018}
-Alexandra Konig, Aharon Satt, Alex Sorin, Ran Hoory, Alexandre Derreumaux,
-  Renaud David, and Phillippe~H. Robert.
-\newblock {Use of Speech Analyses within a Mobile Application for the
-  Assessment of Cognitive Impairment in Elderly People}.
-\newblock {\em Current Alzheimer Research}, 15(2), 2018.
 
 \bibitem{Mueller2018a}
 Kimberly~D. Mueller, Rebecca~L. Koscik, Bruce~P. Hermann, Sterling~C. Johnson,
@@ -116,11 +115,43 @@ Meysam Asgari, Jeffrey Kaye, and Hiroko Dodge.
 \newblock {\em Alzheimer's and Dementia: Translational Research and Clinical
   Interventions}, 3(2):219--228, 2017.
 
+\bibitem{Guinn2015}
+Curry Guinn, Ben Singer, and Anthony Habash.
+\newblock {A comparison of syntax, semantics, and pragmatics in spoken language
+  among residents with Alzheimer's disease in managed-care facilities}.
+\newblock In {\em IEEE SSCI 2014 - 2014 IEEE Symposium Series on Computational
+  Intelligence - CICARE 2014: 2014 IEEE Symposium on Computational Intelligence
+  in Healthcare and e-Health, Proceedings}, pages 98--103, 2015.
+
 \bibitem{Thomas2005}
 C.~Thomas, V.~Keselj, N.~Cercone, K.~Rockwood, and E.~Asp.
 \newblock {Automatic detection and rating of dementia of Alzheimer type through
   lexical analysis of spontaneous speech}.
 \newblock {\em IEEE International Conference Mechatronics and Automation,
   2005}, 3(February 2005):1569--1574, 2005.
+
+\bibitem{Pennebaker2015}
+James~W Pennebaker, Ryan~L Boyd, Kayla Jordan, and Kate Blackburn.
+\newblock {The Development and Psychometric Properties of LIWC2015}.
+\newblock {\em UT Faculty/Researcher Works}, 2015.
+
+\bibitem{Kintsch1973}
+Walter Kintsch and Janice Keenan.
+\newblock {Reading rate and retention as a function of the number of
+  propositions in the base structure of sentences}.
+\newblock {\em Cognitive Psychology}, 5(3):257--274, 1973.
+
+\bibitem{Bucks2000}
+R.~S. Bucks, S.~Singh, J.~M. Cuerden, and G.~K. Wilcock.
+\newblock {Analysis of spontaneous, conversational speech in dementia of
+  Alzheimer type: Evaluation of an objective technique for analysing lexical
+  performance}.
+\newblock {\em Aphasiology}, 14(1):71--91, 2000.
+
+\bibitem{Wang2016}
+Shuai Wang.
+\newblock {\em {Automatic Tracking of Linguistic Changes for Monitoring
+  Cognitive-Linguistic Health}}.
+\newblock PhD thesis, 2016.
 
 \end{thebibliography}
