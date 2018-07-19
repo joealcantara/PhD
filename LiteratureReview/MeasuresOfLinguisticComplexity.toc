@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {2}Measures of Lexical Richness}{3}
+\contentsline {subsection}{\numberline {2.1}Type token ratio(TTR)}{3}
+\contentsline {subsection}{\numberline {2.2}Brunet's Index(W)}{3}
+\contentsline {subsection}{\numberline {2.3}Honore's Scale}{3}
+\contentsline {section}{\numberline {3}Conclusion}{3}
