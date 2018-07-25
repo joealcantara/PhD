@@ -4,45 +4,48 @@ The top-level auxiliary file: LiteratureReview.aux
 The style file: unsrt.bst
 Database file #1: LiteratureReview.bib
 Warning--empty institution in Prince2015
-You've used 4 entries,
+Warning--empty publisher in Kaplan2010
+Warning--empty institution in Guinn2012
+Warning--empty school in Wang2016
+You've used 26 entries,
             1791 wiz_defined-function locations,
-            473 strings with 4344 characters,
-and the built_in function-call counts, 979 in all, are:
-= -- 83
-> -- 55
-< -- 0
-+ -- 20
-- -- 16
-* -- 84
-:= -- 171
-add.period$ -- 12
-call.type$ -- 4
-change.case$ -- 5
+            631 strings with 9514 characters,
+and the built_in function-call counts, 6378 in all, are:
+= -- 542
+> -- 364
+< -- 3
++ -- 131
+- -- 105
+* -- 518
+:= -- 1051
+add.period$ -- 77
+call.type$ -- 26
+change.case$ -- 26
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 33
-empty$ -- 85
-format.name$ -- 16
-if$ -- 200
+cite$ -- 30
+duplicate$ -- 241
+empty$ -- 573
+format.name$ -- 105
+if$ -- 1356
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 3
-newline$ -- 23
-num.names$ -- 4
-pop$ -- 6
+int.to.str$ -- 26
+missing$ -- 21
+newline$ -- 131
+num.names$ -- 26
+pop$ -- 58
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 10
+skip$ -- 96
 stack$ -- 0
-substring$ -- 75
-swap$ -- 3
-text.length$ -- 0
+substring$ -- 451
+swap$ -- 42
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 10
-width$ -- 5
-write$ -- 45
-(There was 1 warning)
+warning$ -- 4
+while$ -- 65
+width$ -- 28
+write$ -- 278
+(There were 4 warnings)

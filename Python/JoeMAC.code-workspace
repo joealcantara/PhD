@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "/Users/Joe/Documents/PhD"
+		},
+		{
+			"path": "/Users/Joe/Documents/NBA"
+		},
+		{
+			"path": "/Users/Joe/Documents/Python"
+		}
+	],
+	"settings": {
+		"python.pythonPath": "/usr/local/bin/python3"
+	}
+}

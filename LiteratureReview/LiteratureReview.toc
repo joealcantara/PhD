@@ -1,18 +1,18 @@
 \contentsline {section}{\numberline {1}Introduction}{3}
-\contentsline {section}{\numberline {2}Description of Dementia}{3}
-\contentsline {subsection}{\numberline {2.1}Alzheimer's Disease}{4}
-\contentsline {subsection}{\numberline {2.2}Vascular Dementia}{4}
-\contentsline {subsection}{\numberline {2.3}Dementia with Lewy Bodies}{4}
-\contentsline {subsection}{\numberline {2.4}Parkinson's disease dementia}{4}
-\contentsline {subsection}{\numberline {2.5}Fronto-temporal dementia}{4}
-\contentsline {subsection}{\numberline {2.6}Primary Progressive Aphasia}{4}
-\contentsline {subsection}{\numberline {2.7}Mild Cognitive Impairment}{4}
-\contentsline {section}{\numberline {3}Assessment of Language function in Dementia}{4}
-\contentsline {section}{\numberline {4}Current ways of diagnosing Dementia using Language}{5}
-\contentsline {subsection}{\numberline {4.1}Free Cued Selective Recall Test}{5}
-\contentsline {subsection}{\numberline {4.2}Mini-Mental State Examination}{5}
-\contentsline {section}{\numberline {5}Existing studies that have used Natural Language Processing to help in diagnosing psychological difficulties, particularly language difficulties}{5}
-\contentsline {subsection}{\numberline {5.1}Nun Study - Snowdon (1996)}{5}
-\contentsline {subsection}{\numberline {5.2}Comparing Presidents Speeches - Berisha et al (2015)}{5}
-\contentsline {section}{\numberline {6}State of literature into Natural Language processing techniques}{5}
-\contentsline {section}{\numberline {7}Conclusion}{5}
+\contentsline {section}{\numberline {2}Types of Language Assessment}{5}
+\contentsline {subsection}{\numberline {2.1}Picture Description Tasks}{5}
+\contentsline {subsection}{\numberline {2.2}Narrative description task}{6}
+\contentsline {subsection}{\numberline {2.3}Interviews}{6}
+\contentsline {section}{\numberline {3}How do we analyse language?}{7}
+\contentsline {subsection}{\numberline {3.1}Using frequencies of words and non-words}{7}
+\contentsline {subsection}{\numberline {3.2}Measures of Syntactic and Semantic Complexity}{8}
+\contentsline {section}{\numberline {4}Conclusions and Future Work}{8}
+\contentsline {section}{\numberline {5}Current ways of diagnosing Dementia using Language}{9}
+\contentsline {subsection}{\numberline {5.1}Free Cued Selective Recall Test}{9}
+\contentsline {subsection}{\numberline {5.2}Mini-Mental State Examination}{9}
+\contentsline {section}{\numberline {6}Existing studies that have used Natural Language Processing to help in diagnosing psychological difficulties, particularly language difficulties}{10}
+\contentsline {subsection}{\numberline {6.1}Nun Study - Snowdon (1996)}{10}
+\contentsline {subsection}{\numberline {6.2}Comparing Presidents Speeches - Berisha et al (2015)}{10}
+\contentsline {section}{\numberline {7}State of literature into Natural Language processing techniques}{10}
+\contentsline {section}{\numberline {8}stuff to add}{10}
+\contentsline {section}{\numberline {9}Conclusion}{10}
