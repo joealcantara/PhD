@@ -23,11 +23,13 @@
 \newpage
 \section{Introduction}
 \par
-Alzheimer's Disease (AD) is a neurodegenerative disease in which the brain develops neurofibrillary tangles and neuritic plaques along with the loss of cortical neurons and synapses. The hallmark clinical symptoms are cognitive deficits such as problems with episodic and semantic memory, organising and planning, difficulties with language and visuospatial deficits\cite{AmericanPsychiatricAssociation2013}. In addition, these symptoms are often accompanied by emotional difficulties such as depression and irritability and behavioural difficulties. Whilst there are several variants of Dementia, AD remains the most common type of Dementia and will be the focus of this review. \newline
+Alzheimer's Disease (AD) is a neurodegenerative disease in which the brain develops neurofibrillary tangles and neuritic plaques along with the loss of cortical neurons and synapses. The hallmark clinical symptoms are cognitive deficits such as problems with episodic and semantic memory, organising and planning, difficulties with language and visuospatial deficits\cite{AmericanPsychiatricAssociation2013}. In addition, these symptoms are often accompanied by emotional difficulties such as depression and irritability and behavioural difficulties. Whilst there are several variants of Dementia, AD remains the most common type of Dementia and will be the primary focus of this review. \newline
 \par
 According to a recent report commissioned by the Alzheimer's Society in 2015, they estimate the prevalence of AD in the UK at approximately 815,000 people. This represents 1 in 14 of the population aged 65 or over and 1 in 79 in the general population. They estimate an annual healthcare spend on £4.3 billion of which approximately £85 million is spend solely on diagnosis and that the total impact of AD (excluding the costs associated with early onset dementia) is £26.3 billion annually. Globally, this picture is a lot bleaker. A recent report suggests that in 2015 there were 46 million people with a diagnosis of AD and that number is expected to hit 131.5 million by 2050 \cite{Prince2015}. The report also states that the worldwide cost of AD in 2018 is estimated to be in the region of one trillon US dollars. \newline
 \par
-Current thinking suggests that the cognitive deficits associated with AD often begin before the clinical symptoms of the disease become apparent. Researchers propose that neurofibrillary tangles and other associated physiological effects of AD develop over time until a threshold is reached and clinical symptoms become apparent \cite{Nestor2006}. If this is the case, it should be possible to detect subtle cognitive changes in language and memory before a clinical diagnosis can be formed. Given that language is less intrusive to test and requires a lot of the cognitive processes that may be impacted by AD, a lot of research has focused on the decline in the use of language in those with AD.  \newline
+Current thinking suggests that the cognitive deficits associated with AD often begin before the clinical symptoms of the disease become apparent. Researchers propose that neurofibrillary tangles and other associated physiological effects of AD develop over time until a threshold is reached and clinical symptoms become apparent \cite{Nestor2006}. If this is the case, it should be possible to detect subtle cognitive changes in language and memory before a clinical diagnosis can be formed. One of the most common ways in which clinicians make an early diagnosis of cognitive impairment is through the use of the Mini Mental State Examination \cite{Folstein1975}.
+
+ Given that language is less intrusive to test and requires a lot of the cognitive processes that may be impacted by AD, a lot of research has focused on the decline in the use of language in those with AD.  \newline
 \par
 One of the most famous pieces of research was by Berisha and Liss (2015) \cite{Berisha2015} who examined speeches and public interviews of former US president Ronald Reagan. They found that Reagan's speeches towards the end of his presidency suffered from difficulties in word-finding, inappropriate phrases and uncorrected sentences which are hallmarks of language deterioration associated with Alzheimer's Disease. It turned out later to be the case that he had Alzheimer's Disease. Another classical study by Snowdon et al (1996) \cite{Snowdon1996} looked at whether linguistic ability in early life was associated with cognitive function and AD in later life. They found that idea density (defined as the number of expressed propositions divided by the number of words) was a key predictor in predicting whether nuns would go on to develop AD in later life. They found that those who would go on to develop AD all had low idea density in early life and they found no AD present in those with high idea density in early life. As we can see, just with these two pieces of research the range of language deficits in those who suffer with AD are wide and varied and differ as the disease develops. \newline
 \par
@@ -36,8 +38,12 @@ According to the DSM 5 \cite{AmericanPsychiatricAssociation2013}, those with Mil
 Emery \cite{Emery2000} completed a literature review looking at all the potential language deficits that could exist in those with AD and / or MCI. She divided these deficits into four levels of language: Phonology, Morphology, Syntax and Semantics. She proposed that language and the processes involved in language are hierarchical in nature and that language moves from simple units of construction (Phonology and Morphology), and build layers of complexity and sophistication (Syntax and Semantics). She found that people with AD generally had intact Phonology and Morphology but more impaired Syntax and Semantics. She stated that the language forms we learn last are the first to deteriorate. We generally learn language in small simple units initially and build syntax and complexity as we are more comfortable with language.\newline
 \par
 It is clear from both the clinical diagnostic criteria and supporting research that language is impacted in those with AD. However, one of the costs of analysing language is that there is a huge burden on trained practitioners, be it clinical psychologists, audio transcribers and text encoders to facilitate the process of collecting data and analysis. The field of machine learning and natural language processing has been suggested as a way to improve the accuracy and lessen the human cost of this research as well as provide new insights into the difficulties that AD suffer in terms of language decline \cite{Boschi2017}. \newline
-\par  
-The purpose of this review is to seek to understand what techniques have been used when considering the application of Machine Learning and Natural Language processing to aid the diagnosis of Mild Cognitive Impairment (MCI) and AD. A search of the literature was conducted using ProQuest (PsychArticles), SCOPUS, Web of Science. The following results were found (Table 1). All papers were then reviewed for relevance by reading the abstract and full text where appropriate and a shortlist was compiled. An additonal search through references of shortlisted papers was also conducted and any papers who upon further review appeared relevant were added to the shortlist. Papers were included where researchers used machine learning to classify participants as MCI, AD or Healthy using language. We excluded any papers that focused on other forms of dementia or cognitive impairment, as well as any papers in which the language being analysed was not English. This resulted in 17 journal articles and/or conference papers which form this review.
+
+\subsection{Aims and Methodology}
+\par 
+The purpose of this review is to seek to understand what techniques for assessing language have been used within the field of cognitive and clinical psychology. We then go on to look at what techniques have been developed in the field of machine learning (ML), deep learning (DL) and natural language processing (NLP) that might enable the automated analysis of language easier. Finally, we look at some studies which have already looked at the intersection of these two domains. 
+ 
+when considering the application of Machine Learning and Natural Language processing to aid the diagnosis of Mild Cognitive Impairment (MCI) and AD. A search of the literature was conducted using ProQuest (PsychArticles), SCOPUS, Web of Science. The following results were found (Table 1). All papers were then reviewed for relevance by reading the abstract and full text where appropriate and a shortlist was compiled. An additional search through references of shortlisted papers was also conducted and any papers who upon further review appeared relevant were added to the shortlist. Papers were included where researchers used machine learning to classify participants as MCI, AD or Healthy using language. We excluded any papers that focused on other forms of dementia or cognitive impairment, as well as any papers in which the language being analysed was not English. This resulted in 17 journal articles and/or conference papers which form this review.
 
 \begin{table}
 	\begin{tabular}{ | c | c | c | p{1cm} |}
@@ -55,6 +61,9 @@ The purpose of this review is to seek to understand what techniques have been us
 	\end{tabular}
 	\caption{\label{tab:table-name}Search Terms and Number of Results.}
 \end{table}
+
+
+
 \section {Types of Language Assessment}
 One of the key debates when looking at how to analyse language is the type of task provided to elicit language production in participants. In the literature researchers have primarily focused on Picture Description tasks but have also suggested other ways in which we might collect data. \newline
 \par
@@ -94,53 +103,41 @@ Fraser, Meltzer and Rudzicz (2015) \cite{Fraser2015} looked at connected speech 
 \par
 It appears that both frequency based approaches and approaches that use measures of linguistic complexity have both been shown to be effective in various experimental settings. The fact that there are two vastly different perspectives to tackling this question, and even within these perspectives there are a range of various methodologies leaves the field with a sense of confusion as to the most effective way to solving the problem. \newline
 \par
+
+\section{Measures of Lexical Richness}
+\subsection{Type token ratio(TTR)}
+Type token ratio (TTR) is the ratio obtained by dividing the types (The total number of different words) by the tokens (the total number of words in an utterance).
+\begin{equation} \label{x1}
+TTR = numberOfUniqueWords / totalNumberOfWords.
+\end{equation}
+\subsection{Brunet's Index(W)} % Don't forget to cite the original article.
+Brunet's Index (W) differentiates itself for TTR, as it is not impacted by the length of the text itself. Brunet's Index is defined by the following equation:
+\begin{equation} \label{x2}
+W = N^{V(-0.165)}
+\end{equation}
+where N is the total length of the utterance being measured and V is equal to the total vocabulary being used by the subject. Brunet's Index usually has a score of between 10 and 20, with high numbers indicating a more rich vocabulary compared to low numbers. \newline
+\par 
+\subsection{Honore's Statistic (R)} % Don't forget to cite the original article.
+Honore's Statistic is based on the idea that vocabulary richness is implied when a speaker uses a greater amount of unique words. This is indicated by the following equation: 
+\begin{equation} \label{x3}
+%% Check to see if this is accurate.
+R = (100 \log N) / (1 - V1/V)
+\end{equation}
+where v1 is equal to the number of unique words, V is the total vocabulary used and N is the total number of words in the utterance being measured.
+
+\section{State of literature into Natural Language processing techniques}
+
+
 \section{Conclusions and Future Work}
 \par
 Identification of language impairment is key idea in the diagnosis of AD and early diagnosis can alter the prognosis and change the management of this degenerative disorder as well as provide new opportunities to study the progression of the disease. Given the burden on the diagnosis of AD on professionals there has been a call to use technology to potentially ease this burden \cite{Boschi2017}. It has already been shown that analysis of speech and language has shown markers that pre-date the official diagnosis of dementia \cite{Snowdon1996, Berisha2015}. A significant amount of research has gone into the use of machine learning techniques to potentially look at the automated classification of participants with MCI and/or AD, however this is a new area of research and there are some gaps in our knowledge. \newline 
 \par
 One of the areas for research to study is a careful examination of the features that are being used to measure language deterioration. For example, Zimmerer (2016) \cite{Zimmerer2016} describes connectivity in such as a way that correlates directly with what Mueller (2018) \cite{Mueller2018a} calls Fluency. Whilst these are very nuanced measures which differ slightly in the form they take, the sheer range of measures and features being produced make it difficult to conceptualise as part of the larger problem. Some work needs to be done in producing a consistent list of measures that are validated using existing datasets and can be used for future research moving forward. \newline
 \par
+\subsection{Future Work}
 Future research should also be directed towards developing non-intrusive ways of detecting subtle changes in language based in the home, such that any deterioration that could indicate the presence of MCI or AD and be flagged up early in the progression of any potential cogntive impairment for further review via referral. Machine learning approaches seem to be the most logical approach for achieving this aim. Further, despite the quality of datasets being used to 'backtest' these algorithms, further research should look at generating additional datasets to increase the validity of the results found so far as well as using other methods to generate data other than Picture Description tasks which we could claim are limited in scope. \newline
 \par
 This area of research is extremely promising in its early results and the impact of successful research would be life changing for both individuals and the health of the worlds aging population in general. \newline
-\par
-A search of the literature was conducted mainly from a psychological perspective as this would inform the theoretical side of things. Next, a search of the literature from a Computer Science perspective was also made with a view to exploring the how domain of machine learning and more specifically natural language processing can be applied to this problem. Finally a search was carried out to see what work has already been done in this area.
-
-All stages of this literature review were completed by myself. 
-
-
-\section{Current ways of diagnosing Dementia using Language}
-\subsection{Free Cued Selective Recall Test}
-The Free Cued Selective Recall Test (FCSRT) was created by Grober and his team \cite{Grober1988}. This is a test that primarily tests memory but also tests a subjects ability to name objects. Four items are presented at a time on a card and each participant is asked to name and recall with and without cues. 
-
-\subsection{Mini-Mental State Examination}
-
-Battery of tests to differentiate between Controls, those with MCI, those with AD. 
-\begin{itemize}
-	\item FCSRDT - As most effective 
-	\item Mini Mental State Examination (MMSE)
-	\item Addenbrooke's Cognitive Examination (ACE-III)
-	\item Dementia Rating Scale (DRS)
-	\item Western Aphasia Battery (WAB)
-	\item Boston Diagnostic Aphasia Examination (BDAE)
-	\item Boston Naming Test (BNT)
-\end{itemize}
-
-\section{Existing studies that have used Natural Language Processing to help in diagnosing psychological difficulties, particularly language difficulties}
-
-\subsection{Nun Study - Snowdon (1996)}
-\subsection{Comparing Presidents Speeches - Berisha et al (2015)}
-
-\section{State of literature into Natural Language processing techniques}
-
-
-\section{stuff to add}
-\section{Conclusion}
-\par
-Identification of language impairment is important in Dementia because it aids diagnosis of specific types of dementia, which in turn can alter the prognosis and change the management of the degenerative disorder. As these differences in language are quite subtle, the varying subtypes of dementia are frequently misdiagnosed.
-\newline
-\par 
-Given the burden on the diagnosis of dementia on clinicians, it appears to be useful to find some non-invasive protocols for the early diagnosis of dementia. It has already been shown that analysis of speech and language has shown markers that pre-date the official diagnosis of dementia (Snowdon et al, 1996;)\cite{Berisha2015}.
 
 \bibliographystyle{unsrt}
 \bibliography{LiteratureReview}

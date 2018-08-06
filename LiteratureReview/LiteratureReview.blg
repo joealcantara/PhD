@@ -1,51 +1,9 @@
-This is BibTeX, Version 0.99d (TeX Live 2017)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: LiteratureReview.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: LiteratureReview.aux
 The style file: unsrt.bst
 Database file #1: LiteratureReview.bib
+Warning--I didn't find a database entry for "Bucks2000"
 Warning--empty institution in Prince2015
 Warning--empty publisher in Kaplan2010
 Warning--empty institution in Guinn2012
 Warning--empty school in Wang2016
-You've used 26 entries,
-            1791 wiz_defined-function locations,
-            631 strings with 9514 characters,
-and the built_in function-call counts, 6378 in all, are:
-= -- 542
-> -- 364
-< -- 3
-+ -- 131
-- -- 105
-* -- 518
-:= -- 1051
-add.period$ -- 77
-call.type$ -- 26
-change.case$ -- 26
-chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 241
-empty$ -- 573
-format.name$ -- 105
-if$ -- 1356
-int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 21
-newline$ -- 131
-num.names$ -- 26
-pop$ -- 58
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 96
-stack$ -- 0
-substring$ -- 451
-swap$ -- 42
-text.length$ -- 3
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 4
-while$ -- 65
-width$ -- 28
-write$ -- 278
-(There were 4 warnings)
+(There were 5 warnings)

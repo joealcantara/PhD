@@ -15,6 +15,12 @@ Peter~J Nestor, Philip Scheltens, and John~R Hodges.
 \newblock {Advances in the early detection of Alzheimer's disease}.
 \newblock {\em Nature Medicine}, 12(8):961--966, 2006.
 
+\bibitem{Folstein1975}
+Marshal~F. Folstein, Susan~E. Folstein, and Paul~R. McHugh.
+\newblock {"Mini-mental state". A practical method for grading the cognitive
+  state of patients for the clinician}.
+\newblock {\em Journal of Psychiatric Research}, 12(3):189--198, 1975.
+
 \bibitem{Berisha2015}
 Visar Berisha, Shuai Wang, Amy LaCross, and Julie Liss.
 \newblock {Tracking Discourse Complexity Preceding Alzheimer's Disease
@@ -147,22 +153,10 @@ Walter Kintsch and Janice Keenan.
   propositions in the base structure of sentences}.
 \newblock {\em Cognitive Psychology}, 5(3):257--274, 1973.
 
-\bibitem{Bucks2000}
-R.~S. Bucks, S.~Singh, J.~M. Cuerden, and G.~K. Wilcock.
-\newblock {Analysis of spontaneous, conversational speech in dementia of
-  Alzheimer type: Evaluation of an objective technique for analysing lexical
-  performance}.
-\newblock {\em Aphasiology}, 14(1):71--91, 2000.
-
 \bibitem{Wang2016}
 Shuai Wang.
 \newblock {\em {Automatic Tracking of Linguistic Changes for Monitoring
   Cognitive-Linguistic Health}}.
 \newblock PhD thesis, 2016.
-
-\bibitem{Grober1988}
-Ellen Grober, H~Buschke, H~Crystal, S~Bang, and R~Dresner.
-\newblock {Screening for dementia by memory testing.}
-\newblock {\em Neurology}, 38(June):900--903, 1988.
 
 \end{thebibliography}

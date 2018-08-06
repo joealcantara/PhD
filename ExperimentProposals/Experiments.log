@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.5.10)  19 JUL 2018 08:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.5.10)  6 AUG 2018 13:54
 entering extended mode
 **./Experiments.tex
 (Experiments.tex
@@ -53,23 +53,23 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [3] (Experiments.aux) ) 
+) [3] [4] (Experiments.aux) ) 
 Here is how much of TeX's memory you used:
- 236 strings out of 493323
- 2500 string characters out of 3139057
- 54648 words of memory out of 3000000
- 3844 multiletter control sequences out of 15000+200000
- 7588 words of font info for 27 fonts, out of 3000000 for 9000
+ 237 strings out of 493323
+ 2515 string characters out of 3139057
+ 56648 words of memory out of 3000000
+ 3845 multiletter control sequences out of 15000+200000
+ 7895 words of font info for 28 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,6n,17p,207b,186s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-bx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Experiments.pdf (3 pages, 65940 bytes).
+ 23i,6n,17p,590b,186s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on Experiments.pdf (4 pages, 82133 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
+ 35 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
