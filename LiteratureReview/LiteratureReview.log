@@ -1,22 +1,21 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.5.10)  9 AUG 2018 10:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.11)  11 AUG 2018 11:28
 entering extended mode
 **./LiteratureReview.tex
 (LiteratureReview.tex
-LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+LaTeX2e <2018-04-01> patch level 5
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -45,8 +44,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 19.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(LiteratureReview.toc
+{C:/Users/jomar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Literature
+Review.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -60,12 +59,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-Missing character: There is no Â in font cmr10!
-Missing character: There is no £ in font cmr10!
-Missing character: There is no Â in font cmr10!
-Missing character: There is no £ in font cmr10!
-Missing character: There is no Â in font cmr10!
-Missing character: There is no £ in font cmr10!
 
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
@@ -210,27 +203,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--134
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
@@ -240,11 +233,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 283 strings out of 493323
- 3163 string characters out of 3139057
- 60648 words of memory out of 3000000
- 3881 multiletter control sequences out of 15000+200000
- 8241 words of font info for 29 fonts, out of 3000000 for 9000
+ 285 strings out of 492973
+ 3635 string characters out of 3135932
+ 65693 words of memory out of 3000000
+ 4213 multiletter control sequences out of 15000+200000
+ 8536 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  23i,7n,18p,1245b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
@@ -256,10 +249,11 @@ nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 msfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on LiteratureReview.pdf (13 pages, 180789 bytes).
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmu10.pfb>
+Output written on LiteratureReview.pdf (13 pages, 188454 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
+ 93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
