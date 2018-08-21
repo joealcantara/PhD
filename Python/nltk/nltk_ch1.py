@@ -1,7 +1,5 @@
 from nltk.book import *
 import nltk
-
-
 # concordance shows every occurance of the word passed to the function as well as some context.
 text1.concordance("monstrous")
 
