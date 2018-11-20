@@ -26,3 +26,5 @@ Linear Regression.
 Refactor code.
 
 Add test texts.
+
+Merge Qualifying Report and Literature Review.
