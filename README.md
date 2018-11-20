@@ -13,8 +13,6 @@ The Jupyter Notebooks folder contains 1 module with functions that help me proce
 
 # The Big To Do List
 
-Tidy Dropbox
-
 Implement TTR, Brunet's, Honore's
 
 Avg Word Type per sentence.
@@ -24,3 +22,7 @@ Avg Word Type per document.
 Count Hesitations.
 
 Linear Regression.
+
+Refactor code.
+
+Add test texts.
