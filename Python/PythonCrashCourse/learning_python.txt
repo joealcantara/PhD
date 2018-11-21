@@ -1,5 +1,0 @@
-In Python you can do data science.
-In Python you can do machine learning.
-In Python you can do hacking.
-In Python you can design games.
-In Python you can make your life easier.
