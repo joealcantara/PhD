@@ -3,9 +3,7 @@ These are the project files for my Ph.D.
 
 Defense.pdf - Document which contains all decisions I make regarding my research and justifications for why these decisions happened.
 
-QualifyingReport.pdf - Qualifying Report
-
-LiteratureReview.pdf - Literature Review
+QualifyingReport.pdf - Qualifying Report, now incorporating literature review
 
 Thesis.pdf - Thesis
 
@@ -17,13 +15,17 @@ Test.ipynb = Latest test workbook, things may be broken.
 # The Big To Do List
 
 Implement Honore's Statistic
+Implement Non-specific Nouns + Fillers
 
-Avg Word Type per sentence.
+Exploratory Data Analysis - Reagan vs Bush vs Trump
+Including statistical tests?
 
-Avg Word Type per document.
+Understand normalising data in terms of document length.
+
+Add new section of literature review which looks at the instruments we have selected for the neuropsychological battery of tests.
+
+Drop One word sentences?
 
 Refactor code.
 
 Add test texts.
-
-Merge Qualifying Report and Literature Review.
