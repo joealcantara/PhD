@@ -1,7 +1,12 @@
 import math
-import nltk, re, pprint
+import nltk, re, pprint, string
 from nltk import word_tokenize, sent_tokenize
 import datetime
+import pandas as pd
+import numpy as np
+import matplotlib
+import matplotlib.pyplot as plt
+ 
 
 def get_julian_datetime(date):
  
@@ -51,3 +56,19 @@ def percentage(count, total):
 def lexical_diversity(text):
     return len(set(text)) / len(text)
 
+def strip_punctuation(text):
+    table = str.maketrans(dict.fromkeys(':,.?'))
+    s = text.translate(table)
+    return s
+
+def BrunetsIndex (TextLength, UniqueWords):
+    w = TextLength**(UniqueWords**-.165)
+    return w
+
+def plotter (xs, ys):
+    xs = np.asarray(xs)
+    trend = np.polyfit(xs, ys, 1) # fit a straight line
+    plt.set_xlabel('Article Index')
+    plt.set_ylabel(ys)
+    plt.plot(xs, ys,'o')
+    plt.plot(xs,trend[1]+trend[0]*xs)
