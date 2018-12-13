@@ -9,20 +9,23 @@ Thesis.pdf - Thesis
 
 The Jupyter Notebooks folder contains 1 module with functions that help me process data. This is required if you want to run the notebook. Please ask me if you need the data to run the notebook.
 
-Production.ipynb = Latest fully functioning workbook
-Test.ipynb = Latest test workbook, things may be broken.
+Test.ipynb = Latest test notebook, things may be broken.
+featureCreator.ipynb = This notebook takes the raw data and converts to features.
+EDA.ipynb = This notebook does Exploratory Data Analysis on the features produced.
+LinR.ipynb = This notebook runs Linear Regression on the dataset.
+SVR.ipynb = This notebook runs Support Vector Regression on the dataset.
+NN.ipynb = This notebook creates and runs a neural network on the dataset.
+RandomForest.ipynb = This notebook runs a RandomForest model on the dataset.
+GaussianP.ipynb = This notebook applies a Gaussian Processes model to the dataset.
+LexProcessing.py = Contains functions that are used in the featureCreator notebook.
+
 
 # The Big To Do List
 
 Implement Honore's Statistic
 Implement Non-specific Nouns + Fillers
 
-Exploratory Data Analysis - Reagan vs Bush vs Trump
 Including statistical tests?
-
-Understand normalising data in terms of document length.
-
-Add new section of literature review which looks at the instruments we have selected for the neuropsychological battery of tests.
 
 Drop One word sentences?
 
