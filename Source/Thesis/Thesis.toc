@@ -1,0 +1,62 @@
+\contentsline {section}{\numberline {0.1}Abstract}{1}
+\contentsline {section}{\numberline {0.2}Acknowledgements}{1}
+\contentsline {chapter}{\numberline {1}Introduction}{6}
+\contentsline {chapter}{\numberline {2}Background}{7}
+\contentsline {section}{\numberline {2.1}Introduction}{7}
+\contentsline {subsection}{\numberline {2.1.1}Aims and Methodology}{10}
+\contentsline {section}{\numberline {2.2}Types of Language Assessment}{11}
+\contentsline {subsection}{\numberline {2.2.1}Picture Description Tasks}{11}
+\contentsline {subsection}{\numberline {2.2.2}Narrative description task}{11}
+\contentsline {subsection}{\numberline {2.2.3}Interviews}{12}
+\contentsline {section}{\numberline {2.3}How do we analyse language, issues and debates}{12}
+\contentsline {subsection}{\numberline {2.3.1}Single Word Language tasks vs Connected Language tasks}{12}
+\contentsline {subsection}{\numberline {2.3.2}Semantics vs Pragmatics}{13}
+\contentsline {section}{\numberline {2.4}Semantic Content}{13}
+\contentsline {subsection}{\numberline {2.4.1}Picture-related content thematic elements}{13}
+\contentsline {subsection}{\numberline {2.4.2}General Information Units}{14}
+\contentsline {subsection}{\numberline {2.4.3}Conciseness of information}{14}
+\contentsline {subsection}{\numberline {2.4.4}Efficiency}{15}
+\contentsline {subsection}{\numberline {2.4.5}Lexical richness and diversity}{15}
+\contentsline {subsubsection}{Type token ratio(TTR)}{15}
+\contentsline {subsubsection}{Brunet's Index(W)}{15}
+\contentsline {subsubsection}{Honore's Statistic (R)}{16}
+\contentsline {subsection}{\numberline {2.4.6}Quantity - Total number of words}{16}
+\contentsline {section}{\numberline {2.5}Syntax and Morphology (Language Form)}{16}
+\contentsline {subsection}{\numberline {2.5.1}N-grams}{16}
+\contentsline {subsection}{\numberline {2.5.2}Mean length of utterance (MLU)}{17}
+\contentsline {subsection}{\numberline {2.5.3}Proportion of verbs to nouns plus verbs}{17}
+\contentsline {subsection}{\numberline {2.5.4}Syntactic Complexity - Composite measures of MLU, syntactic errors and verbs}{17}
+\contentsline {subsection}{\numberline {2.5.5}Formulaic Language}{17}
+\contentsline {section}{\numberline {2.6}Pragmatic Language}{18}
+\contentsline {subsection}{\numberline {2.6.1}Questions, turn-taking, unsure statements, egocentric comments}{18}
+\contentsline {subsection}{\numberline {2.6.2}Coherence}{18}
+\contentsline {subsection}{\numberline {2.6.3}Perseveration}{19}
+\contentsline {subsection}{\numberline {2.6.4}Speech intonation / prosody}{19}
+\contentsline {subsection}{\numberline {2.6.5}Discourse Fluency}{19}
+\contentsline {subsection}{\numberline {2.6.6}Speech Monitoring}{20}
+\contentsline {section}{\numberline {2.7}State of literature into Natural Language processing techniques}{20}
+\contentsline {subsection}{\numberline {2.7.1}Traditional methods of Machine Learning and Natural Language Processing}{20}
+\contentsline {subsection}{\numberline {2.7.2}Deep Learning}{20}
+\contentsline {section}{\numberline {2.8}The problems with attempting early diagnosis of dementia and the ethics of actively screening for it}{20}
+\contentsline {section}{\numberline {2.9}Conclusions and Future Work}{21}
+\contentsline {subsection}{\numberline {2.9.1}Future Work}{22}
+\contentsline {chapter}{\numberline {3}Research Questions and Hypotheses}{23}
+\contentsline {chapter}{\numberline {4}Experiment: Presidential Debates revisited}{24}
+\contentsline {section}{\numberline {4.1}Background}{24}
+\contentsline {section}{\numberline {4.2}Data}{24}
+\contentsline {chapter}{\numberline {5}Experiment: Three Authors - Murdoch, Christie and James}{25}
+\contentsline {section}{\numberline {5.1}Background}{25}
+\contentsline {section}{\numberline {5.2}Data}{25}
+\contentsline {chapter}{\numberline {6}Experiment: Using the DementiaBank Corpus}{26}
+\contentsline {chapter}{\numberline {7}Experiment: Longitudinal Data - Current Cohort}{27}
+\contentsline {subsection}{\numberline {7.0.1}Dataset creation}{27}
+\contentsline {subsubsection}{Patient Health Questionnaire (PHQ-9)}{27}
+\contentsline {subsubsection}{Free Cued Selective Reminding Test (FCSRT)}{27}
+\contentsline {subsubsection}{Mini Mental State Examination(MMSE)}{27}
+\contentsline {subsubsection}{Written Description (Cookie Theft Picture)}{27}
+\contentsline {subsubsection}{Semi-Structured Interview}{27}
+\contentsline {subsection}{\numberline {7.0.2}Ethics}{27}
+\contentsline {subsection}{\numberline {7.0.3}What if someone reveals suicidal ideation or other risks?}{28}
+\contentsline {subsection}{\numberline {7.0.4}What happens at the end of the data collection phase if there is a suspected decline in a participant's cognitive function}{28}
+\contentsline {chapter}{\numberline {8}Overall results and Discussion}{29}
+\contentsline {chapter}{\numberline {9}Conclusions and Future work}{30}
