@@ -1,4 +1,4 @@
-\contentsline {section}{\numberline {1}Overview of Problem and potential contribution.}{5}
+\contentsline {section}{\numberline {1}Overview of Problem}{5}
 \contentsline {section}{\numberline {2}Literature Review}{6}
 \contentsline {subsection}{\numberline {2.1}Introduction}{6}
 \contentsline {subsubsection}{\numberline {2.1.1}Aims and Methodology}{9}
