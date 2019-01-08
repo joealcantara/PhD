@@ -1,5 +1,5 @@
 % HEADER BEGINS
-\documentclass{article}
+\documentclass[12pt, twoside, a4paper]{article}
 %% Packages
 \input{settings/packages}
 \usepackage{graphicx}
@@ -11,8 +11,8 @@
 %% Own Commands
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[CE,CO]{Early Detection of MCI - An Interdisciplinary Approach}
-\fancyfoot[CE,CO]{\leftmark}
+\fancyhead[CE,CO]{\leftmark}
+\fancyfoot[CE,CO]{Early Detection of MCI that progresses to dementia - An Interdisciplinary Approach}
 \fancyfoot[LE,RO]{\thepage}
 
 \renewcommand{\headrulewidth}{2pt}
@@ -38,12 +38,14 @@
 \section{Overview of Problem}
 Dementia has been identified as one of those fast growing difficulties facing the world. A recent report suggests that in 2015 there were 46 million people with a diagnosis of dementia and that number is expected to hit 131.5 million by 2050 \cite{Prince2015}. The report also states that the worldwide cost of dementia in 2018 is estimated to be in the region of one trillion US dollars.
 \par
-In 2009, the Department of Health designed it's National Dementia strategy and as part of this made early diagnosis and support one of it's key priorities. A lot of work has gone into trying to find ways of improving the early diagnosis of Alzheimer's Disease (AD) and Mild Cogntive Impairment (MCI) with research focused two areas - identifying biological markers and analyzing the cognitive decline of those who are suspected to have the disease. As described above, the numbers of those suffering from AD and MCI are going to increase as the population ages and thus it is important that we utilize technology wherever possible to aid clinicians in the detection of MCI and AD. At the present time diagnosis is typically conducted at memory clinics by trained clinicians. I theorize that we may be able to enable an earlier diagnosis of those with MCI and AD using natural language.
+In 2009, the Department of Health designed it's National Dementia strategy and as part of this made early diagnosis and support one of it's key priorities \cite{Health2009}. A lot of work has gone into trying to find ways of improving the early diagnosis of Alzheimer's Disease (AD) and Mild Cogntive Impairment (MCI) with research focused on two areas - identifying biological markers and analyzing the cognitive decline of those who are suspected to have the disease\cite{Taler2008}. As described above, the numbers of those suffering from AD and MCI are going to increase as the population ages \cite{Prince2015} and thus it is important that we utilize technology wherever possible to aid clinicians in the detection of MCI and AD. At the present time diagnosis is typically conducted at memory clinics by trained clinicians\cite{Boschi2017}. I theorize that we may be able to enable an earlier diagnosis of those with MCI and AD using samples of spontaneous speech, natural language processing (NLP) and machine learning (ML).
 \par
-There is a large body of research that looks at the decline in language in those with MCI and AD. However there is conflicting evidence in these studies about which declining language factors are associated of MCI and AD. Research therefore should look at these features in more detail and a clarification of this currently disorganised picture should go some way to helping researchers further understand the disease and it's progression. One of the difficulties in research of this nature is the process of collecting appropriate language samples. Part of this work therefore is to see whether spontaneous discourse, such a semi-structured interview, has the ability to put pressure on both the cognitive and linguistic systems in the same way as traditional cognitive tests such that it might be able to distinguish between healthy controls, those with MCI and those with AD. There is some evidence to support this. Berisha et al \cite{Berisha2015}, has shown through a longitudinal language analysis of spontaneous speech that there are marked differences in this process between those who would go on to have a diagnosis of AD and a healthy control. 
+There is a large body of research that looks at the decline in language in those with MCI and AD\cite{Taler2008, Boschi2017}. However there is conflicting evidence in these studies about which declining language factors are associated of MCI and AD\cite{Taler2008, Boschi2017}. Research therefore should look at these features in more detail and a clarification of this currently disorganised picture should go some way to helping researchers further understand the disease and it's progression. One of the difficulties in research of this nature is the process of collecting appropriate language samples. Part of this work therefore is to see whether spontaneous discourse, such a semi-structured interview, has the ability to put pressure on both the cognitive and linguistic systems in the same way as traditional cognitive tests such that it might be able to distinguish between healthy controls, those with MCI and those with AD. There is some evidence to support this. Berisha et al \cite{Berisha2015}, has shown through a longitudinal language analysis of spontaneous speech that there are marked differences in this process between those who would go on to have a diagnosis of AD and a healthy control. 
 \par
-The potential impact of this research is immense. Research has shown that early diagnosis of people with AD or MCI improves sufferers quality of life and can, in some cases, slow the progress of the disease. Early diagnosis can increase the number of research opportunities for understanding the early stages of dementia and how the disease progresses so that more research can be conducted which may, in the future, lead to new treatments and other interventions. 
-\subsection{What is this subsection called?}
+The potential impact of this research is immense. Research has shown that early diagnosis of people with AD or MCI improves sufferers quality of life and can, in some cases, slow the progress of the disease. Early diagnosis can increase the number of research opportunities for understanding the early stages of dementia and how the disease progresses so that more research can be conducted which may, in the future, lead to new treatments and other interventions.
+\par
+This report is structured in the following way. The context of the project, the aims and hypotheses of the research and the challenges the research presents are detailed in the remainder of this chapter. A literature review of current methods of cognitive assessment of MCI, an review of how language is said to be impacted in the MCI and Early AD population and a review of NLP and ML techniques that have the potential to be applied to this domain is presented in Chapter 2. The findings from a replication and extension of previous research using an existing dataset is presented in Chapter 3. I detail my future work plan including distinct tasks to be completed over the next two years in Chapter 4. Finally, my conclusions are summarised in Chapter 5.  
+\subsection{Background}
 \textbf{Full Provisional Title of the Research:} Title here \newline
 \textbf{Research Questions and Hypotheses}
 The broad question is can we use Machine Learning to assist in the early diagnosis of dementia and/or mild cognitive impairment through language produced naturally rather than language that is produced as part of a formal cognitive assessment. There have been a number of studies from the psychological perspective that look at the changes in language in those with Dementia. These studies have identified a number of speech and language differences between healthy controls and those with dementia. Some of these features have been validated in work using machine learning to classify healthy controls from those with dementia. However, these have been done in lab settings, with formal cognitive assessment tasks such as the 'picture description task'. While this is help to learn that machine learning can be used to differentiate between healthy controls and those with dementia, this doesn't take the burden off healthcare professionals who have to conduct the assessments and other professionals who may be used to transcribe these assessments. \newline
@@ -218,7 +220,7 @@ One of the key debates when looking at how to analyse language is the type of ta
 One of the most commonly used tasks to measure language is the Picture Description task. An example of this is part of the Boston Diagnostic Aphasia Examination (BDAE), called the Boston Cookie Theft picture description task \cite{Kaplan2010}. In this task participants are asked to describe a picture presented to them in as much detail as possible. The picture itself depicts a familiar domestic scene and would not require participants to use any vocabulary beyond that learned in childhood. It was originally designed to assess Aphasia, but has shown itself to be useful in the assessment of language for the purposes of diagnosis of MCI and AD as well \cite{Giles1996}
 \begin{figure}[H]
 \centering
-\includegraphics[width=240px, height=150px]{images/BCTPicture.png}
+\includegraphics[width=240px, height=150px]{images\BCTPicture.png}
 \caption{Cookie Theft Picture.\label{white}}
 \end{figure}
 \par
@@ -259,7 +261,7 @@ Smith, Chenery and Murdoch (1989) applied Hier's methodology for constructing pi
 \par
 \begin{figure}[H]
 \centering
-\includegraphics[width=240px, height=150px]{images/picnic-scene.jpg}
+\includegraphics[width=240px, height=150px]{\images\picnic-scene.jpg}
 \caption{Picnic Scene taken from the Western Aphasia Battery (WAB).\label{white}}
 \end{figure}
 Sajjadi et al (2012) examined 10 pictorial themes in picture description the Comprehensive Aphasia Test and found that the group with mild AD produced similar themes than controls. Bschor et al. (2001) examined Cookie Theft picture descriptions at four stages of AD. They identified 12 elements of the cookie theft picture and found that whilst each AD group differed significantly from the others and from controls, the measures did not distinguish between MCI and normal controls.
@@ -330,9 +332,9 @@ Coherence refers to the appropriate maintenance of topic in discourse and is the
 One study examined verbal preservation in the description of Norman Rockwell prints, dividing the total number of words within perseverations by total number of words in the speech sample. The authors also calculated rate of perseveration on two other language tasks: confrontation naming and generative naming. Across all tasks, the AD group produced significantly more perseverations than controls; however, on the picture description task alone, there were no significant differences between the two groups. The authors theorised that this was because picture description was an easier taks because there was the visual stimulus, similar to the argument made by Bschor et al.
 \par
 \subsubsection{Speech intonation / prosody}
-There are a number of studies, that have examined "melodic line", which is a subjective measure of speech prosody defined as "the appropriate use of intonational contour, including alterations in pitch, volume and duration". For instance, Forbes-McKay compared melocdic line using a "simple" picuture such as the Cookie Theft picture vs a complex picture. The number of pictorial themes differentiated the simple tasks from the complex. Results showed no group differences on simple picture tasks (Cookie Theft and Tripping Woman) but there were differences in melodic line for the complex picture tasks. Fraser et al examined several acoustic features of speech in patients with AD ussing machine learning methods that captureed both rate and phonation patterns, and found acoustic abnormalities to be a significant factor. Konig et al, also used an automated feature analysis examining vocal and temporal aspects of speech among controls, and patients with MCI or AD, and reported a classification of 81\%.
+There are a number of studies, that have examined "melodic line", which is a subjective measure of speech prosody defined as "the appropriate use of intonational contour, including alterations in pitch, volume and duration". For instance, Forbes-McKay compared melodic line using a "simple" picuture such as the Cookie Theft picture vs a complex picture. The number of pictorial themes differentiated the simple tasks from the complex. Results showed no group differences on simple picture tasks (Cookie Theft and Tripping Woman) but there were differences in melodic line for the complex picture tasks. Fraser et al examined several acoustic features of speech in patients with AD ussing machine learning methods that captured both rate and phonation patterns, and found acoustic abnormalities to be a significant factor. Konig et al, also used an automated feature analysis examining vocal and temporal aspects of speech among controls, and patients with MCI or AD, and reported a classification of 81\%.
 \subsubsection{Discourse Fluency}
-Verbal fluency is a term used in neuropsychological contexts generally referring to timed, word-generation tasks, while in speech-language pathology contexts, "fluency disorders" are defined as interruptions int he flow of speaking characterized by atypical rate, rhythm and repetitions in sounds, syllables, words and phrases. "Fluency", in the literature of discourse of adults with AD, typically refers to the smoothness or flow of spoken language. Abnormalities of fluency in this population are typically characterised by filled and unfilled pauses, word repetitions, circumlocutions, and revisions. In contrast with fluency disorders (i.e. stuttering), abnormailities in the fluency of adults with MCI or AD are rarely manifested at the phonological level.
+Verbal fluency is a term used in neuropsychological contexts generally referring to timed, word-generation tasks, while in speech-language pathology contexts, "fluency disorders" are defined as interruptions int he flow of speaking characterized by atypical rate, rhythm and repetitions in sounds, syllables, words and phrases. "Fluency", in the literature of discourse of adults with AD, typically refers to the smoothness or flow of spoken language. Abnormalities of fluency in this population are typically characterised by filled and unfilled pauses, word repetitions, circumlocutions, and revisions. In contrast with fluency disorders (i.e. stuttering), abnormalities in the fluency of adults with MCI or AD are rarely manifested at the phonological level.
 \par
 The study of "empty speech" by Nicholas et al was one of the first to examine aspects of fluency in the connected speech of persons with AD. They found that adults with AD had significantly more repetitions than controls. Similarly, Tomoeda et al found more aborted phrases, revisions and ideational repetitions in the AD group than in controls. Several other studies support the idea that in AD population there are a greater number of repetitions and revisions than in healthy controls. However, there are some studies which contradict these findings (Ahmed et al).
 \par
@@ -390,28 +392,31 @@ As described above, there is a large gap in the knowledge of how, and it what ci
 
 
 \section{Initial Study of the Presidents corpus}
-
-
 \subsection{Background}
+
 \subsection{Methods}
 I took 46 transcripts of Ronald Reagan’s (RR) press conferences from 1981 to 1988 and compared them with 134 press conferences by George H. W. Bush (GHWB) and 25 press conferences conducted by Donald J. Trump (DJT).  I analyzed transcripts for lexical features shown to change longitudinally with dementia  (for a comprehensive review of these, see the literature review above). For this collection of documents, I generated a number of features which looked at a number of different aspects of each document. These features encompassed, word level, sentence level and document level features and included a number of features contained in the study by Berisha and Liss with the aim of replicating and extending on their findings. These findings were. number of unique words, non-specific nouns and fillers and low imageability (LI) verbs. Imageability is characterized, according to Berisha and Liss, as the ease with which a term gives rise to a sensory .mental image. I compared the trends described in the transcripts of RR and GHWB, but also included DT. Berisha and Liss originally made the comparison as it GHWB (GHWB - age at the start of presidency - 64 years, 222 days) was the closest match to RR in terms of age (RR  - age at the start of presidency, 69 yeaars and 349 days). However, with the inauguration of Trump, he now is the closest comparible president in terms of age (DJT - age at the start of presidency - 70 years, 220 days). It would be interesting to look at a comparison of RR and DJT to see whether the comparisons made by Berisha and Liss hold true with this more appropriate match (in terms of age). DJT as with GHWB has no known diagnosis of AD. I used the press conference transcripts in the American Presidency Project (APP) archive as a data source for this project. The APP is a comprehensive and organized searchable database of presidential documents, including transcripts of speeches, transcripts of news conferences, and other public documents.
 \subsubsection{Pre-processing}
 To generate the files necessary for analysis, I downloaded each transcript and performed the following changes. I omitted the prepared statement by the president and any speech by other individuals. I started each transcript at the beginning of the first answer to a question. I filtered any annotations that were added to the transcript, including any references or clarifications, and any laughter. It's worth noting that there appears to be a difference in how 'hesitations' were marked down between each president, for RR hesitations were marked by a single hyphen whereas for GWB hesitations are marked by a double hyphen. In order to maintain consistency when parsing through the documents, I have changed both types of hesitation to be marked by a single hyphen. I also omitted one word sentences as this data would, from a theoretical perspective, not be relevant for language analysis. I did not control for the length of the document, but generated features which would normalise by the length of the document. I therefore was able to include all press conferences by both Ronald Reagan and George H.W. Bush where there was a question and answer session conducted at least in part by the sitting president (2 press conferences of GWB were ommited due to a lack of a question and answer session).
-\subsubsection{Results}
-\subsubsection{Discussion}
-\subsubsection{Conclusion}
+\subsection{Results}
+\subsection{Discussion}
+\subsection{Conclusion}
 
 
 
 \section{Future Work}
 \subsection{Introduction}
 
-\subsection{Project Plan}
+\subsection{Additional Research Aims and Objectives}
+
+\subsection{Additional Research Challenges}
+
+\subsection{Project Plan and Task Definition}
+\subsubsection{Task 2 - Pilot Study for the Neuropsychological Battery of Tests}
 I recruited a cohort of 9 volunteers which which to complete the battery of Neuropsychological tests. We compiled a series of tests (see literature review for a comprehensive list, explanation and rationale for each test) and completed each version of the test on three consequetive days. The results of which were compiled and analysed. The hypothesis is that there would be no difference in performance between one battery of tests and another. An additional hypothesis is that the language tasks included on each task would be enough to collect an appropriate sample for linguistic analysis, such that we may be able to detect cognitive decline in a clinical population. \newline
+\subsubsection{Task 3 - Exploration of language with the DementiaBank dataset}
 
 
-
-\subsection{Chapter 3: Experiments with existing datasets: Presidential Press Conferences, Three Authors - Murdoch, Christie and James, DementiaBank dataset.}
 Aim: To replicate and extend the work by Berisha and Liss. To use traditional machine learning techniques to test whether they can differentiate between Reagan, Bush and Trump using similar features. To test to see whether Deep Learning can also differentiate between the three. \newline
 Dataset: the presidential press conferences given by Presidents Ronald Reagan, George H.W. Bush and Donald Trump. \newline
 Paper: This experiment replicates work done by Berisha and Liss and extends this by adding Donald Trump as an alternative comparison to Ronald Reagan. This experiment will look at the features originally recommended by Berisha and Liss, as well as any others that have potential as discussed in the literature review above. \newline
@@ -422,15 +427,31 @@ Aim: To replicate and extend the work of Orimaye et al. To use traditional machi
 Dataset: The DementiaBank Corpus. \newline
 Paper: To replicate and extend the work of Orimaye et al. To compare traditional machine learning techniques (already completed by Orimaye) and deep learning. \newline
 
-\subsection{Chapter 5: Longditunal Study}
-\subsubsection{Dataset creation}
+\subsubsection{Task 4 - Longditunal Study}
+
 The aim is to recruit a set of 50 participants with MCI / Early Dementia (diagnosed or undiagnosed) and a set of 50 controls with a similar age and broadly similar educational background (a known potential confound in assessing cognitive decline). The rationale for recruiting this number is that there will be an expected drop out rate and so
 Paper:
 
 
+\subsubsection{Task 5 - Analysis of performance and validation of proposed Repeatable Neuropsychological Battery of Tests}  
+
+\subsubsection{Task 6 - Thesis Writing}
+
 \subsection{Risk Assessment}
+In this section, I look at the potential difficulties that may produce a delay to the proposed research, define any strategies that have already been put in place to account for this as well as define any other potential solutions.
+\subsubsection{Delay in data collection}
+
+\subsubsection{Rejected Publications}
+
+\subsubsection{Rejected NHS Ethics}
 
 \subsection{Ethical Considerations}
+In this section I discuss the ethical considerations related to this project and any adjustments that I have made to my research because of these considerations. I am aware of the code of human  research ethics published by the British Psychological Society \cite{Society2012} and my research has been designed in a way that fits with these guidelines.
+\subsubsection{Risk}
+I will be working with a middle-aged to elderly population who have identified in some way that there is a difficulty with cognition. However, I do not anticipate working with vulnerable groups, those lacking capacity or individuals in a dependant or unequal relationship. Should any participants I am working with lose capacity during the course of the study, I will remove that participants details and data from the study.
+\par
+\subsubsection{
+
 Need to discuss confidentiality right at the start of each conversation and to reiterate at every meeting. I will also provide an information sheet which details the confidentiality statement. The spoken confidentiality statement will be as follows.
 "Anything you say to me today will be confidential unless I feel that there is a risk to you, or someone else. If this is the case, I may need to speak to or write to third parties such as your GP. Is this ok?" \newline
 \par
