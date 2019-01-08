@@ -15,22 +15,20 @@
 \contentsline {subsubsection}{\numberline {2.2.7}Naming Tests}{17}
 \contentsline {subsubsection}{\numberline {2.2.8}Rey-Osterrieth Complex Figure Task}{17}
 \contentsline {subsubsection}{\numberline {2.2.9}Hayling Sentence Completion Test}{18}
-\contentsline {subsubsection}{\numberline {2.2.10}Serial Non-word Repetition}{18}
-\contentsline {subsubsection}{\numberline {2.2.11}Grooved Pegboard Test}{18}
-\contentsline {subsubsection}{\numberline {2.2.12}Visual Search}{19}
-\contentsline {subsubsection}{\numberline {2.2.13}Continuous Picture Naming}{19}
-\contentsline {subsubsection}{\numberline {2.2.14}Free Cued Selective Reminding Test}{19}
-\contentsline {subsubsection}{\numberline {2.2.15}Conclusion}{19}
+\contentsline {subsubsection}{\numberline {2.2.10}Grooved Pegboard Test}{18}
+\contentsline {subsubsection}{\numberline {2.2.11}Visual Search}{19}
+\contentsline {subsubsection}{\numberline {2.2.12}Free Cued Selective Reminding Test}{19}
+\contentsline {subsubsection}{\numberline {2.2.13}Conclusion}{20}
 \contentsline {subsection}{\numberline {2.3}Types of Language Assessment}{20}
 \contentsline {subsubsection}{\numberline {2.3.1}Picture Description Tasks}{20}
 \contentsline {subsubsection}{\numberline {2.3.2}Narrative description task}{21}
-\contentsline {subsubsection}{\numberline {2.3.3}Interviews}{21}
+\contentsline {subsubsection}{\numberline {2.3.3}Interviews}{22}
 \contentsline {subsection}{\numberline {2.4}How do we analyse language, issues and debates}{22}
 \contentsline {subsubsection}{\numberline {2.4.1}Single Word Language tasks vs Connected Language tasks}{22}
-\contentsline {subsubsection}{\numberline {2.4.2}Semantics vs Pragmatics}{22}
+\contentsline {subsubsection}{\numberline {2.4.2}Semantics vs Pragmatics}{23}
 \contentsline {subsection}{\numberline {2.5}Semantic Content}{23}
 \contentsline {subsubsection}{\numberline {2.5.1}Picture-related content thematic elements}{23}
-\contentsline {subsubsection}{\numberline {2.5.2}General Information Units}{24}
+\contentsline {subsubsection}{\numberline {2.5.2}General Information Units}{25}
 \contentsline {subsubsection}{\numberline {2.5.3}Conciseness of information}{25}
 \contentsline {subsubsection}{\numberline {2.5.4}Efficiency}{25}
 \contentsline {subsubsection}{\numberline {2.5.5}Lexical richness and diversity}{26}
@@ -50,42 +48,32 @@
 \contentsline {subsubsection}{\numberline {2.7.3}Perseveration}{29}
 \contentsline {subsubsection}{\numberline {2.7.4}Speech intonation / prosody}{30}
 \contentsline {subsubsection}{\numberline {2.7.5}Discourse Fluency}{30}
-\contentsline {subsubsection}{\numberline {2.7.6}Speech Monitoring}{31}
-\contentsline {subsection}{\numberline {2.8}State of literature into Natural Language processing techniques}{31}
-\contentsline {subsubsection}{\numberline {2.8.1}Traditional methods of Machine Learning and Natural Language Processing}{32}
-\contentsline {subsubsection}{\numberline {2.8.2}Deep Learning}{32}
-\contentsline {subsubsection}{\numberline {2.8.3}How can Machine Learning be applied to this problem}{32}
-\contentsline {subsection}{\numberline {2.9}The problems with attempting early diagnosis of dementia and the ethics of actively screening for it}{32}
-\contentsline {subsection}{\numberline {2.10}Conclusions and Future Work}{32}
-\contentsline {subsubsection}{\numberline {2.10.1}Future Work}{33}
-\contentsline {section}{\numberline {3}Project Proposal}{34}
-\contentsline {subsection}{\numberline {3.1}Experiment 1 - Pilot Study of Neuropsychological Tests}{34}
-\contentsline {subsubsection}{\numberline {3.1.1}Methods}{34}
-\contentsline {subsubsection}{\numberline {3.1.2}Participants}{35}
-\contentsline {subsubsection}{\numberline {3.1.3}Results}{35}
-\contentsline {subsubsection}{\numberline {3.1.4}Discussion}{35}
-\contentsline {subsubsection}{\numberline {3.1.5}Conclusion}{35}
-\contentsline {subsection}{\numberline {3.2}Experiment 2 - Initial Study of the Presidents corpus}{35}
-\contentsline {subsubsection}{\numberline {3.2.1}Background}{35}
-\contentsline {subsubsection}{\numberline {3.2.2}Methods}{35}
-\contentsline {subsubsection}{\numberline {3.2.3}Pre-processing}{35}
-\contentsline {subsubsection}{\numberline {3.2.4}Results}{36}
-\contentsline {subsubsection}{\numberline {3.2.5}Discussion}{36}
-\contentsline {subsubsection}{\numberline {3.2.6}Conclusion}{36}
-\contentsline {subsection}{\numberline {3.3}Chapter 3: Experiments with existing datasets: Presidential Press Conferences, Three Authors - Murdoch, Christie and James, DementiaBank dataset.}{36}
-\contentsline {subsection}{\numberline {3.4}Chapter 4: Validation of new repeatable neuropsychological battery for detecting MCI.}{37}
-\contentsline {subsection}{\numberline {3.5}Chapter 5: Longditunal Study}{37}
-\contentsline {subsubsection}{\numberline {3.5.1}Dataset creation}{37}
-\contentsline {subsubsection}{\numberline {3.5.2}Ethics}{37}
-\contentsline {subsubsection}{\numberline {3.5.3}What if someone reveals suicidal ideation or other risks?}{37}
-\contentsline {subsection}{\numberline {3.6}Timeline of Future Work, Publication plan and Provisional Table of Contents for final Thesis}{38}
-\contentsline {section}{\numberline {4}Future Work}{38}
-\contentsline {subsection}{\numberline {4.1}Introduction}{38}
-\contentsline {subsection}{\numberline {4.2}Project Plan}{38}
-\contentsline {subsection}{\numberline {4.3}Risk Assessment}{38}
-\contentsline {subsection}{\numberline {4.4}Ethical Considerations}{38}
-\contentsline {subsection}{\numberline {4.5}Thesis - Provisional Table of Contents}{38}
-\contentsline {section}{\numberline {5}Conclusion}{39}
-\contentsline {section}{\numberline {A}Title of Appendix A}{41}
-\contentsline {section}{\numberline {B}Title of Appendix B}{41}
-\contentsline {section}{\numberline {C}Title of Appendix C}{42}
+\contentsline {subsubsection}{\numberline {2.7.6}Speech Monitoring}{30}
+\contentsline {subsection}{\numberline {2.8}Conclusions}{31}
+\contentsline {subsection}{\numberline {2.9}State of literature into Natural Language processing techniques}{31}
+\contentsline {subsubsection}{\numberline {2.9.1}Traditional methods of Machine Learning and Natural Language Processing}{31}
+\contentsline {subsubsection}{\numberline {2.9.2}Deep Learning}{31}
+\contentsline {subsection}{\numberline {2.10}Discussion}{31}
+\contentsline {subsection}{\numberline {2.11}Conclusions and Future Work}{32}
+\contentsline {subsubsection}{\numberline {2.11.1}Future Work}{33}
+\contentsline {section}{\numberline {3}Initial Study of the Presidents corpus}{34}
+\contentsline {subsection}{\numberline {3.1}Background}{34}
+\contentsline {subsection}{\numberline {3.2}Methods}{34}
+\contentsline {subsubsection}{\numberline {3.2.1}Pre-processing}{34}
+\contentsline {subsubsection}{\numberline {3.2.2}Results}{35}
+\contentsline {subsubsection}{\numberline {3.2.3}Discussion}{35}
+\contentsline {subsubsection}{\numberline {3.2.4}Conclusion}{35}
+\contentsline {section}{\numberline {4}Future Work}{35}
+\contentsline {subsection}{\numberline {4.1}Introduction}{35}
+\contentsline {subsection}{\numberline {4.2}Project Plan}{35}
+\contentsline {subsection}{\numberline {4.3}Chapter 3: Experiments with existing datasets: Presidential Press Conferences, Three Authors - Murdoch, Christie and James, DementiaBank dataset.}{35}
+\contentsline {subsection}{\numberline {4.4}Chapter 5: Longditunal Study}{36}
+\contentsline {subsubsection}{\numberline {4.4.1}Dataset creation}{36}
+\contentsline {subsection}{\numberline {4.5}Risk Assessment}{36}
+\contentsline {subsection}{\numberline {4.6}Ethical Considerations}{36}
+\contentsline {subsubsection}{\numberline {4.6.1}What if someone reveals suicidal ideation or other risks?}{36}
+\contentsline {subsection}{\numberline {4.7}Thesis - Provisional Table of Contents}{37}
+\contentsline {section}{\numberline {5}Conclusion}{38}
+\contentsline {section}{\numberline {A}Title of Appendix A}{40}
+\contentsline {section}{\numberline {B}Title of Appendix B}{40}
+\contentsline {section}{\numberline {C}Title of Appendix C}{40}
