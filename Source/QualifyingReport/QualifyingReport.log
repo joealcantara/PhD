@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.13)  3 JAN 2019 11:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.13)  8 JAN 2019 07:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -56,41 +56,72 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks16
 \@floatcapt=\box27
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/parskip/parskip.sty
-Package: parskip 2001/04/09 non-zero parskip adjustments
+(/usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip43
+\enit@outerparindent=\dimen105
+\enit@toks=\toks17
+\enit@inbox=\box28
+\enitdp@description=\count89
 )
-(./settings/page.tex) (./settings/macros.tex) (./QualifyingReport.aux
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip44
+\f@nch@O@elh=\skip45
+\f@nch@O@erh=\skip46
+\f@nch@O@olh=\skip47
+\f@nch@O@orh=\skip48
+\f@nch@O@elf=\skip49
+\f@nch@O@erf=\skip50
+\f@nch@O@olf=\skip51
+\f@nch@O@orf=\skip52
+)
+(./settings/page.tex)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 15.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 16.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 17.
+
+(./settings/macros.tex) (./QualifyingReport.aux
 
 LaTeX Warning: Label `white' multiply defined.
 
 )
 \openout1 = `QualifyingReport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
  (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count89
-\scratchdimen=\dimen105
-\scratchbox=\box28
-\nofMPsegments=\count90
-\nofMParguments=\count91
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count92
-\MPscratchDim=\dimen106
-\MPnumerator=\count93
-\makeMPintoPDFobject=\count94
-\everyMPtoPDFconversion=\toks18
+\scratchcounter=\count90
+\scratchdimen=\dimen106
+\scratchbox=\box29
+\nofMPsegments=\count91
+\nofMParguments=\count92
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count93
+\MPscratchDim=\dimen107
+\MPnumerator=\count94
+\makeMPintoPDFobject=\count95
+\everyMPtoPDFconversion=\toks19
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -148,223 +179,141 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 18.
+(Font)              <12> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 18.
+(Font)              <8> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 18.
+(Font)              <6> on input line 28.
 
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./QualifyingReport.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
+(Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
+(Font)              <5> on input line 2.
  [2]
-Overfull \hbox (4.30617pt too wide) in paragraph at lines 51--51
+Overfull \hbox (4.30617pt too wide) in paragraph at lines 48--48
  [][] []\OT1/cmr/m/n/10 Questions, turn-taking, un-sure state-ments, ego-cen-tr
 ic com- 
  []
 
-[3]
-Overfull \hbox (1.91728pt too wide) in paragraph at lines 82--82
+
+Overfull \hbox (1.91728pt too wide) in paragraph at lines 75--75
  [][] []\OT1/cmr/m/n/10 Chapter 3: Ex-per-i-ments with ex-ist-ing datasets: Pre
 s-i-den-tial Press 
  []
 
-)
+[3])
 \tf@toc=\write3
 \openout3 = `QualifyingReport.toc'.
 
- [4]
+ [4] (./QualifyingReport.lot)
+\tf@lot=\write4
+\openout4 = `QualifyingReport.lot'.
 
-LaTeX Warning: Citation `AmericanPsychiatricAssociation2013' on page 5 undefine
-d on input line 32.
+ [5] (./QualifyingReport.lof)
+\tf@lof=\write5
+\openout5 = `QualifyingReport.lof'.
 
-[5]
+ [6]
+Underfull \hbox (badness 10000) in paragraph at lines 48--51
 
-LaTeX Warning: Citation `Le2012' on page 6 undefined on input line 38.
+ []
 
-[6] [7]
-
-LaTeX Warning: Citation `AmericanPsychiatricAssociation2013' on page 8 undefine
-d on input line 53.
-
-[8]
-
-LaTeX Warning: Citation `Emery2000' on page 9 undefined on input line 57.
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
 
-Overfull \hbox (115.11182pt too wide) in paragraph at lines 67--81
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 60.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 60.
+ [8]
+
+LaTeX Warning: Citation `AmericanPsychiatricAssociation2013' on page 9 undefine
+d on input line 69.
+
+[9]
+
+LaTeX Warning: Citation `Le2012' on page 10 undefined on input line 75.
+
+[10] [11]
+
+LaTeX Warning: Citation `AmericanPsychiatricAssociation2013' on page 12 undefin
+ed on input line 90.
+
+
+LaTeX Warning: Citation `Emery2000' on page 12 undefined on input line 94.
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+
+Overfull \hbox (115.11182pt too wide) in paragraph at lines 104--118
 [][] 
  []
 
 
-Overfull \hbox (6.09175pt too wide) in paragraph at lines 84--84
+Overfull \hbox (6.09175pt too wide) in paragraph at lines 121--121
 []\OT1/cmr/bx/n/12 Existing Neu-ropsy-cho-log-i-cal Mea-sures of Cog-ni-tive Im
 -
  []
 
-[10]
-Overfull \hbox (12.36174pt too wide) in paragraph at lines 88--89
+[13]
+Overfull \hbox (12.36174pt too wide) in paragraph at lines 125--126
 \OT1/cmr/m/n/10 The Re-peat-able Bat-tery for the As-sess-ment of Neu-ropsy-cho
 -log-i-cal Sta-tus (RBANS)
  []
 
-[11] [12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+[14] [15] [16] [17] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
 
+[19]
 
-LaTeX Warning: Citation `Kaplan2010' on page 14 undefined on input line 142.
+LaTeX Warning: Citation `Kaplan2010' on page 20 undefined on input line 219.
 
-<BCTPicture.png, id=50, 451.6875pt x 321.2pt>
+<BCTPicture.png, id=71, 451.6875pt x 321.2pt>
 File: BCTPicture.png Graphic file (type png)
 <use BCTPicture.png>
-Package pdftex.def Info: BCTPicture.png  used on input line 145.
+Package pdftex.def Info: BCTPicture.png  used on input line 222.
 (pdftex.def)             Requested size: 240.90262pt x 150.56703pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--147
-
- []
-
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+Underfull \hbox (badness 10000) in paragraph at lines 219--224
 
  []
 
 
-LaTeX Warning: Citation `Fraser2015' on page 15 undefined on input line 151.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
 
+[20 <./BCTPicture.png>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
-
- []
-
-[15 <./BCTPicture.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
-
- []
+LaTeX Warning: Citation `Fraser2015' on page 21 undefined on input line 228.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
-
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
-
- []
-
-
-LaTeX Warning: Citation `Emery2000' on page 17 undefined on input line 175.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
-
- []
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
-
- []
-
-<picnic-scene.jpg, id=63, 287.57437pt x 181.42781pt>
-File: picnic-scene.jpg Graphic file (type jpg)
-<use picnic-scene.jpg>
-Package pdftex.def Info: picnic-scene.jpg  used on input line 186.
-(pdftex.def)             Requested size: 240.90701pt x 150.56566pt.
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
-
- []
-
-[19 <./picnic-scene.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
-
- []
-
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 211--213
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
-
- []
-
-[21]
 Underfull \hbox (badness 10000) in paragraph at lines 228--229
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
-
-[22]
-
-LaTeX Warning: Citation `Le2012' on page 23 undefined on input line 233.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 233--234
@@ -376,96 +325,112 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
-
-
-LaTeX Warning: Citation `Fraser2015' on page 23 undefined on input line 242.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+ []
+
+[22]
+
+LaTeX Warning: Citation `Emery2000' on page 23 undefined on input line 252.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+
+ []
+
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+<picnic-scene.jpg, id=84, 287.57437pt x 181.42781pt>
+File: picnic-scene.jpg Graphic file (type jpg)
+<use picnic-scene.jpg>
+Package pdftex.def Info: picnic-scene.jpg  used on input line 263.
+(pdftex.def)             Requested size: 240.90701pt x 150.56566pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+
+ []
+
+[24 <./picnic-scene.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
-
- []
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
-
- []
-
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 288--290
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
-
- []
-
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
-
- []
-
-[28]
 Underfull \hbox (badness 10000) in paragraph at lines 302--303
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--312
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+
+ []
+
+[27]
+
+LaTeX Warning: Citation `Le2012' on page 28 undefined on input line 310.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
 
  []
 
@@ -474,54 +439,121 @@ Underfull \hbox (badness 10000) in paragraph at lines 313--314
 
  []
 
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 318--320
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 321.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 321.
+LaTeX Warning: Citation `Fraser2015' on page 28 undefined on input line 319.
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
 [30] [31]
-Underfull \hbox (badness 10000) in paragraph at lines 346--349
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--375
 
  []
 
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 353--354
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--356
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--366
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
 
  []
 
 [33]
-Underfull \hbox (badness 10000) in paragraph at lines 376--378
+Overfull \hbox (5.48198pt too wide) in paragraph at lines 396--396
+[]\OT1/cmr/bx/n/12 Experiment 1 - Pi-lot Study of Neu-ropsy-cho-log-i-cal Tests
+ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--399
 
  []
 
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
+[34] [35]
+Underfull \hbox (badness 10000) in paragraph at lines 414--423
 
  []
 
-(./QualifyingReport.bbl [35] [36]) [37] [38] (./QualifyingReport.aux)
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 433--435
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--438
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--443
+
+ []
+
+[37] [38] (./QualifyingReport.bbl [39] [40]) [41] [42] (./QualifyingReport.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -530,29 +562,30 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1584 strings out of 492649
- 23039 string characters out of 6129622
- 89875 words of memory out of 5000000
- 5446 multiletter control sequences out of 15000+600000
- 8536 words of font info for 30 fonts, out of 8000000 for 9000
+ 1993 strings out of 492649
+ 29136 string characters out of 6129622
+ 99029 words of memory out of 5000000
+ 5842 multiletter control sequences out of 15000+600000
+ 9143 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,25p,2073b,217s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,11n,43p,2073b,408s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
-sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
-texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmu10.pfb>
-Output written on QualifyingReport.pdf (38 pages, 289911 bytes).
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
+/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmu10.pfb>
+Output written on QualifyingReport.pdf (42 pages, 315375 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
+ 195 PDF objects out of 1000 (max. 8388607)
+ 134 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

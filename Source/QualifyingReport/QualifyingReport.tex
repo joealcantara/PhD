@@ -4,20 +4,37 @@
 \input{settings/packages}
 \usepackage{graphicx}
 \usepackage{float}
-\usepackage{parskip}
+%%\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
 %% Page Settings
 \input{settings/page}
 %% Own Commands
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[CE,CO]{Early Detection of MCI - An Interdisciplinary Approach}
+\fancyfoot[CE,CO]{\leftmark}
+\fancyfoot[LE,RO]{\thepage}
+
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
 \input{settings/macros}
 \title{Qualifying Report}
-\date{2018-12-30}
+\date{2019-01-07}
 \author{Jomar Alcantara}
 % HEADER ENDS
 % DOCUMENT BEGINS
 \begin{document}
 \maketitle
 \newpage
+\begin{abstract}
+
+\end{abstract}
 \tableofcontents
+\newpage
+\listoftables
+\newpage
+\listoffigures
 \newpage
 \section{Overview of Problem}
 Dementia has been identified as one of those fast growing difficulties facing the world. A recent report suggests that in 2015 there were 46 million people with a diagnosis of dementia and that number is expected to hit 131.5 million by 2050 \cite{Prince2015}. The report also states that the worldwide cost of dementia in 2018 is estimated to be in the region of one trillion US dollars.
@@ -27,6 +44,26 @@ In 2009, the Department of Health designed it's National Dementia strategy and a
 There is a large body of research that looks at the decline in language in those with MCI and AD. However there is conflicting evidence in these studies about which declining language factors are associated of MCI and AD. Research therefore should look at these features in more detail and a clarification of this currently disorganised picture should go some way to helping researchers further understand the disease and it's progression. One of the difficulties in research of this nature is the process of collecting appropriate language samples. Part of this work therefore is to see whether spontaneous discourse, such a semi-structured interview, has the ability to put pressure on both the cognitive and linguistic systems in the same way as traditional cognitive tests such that it might be able to distinguish between healthy controls, those with MCI and those with AD. There is some evidence to support this. Berisha et al \cite{Berisha2015}, has shown through a longitudinal language analysis of spontaneous speech that there are marked differences in this process between those who would go on to have a diagnosis of AD and a healthy control. 
 \par
 The potential impact of this research is immense. Research has shown that early diagnosis of people with AD or MCI improves sufferers quality of life and can, in some cases, slow the progress of the disease. Early diagnosis can increase the number of research opportunities for understanding the early stages of dementia and how the disease progresses so that more research can be conducted which may, in the future, lead to new treatments and other interventions. 
+\subsection{What is this subsection called?}
+\textbf{Full Provisional Title of the Research:} Title here \newline
+\textbf{Research Questions and Hypotheses}
+The broad question is can we use Machine Learning to assist in the early diagnosis of dementia and/or mild cognitive impairment through language produced naturally rather than language that is produced as part of a formal cognitive assessment. There have been a number of studies from the psychological perspective that look at the changes in language in those with Dementia. These studies have identified a number of speech and language differences between healthy controls and those with dementia. Some of these features have been validated in work using machine learning to classify healthy controls from those with dementia. However, these have been done in lab settings, with formal cognitive assessment tasks such as the 'picture description task'. While this is help to learn that machine learning can be used to differentiate between healthy controls and those with dementia, this doesn't take the burden off healthcare professionals who have to conduct the assessments and other professionals who may be used to transcribe these assessments. \newline
+\par
+Machine Learning itself is undergoing a shift in focus at the present time. I will describe this shift using the context of my proposed research. In traditional machine learning, the transcripts from cognitive assessments are used to generate features such as idea density. These features are then used to classify patients. A company in Toronto, Canada has taken this approach and currently uses over 400 acoustic and language features to make this classification and to generate a psuedo MMSE score. \newline
+\par
+Deep Learning takes a different approach by bypassing the feature generating stage. Deep learning uses neural networks as a fundamental building block.
+
+\subsection{Aims and Rationale}
+The aim of my research is to find less burdensome ways of detecting dementia without the use of invasive procedures (taking bloods, or using medical equipment such as MRI's and EEG's) and without resorting to to time-consuming and expensive psychological tests. There is a lot of research into the analysis of language as a bio-marker for MCI and Early Dementia. Given that sampling a person's language is relatively effortless, my research looks at whether we can find bio-markers of MCI and Early Dementia in natural language.\newline
+Concerns: Language and Memory are quite naturally intertwined and it would be difficult to test one without some reliance on the other. I'm not going to control for memory problems as a potential confound, but does this weaken the research? How do I defend this? \newline
+\begin{itemize}
+	\item Hypothesis. I predict that, given a number of samples of language over a given time from, is it possible to detect language decline in humans such that you can differentiate between normal language decline and decline in those with MCI.
+	\item Hypothesis. I predict that my new neuropsychological battery of tests will be more sensitive at detecting mild cognitive impairment than existing measures.
+	\item My first hypothesis is whether monitoring language samples and other measures of cognitive decline over the course of the year is enough to detect cognitive decline in a population of those with Subjective Cognitive Decline and Mild Cognitive Impairment.
+	\item My second hypothesis is that those with MCI show a different language profile to controls, if matched similarly for education and other significant factors.
+\end{itemize}
+
+\subsection{Research Challenges}
 \section{Literature Review}
 \subsection{Introduction}
 Alzheimer's Disease is a neurodegenerative disease in which, from a physiological perspective, the brain develops neurofibrillary tangles and neuritic plaques along with the deterioration and loss of cortical neurons and synapses. Whilst a definitive diagnosis of Dementia can only produced at post-mortem, there are a number of clinical indicators from psychological perspective that can indicate that dementia is present. From a clinical psychology perspective, those who have dementia have cognitive deficits such as problems with episodic and semantic memory, organising and planning, difficulties with language and visuospatial deficits\cite{AmericanPsychiatricAssociation2013}. In addition, these symptoms are often accompanied by emotional difficulties such as depression and irritability and behavioural difficulties. 
@@ -303,6 +340,7 @@ The study of "empty speech" by Nicholas et al was one of the first to examine as
 Speech monitoring is related not only to word retrieval deficits and to pragmatic language skill but also to "anosognosia" define as the awareness of one's own deficits. McNamara et al investigated word error monitoring skills by comparing uncorrected and repaid errors in adults with AD vs health controls. The AD group was equally impaired in error monitoring as the controls. Severity of naming deficits correlated negatively to the amount of uncorrected errors. The authors suggested that this impairment was related to the executive function dificulties in the clinical groups. The authors did not report correlations between error monitoring and executive function test scores, however, which could have strengthened that hypothesis. \newline
 \par
 Another measure of speech monitoring used in the picture description literature is "response to word-finding delays," defined as "whether patients appear unaware of their problem, produce an approximation of the target word or actively search and produce the target word". Response to word-finding delays differed significantly between minimal  AD and normal controls (forbes-McKay and Venneri). The measure was based on Goodglass and Kaplan's scale for rating discourse on the Boston Diagnostic Aphasia Examination (BDAE) and is composed of clinical judgement of behaviour that is rated on a likert-type scale ranging fdrom 1 to 7 (7 being no abnormality).
+\par
 
 
 
@@ -352,53 +390,26 @@ As described above, there is a large gap in the knowledge of how, and it what ci
 
 
 \section{Project Proposal}
-\textbf{Full Provisional Title of the Research:} Title here \newline
-\textbf{Research Questions and Hypotheses}
-The broad question is can we use Machine Learning to assist in the early diagnosis of dementia and/or mild cognitive impairment through language produced naturally rather than language that is produced as part of a formal cognitive assessment. There have been a number of studies from the psychological perspective that look at the changes in language in those with Dementia. These studies have identified a number of speech and language differences between healthy controls and those with dementia. Some of these features have been validated in work using machine learning to classify healthy controls from those with dementia. However, these have been done in lab settings, with formal cognitive assessment tasks such as the 'picture description task'. While this is help to learn that machine learning can be used to differentiate between healthy controls and those with dementia, this doesn't take the burden off healthcare professionals who have to conduct the assessments and other professionals who may be used to transcribe these assessments. \newline
-\par
-Machine Learning itself is undergoing a shift in focus at the present time. I will describe this shift using the context of my proposed research. In traditional machine learning, the transcripts from cognitive assessments are used to generate features such as idea density. These features are then used to classify patients. A company in Toronto, Canada has taken this approach and currently uses over 400 acoustic and language features to make this classification and to generate a psuedo MMSE score. \newline
-\par
-Deep Learning takes a different approach by bypassing the feature generating stage. Deep learning uses neural networks as a fundamental building block.
 
-\subsection{Aims and Rationale}
-The aim of my research is to find less burdensome ways of detecting dementia without the use of invasive procedures (taking bloods, or using medical equipment such as MRI's and EEG's) and without resorting to to time-consuming and expensive psychological tests. There is a lot of research into the analysis of language as a bio-marker for MCI and Early Dementia. Given that sampling a person's language is relatively effortless, my research looks at whether we can find bio-markers of MCI and Early Dementia in natural language.\newline
-Concerns: Language and Memory are quite naturally intertwined and it would be difficult to test one without some reliance on the other. I'm not going to control for memory problems as a potential confound, but does this weaken the research? How do I defend this? \newline
-\begin{itemize}
-	\item Hypothesis. I predict that, given a number of samples of language over a given time from, is it possible to detect language decline in humans such that you can differentiate between normal language decline and decline in those with MCI.
-	\item Hypothesis. I predict that my new neuropsychological battery of tests will be more sensitive at detecting mild cognitive impairment than existing measures.
-	\item My first hypothesis is whether monitoring language samples and other measures of cognitive decline over the course of the year is enough to detect cognitive decline in a population of those with Subjective Cognitive Decline and Mild Cognitive Impairment.
-	\item My second hypothesis is that those with MCI show a different language profile to controls, if matched similarly for education and other significant factors.
-\end{itemize}	
-\section{Experiment 1 - Pilot Study of Neuropsychological Tests}
-\subsection{Methods}
+
+
+\subsection{Experiment 1 - Pilot Study of Neuropsychological Tests}
+\subsubsection{Methods}
 I recruited a cohort of 9 volunteers which which to complete the battery of Neuropsychological tests. We compiled a series of tests (see literature review for a comprehensive list, explanation and rationale for each test) and completed each version of the test on three consequetive days. The results of which were compiled and analysed. The hypothesis is that there would be no difference in performance between one battery of tests and another. An additional hypothesis is that the language tasks included on each task would be enough to collect an appropriate sample for linguistic analysis, such that we may be able to detect cognitive decline in a clinical population. \newline
 \par
 \subsubsection{Participants}
-\subsection{Results}
-\subsection{Discussion}
-\subsection{Conclusion}
-\section{Experiment 2 - Initial Study of the Presidents corpus}
-\subsection{Background}
-\subsection{Methods}
+\subsubsection{Results}
+\subsubsection{Discussion}
+\subsubsection{Conclusion}
+\subsection{Experiment 2 - Initial Study of the Presidents corpus}
+\subsubsection{Background}
+\subsubsection{Methods}
 I took 46 transcripts of Ronald Reagan’s (RR) press conferences from 1981 to 1988 and compared them with 134 press conferences by George H. W. Bush (GHWB) and 25 press conferences conducted by Donald J. Trump (DJT).  I analyzed transcripts for lexical features shown to change longitudinally with dementia  (for a comprehensive review of these, see the literature review above). For this collection of documents, I generated a number of features which looked at a number of different aspects of each document. These features encompassed, word level, sentence level and document level features and included a number of features contained in the study by Berisha and Liss with the aim of replicating and extending on their findings. These findings were. number of unique words, non-specific nouns and fillers and low imageability (LI) verbs. Imageability is characterized, according to Berisha and Liss, as the ease with which a term gives rise to a sensory .mental image. I compared the trends described in the transcripts of RR and GHWB, but also included DT. Berisha and Liss originally made the comparison as it GHWB (GHWB - age at the start of presidency - 64 years, 222 days) was the closest match to RR in terms of age (RR  - age at the start of presidency, 69 yeaars and 349 days). However, with the inauguration of Trump, he now is the closest comparible president in terms of age (DJT - age at the start of presidency - 70 years, 220 days). It would be interesting to look at a comparison of RR and DJT to see whether the comparisons made by Berisha and Liss hold true with this more appropriate match (in terms of age). DJT as with GHWB has no known diagnosis of AD. I used the press conference transcripts in the American Presidency Project (APP) archive as a data source for this project. The APP is a comprehensive and organized searchable database of presidential documents, including transcripts of speeches, transcripts of news conferences, and other public documents.
 \subsubsection{Pre-processing}
 To generate the files necessary for analysis, I downloaded each transcript and performed the following changes. I omitted the prepared statement by the president and any speech by other individuals. I started each transcript at the beginning of the first answer to a question. I filtered any annotations that were added to the transcript, including any references or clarifications, and any laughter. It's worth noting that there appears to be a difference in how 'hesitations' were marked down between each president, for RR hesitations were marked by a single hyphen whereas for GWB hesitations are marked by a double hyphen. In order to maintain consistency when parsing through the documents, I have changed both types of hesitation to be marked by a single hyphen. I also omitted one word sentences as this data would, from a theoretical perspective, not be relevant for language analysis. I did not control for the length of the document, but generated features which would normalise by the length of the document. I therefore was able to include all press conferences by both Ronald Reagan and George H.W. Bush where there was a question and answer session conducted at least in part by the sitting president (2 press conferences of GWB were ommited due to a lack of a question and answer session).
-\subsection{Results}
-\subsection{Discussion}
-\subsection{Conclusion}
-
-
-\subsection{Timeline of Future Work and Publication plan}
-\textbf{Year One} \newline
-\textbf{Year Two} \newline
-\textbf{Year Three} \newline
-
-
-\subsection{Provisional Table of Contents}
-\subsubsection{Chapter 1: Introduction}
-Introduction to the problem of dementia in the context of the wider world including quality of life and financial implications. Exploration of dementia as a syndrome rather than a disease, and a look at the different variants of dementia. A look at the rationale behind research into the early diagnosis of dementia as well as a brief look at what has been done in the area (wide context, so pharmacological and psychological). \newline
-\subsubsection{Chapter 2: Background}
-Literature Review which looks at the background of what has been done in the area of early diagnosis of dementia, from a purely psychological perspective as well as the work done in machine learning in this topic. Look at the different attributes that researchers have explored. Look at the difference between traditional machine learning methods and deep learning and discuss the pros and cons of each perspective. \newline
+\subsubsection{Results}
+\subsubsection{Discussion}
+\subsubsection{Conclusion}
 \subsection{Chapter 3: Experiments with existing datasets: Presidential Press Conferences, Three Authors - Murdoch, Christie and James, DementiaBank dataset.}
 Aim: To replicate and extend the work by Berisha and Liss. To use traditional machine learning techniques to test whether they can differentiate between Reagan, Bush and Trump using similar features. To test to see whether Deep Learning can also differentiate between the three. \newline
 Dataset: the presidential press conferences given by Presidents Ronald Reagan, George H.W. Bush and Donald Trump. \newline
@@ -414,7 +425,7 @@ Aim: \newline
 Dataset: To be created.
 
 
-\subsection{Chapter 5: Longditunal Study }
+\subsection{Chapter 5: Longditunal Study}
 \subsubsection{Dataset creation}
 The aim is to recruit a set of 50 participants with MCI / Early Dementia (diagnosed or undiagnosed) and a set of 50 controls with a similar age and broadly similar educational background (a known potential confound in assessing cognitive decline). The rationale for recruiting this number is that there will be an expected drop out rate and so
 Paper:
@@ -424,11 +435,70 @@ Need to discuss confidentiality right at the start of each conversation and to r
 \par
 \subsubsection{What if someone reveals suicidal ideation or other risks?}
 As part of the battery of tests for this experiment, there is an opportunity for a participant to reveal that he or she has had suicidal ideation in the past two weeks (Patient Health Questionnaire, Question 9). This is something to explore further. As I have been trained in psychological risk assessments, it seems appropriate to carry out a further risk assessment.  Optionally with the tape recorder turned on, or off as requested.  Any text recorded during the risk assessment will not be included in the language analysis. Following this, some information about local services such as Improving Access to Psychological Therapies (IAPT), Samaritans and other appropriate services will be provided. A discussion will then be made about whether it is appropriate to notify the GP of the disclosure. In the event that there is imminent risk to self or others, a discussion will be made about who I need to contact. (Crisis Team and GP). In the event that the participant scores 0 on Q9 of the PHQ, no risk assessment will be undertaken. \newline
-\subsubsection{What happens at the end of the data collection phase if there is a suspected decline in a participant's cognitive function}
-\subsection{How does language differ between those with AD, MCI and Controls}
-\subsection{Chapter 7: Overall results and Discussion}
-\subsection{Chapter 8: Conclusions and Future work}
 
+
+\section{Future Work}
+\subsection{Introduction}
+
+\subsection{Project Plan}
+
+\subsection{Risk Assessment}
+
+\subsection{Ethical Considerations}
+
+\subsection{Thesis - Provisional Table of Contents}
+In this section I provide a provisional table of contents based on the work I have either completed or proposed above.
+\begin{enumerate}
+	\item Introduction
+	\begin{enumerate}
+		\item Overview
+		\item Background and Context
+		\item Aims and Objectives
+		\item Challenges and Achievements
+	\end{enumerate}
+	\item Literature Review
+	\begin{enumerate}
+		\item Introduction
+		\item Assessing Mild Cognitive Impairment using cognitive tests.
+		\item Assessing Mild Cognitive Impairment using Language.
+		\item Natural Language Processing and Machine Learning
+		\item Conclusion
+	\end{enumerate}
+	\item Further Exploration of the Presidents Corpus
+	\begin{enumerate}
+		\item Introduction
+		\item Methodology
+		\item Results
+		\item Discussion
+		\item Conclusion
+	\end{enumerate}
+	\item Validation of a Repeatable Neuropsychological Battery of Tests
+	\begin{enumerate}
+		\item Introduction
+		\item Methodology
+		\item Pilot Study Results
+		\item Longitundinal Study results
+		\item Discussion
+		\item Conclusion
+	\end{enumerate}
+	\item Longitudnal Study
+	\begin{enumerate}
+		\item Introduction
+		\item Methodology
+		\item Experiment 1 Results
+		\item Experiment 2 Results
+		\item Discussion
+		\item Conclusion
+	\end{enumerate}
+	\item General Discussion
+	\begin{enumerate}
+		\item Discussion
+		\item Future Work
+		\item Conclusion
+	\end{enumerate}
+\end{enumerate}
+
+\section{Conclusion}
 
 \bibliographystyle{unsrt}
 \bibliography{QualifyingReport.bib}
