@@ -1,5 +1,5 @@
 % HEADER BEGINS
-\documentclass[12pt, twoside, a4paper]{article}
+\documentclass{book}
 %% Packages
 \input{settings/packages}
 \usepackage{graphicx}
@@ -13,7 +13,7 @@
 \fancyhf{}
 \fancyhead[CE,CO]{\leftmark}
 \fancyfoot[CE,CO]{Early Detection of MCI that progresses to dementia - An Interdisciplinary Approach}
-\fancyfoot[LE,RO]{\thepage}
+\fancyhead[LE,RO]{\thepage}
 
 \renewcommand{\headrulewidth}{2pt}
 \renewcommand{\footrulewidth}{1pt}
@@ -26,16 +26,13 @@
 \begin{document}
 \maketitle
 \newpage
-\begin{abstract}
-
-\end{abstract}
 \tableofcontents
 \newpage
 \listoftables
 \newpage
 \listoffigures
 \newpage
-\section{Overview of Problem}
+\chapter{Overview of Problem}
 Dementia has been identified as one of those fast growing difficulties facing the world. A recent report suggests that in 2015 there were 46 million people with a diagnosis of dementia and that number is expected to hit 131.5 million by 2050 \cite{Prince2015}. The report also states that the worldwide cost of dementia in 2018 is estimated to be in the region of one trillion US dollars.
 \par
 In 2009, the Department of Health designed it's National Dementia strategy and as part of this made early diagnosis and support one of it's key priorities \cite{Health2009}. A lot of work has gone into trying to find ways of improving the early diagnosis of Alzheimer's Disease (AD) and Mild Cogntive Impairment (MCI) with research focused on two areas - identifying biological markers and analyzing the cognitive decline of those who are suspected to have the disease\cite{Taler2008}. As described above, the numbers of those suffering from AD and MCI are going to increase as the population ages \cite{Prince2015} and thus it is important that we utilize technology wherever possible to aid clinicians in the detection of MCI and AD. At the present time diagnosis is typically conducted at memory clinics by trained clinicians\cite{Boschi2017}. I theorize that we may be able to enable an earlier diagnosis of those with MCI and AD using samples of spontaneous speech, natural language processing (NLP) and machine learning (ML).
@@ -65,7 +62,7 @@ Concerns: Language and Memory are quite naturally intertwined and it would be di
 \end{itemize}
 
 \subsection{Research Challenges}
-\section{Literature Review}
+\chapter{Literature Review}
 \subsection{Introduction}
 Alzheimer's Disease is a neurodegenerative disease in which, from a physiological perspective, the brain develops neurofibrillary tangles and neuritic plaques along with the deterioration and loss of cortical neurons and synapses. Whilst a definitive diagnosis of Dementia can only produced at post-mortem, there are a number of clinical indicators from psychological perspective that can indicate that dementia is present. From a clinical psychology perspective, those who have dementia have cognitive deficits such as problems with episodic and semantic memory, organising and planning, difficulties with language and visuospatial deficits\cite{AmericanPsychiatricAssociation2013}. In addition, these symptoms are often accompanied by emotional difficulties such as depression and irritability and behavioural difficulties. 
 \par
@@ -220,7 +217,7 @@ One of the key debates when looking at how to analyse language is the type of ta
 One of the most commonly used tasks to measure language is the Picture Description task. An example of this is part of the Boston Diagnostic Aphasia Examination (BDAE), called the Boston Cookie Theft picture description task \cite{Kaplan2010}. In this task participants are asked to describe a picture presented to them in as much detail as possible. The picture itself depicts a familiar domestic scene and would not require participants to use any vocabulary beyond that learned in childhood. It was originally designed to assess Aphasia, but has shown itself to be useful in the assessment of language for the purposes of diagnosis of MCI and AD as well \cite{Giles1996}
 \begin{figure}[H]
 \centering
-\includegraphics[width=240px, height=150px]{images\BCTPicture.png}
+\includegraphics[width=240px, height=150px]{images/BCTPicture.png}
 \caption{Cookie Theft Picture.\label{white}}
 \end{figure}
 \par
@@ -261,7 +258,7 @@ Smith, Chenery and Murdoch (1989) applied Hier's methodology for constructing pi
 \par
 \begin{figure}[H]
 \centering
-\includegraphics[width=240px, height=150px]{\images\picnic-scene.jpg}
+\includegraphics[width=240px, height=150px]{images/picnic-scene.jpg}
 \caption{Picnic Scene taken from the Western Aphasia Battery (WAB).\label{white}}
 \end{figure}
 Sajjadi et al (2012) examined 10 pictorial themes in picture description the Comprehensive Aphasia Test and found that the group with mild AD produced similar themes than controls. Bschor et al. (2001) examined Cookie Theft picture descriptions at four stages of AD. They identified 12 elements of the cookie theft picture and found that whilst each AD group differed significantly from the others and from controls, the measures did not distinguish between MCI and normal controls.
@@ -391,20 +388,21 @@ As described above, there is a large gap in the knowledge of how, and it what ci
 % McGuiness - Predicting conversion to dementia in a memory clinic: A standard clinical approach compared with an empirically defined clustering method (latent profile analysis) for mild cognitive impairment subtyping.
 
 
-\section{Initial Study of the Presidents corpus}
+\chapter{Initial Study of the Presidents corpus}
 \subsection{Background}
 
 \subsection{Methods}
 I took 46 transcripts of Ronald Reagan’s (RR) press conferences from 1981 to 1988 and compared them with 134 press conferences by George H. W. Bush (GHWB) and 25 press conferences conducted by Donald J. Trump (DJT).  I analyzed transcripts for lexical features shown to change longitudinally with dementia  (for a comprehensive review of these, see the literature review above). For this collection of documents, I generated a number of features which looked at a number of different aspects of each document. These features encompassed, word level, sentence level and document level features and included a number of features contained in the study by Berisha and Liss with the aim of replicating and extending on their findings. These findings were. number of unique words, non-specific nouns and fillers and low imageability (LI) verbs. Imageability is characterized, according to Berisha and Liss, as the ease with which a term gives rise to a sensory .mental image. I compared the trends described in the transcripts of RR and GHWB, but also included DT. Berisha and Liss originally made the comparison as it GHWB (GHWB - age at the start of presidency - 64 years, 222 days) was the closest match to RR in terms of age (RR  - age at the start of presidency, 69 yeaars and 349 days). However, with the inauguration of Trump, he now is the closest comparible president in terms of age (DJT - age at the start of presidency - 70 years, 220 days). It would be interesting to look at a comparison of RR and DJT to see whether the comparisons made by Berisha and Liss hold true with this more appropriate match (in terms of age). DJT as with GHWB has no known diagnosis of AD. I used the press conference transcripts in the American Presidency Project (APP) archive as a data source for this project. The APP is a comprehensive and organized searchable database of presidential documents, including transcripts of speeches, transcripts of news conferences, and other public documents.
 \subsubsection{Pre-processing}
 To generate the files necessary for analysis, I downloaded each transcript and performed the following changes. I omitted the prepared statement by the president and any speech by other individuals. I started each transcript at the beginning of the first answer to a question. I filtered any annotations that were added to the transcript, including any references or clarifications, and any laughter. It's worth noting that there appears to be a difference in how 'hesitations' were marked down between each president, for RR hesitations were marked by a single hyphen whereas for GWB hesitations are marked by a double hyphen. In order to maintain consistency when parsing through the documents, I have changed both types of hesitation to be marked by a single hyphen. I also omitted one word sentences as this data would, from a theoretical perspective, not be relevant for language analysis. I did not control for the length of the document, but generated features which would normalise by the length of the document. I therefore was able to include all press conferences by both Ronald Reagan and George H.W. Bush where there was a question and answer session conducted at least in part by the sitting president (2 press conferences of GWB were ommited due to a lack of a question and answer session).
+\subsubsection{Feature Selection}
 \subsection{Results}
 \subsection{Discussion}
 \subsection{Conclusion}
 
 
 
-\section{Future Work}
+\chapter{Future Work}
 \subsection{Introduction}
 
 \subsection{Additional Research Aims and Objectives}
@@ -436,21 +434,22 @@ Paper:
 \subsubsection{Task 5 - Analysis of performance and validation of proposed Repeatable Neuropsychological Battery of Tests}  
 
 \subsubsection{Task 6 - Thesis Writing}
+The writing of the thesis, including additional over-running data analysis is planned for the last six months of the project (Oct '20 to Mar '21).
 
 \subsection{Risk Assessment}
 In this section, I look at the potential difficulties that may produce a delay to the proposed research, define any strategies that have already been put in place to account for this as well as define any other potential solutions.
 \subsubsection{Delay in data collection}
-
+When working with a clinical population, the collection of data can be subject to delays. This can be for a number of reasons including but not limited to sickness (patient or researcher), unavailability of participant for another reason or unavailability of venue to collect data. The collection of data could also be subject to delays due to ethical approval for the research being delayed. For individual participants unavailability, flexibility has been built into the data collection schedule to allow for an extra month (capacity for one additional cohort) of data collection per collection cycle. 
 \subsubsection{Rejected Publications}
-
-\subsubsection{Rejected NHS Ethics}
-
+For each task defined above, with the exception of task 2 and task 6 I have identified suitable conferences at which I can present my work. With the target conferences identified every effort will be made to meet the submission deadlines for these conferences. If submissions are rejected at these conferences, I will identify alternative conferences to present at. 
+\subsubsection{Rejected NHS Ethics and/or University Ethics}
+Every effort will be made to submit a complete ethics application through the NHS. However, in the event that there is a delay in the ethical approval process then data collection will proceed with a priority placed on the control group. Future cohorts will then have proportionally more clinical participants until the research meets it's target numbers.  
 \subsection{Ethical Considerations}
 In this section I discuss the ethical considerations related to this project and any adjustments that I have made to my research because of these considerations. I am aware of the code of human  research ethics published by the British Psychological Society \cite{Society2012} and my research has been designed in a way that fits with these guidelines.
 \subsubsection{Risk}
 I will be working with a middle-aged to elderly population who have identified in some way that there is a difficulty with cognition. However, I do not anticipate working with vulnerable groups, those lacking capacity or individuals in a dependant or unequal relationship. Should any participants I am working with lose capacity during the course of the study, I will remove that participants details and data from the study.
 \par
-\subsubsection{
+\subsubsection{Informed Consent}
 
 Need to discuss confidentiality right at the start of each conversation and to reiterate at every meeting. I will also provide an information sheet which details the confidentiality statement. The spoken confidentiality statement will be as follows.
 "Anything you say to me today will be confidential unless I feel that there is a risk to you, or someone else. If this is the case, I may need to speak to or write to third parties such as your GP. Is this ok?" \newline
@@ -510,7 +509,7 @@ In this section I provide a provisional table of contents based on the work I ha
 	\end{enumerate}
 \end{enumerate}
 
-\section{Conclusion}
+\chapter{Conclusion}
 
 \bibliographystyle{unsrt}
 \bibliography{QualifyingReport.bib}
