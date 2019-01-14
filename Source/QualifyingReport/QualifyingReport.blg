@@ -1,56 +1,25 @@
-This is BibTeX, Version 0.99d (TeX Live 2018)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: QualifyingReport.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: QualifyingReport.aux
 The style file: unsrt.bst
 Database file #1: QualifyingReport.bib
 Warning--I didn't find a database entry for "AmericanPsychiatricAssociation2013"
-Warning--I didn't find a database entry for "Le2012"
-Warning--I didn't find a database entry for "Emery2000"
 Warning--I didn't find a database entry for "Kaplan2010"
+Warning--I didn't find a database entry for "Giles1996"
+Warning--I didn't find a database entry for "Sajjadi2012"
+Warning--I didn't find a database entry for "Ash2012"
+Warning--I didn't find a database entry for "Zimmerer2016"
+Warning--I didn't find a database entry for "Orimaye2017"
+Warning--I didn't find a database entry for "Mueller2018a"
 Warning--I didn't find a database entry for "Fraser2015"
-Warning--empty journal in Sturrock2016
-Warning--empty institution in Prince2015
-Warning--empty school in Wang2016
-Warning--empty institution in Guinn2012
-You've used 24 entries,
-            1791 wiz_defined-function locations,
-            624 strings with 9316 characters,
-and the built_in function-call counts, 5778 in all, are:
-= -- 488
-> -- 340
-< -- 2
-+ -- 122
-- -- 98
-* -- 474
-:= -- 970
-add.period$ -- 71
-call.type$ -- 24
-change.case$ -- 24
-chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 213
-empty$ -- 510
-format.name$ -- 98
-if$ -- 1213
-int.to.chr$ -- 0
-int.to.str$ -- 24
-missing$ -- 20
-newline$ -- 122
-num.names$ -- 24
-pop$ -- 47
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 80
-stack$ -- 0
-substring$ -- 406
-swap$ -- 30
-text.length$ -- 2
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 4
-while$ -- 60
-width$ -- 26
-write$ -- 257
-(There were 9 warnings)
+Warning--I didn't find a database entry for "Fraser2014"
+Warning--I didn't find a database entry for "DeLira2011"
+Warning--I didn't find a database entry for "Asgari2017"
+Warning--I didn't find a database entry for "Guinn2015"
+Warning--I didn't find a database entry for "Kintsch1973"
+Warning--I didn't find a database entry for "Wang2016"
+Warning--I didn't find a database entry for "Thomas2005"
+Warning--I didn't find a database entry for "Guinn2012"
+Warning--I didn't find a database entry for "Pennebaker2015"
+Warning--I didn't find a database entry for "Le2012"
+Warning--I didn't find a database entry for "Society2012"
+Warning--there's a number but no volume in Davis2015
+(There were 21 warnings)

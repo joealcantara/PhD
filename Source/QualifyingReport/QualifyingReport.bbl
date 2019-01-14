@@ -1,5 +1,29 @@
 \begin{thebibliography}{10}
 
+\bibitem{Prince2015}
+Martin Prince, Anders Wimo, Guerchet M, Ali GC, Wu~YT, and Prina M.
+\newblock {World Alzheimer Report 2015 The Global Impact of Dementia An
+  analysis of prevalence, incidence, cost and trends}.
+\newblock {\em Alzheimer's Disease International}, 2015.
+
+\bibitem{England2009}
+{Department of Health}.
+\newblock {Living well with dementia : Dementia Strategy (England)}.
+\newblock Technical report, Department of Health, 2009.
+
+\bibitem{Taler2008}
+Vanessa Taler and Natalie~A. Phillips.
+\newblock {Language performance in Alzheimer's disease and mild cognitive
+  impairment: A comparative review}.
+\newblock {\em Journal of Clinical and Experimental Neuropsychology},
+  30(5):501--556, 2008.
+
+\bibitem{Boschi2017}
+Veronica Boschi, Eleonora Catrical{\`{a}}, Monica Consonni, Cristiano Chesi,
+  Andrea Moro, and Stefano~F. Cappa.
+\newblock {Connected speech in neurodegenerative language disorders: A review}.
+\newblock {\em Frontiers in Psychology}, 8(MAR), 2017.
+
 \bibitem{Berisha2015}
 Visar Berisha, Shuai Wang, Amy LaCross, and Julie Liss.
 \newblock {Tracking Discourse Complexity Preceding Alzheimer's Disease
@@ -7,32 +31,63 @@ Visar Berisha, Shuai Wang, Amy LaCross, and Julie Liss.
   Reagan and George Herbert Walker Bush}.
 \newblock {\em Journal of Alzheimer's Disease}, 45(3):959--963, 2015.
 
-\bibitem{Sturrock2016}
-John Sturrock.
-\newblock {Dementia UK - Second Edition}.
-\newblock 2016.
+\bibitem{McKhann2011}
+Guy~M. McKhann, David~S. Knopman, Howard Chertkow, Bradley~T. Hyman,
+  Clifford~R. Jack, Claudia~H. Kawas, William~E. Klunk, Walter~J. Koroshetz,
+  Jennifer~J. Manly, Richard Mayeux, Richard~C. Mohs, John~C. Morris, Martin~N.
+  Rossor, Philip Scheltens, Maria~C. Carrillo, Bill Thies, Sandra Weintraub,
+  and Creighton~H. Phelps.
+\newblock {The diagnosis of dementia due to Alzheimer's disease:
+  Recommendations from the National Institute on Aging-Alzheimer's Association
+  workgroups on diagnostic guidelines for Alzheimer's disease}.
+\newblock {\em Alzheimer's {\&} Dementia}, 7(3):263--269, may 2011.
 
-\bibitem{Prince2015}
-Martin Prince, Anders Wimo, M~Guerchet, Gemma-Claire Ali, Yu-Tzu Wu, and
-  Matthew Prina.
-\newblock {World Alzheimer Report 2015 The Global Impact of Dementia}.
-\newblock Technical report, 2015.
-
-\bibitem{Alzheimer2016}
-Alois Alzheimer and Alzheimer Aware.
-\newblock {The Need for Early Detection and Treatment in Alzheimer's Disease}.
-\newblock {\em EBioMedicine}, 9:1--2, 2016.
+\bibitem{AlzheimersSociety2014}
+{Alzheimer's Society}.
+\newblock {Alzheimer's Society - Dementia UK: Second edition - overview}.
+\newblock Technical report, Alzheimer's Society, 2014.
 
 \bibitem{Nestor2006}
-Peter~J Nestor, Philip Scheltens, and John~R Hodges.
-\newblock {Advances in the early detection of Alzheimer's disease}.
-\newblock {\em Nature Medicine}, 12(8):961--966, 2006.
+Peter~J. Nestor, Tim~D. Fryer, and John~R. Hodges.
+\newblock {Declarative memory impairments in Alzheimer's disease and semantic
+  dementia}.
+\newblock {\em NeuroImage}, 30(3):1010--1020, apr 2006.
+
+\bibitem{Le2011}
+Xuan Le, Ian Lancashire, Graeme Hirst, and Regina Jokel.
+\newblock {Longitudinal detection of dementia through lexical and syntactic
+  changes in writing: A case study of three British novelists}.
+\newblock {\em Literary and Linguistic Computing}, 26(4):435--461, 2011.
+
+\bibitem{Albert2011}
+Marilyn~S. Albert, Steven~T. DeKosky, Dennis Dickson, Bruno Dubois, Howard~H.
+  Feldman, Nick~C. Fox, Anthony Gamst, David~M. Holtzman, William~J. Jagust,
+  Ronald~C. Petersen, Peter~J. Snyder, Maria~C. Carrillo, Bill Thies, and
+  Creighton~H. Phelps.
+\newblock {The diagnosis of mild cognitive impairment due to Alzheimer's
+  disease: Recommendations from the National Institute on Aging-Alzheimer's
+  Association workgroups on diagnostic guidelines for Alzheimer's disease}.
+\newblock {\em Alzheimer's and Dementia}, 7(3):270--279, 2011.
 
 \bibitem{Folstein1975}
-Marshal~F. Folstein, Susan~E. Folstein, and Paul~R. McHugh.
-\newblock {"Mini-mental state". A practical method for grading the cognitive
-  state of patients for the clinician}.
-\newblock {\em Journal of Psychiatric Research}, 12(3):189--198, 1975.
+McHugh~PR {Folstein MF, Folstein SE}.
+\newblock {Mini-mental state. A grading the cognitive state of patiens for the
+  clinician}.
+\newblock {\em J Psychiatr Res}, 12:189--198, 1975.
+
+\bibitem{Grober2010}
+Ellen Grober, Amy~E. Sanders, Charles Hall, and Richard~B. Lipton.
+\newblock {Free and cued selective reminding identifies very mild dementia in
+  primary care}.
+\newblock {\em Alzheimer Disease and Associated Disorders}, 24(3):284--290,
+  2010.
+
+\bibitem{Davis2015}
+Daniel Davis, Sam Creavin, Jennifer Yip, Anna Noel-Storr, Carol Brayne, and
+  Sarah Cullum.
+\newblock {Montreal Cognitive Assessment for the diagnosis of Alzheimer's
+  disease and other dementias}.
+\newblock {\em Cochrane Database of Systematic Reviews}, (10), 2015.
 
 \bibitem{Snowdon1996}
 David~A. Snowdon, Susan~J. Kemper, James~A. Mortimer, Lydia~H. Greiner,
@@ -42,86 +97,55 @@ David~A. Snowdon, Susan~J. Kemper, James~A. Mortimer, Lydia~H. Greiner,
 \newblock {\em Journal of the American Medical Association}, 275(7):528--532,
   1996.
 
-\bibitem{Boschi2017}
-Veronica Boschi, Eleonora Catrical{\`{a}}, Monica Consonni, Cristiano Chesi,
-  Andrea Moro, and Stefano~F. Cappa.
-\newblock {Connected speech in neurodegenerative language disorders: A review},
-  2017.
+\bibitem{Emery2000}
+Olga~B. Emery.
+\newblock {Language Impairment in Dementia of the Alzheimer's Type: A
+  Hierarchical Decline?}
+\newblock {\em International Journal of Psychiatry in Medicine},
+  30(2):145--164, jul 2000.
 
-\bibitem{Giles1996}
-Elaine Giles, Karalyn Patterson, and John~R. Hodges.
-\newblock {Performance on the Boston Cookie Theft picture description task in
-  patients with early dementia of the Alzheimer's type: Missing information}.
-\newblock {\em Aphasiology}, 10(4):395--408, 1996.
+\bibitem{Randolph1998}
+Christopher Randolph, Michael~C. Tierney, Erich Mohr, and Thomas~N. Chase.
+\newblock {The Repeatable Battery for the Assessment of Neuropsychological
+  Status (RBANS): Preliminary Clinical Validity}.
+\newblock {\em Journal of Clinical and Experimental Neuropsychology
+  (Neuropsychology, Development and Cognition: Section A)}, 20(3):310--319,
+  1998.
 
-\bibitem{Sajjadi2012}
-Seyed~Ahmad Sajjadi, Karalyn Patterson, Michal Tomek, and Peter~J. Nestor.
-\newblock {Abnormalities of connected speech in semantic dementia vs
-  Alzheimer's disease}.
-\newblock {\em Aphasiology}, 26(6):847--866, 2012.
+\bibitem{Duff2010}
+Kevin Duff, Valerie~L. Hobson, Leigh~J. Beglinger, and Sid~E. O'Bryant.
+\newblock {Diagnostic accuracy of the RBANS in mild cognitive impairment:
+  Limitations on assessing milder impairments}.
+\newblock {\em Archives of Clinical Neuropsychology}, 25(5):429--441, 2010.
 
-\bibitem{Ash2012}
-S~Ash, E~Evans, J~O'Shea, K~Chandrasekaran, A~Boller, L~Burkholder, E~Camp,
-  D~Weinberg, J~Haley, K~Kitain, and C~McMillan.
-\newblock {Differentiating primary progressive aphasias in connected speech
-  production}.
-\newblock {\em Dementia and Geriatric Cognitive Disorders}, 34:246, 2012.
+\bibitem{Emrani2018}
+Sheina Emrani, David~J. Libon, Melissa Lamar, Catherine~C. Price, Angela~L.
+  Jefferson, Katherine~A. Gifford, Timothy~J. Hohman, Daniel~A. Nation, Lisa
+  Delano-Wood, Amy Jak, Katherine~J. Bangen, Mark~W. Bondi, Adam~M. Brickman,
+  Jennifer Manly, Rodney Swenson, and Rhoda Au.
+\newblock {Assessing working memory in mild cognitive impairment with serial
+  order recall}.
+\newblock {\em Journal of Alzheimer's Disease}, 61(3):917--928, 2018.
 
-\bibitem{Zimmerer2016}
-Vitor~C. Zimmerer, Mark Wibrow, and Rosemary~A. Varley.
-\newblock {Formulaic Language in People with Probable Alzheimer's Disease: A
-  Frequency-Based Approach}.
-\newblock {\em Journal of Alzheimer's Disease}, 53(3):1145--1160, 2016.
+\bibitem{Kessels2011}
+Roy~P.C. Kessels, Pieter~W. Molleman, and Joukje~M. Oosterman.
+\newblock {Assessment of working-memory deficits in patients with mild
+  cognitive impairment and Alzheimer's dementia using Wechsler's Working Memory
+  Index}.
+\newblock {\em Aging Clinical and Experimental Research}, 23(5-6):487--490,
+  2011.
 
-\bibitem{Orimaye2017}
-Sylvester~O. Orimaye, Jojo~S.M. Wong, Karen~J. Golden, Chee~P. Wong, and
-  Ireneous~N. Soyiri.
-\newblock {Predicting probable Alzheimer's disease using linguistic deficits
-  and biomarkers}.
-\newblock {\em BMC Bioinformatics}, 18(1):1--13, 2017.
+\bibitem{Kessels2015}
+Roy~P.C. Kessels, Anouk Overbeek, and Zita Bouman.
+\newblock {Assessment of verbal and visuospatial working memory in mild
+  cognitive impairment and Alzheimer's dementia}.
+\newblock {\em Dementia {\&} Neuropsychologia}, 9(3):301--305, 2015.
 
-\bibitem{Mueller2018a}
-Kimberly~D. Mueller, Rebecca~L. Koscik, Bruce~P. Hermann, Sterling~C. Johnson,
-  and Lyn~S. Turkstra.
-\newblock {Declines in connected language are associated with very early mild
-  cognitive impairment: Results from the Wisconsin Registry for Alzheimer's
-  Prevention}.
-\newblock {\em Frontiers in Aging Neuroscience}, 9(JAN):1--14, 2018.
-
-\bibitem{Fraser2014}
-Kathleen~C. Fraser, Jed~A. Meltzer, Naida~L. Graham, Carol Leonard, Graeme
-  Hirst, Sandra~E. Black, and Elizabeth Rochon.
-\newblock {Automated classification of primary progressive aphasia subtypes
-  from narrative speech transcripts}.
-\newblock {\em Cortex}, 55(1):43--60, 2014.
-
-\bibitem{DeLira2011}
-Juliana~Onofre {De Lira}, Karin~Zazo Ortiz, Aline~Carvalho Campanha, Paulo
-  Henrique~Ferreira Bertolucci, and Tha{\'{i}}s Soares~Cianciarullo Minett.
-\newblock {Microlinguistic aspects of the oral narrative in patients with
-  Alzheimer's disease}.
-\newblock {\em International Psychogeriatrics}, 23(3):404--412, 2011.
-
-\bibitem{Asgari2017}
-Meysam Asgari, Jeffrey Kaye, and Hiroko Dodge.
-\newblock {Predicting mild cognitive impairment from spontaneous spoken
-  utterances}.
-\newblock {\em Alzheimer's and Dementia: Translational Research and Clinical
-  Interventions}, 3(2):219--228, 2017.
-
-\bibitem{Guinn2015}
-Curry Guinn, Ben Singer, and Anthony Habash.
-\newblock {A comparison of syntax, semantics, and pragmatics in spoken language
-  among residents with Alzheimer's disease in managed-care facilities}.
-\newblock In {\em IEEE SSCI 2014 - 2014 IEEE Symposium Series on Computational
-  Intelligence - CICARE 2014: 2014 IEEE Symposium on Computational Intelligence
-  in Healthcare and e-Health, Proceedings}, pages 98--103, 2015.
-
-\bibitem{Kintsch1973}
-Walter Kintsch and Janice Keenan.
-\newblock {Reading rate and retention as a function of the number of
-  propositions in the base structure of sentences}.
-\newblock {\em Cognitive Psychology}, 5(3):257--274, 1973.
+\bibitem{Moradi2017}
+Elaheh Moradi, Ilona Hallikainen, Tuomo H{\"{a}}nninen, and Jussi Tohka.
+\newblock {Rey's Auditory Verbal Learning Test scores can be predicted from
+  whole brain MRI in Alzheimer's disease}.
+\newblock {\em NeuroImage: Clinical}, 13:415--427, 2017.
 
 \bibitem{Bucks2000}
 R.~S. Bucks, S.~Singh, J.~M. Cuerden, and G.~K. Wilcock.
@@ -129,29 +153,5 @@ R.~S. Bucks, S.~Singh, J.~M. Cuerden, and G.~K. Wilcock.
   Alzheimer type: Evaluation of an objective technique for analysing lexical
   performance}.
 \newblock {\em Aphasiology}, 14(1):71--91, 2000.
-
-\bibitem{Wang2016}
-Shuai Wang.
-\newblock {\em {Automatic Tracking of Linguistic Changes for Monitoring
-  Cognitive-Linguistic Health}}.
-\newblock PhD thesis, 2016.
-
-\bibitem{Thomas2005}
-C.~Thomas, V.~Keselj, N.~Cercone, K.~Rockwood, and E.~Asp.
-\newblock {Automatic detection and rating of dementia of Alzheimer type through
-  lexical analysis of spontaneous speech}.
-\newblock {\em IEEE International Conference Mechatronics and Automation,
-  2005}, 3(February 2005):1569--1574, 2005.
-
-\bibitem{Guinn2012}
-Curry Guinn and Anthony Habash.
-\newblock {Language Analysis of Speakers with Dementia of the Alzheimer's
-  Type}.
-\newblock Technical Report AAAI Technical Report FS-12-01, 2012.
-
-\bibitem{Pennebaker2015}
-James~W Pennebaker, Ryan~L Boyd, Kayla Jordan, and Kate Blackburn.
-\newblock {The Development and Psychometric Properties of LIWC2015}.
-\newblock {\em UT Faculty/Researcher Works}, 2015.
 
 \end{thebibliography}

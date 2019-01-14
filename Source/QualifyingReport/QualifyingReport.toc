@@ -1,89 +1,94 @@
-\contentsline {chapter}{\numberline {1}Overview of Problem}{9}
-\contentsline {subsection}{\numberline {1.0.1}Background}{10}
-\contentsline {subsection}{\numberline {1.0.2}Aims and Rationale}{11}
-\contentsline {subsection}{\numberline {1.0.3}Research Challenges}{11}
-\contentsline {chapter}{\numberline {2}Literature Review}{13}
-\contentsline {subsection}{\numberline {2.0.1}Introduction}{13}
-\contentsline {subsubsection}{Aims and Methodology}{17}
-\contentsline {subsection}{\numberline {2.0.2}Existing Neuropsychological Measures of Cognitive Impairment, and Repeatable Battery of Neuropsychological Tests}{17}
-\contentsline {subsubsection}{Repeatable Battery for the Assessment of Neuropsychological Status}{18}
-\contentsline {subsubsection}{Digit Span Test}{19}
-\contentsline {subsubsection}{Rey Auditory-Verbal learning test}{19}
-\contentsline {subsubsection}{Digit Symbol Substitution Test}{19}
-\contentsline {subsubsection}{Corsi Block Tapping Task}{20}
-\contentsline {subsubsection}{Verbal Fluency}{20}
-\contentsline {subsubsection}{Naming Tests}{21}
-\contentsline {subsubsection}{Rey-Osterrieth Complex Figure Task}{21}
-\contentsline {subsubsection}{Hayling Sentence Completion Test}{22}
-\contentsline {subsubsection}{Grooved Pegboard Test}{22}
-\contentsline {subsubsection}{Visual Search}{23}
-\contentsline {subsubsection}{Free Cued Selective Reminding Test}{23}
-\contentsline {subsubsection}{Conclusion}{24}
-\contentsline {subsection}{\numberline {2.0.3}Types of Language Assessment}{24}
-\contentsline {subsubsection}{Picture Description Tasks}{24}
-\contentsline {subsubsection}{Narrative description task}{25}
-\contentsline {subsubsection}{Interviews}{26}
-\contentsline {subsection}{\numberline {2.0.4}How do we analyse language, issues and debates}{26}
-\contentsline {subsubsection}{Single Word Language tasks vs Connected Language tasks}{26}
-\contentsline {subsubsection}{Semantics vs Pragmatics}{27}
-\contentsline {subsection}{\numberline {2.0.5}Semantic Content}{27}
-\contentsline {subsubsection}{Picture-related content thematic elements}{27}
-\contentsline {subsubsection}{General Information Units}{29}
-\contentsline {subsubsection}{Conciseness of information}{29}
-\contentsline {subsubsection}{Efficiency}{29}
-\contentsline {subsubsection}{Lexical richness and diversity}{30}
-\contentsline {subsubsection}{Type token ratio(TTR)}{30}
-\contentsline {subsubsection}{Brunet's Index(W)}{30}
-\contentsline {subsubsection}{Honore's Statistic (R)}{30}
-\contentsline {subsubsection}{Quantity - Total number of words}{30}
-\contentsline {subsection}{\numberline {2.0.6}Syntax and Morphology (Language Form)}{31}
-\contentsline {subsubsection}{N-grams}{31}
-\contentsline {subsubsection}{Mean length of utterance (MLU)}{32}
-\contentsline {subsubsection}{Proportion of verbs to nouns plus verbs}{32}
-\contentsline {subsubsection}{Syntactic Complexity - Composite measures of MLU, syntactic errors and verbs}{32}
-\contentsline {subsubsection}{Formulaic Language}{32}
-\contentsline {subsection}{\numberline {2.0.7}Pragmatic Language}{32}
-\contentsline {subsubsection}{Questions, turn-taking, unsure statements, egocentric comments}{33}
-\contentsline {subsubsection}{Coherence}{33}
-\contentsline {subsubsection}{Perseveration}{33}
-\contentsline {subsubsection}{Speech intonation / prosody}{33}
-\contentsline {subsubsection}{Discourse Fluency}{34}
-\contentsline {subsubsection}{Speech Monitoring}{34}
-\contentsline {subsection}{\numberline {2.0.8}Conclusions}{35}
-\contentsline {subsection}{\numberline {2.0.9}State of literature into Natural Language processing techniques}{35}
-\contentsline {subsubsection}{Traditional methods of Machine Learning and Natural Language Processing}{35}
-\contentsline {subsubsection}{Deep Learning}{35}
-\contentsline {subsection}{\numberline {2.0.10}Discussion}{35}
-\contentsline {subsection}{\numberline {2.0.11}Conclusions and Future Work}{36}
-\contentsline {subsubsection}{Future Work}{37}
-\contentsline {chapter}{\numberline {3}Initial Study of the Presidents corpus}{39}
-\contentsline {subsection}{\numberline {3.0.1}Background}{39}
-\contentsline {subsection}{\numberline {3.0.2}Methods}{39}
-\contentsline {subsubsection}{Pre-processing}{40}
-\contentsline {subsubsection}{Feature Selection}{40}
-\contentsline {subsection}{\numberline {3.0.3}Results}{40}
-\contentsline {subsection}{\numberline {3.0.4}Discussion}{40}
-\contentsline {subsection}{\numberline {3.0.5}Conclusion}{40}
-\contentsline {chapter}{\numberline {4}Future Work}{41}
-\contentsline {subsection}{\numberline {4.0.1}Introduction}{41}
-\contentsline {subsection}{\numberline {4.0.2}Additional Research Aims and Objectives}{41}
-\contentsline {subsection}{\numberline {4.0.3}Additional Research Challenges}{41}
-\contentsline {subsection}{\numberline {4.0.4}Project Plan and Task Definition}{41}
-\contentsline {subsubsection}{Task 2 - Pilot Study for the Neuropsychological Battery of Tests}{41}
-\contentsline {subsubsection}{Task 3 - Exploration of language with the DementiaBank dataset}{41}
-\contentsline {subsubsection}{Task 4 - Longditunal Study}{42}
-\contentsline {subsubsection}{Task 5 - Analysis of performance and validation of proposed Repeatable Neuropsychological Battery of Tests}{42}
-\contentsline {subsubsection}{Task 6 - Thesis Writing}{42}
-\contentsline {subsection}{\numberline {4.0.5}Risk Assessment}{42}
-\contentsline {subsubsection}{Delay in data collection}{42}
-\contentsline {subsubsection}{Rejected Publications}{43}
-\contentsline {subsubsection}{Rejected NHS Ethics and/or University Ethics}{43}
-\contentsline {subsection}{\numberline {4.0.6}Ethical Considerations}{43}
-\contentsline {subsubsection}{Risk}{43}
-\contentsline {subsubsection}{Informed Consent}{43}
-\contentsline {subsubsection}{What if someone reveals suicidal ideation or other risks?}{44}
-\contentsline {subsection}{\numberline {4.0.7}Thesis - Provisional Table of Contents}{44}
-\contentsline {chapter}{\numberline {5}Conclusion}{47}
-\contentsline {section}{\numberline {.1}Title of Appendix A}{51}
-\contentsline {section}{\numberline {.2}Title of Appendix B}{51}
-\contentsline {section}{\numberline {.3}Title of Appendix C}{51}
+\contentsline {chapter}{\numberline {1}Overview of Problem}{6}
+\contentsline {section}{\numberline {1.1}Aims and Rationale}{7}
+\contentsline {chapter}{\numberline {2}Literature Review}{9}
+\contentsline {section}{\numberline {2.1}Introduction}{9}
+\contentsline {subsection}{\numberline {2.1.1}Aims and Methodology}{13}
+\contentsline {subsection}{\numberline {2.1.2}Existing Neuropsychological Measures of Cognitive Impairment, and Repeatable Battery of Neuropsychological Tests}{13}
+\contentsline {subsubsection}{Repeatable Battery for the Assessment of Neuropsychological Status}{15}
+\contentsline {subsubsection}{Digit Span Test}{15}
+\contentsline {subsubsection}{Rey Auditory-Verbal learning test}{16}
+\contentsline {subsubsection}{Digit Symbol Substitution Test}{16}
+\contentsline {subsubsection}{Corsi Block Tapping Task}{17}
+\contentsline {subsubsection}{Verbal Fluency}{17}
+\contentsline {subsubsection}{Naming Tests}{17}
+\contentsline {subsubsection}{Rey-Osterrieth Complex Figure Task}{18}
+\contentsline {subsubsection}{Hayling Sentence Completion Test}{19}
+\contentsline {subsubsection}{Grooved Pegboard Test}{19}
+\contentsline {subsubsection}{Visual Search}{20}
+\contentsline {subsubsection}{Free Cued Selective Reminding Test}{20}
+\contentsline {subsubsection}{Conclusion}{20}
+\contentsline {subsection}{\numberline {2.1.3}Types of Language Assessment}{21}
+\contentsline {subsubsection}{Picture Description Tasks}{21}
+\contentsline {subsubsection}{Narrative description task}{22}
+\contentsline {subsubsection}{Interviews}{23}
+\contentsline {subsection}{\numberline {2.1.4}How do we analyse language, issues and debates}{23}
+\contentsline {subsubsection}{Single Word Language tasks vs Connected Language tasks}{23}
+\contentsline {subsubsection}{Semantics vs Pragmatics}{24}
+\contentsline {subsection}{\numberline {2.1.5}Semantic Content}{24}
+\contentsline {subsubsection}{Picture-related content thematic elements}{24}
+\contentsline {subsubsection}{General Information Units}{26}
+\contentsline {subsubsection}{Conciseness of information}{26}
+\contentsline {subsubsection}{Efficiency}{26}
+\contentsline {subsubsection}{Lexical richness and diversity}{27}
+\contentsline {subsubsection}{Type token ratio(TTR)}{27}
+\contentsline {subsubsection}{Brunet's Index(W)}{27}
+\contentsline {subsubsection}{Honore's Statistic (R)}{27}
+\contentsline {subsubsection}{Quantity - Total number of words}{27}
+\contentsline {subsection}{\numberline {2.1.6}Syntax and Morphology (Language Form)}{28}
+\contentsline {subsubsection}{N-grams}{28}
+\contentsline {subsubsection}{Mean length of utterance (MLU)}{28}
+\contentsline {subsubsection}{Proportion of verbs to nouns plus verbs}{29}
+\contentsline {subsubsection}{Syntactic Complexity - Composite measures of MLU, syntactic errors and verbs}{29}
+\contentsline {subsubsection}{Formulaic Language}{29}
+\contentsline {subsection}{\numberline {2.1.7}Pragmatic Language}{29}
+\contentsline {subsubsection}{Questions, turn-taking, unsure statements, egocentric comments}{29}
+\contentsline {subsubsection}{Coherence}{30}
+\contentsline {subsubsection}{Perseveration}{30}
+\contentsline {subsubsection}{Speech intonation / prosody}{30}
+\contentsline {subsubsection}{Discourse Fluency}{31}
+\contentsline {subsubsection}{Speech Monitoring}{31}
+\contentsline {subsection}{\numberline {2.1.8}Conclusions}{32}
+\contentsline {subsection}{\numberline {2.1.9}State of literature into Machine Learning and Natural Language processing techniques}{32}
+\contentsline {subsubsection}{Traditional methods of Machine Learning}{32}
+\contentsline {subsubsection}{The case for Deep Learning}{33}
+\contentsline {subsection}{\numberline {2.1.10}Conclusions}{33}
+\contentsline {subsection}{\numberline {2.1.11}Discussion}{33}
+\contentsline {subsection}{\numberline {2.1.12}Conclusions and Future Work}{33}
+\contentsline {subsubsection}{Future Work}{34}
+\contentsline {chapter}{\numberline {3}Initial Study of the Presidents corpus}{36}
+\contentsline {section}{\numberline {3.1}Background}{36}
+\contentsline {section}{\numberline {3.2}Methods}{36}
+\contentsline {subsection}{\numberline {3.2.1}Pre-processing}{37}
+\contentsline {subsection}{\numberline {3.2.2}Feature Selection}{37}
+\contentsline {section}{\numberline {3.3}Results}{37}
+\contentsline {section}{\numberline {3.4}Discussion}{37}
+\contentsline {section}{\numberline {3.5}Conclusion}{37}
+\contentsline {chapter}{\numberline {4}Future Work}{38}
+\contentsline {section}{\numberline {4.1}Introduction}{38}
+\contentsline {section}{\numberline {4.2}Research Aims and Objectives}{38}
+\contentsline {section}{\numberline {4.3}Research Challenges}{39}
+\contentsline {subsection}{\numberline {4.3.1}Data Collection}{39}
+\contentsline {subsection}{\numberline {4.3.2}Commonality of MCI}{39}
+\contentsline {section}{\numberline {4.4}Project Plan and Task Definition}{39}
+\contentsline {subsection}{\numberline {4.4.1}Task 1 - Replication and Extension of language analysis in the Presidents Speeches Dataset}{39}
+\contentsline {subsection}{\numberline {4.4.2}Task 2 - Pilot Study for the Neuropsychological Battery of Tests}{39}
+\contentsline {subsection}{\numberline {4.4.3}Task 3 - Exploration of language with the DementiaBank dataset}{39}
+\contentsline {subsection}{\numberline {4.4.4}Task 4 - Longditunal Study}{40}
+\contentsline {subsubsection}{Participants}{40}
+\contentsline {subsection}{\numberline {4.4.5}Task 5 - Analysis of performance and validation of proposed Repeatable Neuropsychological Battery of Tests}{40}
+\contentsline {subsection}{\numberline {4.4.6}Task 6 - Thesis Writing}{40}
+\contentsline {section}{\numberline {4.5}Skills Development}{40}
+\contentsline {section}{\numberline {4.6}Risk Assessment}{40}
+\contentsline {subsection}{\numberline {4.6.1}Delay in data collection}{41}
+\contentsline {subsection}{\numberline {4.6.2}Rejected Publications}{41}
+\contentsline {subsection}{\numberline {4.6.3}Rejected NHS Ethics and/or University Ethics}{41}
+\contentsline {section}{\numberline {4.7}Ethical Considerations}{41}
+\contentsline {subsection}{\numberline {4.7.1}Risk}{41}
+\contentsline {subsection}{\numberline {4.7.2}Informed Consent}{42}
+\contentsline {subsection}{\numberline {4.7.3}Confidentiality}{42}
+\contentsline {subsection}{\numberline {4.7.4}Disclosure of suicidal ideation or other risks}{42}
+\contentsline {section}{\numberline {4.8}Thesis - Provisional Table of Contents}{43}
+\contentsline {chapter}{\numberline {5}Conclusion}{45}
+\contentsline {section}{\numberline {.1}Title of Appendix A}{48}
+\contentsline {section}{\numberline {.2}Title of Appendix B}{48}
+\contentsline {section}{\numberline {.3}Title of Appendix C}{48}
