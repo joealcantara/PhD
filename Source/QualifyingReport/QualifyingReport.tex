@@ -30,7 +30,6 @@
 \tableofcontents
 \newpage
 \listoftables
-\newpage
 \listoffigures
 \newpage
 \chapter{Overview of Problem}
@@ -46,10 +45,9 @@ This report is structured in the following way. The context of the project, the 
 \section{Aims and Rationale}
 The aim of my research is to find less burdensome ways of detecting dementia without the use of invasive procedures (taking bloods, or using medical equipment such as MRI's and EEG's) and without resorting to to time-consuming and expensive psychological tests. There is a lot of research into the analysis of language as a bio-marker for MCI and Early Dementia. Given that sampling a person's language is relatively effortless, my research looks at whether we can find bio-markers of MCI and Early Dementia in natural language.\newline
 Concerns: Language and Memory are quite naturally intertwined and it would be difficult to test one without some reliance on the other. I'm not going to control for memory problems as a potential confound, but does this weaken the research? How do I defend this? \newline
-The broad question is can we use Machine Learning to assist in the early diagnosis of dementia and/or mild cognitive impairment through language produced naturally rather than language that is produced as part of a formal cognitive assessment. There have been a number of studies from the psychological perspective that look at the changes in language in those with Dementia. These studies have identified a number of speech and language differences between healthy controls and those with dementia. Some of these features have been validated in work using machine learning to classify healthy controls from those with dementia. However, these have been done in lab settings, with formal cognitive assessment tasks such as the 'picture description task'. While this is help to learn that machine learning can be used to differentiate between healthy controls and those with dementia, this doesn't take the burden off healthcare professionals who have to conduct the assessments and other professionals who may be used to transcribe these assessments. \newline
+The broad question is can we use Machine Learning to assist in the early diagnosis of dementia and/or mild cognitive impairment through language produced naturally rather than language that is produced as part of a formal cognitive assessment. There have been a number of studies from the psychological perspective that look at the changes in language in those with Dementia. These studies have identified a number of speech and language differences between healthy controls and those with dementia. Some of these features have been validated in work using machine learning to classify healthy controls from those with dementia. However, these have been done in lab settings, with formal cognitive assessment tasks such as the 'picture description task'. While this is help to learn that machine learning can be used to differentiate between healthy controls and those with dementia, this doesn't take the burden off healthcare professionals who have to conduct the assessments and other professionals who may be used to transcribe these assessments.
 \par
-Machine Learning itself is undergoing a shift in focus at the present time. I will describe this shift using the context of my proposed research. In traditional machine learning, the transcripts from cognitive assessments are used to generate features such as idea density. These features are then used to classify patients. A company in Toronto, Canada has taken this approach and currently uses over 400 acoustic and language features to make this classification and to generate a psuedo MMSE score. \newline
-
+Machine Learning itself is undergoing a shift in focus at the present time. I will describe this shift using the context of my proposed research. In traditional machine learning, the transcripts from cognitive assessments are used to generate features such as idea density. These features are then used to classify patients. A company in Toronto, Canada has taken this approach and currently uses over 400 acoustic and language features to make this classification and to generate a psuedo MMSE score.
 
 \chapter{Literature Review}
 \section{Introduction}
@@ -235,6 +233,25 @@ When navigating the English language it is necessary to distinguish between what
 \subsection{Semantic Content}
 Another approach to linguistic analysis in this field is the idea of measuring semantic content and complexity. According to Emery (2000) \cite{Emery2000} in which she states that Semantic and Syntactic skills deteriorate first in people with MCI and AD. If this is true, then psychological measures of semantic and syntactic skills should be able to pick up signs of deterioration and act as markers for possible MCI and AD. An example of a semantic complexity measure is the concept of idea density. Formally, idea density is defined as the average number of propositions per sentence \cite{Kintsch1973} and this was used to successfully differentiate between people who would later go on to develop AD \cite{Snowdon1996}. Some examples of semantic content measures are Type to Token Ratio, Brunet's Index and Honore's Statistic  which are used to measure the lexical diversity of a given piece of text and/or utterance.  This has also shown to be effective in differentiating between MCI, AD and Controls, with those with language impairments \cite{Bucks2000} and this has carried through in research involving machine learning \cite{Wang2016, Thomas2005}.
 \par
+\subsubsection{Type token ratio(TTR)}
+Type token ratio (TTR) is the ratio obtained by dividing the types (The total number of different words) by the tokens (the total number of words in an utterance).
+\begin{equation} \label{x1}
+TTR = numberOfUniqueWords / totalNumberOfWords.
+\end{equation}
+\subsubsection{Brunet's Index(W)} % Don't forget to cite the original article.
+Brunet's Index (W) differentiates itself for TTR, as it is not impacted by the length of the text itself. Brunet's Index is defined by the following equation:
+\begin{equation} \label{x2}
+W = N^{V(-0.165)}
+\end{equation}
+where N is the total length of the utterance being measured and V is equal to the total vocabulary being used by the subject. Brunet's Index usually has a score of between 10 and 20, with high numbers indicating a more rich vocabulary compared to low numbers. \newline
+\par
+\subsubsection{Honore's Statistic (R)} % Don't forget to cite the original article.
+Honore's Statistic is based on the idea that vocabulary richness is implied when a speaker uses a greater amount of unique words. This is indicated by the following equation:
+\begin{equation} \label{x3}
+%% Check to see if this is accurate.
+R = (100 \log N) / (1 - V1/V)
+\end{equation}
+where v1 is equal to the number of unique words, V is the total vocabulary used and N is the total number of words in the utterance being measured.
 \subsubsection{Picture-related content thematic elements}
 Several studies examined the amount of thematic elements expressed that were directly relevant to picture stimulus in picture description tasks. The studies used a variety of phrases to denote these thematic elements, these included 'pictorial themes', 'relevant observations and 'semantic units' but are notionally similar. The only difference was the number of thematic elements that 'scored' for the studies in question. Nicholas et al identified eight thematic elements of the Cookie Theft picture and used the number of elements as an outcome measure in different groups. He found that patients with AD expressed significantly fewer content elements than controls.
 \par
@@ -259,26 +276,6 @@ Ahmed, de Jager et al examined idea density with patients who had confirmed AD p
 \par
 \subsubsection{Efficiency}
 Efficiency is the rate at which meaningful information is conveyed over time, calculated by dividing the total number of information units by the duration in seconds of the speech sample. Smith et al, 1989 found that 18 adults with moderately severe AD produced fewer content units per minute on average than controls, and attributed this different to increased circumlocutions and repetitions. Murray 2010, used an analogous measure which he called "performance deviations per minute", in which fillers, irrelevant words, revisions or false stars, vague or non-specific vocabulary and inaccurate output (e.g. paraphasias) were divided by the total number of minutes in the speech sample; this measure was lower for those with AD than those with depression, and also healthy controls. The authors suggested that discourse information measures may help disentangle the similarities in symptoms of early AD versus depression in older adults. Guinn (2012, 2015) \cite{Guinn2012, Guinn2015} found that 'Go-ahead utterances' - instances in dialogue in which a speaker provides responsees do not add anything in a conversation beyond a minimal response, were significantly more frequent in those with AD than healthy controls.
-\subsubsection{Lexical richness and diversity}
-\subsubsection{Type token ratio(TTR)}
-Type token ratio (TTR) is the ratio obtained by dividing the types (The total number of different words) by the tokens (the total number of words in an utterance).
-\begin{equation} \label{x1}
-TTR = numberOfUniqueWords / totalNumberOfWords.
-\end{equation}
-\subsubsection{Brunet's Index(W)} % Don't forget to cite the original article.
-Brunet's Index (W) differentiates itself for TTR, as it is not impacted by the length of the text itself. Brunet's Index is defined by the following equation:
-\begin{equation} \label{x2}
-W = N^{V(-0.165)}
-\end{equation}
-where N is the total length of the utterance being measured and V is equal to the total vocabulary being used by the subject. Brunet's Index usually has a score of between 10 and 20, with high numbers indicating a more rich vocabulary compared to low numbers. \newline
-\par
-\subsubsection{Honore's Statistic (R)} % Don't forget to cite the original article.
-Honore's Statistic is based on the idea that vocabulary richness is implied when a speaker uses a greater amount of unique words. This is indicated by the following equation:
-\begin{equation} \label{x3}
-%% Check to see if this is accurate.
-R = (100 \log N) / (1 - V1/V)
-\end{equation}
-where v1 is equal to the number of unique words, V is the total vocabulary used and N is the total number of words in the utterance being measured.
 \subsubsection{Quantity - Total number of words}
 Several studies report that adults with moderate AD produce fewer words than controls on picture description, however other studies found no differences in total words among groups of controls and patients with MCI or AD. Murray and Nicholas et al investigated normal controls, patients with AD and older adults with depression and found no group differences in total words. In contrast, Lira 2014 found that controls produced more total words than patients with AD but found no difference between mild and moderate groups.
 \par
@@ -373,14 +370,16 @@ The recent resurgence in the use of neural networks and deep learning is because
 \par
 This area of research is extremely promising in its early results and the impact of successful research would be life changing for both individuals and the health of the worlds aging population in general.
 \par 
-As described above, there is a large gap in the knowledge of how, and it what circumstances does MCI progress to AD as well as how best to assess MCI over time and at this time, to the authors knowledge, there is no consensus in how to approach these two problems. Teng et al suggests that work should focus on the MCI population and concentrate on developing a consensus neuropsychological battery that could yield predictable rates of progression to AD. This, and with the development of a model of language, sensitive enough to detect subtle deterioration in language use to act as an additional cognitive marker to aid diganosis could potentially move some way to providing this.
+As described above, there is a large gap in the knowledge of how, and it what circumstances does MCI progress to AD as well as how best to assess MCI over time and at this time, to the authors knowledge, there is no consensus in how to approach these two problems. Teng et al suggests that work should focus on the MCI population and concentrate on developing a consensus neuropsychological battery that could yield predictable rates of progression to AD. This, and with the development of a model of language, sensitive enough to detect subtle deterioration in language use to act as an additional cognitive marker to aid diagnosis could potentially move some way to providing this.
 \par 
 % McGuiness - Predicting conversion to dementia in a memory clinic: A standard clinical approach compared with an empirically defined clustering method (latent profile analysis) for mild cognitive impairment subtyping.
 
 
 \chapter{Initial Study of the Presidents corpus}
 \section{Background}
-
+There has been a significant research in the area of language deterioration as a means of detecting Alzheimer's Disease. This usually takes the form analysis of speech recorded as part of a cognitive assessment such as the Picture Description Task \cite{Orimaye2008}. Given that language samples are the relatively easy to collect, research has moved towards analysis of spontaneous speech. An good example of this type of research is the study conducted by Berisha and Liss which looked at the differences in language use between two US presidents, Ronald Reagan (who would go on to receive a diagnosis of Dementia) and George H.W. Bush who acted as a matched control based on Age \citep{Berisha2015}. They found several differences in language use which they felt acted as indicators of Reagan's difficulties with language due to dementia. These significant differences were in the number of unique words used per speech, the use of non-specific nouns and fillers and low-imageability verbs \citep{Berisha2015}. 
+/par   
+This study replicates work done by Berisha and Liss and extends this by adding Donald Trump as an alternative, more appropriate comparison to Ronald Reagan as he is much closer in age than George H.W. Bush. This experiment will look at the features originally identified by Berisha and Liss, as well as any others that have potential as discussed in the literature review above. 
 \section{Methods}
 I took 46 transcripts of Ronald Reagan’s (RR) press conferences from 1981 to 1988 and compared them with 134 press conferences by George H. W. Bush (GHWB) and 25 press conferences conducted by Donald J. Trump (DJT).  I analyzed transcripts for lexical features shown to change longitudinally with dementia  (for a comprehensive review of these, see the literature review above). For this collection of documents, I generated a number of features which looked at a number of different aspects of each document. These features encompassed, word level, sentence level and document level features and included a number of features contained in the study by Berisha and Liss with the aim of replicating and extending on their findings. These findings were. number of unique words, non-specific nouns and fillers and low imageability (LI) verbs. Imageability is characterized, according to Berisha and Liss, as the ease with which a term gives rise to a sensory .mental image. I compared the trends described in the transcripts of RR and GHWB, but also included DT. Berisha and Liss originally made the comparison as it GHWB (GHWB - age at the start of presidency - 64 years, 222 days) was the closest match to RR in terms of age (RR  - age at the start of presidency, 69 yeaars and 349 days). However, with the inauguration of Trump, he now is the closest comparible president in terms of age (DJT - age at the start of presidency - 70 years, 220 days). It would be interesting to look at a comparison of RR and DJT to see whether the comparisons made by Berisha and Liss hold true with this more appropriate match (in terms of age). DJT as with GHWB has no known diagnosis of AD. I used the press conference transcripts in the American Presidency Project (APP) archive as a data source for this project. The APP is a comprehensive and organized searchable database of presidential documents, including transcripts of speeches, transcripts of news conferences, and other public documents.
 \subsection{Pre-processing}
@@ -397,7 +396,7 @@ To generate the files necessary for analysis, I downloaded each transcript and p
 This section looks at my research aims and objectives given the literature review presented above. This section will then go on to explore any challenges to my research. I then present the work I have planned for the next two years, divided into distinct tasks with their own aims and objectives. As part of this I will identify target conferences where I could present my work. Finally, I look at potential risks and ethical concerns that may occur as part of my research.
 \section{Research Aims and Objectives}
 \par
-The broad aim of my research is to explore whether the application of Natural Language Processing and Machine Learning techniques to spontaneous speech samples can improve our ability to diagnose Mild Cognitive Impairment in patients that will directly lead to Alzheimer's Disease. An additional outcome of my research is the development of a repeatable battery of neuropsychological tests that specifically focus on being sensitive to Mild Cognitive Impairment.
+The broad aim of my research is to explore whether the application of Natural Language Processing and Machine Learning techniques to spontaneous speech samples can improve our ability to diagnose Mild Cognitive Impairment in patients that will directly lead to Alzheimer's Disease. Another aim of my research is to provide some clarity as to which language features are most important to measure when looking for evidence of MCI and/or AD. Finally, an additional outcome of my research is the development of a repeatable battery of neuropsychological tests that specifically focus on being sensitive to Mild Cognitive Impairment.
 \begin{itemize}
 	\item \textbf{Hypothesis} Is monitoring language samples and other measures of cognitive decline over the course of the year enough to detect cognitive decline in a population of those with Subjective Cognitive Decline and Mild Cognitive Impairment.
 	\item \textbf{Hypothesis} Those with MCI will show a different language profile to controls if matched similarly for age, gender, education and other significant factors.
@@ -407,51 +406,57 @@ The broad aim of my research is to explore whether the application of Natural La
 
 \section{Research Challenges}
 \subsection{Data Collection}
+
 \subsection{Commonality of MCI}
 
-\section{Project Plan and Task Definition}
-\subsection{Task 1 - Replication and Extension of language analysis in the Presidents Speeches Dataset}
+\subsection{Sparsity of Language}
 
+\section{Project Plan and Task Definitions}
+In this section, I describe each task in detail along with a projected timeline depicted in a Gantt chart.
 \subsection{Task 2 - Pilot Study for the Neuropsychological Battery of Tests}
-I recruited a cohort of 4 volunteers which which to complete the battery of Neuropsychological tests. We compiled a series of tests (see literature review for a comprehensive list, explanation and rationale for each test) and completed each version of the test on three consequetive days. The results of which were compiled and analysed. The hypothesis is that there would be no difference in performance between one battery of tests and another. An additional hypothesis is that the language tasks included on each task would be enough to collect an appropriate sample for linguistic analysis, such that we may be able to detect cognitive decline in a clinical population. \newline
-\subsection{Task 3 - Exploration of language with the DementiaBank dataset}
-
-
-Aim: To replicate and extend the work by Berisha and Liss. To use traditional machine learning techniques to test whether they can differentiate between Reagan, Bush and Trump using similar features. To test to see whether Deep Learning can also differentiate between the three. \newline
-Dataset: the presidential press conferences given by Presidents Ronald Reagan, George H.W. Bush and Donald Trump. \newline
-Paper: This experiment replicates work done by Berisha and Liss and extends this by adding Donald Trump as an alternative comparison to Ronald Reagan. This experiment will look at the features originally recommended by Berisha and Liss, as well as any others that have potential as discussed in the literature review above. \newline
-Aim: To replicate the work by Le et al. To use traditional machine learning techniques to see if it can differentiate between the three authors using similar features. To test to see whether deep learning can also differentiate between the three. To add 'pre-trained' layers from Presidential Debates experiment to see if this improves accuracy. \newline
-Dataset is the literary novels of Iris Murdoch, Agatha Christie and P.D. James. \newline
-Paper:
-Aim: To replicate and extend the work of Orimaye et al. To use traditional machine learning techniques to see if it can categorise people into dementia or healthy categories using the samples given. To see whether can use pre-trained layer from presidential debates to improve accuracy. It doesn't seem relevant to use pretrained layer from Experiment four, but it might be worth looking at the results of this. \newline
-Dataset: The DementiaBank Corpus. \newline
-Paper: To replicate and extend the work of Orimaye et al. To compare traditional machine learning techniques (already completed by Orimaye) and deep learning. \newline
-
+The aim of this study is complete a trial run of the administration of a new battery of Neuropsychological Battery of Tests. We aim to find out whether the tests in question generate enough language so that features such as those generated in Task 1 are meaningful and can be used as language markers that can then be tracked over time. We also aim to look at whether there are significant practice effects between three versions of these tests with a gap of seven days between each test.
+\par 
+We compiled a series of tests which look a number of cognitive functions which have previously demonstrated a level of effectiveness at discriminating an MCI population from a healthy population (see literature review for a comprehensive list, explanation and rationale for each test). In addition to these tests, we have incorporated two language tasks in which a participants ability to generate spontaneous speech that we can then use to further analyse. As a planned future study is longitudinal, it is important that this battery of tests is repeatable but does not have significant practice effects that may interfere with our ability to track cognitive decline.
+\par 
+We have recruited a cohort of 4 volunteers who will complete the battery of Neuropsychological tests on three separate days with a gap of at least seven days between each administration. The results of which will compiled and analysed. Our hypothesis is that there would be no difference in performance between one battery of tests and another. An additional hypothesis is that the language tasks included on each test would be enough to collect an appropriate sample for linguistic analysis such that we may be able to detect cognitive decline in a clinical population.
+\par 
+While the study in itself is not valid for submission to a conference or journal, it is hoped that the results of the study will allow subsequent studies using the same or adjusted battery of tests to be published.
+\subsection{Task 3 - Exploration of language with the DementiaBank dataset and Three Authors dataset.}
+The aim of this task is to replicate and extend the work of Fraser and Orimaye who both looked at the DementiaBank dataset and set out to use traditional machine learning techniques to see whether they could categorise people into dementia or healthy categories using the samples given. We also aim to replicate and extend the work of Le et al who used electronic versions of the novels of three authors. Both datasets are longitudinal and have been shown to track language decline over time in different ways.
+\par 
+The DementiaBank dataset was a product of a longitudinal study which was run by the University of Pittsburgh School of Medicine. The dataset contains transcripts of interviews conducted with participants with MCI / AD and other forms of dementia. These interviews were conducted in English and used the cookie-theft picture language task (see Literature Review for a full description). The full data set consists of 314 patients classified as having dementia and 242 patients who are classified as healthy and these patients are tested on a minimum of two separate occasions. 
+\par 
+The Three Authors dataset includes the novels of P.D. James, Agatha Christie and Iris Murdoch. It contains twenty of Murdoch's novels which were published between the ages of 35 and 76, sixteen of Christie's novels written between the ages of 28 and 82 and fifteen of P.D. James novels written between the ages of 42 and 82. These three authors are notable as Murdoch had a confirmed diagnosis of Dementia after her death, Christie had a suspected diagnosis of Dementia and P.D. James was used as a control.  
+\par 
+These two existing datasets in addition to the President's Press Conference corpus described above will provide three sources of validation of features that we generate as well as give us clues as how to best process the data we receive from our longitudinal study. 
+\par 
+The final output of this task will be a paper which looks at the importance of various word-level and sentence-level features in the deterioration of language for people with AD. The target conference for this work is the UK Alzheimer's Research conference in March 2020 with an expected Abstract submission date of December 2019 and the Student Research Workshop of the ACL in July 2020 with an expected submission date of April 2020.
 \subsection{Task 4 - Longditunal Study}
-
-The aim is to recruit a set of 50 participants with MCI / Early Dementia (diagnosed or undiagnosed) and a set of 50 controls with a similar age and broadly similar educational background (a known potential confound in assessing cognitive decline). The rationale for recruiting this number is that there will be an expected drop out rate and so
-Paper:
-
-\subsubsection{Participants}
-We are looking at a number of people with subjective MCI and a diagnosis of MCI.
-
-
-
-\subsection{Task 5 - Analysis of performance and validation of proposed Repeatable Neuropsychological Battery of Tests}  
+Previously we have looked at historical datasets, the aim of this task is see whether a formalised collection of specific data, namely our language tasks are enough to be able to be able to detect cognitive decline in participants at different stages of the MCI / Alzheimer's disease progression. To this end, we plan on administering our neuropsychological battery of tests from Task 2 to each participant three times (six monthly intervals) over the course of the year. 
+\par 
+We therefore plan to recruit a set of 80 participants divided evenly into four groups. These groups are Healthy Older Controls (HOC), Early Alzheimers (EA), Subjective Mild Cognitive Impairment (SMCI) and Diagnosed Mild Cognitive Impairment (DMCI). We expect to see typical age related decline in our HOC group and more dramatic decline in our EA group. We are most interested to see if there is any measurable language decline in the SMCI or DMCI experimental groups.
+\par 
+Whilst we have divided participants into experimental groups we aim to investigate each participant individually. Because there is a large amount of heterogeneity in this population, we will initially be analysing each participants results in isolation with the participant acting as their own control. However, we will also be exploring the use of traditional machine learning and/or deep learning across cohorts to investigate whether each cohort has their own distinct 'language profile'.
+\par 
+The final output of this task will be a paper discussing the results of our longitudinal study from an language analysis perspective. The target conference for this work will be the UK Alzheimer's Research conference in March 2021 with an expected submission date of December 2020, the Alzheimer's Association International Conference in July 2021 with an expected submission date of January 2021 and the Association of Computational Linguistics Conference (ACL) in July 2021 with an expected submission date of March 2021.
+\subsection{Task 5 - Analysis of performance and validation of the proposed Repeatable Neuropsychological Battery of Tests}  
+In this task, I will be looking at the results of the neuropsychological battery of tests without the additional language tasks to determine whether we can detect cognitive decline. 
+\par 
+We expect to see typical age related decline in our HOC group and more severe decline in our EA group. Once again, we will be interested in whether there is any measurable decline in our SMCI or DMCI experimental groups with our battery of tests.
+\par 
+The final output of this task will be a paper discussing the results of the battery of tests, including how the battery does in terms of diagnostic and prognostic utility. The target conference for this work is to be decided. 
 
 \subsection{Task 6 - Thesis Writing}
 The writing of the thesis, including additional over-running data analysis is planned for the last six months of the project (Oct '20 to Mar '21).
-
-\section{Skills Development}
 
 \section{Risk Assessment}
 In this section, I look at the potential difficulties that may produce a delay to the proposed research, define any strategies that have already been put in place to account for this as well as define any other potential solutions.
 \subsection{Delay in data collection}
 When working with a clinical population, the collection of data can be subject to delays. This can be for a number of reasons including but not limited to sickness (patient or researcher), unavailability of participant for another reason or unavailability of venue to collect data. The collection of data could also be subject to delays due to ethical approval for the research being delayed. For individual participants unavailability, flexibility has been built into the data collection schedule to allow for an extra month (capacity for one additional cohort) of data collection per collection cycle. 
 \subsection{Rejected Publications}
-For each task defined above, with the exception of task 2 and task 6 I have identified suitable conferences at which I can present my work. With the target conferences identified every effort will be made to meet the submission deadlines for these conferences. If submissions are rejected at these conferences, I will identify alternative conferences to present at. 
+For each task defined above, with the exception of task 2 and task 6 I have identified suitable conferences at which I can present my work. With the target conferences identified every effort will be made to meet the submission deadlines for these conferences. If submissions are rejected at these conferences, I have identified alternative conferences to present at. 
 \subsection{Rejected NHS Ethics and/or University Ethics}
-Every effort will be made to submit a complete ethics application through the NHS. However, in the event that there is a delay in the ethical approval process then data collection will proceed with a priority placed on the control group. Future cohorts will then have proportionally more clinical participants until the research meets it's target numbers.  
+Every effort will be made to submit a complete ethics application through the NHS. However, in the event that there is a delay in the ethical approval process then data collection will proceed with a priority placed on the control group. Future cohorts will then have proportionally more clinical participants until the research meets it's target numbers. In the event that NHS ethics is not granted in time for me to write up, participants will be sought from other areas such as the Alzheimer's Research pool of volunteers and venues where suitable candidates may be present such as meetings of the University of the Third age.   
 
 \section{Ethical Considerations}
 In this section I discuss the ethical considerations related to this project and any adjustments that I have made to my research because of these considerations. I am aware of the code of human  research ethics published by the British Psychological Society \cite{Society2012} and my research has been designed in a way that fits with these guidelines.
@@ -462,11 +467,10 @@ Consent will be sought overtly at the recruitment and initial data collection po
 \subsection{Confidentiality}
 Given the nature of the study and the possibility of disclosures of suicidal ideation, it is important that confidentiality is discussed at each data collection point. I will also provide an information sheet which details the confidentiality statement and also the situations in which I may need to break confidentiality. In addition, I will make a verbal confidentiality statement at each collection point and seek acknowledgement of their understanding and permission to continue. The spoken confidentiality statement will be as follows.
 \begin{center}
-	\textit{"Anything you say to me today will be confidential unless I feel that there is a risk to you, or to someone else. If this is the case, I may need to speak to or write to third parties such as your GP. I will endeavor to discuss this communications with yourself where it is possible to do so. Is this ok?"} \newline	
+	\textit{"Anything you say to me today will be confidential unless I feel that there is a risk to you, or to someone else. If this is the case, I may need to speak to or write to third parties such as your GP. I will endeavor to discuss this communications with yourself where it is possible to do so. Is this ok?"}
 \end{center}
-
 \subsection{Disclosure of suicidal ideation or other risks}
-As part of the battery of tests for this experiment, there is an opportunity for a participant to reveal that he or she has had suicidal ideation in the past two weeks (Patient Health Questionnaire, Question 9). This is something to explore further. As I have been trained in psychological risk assessments, it seems appropriate to carry out a further risk assessment.  Optionally with the tape recorder turned on, or off as requested.  Any text recorded during the risk assessment will not be included in the language analysis. Following this, some information about local services such as Improving Access to Psychological Therapies (IAPT), Samaritans and other appropriate services will be provided. A discussion will then be made about whether it is appropriate to notify the GP of the disclosure. In the event that there is imminent risk to self or others, a discussion will be made about who I need to contact. (Crisis Team and GP). In the event that the participant scores 0 on Q9 of the PHQ, no risk assessment will be undertaken. \newline
+As part of the battery of tests for this experiment, there is an opportunity for a participant to reveal that he or she has had suicidal ideation in the past two weeks (Patient Health Questionnaire, Question 9). This is something to explore further. As I have been trained in psychological risk assessments, it seems appropriate to carry out a further risk assessment.  Optionally with the tape recorder turned on, or off as requested.  Any text recorded during the risk assessment will not be included in the language analysis. Following this, some information about local services such as Improving Access to Psychological Therapies (IAPT), Samaritans and other appropriate services will be provided. A discussion will then be made about whether it is appropriate to notify the GP of the disclosure. In the event that there is imminent risk to self or others, a discussion will be made about who I need to contact. (Crisis Team and GP). In the event that the participant scores 0 on Q9 of the PHQ, no risk assessment will be undertaken.
 
 \section{Thesis - Provisional Table of Contents}
 In this section I provide a provisional table of contents based on the work I have either completed or proposed above.
