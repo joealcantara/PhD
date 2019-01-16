@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.11)  14 JAN 2019 15:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.11)  15 JAN 2019 16:04
 entering extended mode
 **./QualifyingReport.tex
 (QualifyingReport.tex
@@ -208,32 +208,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Chapter 1.
 [6
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 47--50
-
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-
- []
-
-[8]
+] [7] [8]
 Chapter 2.
 [9
 
 ] [10] [11]
 
 LaTeX Warning: Citation `AmericanPsychiatricAssociation2013' on page 12 undefin
-ed on input line 77.
+ed on input line 75.
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 [13] [14]
-Overfull \hbox (12.36174pt too wide) in paragraph at lines 114--115
+Overfull \hbox (12.36174pt too wide) in paragraph at lines 112--113
 \OT1/cmr/m/n/10 The Re-peat-able Bat-tery for the As-sess-ment of Neu-ropsy-cho
 -log-i-cal Sta-tus (RBANS)
  []
@@ -244,162 +234,159 @@ Underfull \vbox (badness 8019) has occurred while \output is active []
  [18]
 [19] [20]
 
-LaTeX Warning: Citation `Kaplan2010' on page 21 undefined on input line 203.
+LaTeX Warning: Citation `Kaplan2010' on page 21 undefined on input line 201.
 
 
-LaTeX Warning: Citation `Giles1996' on page 21 undefined on input line 203.
+LaTeX Warning: Citation `Giles1996' on page 21 undefined on input line 201.
 
 <images/BCTPicture.png, id=71, 451.6875pt x 321.2pt>
 File: images/BCTPicture.png Graphic file (type png)
 <use images/BCTPicture.png>
-Package pdftex.def Info: images/BCTPicture.png  used on input line 206.
+Package pdftex.def Info: images/BCTPicture.png  used on input line 204.
 (pdftex.def)             Requested size: 240.90262pt x 150.56703pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
 
-LaTeX Warning: Citation `Sajjadi2012' on page 22 undefined on input line 210.
+LaTeX Warning: Citation `Sajjadi2012' on page 22 undefined on input line 208.
 
 
-LaTeX Warning: Citation `Ash2012' on page 22 undefined on input line 210.
+LaTeX Warning: Citation `Ash2012' on page 22 undefined on input line 208.
 
 
-LaTeX Warning: Citation `Zimmerer2016' on page 22 undefined on input line 212.
+LaTeX Warning: Citation `Zimmerer2016' on page 22 undefined on input line 210.
 
 
-LaTeX Warning: Citation `Orimaye2017' on page 22 undefined on input line 212.
+LaTeX Warning: Citation `Orimaye2017' on page 22 undefined on input line 210.
 
 
-LaTeX Warning: Citation `Mueller2018a' on page 22 undefined on input line 212.
+LaTeX Warning: Citation `Mueller2018a' on page 22 undefined on input line 210.
 
 
-LaTeX Warning: Citation `Fraser2015' on page 22 undefined on input line 212.
+LaTeX Warning: Citation `Fraser2015' on page 22 undefined on input line 210.
+
+
+LaTeX Warning: Citation `Fraser2014' on page 22 undefined on input line 213.
+
+
+LaTeX Warning: Citation `Ash2012' on page 22 undefined on input line 213.
+
+
+LaTeX Warning: Citation `DeLira2011' on page 22 undefined on input line 213.
 
 
 LaTeX Warning: Citation `Fraser2014' on page 22 undefined on input line 215.
 
-
-LaTeX Warning: Citation `Ash2012' on page 22 undefined on input line 215.
-
-
-LaTeX Warning: Citation `DeLira2011' on page 22 undefined on input line 215.
-
-
-LaTeX Warning: Citation `Fraser2014' on page 22 undefined on input line 217.
-
 [22 <./images/BCTPicture.png>]
 
-LaTeX Warning: Citation `Sajjadi2012' on page 23 undefined on input line 222.
+LaTeX Warning: Citation `Sajjadi2012' on page 23 undefined on input line 220.
 
 
-LaTeX Warning: Citation `Asgari2017' on page 23 undefined on input line 222.
+LaTeX Warning: Citation `Asgari2017' on page 23 undefined on input line 220.
 
 
-LaTeX Warning: Citation `Guinn2015' on page 23 undefined on input line 222.
+LaTeX Warning: Citation `Guinn2015' on page 23 undefined on input line 220.
 
 [23]
 
-LaTeX Warning: Citation `Kintsch1973' on page 24 undefined on input line 236.
+LaTeX Warning: Citation `Kintsch1973' on page 24 undefined on input line 234.
 
 
-LaTeX Warning: Citation `Wang2016' on page 24 undefined on input line 236.
+LaTeX Warning: Citation `Wang2016' on page 24 undefined on input line 234.
 
 
-LaTeX Warning: Citation `Thomas2005' on page 24 undefined on input line 236.
+LaTeX Warning: Citation `Thomas2005' on page 24 undefined on input line 234.
 
 [24]
-<images/picnic-scene.jpg, id=84, 287.57437pt x 181.42781pt>
-File: images/picnic-scene.jpg Graphic file (type jpg)
-<use images/picnic-scene.jpg>
-Package pdftex.def Info: images/picnic-scene.jpg  used on input line 247.
-(pdftex.def)             Requested size: 240.90701pt x 150.56566pt.
- [25 <./images/picnic-scene.jpg>]
-
-LaTeX Warning: Citation `Guinn2012' on page 26 undefined on input line 261.
-
-
-LaTeX Warning: Citation `Guinn2015' on page 26 undefined on input line 261.
-
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 272--274
+Underfull \hbox (badness 10000) in paragraph at lines 245--247
 
  []
 
+<images/picnic-scene.jpg, id=84, 287.57437pt x 181.42781pt>
+File: images/picnic-scene.jpg Graphic file (type jpg)
+<use images/picnic-scene.jpg>
+Package pdftex.def Info: images/picnic-scene.jpg  used on input line 264.
+(pdftex.def)             Requested size: 240.90701pt x 150.56566pt.
+[25] [26 <./images/picnic-scene.jpg>]
+
+LaTeX Warning: Citation `Guinn2012' on page 27 undefined on input line 278.
+
+
+LaTeX Warning: Citation `Guinn2015' on page 27 undefined on input line 278.
+
 [27]
 
-LaTeX Warning: Citation `Asgari2017' on page 28 undefined on input line 291.
+LaTeX Warning: Citation `Asgari2017' on page 28 undefined on input line 288.
 
 
-LaTeX Warning: Citation `Pennebaker2015' on page 28 undefined on input line 291
+LaTeX Warning: Citation `Pennebaker2015' on page 28 undefined on input line 288
 .
 
 
-LaTeX Warning: Citation `Le2012' on page 28 undefined on input line 294.
+LaTeX Warning: Citation `Le2012' on page 28 undefined on input line 291.
 
 [28]
 
-LaTeX Warning: Citation `Fraser2015' on page 29 undefined on input line 303.
+LaTeX Warning: Citation `Fraser2015' on page 29 undefined on input line 300.
 
 
-LaTeX Warning: Citation `Zimmerer2016' on page 29 undefined on input line 303.
+LaTeX Warning: Citation `Zimmerer2016' on page 29 undefined on input line 300.
 
 [29] [30] [31]
 
-LaTeX Warning: Citation `Thomas2005' on page 32 undefined on input line 348.
+LaTeX Warning: Citation `Thomas2005' on page 32 undefined on input line 345.
 
 
-LaTeX Warning: Citation `Orimaye2017' on page 32 undefined on input line 348.
+LaTeX Warning: Citation `Orimaye2017' on page 32 undefined on input line 345.
 
 [32] [33]
 
-LaTeX Warning: Citation `Zimmerer2016' on page 34 undefined on input line 367.
+LaTeX Warning: Citation `Zimmerer2016' on page 34 undefined on input line 364.
 
 
-LaTeX Warning: Citation `Mueller2018a' on page 34 undefined on input line 367.
+LaTeX Warning: Citation `Mueller2018a' on page 34 undefined on input line 364.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
 
  []
 
 [34] [35]
 Chapter 3.
+
+LaTeX Warning: Citation `Orimaye2008' on page 36 undefined on input line 380.
+
 [36
 
-] [37]
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+[38]
 Chapter 4.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 402.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 401.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 402.
- [38
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 401.
+ [39
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 416--417
-
+] [40]
+Overfull \hbox (3.27829pt too wide) in paragraph at lines 429--430
+[]\OT1/cmr/m/n/10 The Three Au-thors dataset in-cludes the nov-els of P.D. Jame
+s, Agatha Christie
  []
 
+[41] [42]
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--429
+LaTeX Warning: Citation `Society2012' on page 43 undefined on input line 462.
 
- []
-
-[39] [40]
-
-LaTeX Warning: Citation `Society2012' on page 41 undefined on input line 457.
-
-[41]
-Underfull \hbox (badness 10000) in paragraph at lines 469--470
-
- []
-
-[42] [43] [44]
+[43] [44] [45] [46]
 Chapter 5.
-(QualifyingReport.bbl [45
+(QualifyingReport.bbl [47
 
 ]
 Underfull \hbox (badness 1603) in paragraph at lines 15--20
@@ -407,9 +394,9 @@ Underfull \hbox (badness 1603) in paragraph at lines 15--20
 nce in
  []
 
-[46
+[48
 
-] [47]) [48] (QualifyingReport.aux)
+] [49]) [50] (QualifyingReport.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -436,9 +423,9 @@ m/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmu10.pfb>
-Output written on QualifyingReport.pdf (48 pages, 332296 bytes).
+Output written on QualifyingReport.pdf (50 pages, 338501 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
+ 214 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

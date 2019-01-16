@@ -25,14 +25,13 @@
 \contentsline {subsubsection}{Single Word Language tasks vs Connected Language tasks}{23}
 \contentsline {subsubsection}{Semantics vs Pragmatics}{24}
 \contentsline {subsection}{\numberline {2.1.5}Semantic Content}{24}
-\contentsline {subsubsection}{Picture-related content thematic elements}{24}
+\contentsline {subsubsection}{Type token ratio(TTR)}{24}
+\contentsline {subsubsection}{Brunet's Index(W)}{25}
+\contentsline {subsubsection}{Honore's Statistic (R)}{25}
+\contentsline {subsubsection}{Picture-related content thematic elements}{25}
 \contentsline {subsubsection}{General Information Units}{26}
 \contentsline {subsubsection}{Conciseness of information}{26}
-\contentsline {subsubsection}{Efficiency}{26}
-\contentsline {subsubsection}{Lexical richness and diversity}{27}
-\contentsline {subsubsection}{Type token ratio(TTR)}{27}
-\contentsline {subsubsection}{Brunet's Index(W)}{27}
-\contentsline {subsubsection}{Honore's Statistic (R)}{27}
+\contentsline {subsubsection}{Efficiency}{27}
 \contentsline {subsubsection}{Quantity - Total number of words}{27}
 \contentsline {subsection}{\numberline {2.1.6}Syntax and Morphology (Language Form)}{28}
 \contentsline {subsubsection}{N-grams}{28}
@@ -59,36 +58,34 @@
 \contentsline {section}{\numberline {3.1}Background}{36}
 \contentsline {section}{\numberline {3.2}Methods}{36}
 \contentsline {subsection}{\numberline {3.2.1}Pre-processing}{37}
-\contentsline {subsection}{\numberline {3.2.2}Feature Selection}{37}
-\contentsline {section}{\numberline {3.3}Results}{37}
-\contentsline {section}{\numberline {3.4}Discussion}{37}
-\contentsline {section}{\numberline {3.5}Conclusion}{37}
-\contentsline {chapter}{\numberline {4}Future Work}{38}
-\contentsline {section}{\numberline {4.1}Introduction}{38}
-\contentsline {section}{\numberline {4.2}Research Aims and Objectives}{38}
-\contentsline {section}{\numberline {4.3}Research Challenges}{39}
-\contentsline {subsection}{\numberline {4.3.1}Data Collection}{39}
-\contentsline {subsection}{\numberline {4.3.2}Commonality of MCI}{39}
-\contentsline {section}{\numberline {4.4}Project Plan and Task Definition}{39}
-\contentsline {subsection}{\numberline {4.4.1}Task 1 - Replication and Extension of language analysis in the Presidents Speeches Dataset}{39}
-\contentsline {subsection}{\numberline {4.4.2}Task 2 - Pilot Study for the Neuropsychological Battery of Tests}{39}
-\contentsline {subsection}{\numberline {4.4.3}Task 3 - Exploration of language with the DementiaBank dataset}{39}
-\contentsline {subsection}{\numberline {4.4.4}Task 4 - Longditunal Study}{40}
-\contentsline {subsubsection}{Participants}{40}
-\contentsline {subsection}{\numberline {4.4.5}Task 5 - Analysis of performance and validation of proposed Repeatable Neuropsychological Battery of Tests}{40}
-\contentsline {subsection}{\numberline {4.4.6}Task 6 - Thesis Writing}{40}
-\contentsline {section}{\numberline {4.5}Skills Development}{40}
-\contentsline {section}{\numberline {4.6}Risk Assessment}{40}
-\contentsline {subsection}{\numberline {4.6.1}Delay in data collection}{41}
-\contentsline {subsection}{\numberline {4.6.2}Rejected Publications}{41}
-\contentsline {subsection}{\numberline {4.6.3}Rejected NHS Ethics and/or University Ethics}{41}
-\contentsline {section}{\numberline {4.7}Ethical Considerations}{41}
-\contentsline {subsection}{\numberline {4.7.1}Risk}{41}
-\contentsline {subsection}{\numberline {4.7.2}Informed Consent}{42}
-\contentsline {subsection}{\numberline {4.7.3}Confidentiality}{42}
-\contentsline {subsection}{\numberline {4.7.4}Disclosure of suicidal ideation or other risks}{42}
-\contentsline {section}{\numberline {4.8}Thesis - Provisional Table of Contents}{43}
-\contentsline {chapter}{\numberline {5}Conclusion}{45}
-\contentsline {section}{\numberline {.1}Title of Appendix A}{48}
-\contentsline {section}{\numberline {.2}Title of Appendix B}{48}
-\contentsline {section}{\numberline {.3}Title of Appendix C}{48}
+\contentsline {subsection}{\numberline {3.2.2}Feature Selection}{38}
+\contentsline {section}{\numberline {3.3}Results}{38}
+\contentsline {section}{\numberline {3.4}Discussion}{38}
+\contentsline {section}{\numberline {3.5}Conclusion}{38}
+\contentsline {chapter}{\numberline {4}Future Work}{39}
+\contentsline {section}{\numberline {4.1}Introduction}{39}
+\contentsline {section}{\numberline {4.2}Research Aims and Objectives}{39}
+\contentsline {section}{\numberline {4.3}Research Challenges}{40}
+\contentsline {subsection}{\numberline {4.3.1}Data Collection}{40}
+\contentsline {subsection}{\numberline {4.3.2}Commonality of MCI}{40}
+\contentsline {subsection}{\numberline {4.3.3}Sparsity of Language}{40}
+\contentsline {section}{\numberline {4.4}Project Plan and Task Definitions}{40}
+\contentsline {subsection}{\numberline {4.4.1}Task 2 - Pilot Study for the Neuropsychological Battery of Tests}{40}
+\contentsline {subsection}{\numberline {4.4.2}Task 3 - Exploration of language with the DementiaBank dataset and Three Authors dataset.}{41}
+\contentsline {subsection}{\numberline {4.4.3}Task 4 - Longditunal Study}{41}
+\contentsline {subsection}{\numberline {4.4.4}Task 5 - Analysis of performance and validation of the proposed Repeatable Neuropsychological Battery of Tests}{42}
+\contentsline {subsection}{\numberline {4.4.5}Task 6 - Thesis Writing}{42}
+\contentsline {section}{\numberline {4.5}Risk Assessment}{43}
+\contentsline {subsection}{\numberline {4.5.1}Delay in data collection}{43}
+\contentsline {subsection}{\numberline {4.5.2}Rejected Publications}{43}
+\contentsline {subsection}{\numberline {4.5.3}Rejected NHS Ethics and/or University Ethics}{43}
+\contentsline {section}{\numberline {4.6}Ethical Considerations}{43}
+\contentsline {subsection}{\numberline {4.6.1}Risk}{44}
+\contentsline {subsection}{\numberline {4.6.2}Informed Consent}{44}
+\contentsline {subsection}{\numberline {4.6.3}Confidentiality}{44}
+\contentsline {subsection}{\numberline {4.6.4}Disclosure of suicidal ideation or other risks}{44}
+\contentsline {section}{\numberline {4.7}Thesis - Provisional Table of Contents}{45}
+\contentsline {chapter}{\numberline {5}Conclusion}{47}
+\contentsline {section}{\numberline {.1}Title of Appendix A}{50}
+\contentsline {section}{\numberline {.2}Title of Appendix B}{50}
+\contentsline {section}{\numberline {.3}Title of Appendix C}{50}
