@@ -350,7 +350,7 @@ Generally speaking, Natural Language Processing (NLP) systems mimic the semiotic
 
 \subsubsection{Natural Language Toolkit}
 % CITE Bird, Steven, Edward Loper and Ewan Klein (2009). Natural Language Processing with Python.  O'Reilly Media Inc.
-The Natural Language Toolkit (NLTK) was originally designed as part of a computational linguistics course
+The Natural Language Toolkit (NLTK) was originally designed as part of a computational linguistics course but has evolved to become an open-source framework which includes methods and modules for a wide array of Natural Language tasks (see Table 2.2 for a full list).
 
 \begin{table}
 	\begin{tabular}{ | p{4cm} | p{7cm} | p{1cm} |}
@@ -372,9 +372,22 @@ The Natural Language Toolkit (NLTK) was originally designed as part of a computa
 		\caption{\label{tab:table-name}NLTK tasks and functionality}
 \end{table}
 
-\subsubsection{The Stanford Parser}
+\subsubsection{CoreNLP}
+The stanford parser is
+
+Stanford CoreNLP provides a set of human language technology tools. It can give the base forms of words, their parts of speech, whether they are names of companies, people, etc., normalize dates, times, and numeric quantities, mark up the structure of sentences in terms of phrases and syntactic dependencies, indicate which noun phrases refer to the same entities, indicate sentiment, extract particular or open-class relations between entity mentions, get the quotes people said, etc.
+
+Stanford CoreNLP’s goal is to make it very easy to apply a bunch of linguistic analysis tools to a piece of text. A tool pipeline can be run on a piece of plain text with just two lines of code. CoreNLP is designed to be highly flexible and extensible. With a single option you can change which tools should be enabled and disabled. Stanford CoreNLP integrates many of Stanford’s NLP tools, including the part-of-speech (POS) tagger, the named entity recognizer (NER), the parser, the coreference resolution system, sentiment analysis, bootstrapped pattern learning, and the open information extraction tools. Moreover, an annotator pipeline can include additional custom or third-party annotators. CoreNLP’s analyses provide the foundational building blocks for higher-level and domain-specific text understanding applications.
+
 
 \subsubsection{Linguistic Inquiry and Word Count}
+The premise behind the Linguistic Inquiry and Word Count (LIWC) is the words we speak inform an observer of the state of mind of an individual. To this end, the creators have constructed a framework which uses a dictionary of words which are pre-categorised. 
+% Al-Mosaiwi - In an Absolute State: Elevated Use of Absolutist Words Is a Marker Specific to Anxiety, Depression, and Suicidal Ideation 
+A typical example of this might be someone with depression who may typically be more inwardly focused and therefore talking in the first person is common. 
+% Sonnenschein - Linguistic analysis of patients with mood and anxiety disorders during cognitive behavioral therapy
+The 2015 version of the LIWC has over 90 different categories and some supporting research suggests that it is effective at identifying themes and associating these themes with mental health difficulties such as depression and anxiety. 
+\par
+A framework like this could be used as another tool to explore themes within a persons speech.
 
 
 \subsection{Traditional methods of Machine Learning}
