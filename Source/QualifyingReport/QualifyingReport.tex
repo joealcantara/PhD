@@ -78,25 +78,25 @@ It is clear from both the clinical diagnostic criteria and supporting research t
 The purpose of this review is to look at the current standards of cognitive tests available that can be used as a diagnostic tool for MCI. I then go on to explore what techniques for assessing language have been used within the field of cognitive and clinical psychology. I then go on to look at what techniques have been developed in the field of machine learning (ML), deep learning (DL) and natural language processing (NLP) that might enable the automated analysis of language easier as well as an obstacles and/or limitations of current technology. Finally, I look at some studies which have already looked at the intersection of these two domains. \newline
 \par
 A search of the literature was conducted using ProQuest (PsychArticles), SCOPUS, Web of Science. The following results were found (Table 1). All papers were then reviewed for relevance by reading the abstract and full text where appropriate and a shortlist was compiled. An additional search through references of shortlisted papers was also conducted and any papers who upon further review appeared relevant were added to the shortlist. Papers were included where researchers used machine learning to classify participants as MCI, AD or Healthy using language. We excluded any papers that focused on other forms of dementia or cognitive impairment, as well as any papers in which the language being analysed was not English. 
-\begin{sidewaystable}
+\begin{table}
 	\begin{center}
-	\begin{tabular}{ | c | c | c | p{1cm} |}
+	\begin{tabular}{ | p{4cm} | p{1cm} | p{6cm} | p{1cm} |}
 		\hline
-		Database & Number of Results & Search Terms  \\ \hline
-		ProQuest(PsychArticles) & 1484 Results & Language AND Decline AND Dementia \\ \hline
-		ProQuest(PsychArticles) & 486 Results  & Language AND Decline AND Dementia AND Speech \\ \hline
-		ProQuest(PsychArticles) & 159 Results & Machine Learning AND Dementia AND Language \\ \hline
-		Web of Science & 1207 Results  & Language AND Decline AND Dementia   \\ \hline
-		Web of Science & 151 Results  & Language AND Decline AND Dementia AND Speech  \\ \hline
-		Web of Science & 34 Results & Machine Learning AND Dementia AND Language \\ \hline
-		Scopus & 791 Results & Language AND Decline AND Dementia  \\ \hline
-		Scopus & 91 Results & Language AND Decline AND Dementia AND Speech   \\ \hline
-		Scopus & 29 Results & Machine Learning AND Dementia AND Langauge \\ \hline
-		Scopus & 1292 Results & "Language Deficits" AND Dementia \\ \hline
+		Database & Results & Search Terms  \\ \hline
+		ProQuest(PsychArticles) & 1484 & Language AND Decline AND Dementia \\ \hline
+		ProQuest(PsychArticles) & 486  & Language AND Decline AND Dementia AND Speech \\ \hline
+		ProQuest(PsychArticles) & 159 & Machine Learning AND Dementia AND Language \\ \hline
+		Web of Science & 1207  & Language AND Decline AND Dementia   \\ \hline
+		Web of Science & 151  & Language AND Decline AND Dementia AND Speech  \\ \hline
+		Web of Science & 34 & Machine Learning AND Dementia AND Language \\ \hline
+		Scopus & 791 & Language AND Decline AND Dementia  \\ \hline
+		Scopus & 91 & Language AND Decline AND Dementia AND Speech   \\ \hline
+		Scopus & 29 & Machine Learning AND Dementia AND Langauge \\ \hline
+		Scopus & 1292 & "Language Deficits" AND Dementia \\ \hline
 	\end{tabular}
 	\end{center}
 	\caption{\label{tab:table-name}Search Terms and Number of Results.}
-\end{sidewaystable}
+\end{table}
 % -- END OF Aims and Methodology
 \section{Existing Neuropsychological Measures of Cognitive Impairment, and Repeatable Battery of Neuropsychological Tests}
 In terms of standardised cognitive tests there are two main aims. Does the test distinguish accurately between normal aging, MCI and AD (diagnostic utility) and does the test distinguish between those individuals with MCI who will then go on to develop AD and those individuals with MCI who don't then go on to develop AD (prognostic utility). This section of the literature review outlines a number of different cognitive tests that have been used to measure cognitive impairments as well as their performance in terms of both diagnostic and prognostic utility.
@@ -352,11 +352,10 @@ Generally speaking, Natural Language Processing (NLP) systems mimic the semiotic
 % CITE Bird, Steven, Edward Loper and Ewan Klein (2009). Natural Language Processing with Python.  O'Reilly Media Inc.
 The Natural Language Toolkit (NLTK) was originally designed as part of a computational linguistics course
 
-
-\begin{center}
-	\begin{tabular}{ | c | c | c | p{1cm} |}
+\begin{table}
+	\begin{tabular}{ | p{4cm} | p{7cm} | p{1cm} |}
 		\hline
-		Language processing task & Functionality \\ \hline
+		\textbf{Language processing task} & \textbf{Functionality} \\ \hline
 		Accessing corpora & standardized interfaces to corpora and lexicons \\ \hline
 		String processing & tokenizers, sentence tokenizers, stemmers \\ \hline
 		Collocation discovery & t-test, chi-squared, point-wise mutual information \\ \hline
@@ -370,9 +369,8 @@ The Natural Language Toolkit (NLTK) was originally designed as part of a computa
 		Applications & Graphical concordance, parsers, WordNet browser, chatbots \\ \hline
 		Linguistic Framework & manipulate data in SIL Toolbox format \\ \hline
 	\end{tabular}
-\end{center}
-caption{\label{tab:table-name}Search Terms and Number of Results.}
-
+		\caption{\label{tab:table-name}NLTK tasks and functionality}
+\end{table}
 
 \subsubsection{The Stanford Parser}
 
