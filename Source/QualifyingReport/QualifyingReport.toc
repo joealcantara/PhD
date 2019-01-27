@@ -49,13 +49,13 @@
 \contentsline {section}{\numberline {2.7}State of literature into Machine Learning and Natural Language processing techniques}{32}
 \contentsline {subsection}{\numberline {2.7.1}Natural Language Processing}{32}
 \contentsline {subsubsection}{Natural Language Toolkit}{33}
-\contentsline {subsubsection}{The Stanford Parser}{33}
-\contentsline {subsubsection}{Linguistic Inquiry and Word Count}{33}
-\contentsline {subsection}{\numberline {2.7.2}Traditional methods of Machine Learning}{33}
-\contentsline {subsection}{\numberline {2.7.3}The case for Deep Learning}{35}
-\contentsline {subsection}{\numberline {2.7.4}Conclusions}{35}
-\contentsline {section}{\numberline {2.8}Discussion}{35}
-\contentsline {subsection}{\numberline {2.8.1}Future Work}{36}
+\contentsline {subsubsection}{CoreNLP}{33}
+\contentsline {subsubsection}{Linguistic Inquiry and Word Count}{35}
+\contentsline {subsection}{\numberline {2.7.2}Traditional methods of Machine Learning}{35}
+\contentsline {subsection}{\numberline {2.7.3}The case for Deep Learning}{36}
+\contentsline {subsection}{\numberline {2.7.4}Conclusions}{36}
+\contentsline {section}{\numberline {2.8}Discussion}{36}
+\contentsline {subsection}{\numberline {2.8.1}Future Work}{37}
 \contentsline {chapter}{\numberline {3}Initial Study of the Presidents corpus}{38}
 \contentsline {section}{\numberline {3.1}Background}{38}
 \contentsline {section}{\numberline {3.2}Methods}{38}

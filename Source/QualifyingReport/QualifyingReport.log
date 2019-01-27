@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.13)  25 JAN 2019 11:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.13)  26 JAN 2019 10:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -419,43 +419,45 @@ Underfull \hbox (badness 2426) in paragraph at lines 369--369
 []\OT1/cmr/m/n/10 Graphical con-cor-dance, parsers, Word-Net
  []
 
+[33 <./images/workflow.jpg>] [34]
 
-LaTeX Warning: Citation `Zimmerer2016' on page 33 undefined on input line 382.
-
-
-LaTeX Warning: Citation `Orimaye2017' on page 33 undefined on input line 382.
+LaTeX Warning: Citation `Zimmerer2016' on page 35 undefined on input line 395.
 
 
-LaTeX Warning: Citation `Mueller2018a' on page 33 undefined on input line 382.
+LaTeX Warning: Citation `Orimaye2017' on page 35 undefined on input line 395.
 
 
-LaTeX Warning: Citation `Fraser2015' on page 33 undefined on input line 382.
+LaTeX Warning: Citation `Mueller2018a' on page 35 undefined on input line 395.
 
 
-LaTeX Warning: Citation `Thomas2005' on page 33 undefined on input line 388.
+LaTeX Warning: Citation `Fraser2015' on page 35 undefined on input line 395.
 
 
-LaTeX Warning: Citation `Orimaye2017' on page 33 undefined on input line 388.
-
-[33 <./images/workflow.jpg>] [34] [35]
-
-LaTeX Warning: Citation `Petersen2014' on page 36 undefined on input line 407.
+LaTeX Warning: Citation `Thomas2005' on page 35 undefined on input line 401.
 
 
-LaTeX Warning: Citation `Zimmerer2016' on page 36 undefined on input line 410.
+LaTeX Warning: Citation `Orimaye2017' on page 35 undefined on input line 401.
+
+[35]
+
+LaTeX Warning: Citation `Petersen2014' on page 36 undefined on input line 420.
+
+[36]
+
+LaTeX Warning: Citation `Zimmerer2016' on page 37 undefined on input line 423.
 
 
-LaTeX Warning: Citation `Mueller2018a' on page 36 undefined on input line 410.
+LaTeX Warning: Citation `Mueller2018a' on page 37 undefined on input line 423.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--411
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
 
  []
 
-[36] [37]
+[37]
 Chapter 3.
 
-LaTeX Warning: Citation `Orimaye2008' on page 38 undefined on input line 420.
+LaTeX Warning: Citation `Orimaye2008' on page 38 undefined on input line 433.
 
 [38
 
@@ -468,23 +470,23 @@ Chapter 4.
 [41
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 446.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 459.
 
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 446.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 459.
  [42]
 [43]
-Overfull \hbox (3.27829pt too wide) in paragraph at lines 467--468
+Overfull \hbox (3.27829pt too wide) in paragraph at lines 480--481
 []\OT1/cmr/m/n/10 The Three Au-thors dataset in-cludes the nov-els of P.D. Jame
 s, Agatha Christie
  []
 
 [44] [45] [46]
 
-LaTeX Warning: Citation `Society2012' on page 47 undefined on input line 513.
+LaTeX Warning: Citation `Society2012' on page 47 undefined on input line 526.
 
 [47] [48] [49]
 Chapter 5.
@@ -507,10 +509,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2122 strings out of 492649
- 30893 string characters out of 6129622
- 102334 words of memory out of 5000000
- 5965 multiletter control sequences out of 15000+600000
+ 2123 strings out of 492649
+ 30902 string characters out of 6129622
+ 102338 words of memory out of 5000000
+ 5966 multiletter control sequences out of 15000+600000
  9748 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,12n,43p,2105b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -526,7 +528,7 @@ texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
 ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmu10.pfb>
-Output written on QualifyingReport.pdf (53 pages, 759219 bytes).
+Output written on QualifyingReport.pdf (53 pages, 761181 bytes).
 PDF statistics:
  227 PDF objects out of 1000 (max. 8388607)
  155 compressed objects within 2 object streams
