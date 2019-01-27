@@ -1,71 +1,14 @@
-This is BibTeX, Version 0.99d (TeX Live 2018)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: QualifyingReport.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: QualifyingReport.aux
 The style file: unsrt.bst
 Database file #1: QualifyingReport.bib
 Warning--I didn't find a database entry for "AmericanPsychiatricAssociation2013"
-Warning--I didn't find a database entry for "Kaplan2010"
-Warning--I didn't find a database entry for "Giles1996"
-Warning--I didn't find a database entry for "Sajjadi2012"
-Warning--I didn't find a database entry for "Ash2012"
-Warning--I didn't find a database entry for "Fraser2014"
-Warning--I didn't find a database entry for "DeLira2011"
-Warning--I didn't find a database entry for "Asgari2017"
-Warning--I didn't find a database entry for "Guinn2015"
 Warning--I didn't find a database entry for "Kintsch1973"
-Warning--I didn't find a database entry for "Wang2016"
-Warning--I didn't find a database entry for "Thomas2005"
-Warning--I didn't find a database entry for "Guinn2012"
-Warning--I didn't find a database entry for "Pennebaker2015"
-Warning--I didn't find a database entry for "Le2012"
-Warning--I didn't find a database entry for "Fraser2015"
-Warning--I didn't find a database entry for "Zimmerer2016"
-Warning--I didn't find a database entry for "Bschor2001"
-Warning--I didn't find a database entry for "Orimaye2017"
-Warning--I didn't find a database entry for "Mueller2018a"
-Warning--I didn't find a database entry for "Petersen2014"
 Warning--I didn't find a database entry for "Orimaye2008"
 Warning--I didn't find a database entry for "Society2012"
 Warning--there's a number but no volume in Davis2015
-You've used 23 entries,
-            1791 wiz_defined-function locations,
-            657 strings with 10344 characters,
-and the built_in function-call counts, 5869 in all, are:
-= -- 479
-> -- 389
-< -- 0
-+ -- 139
-- -- 116
-* -- 519
-:= -- 1016
-add.period$ -- 69
-call.type$ -- 23
-change.case$ -- 25
-chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 197
-empty$ -- 489
-format.name$ -- 116
-if$ -- 1205
-int.to.chr$ -- 0
-int.to.str$ -- 23
-missing$ -- 21
-newline$ -- 118
-num.names$ -- 23
-pop$ -- 30
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 65
-stack$ -- 0
-substring$ -- 425
-swap$ -- 21
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 1
-while$ -- 57
-width$ -- 25
-write$ -- 253
-(There were 24 warnings)
+Warning--there's a number but no volume in Salvadori2018
+Warning--there's a number but no volume in Guinn2015
+Warning--empty journal in Wang2016
+Warning--there's a number but no volume in Wang2016
+Warning--there's a number but no volume in Guinn2012
+(There were 10 warnings)
