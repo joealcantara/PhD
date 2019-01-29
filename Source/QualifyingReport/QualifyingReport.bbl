@@ -89,6 +89,11 @@ Daniel Davis, Sam Creavin, Jennifer Yip, Anna Noel-Storr, Carol Brayne, and
   disease and other dementias}.
 \newblock {\em Cochrane Database of Systematic Reviews}, (10), 2015.
 
+\bibitem{AmericanPsychiatricAssociation2013}
+{American Psychiatric Association}.
+\newblock {\em {Diagnostic and Statistical Manual DSM 5}}.
+\newblock 2013.
+
 \bibitem{Snowdon1996}
 David~A. Snowdon, Susan~J. Kemper, James~A. Mortimer, Lydia~H. Greiner,
   David~R. Wekstein, and William~R. Markesbery.
@@ -112,11 +117,24 @@ Christopher Randolph, Michael~C. Tierney, Erich Mohr, and Thomas~N. Chase.
   (Neuropsychology, Development and Cognition: Section A)}, 20(3):310--319,
   1998.
 
+\bibitem{Karantzoulis2013}
+Stella Karantzoulis, Julia Novitski, Michael Gold, and Christopher Randolph.
+\newblock {The Repeatable Battery for the Assessment of Neuropsychological
+  Status (RBANS): Utility in detection and characterization of mild cognitive
+  impairment due to alzheimer's disease}.
+\newblock {\em Archives of Clinical Neuropsychology}, 28(8):837--844, 2013.
+
 \bibitem{Duff2010}
 Kevin Duff, Valerie~L. Hobson, Leigh~J. Beglinger, and Sid~E. O'Bryant.
 \newblock {Diagnostic accuracy of the RBANS in mild cognitive impairment:
   Limitations on assessing milder impairments}.
 \newblock {\em Archives of Clinical Neuropsychology}, 25(5):429--441, 2010.
+
+\bibitem{Muangpaisan2008}
+W.~Muangpaisan, S.~Intalapaporn, and P.~Assantachai.
+\newblock {Neuropsychiatric symptoms in the community-based patients with mild
+  cognitive impairment and the influence of demographic factors}.
+\newblock {\em International Journal of Geriatric Psychiatry}, 2008.
 
 \bibitem{Emrani2018}
 Sheina Emrani, David~J. Libon, Melissa Lamar, Catherine~C. Price, Angela~L.
@@ -141,11 +159,9 @@ Roy~P.C. Kessels, Anouk Overbeek, and Zita Bouman.
   cognitive impairment and Alzheimer's dementia}.
 \newblock {\em Dementia {\&} Neuropsychologia}, 9(3):301--305, 2015.
 
-\bibitem{Rey1941}
-A~Rey.
-\newblock {L'examen psychologique dans les cas d'encephopathie traumatique (The
-  psychological examination of cases of traumatic encephalopathy)}.
-\newblock {\em Archives de Psychologie}, 1941.
+\bibitem{Schmidt1996}
+Michael Schmidt.
+\newblock {Rey Auditory Verbal Learning Test: A Handbook}, 1996.
 
 \bibitem{Moradi2017}
 Elaheh Moradi, Ilona Hallikainen, Tuomo H{\"{a}}nninen, and Jussi Tohka.
@@ -193,6 +209,22 @@ Konstantinos Vadikolias, Anna Tsiakiri-Vatamidis, Grigorios Tripsianis,
 \newblock {Mild cognitive impairment: Effect of education on the verbal and
   nonverbal tasks performance decline}.
 \newblock {\em Brain and Behavior}, 2(5):620--627, 2012.
+
+\bibitem{Rey1941}
+A~Rey.
+\newblock {L'examen psychologique dans les cas d'encephopathie traumatique (The
+  psychological examination of cases of traumatic encephalopathy)}.
+\newblock {\em Archives de Psychologie}, 1941.
+
+\bibitem{Taylor1969}
+L.~B. Taylor.
+\newblock {Localisation of cerebral lesions by psychological testing.}
+\newblock {\em Clinical neurosurgery}, 1969.
+
+\bibitem{Strauss1990}
+Esther Strauss and Otfried Spreen.
+\newblock {A comparison of the Rey and Taylor figures}.
+\newblock {\em Archives of Clinical Neuropsychology}, 5(4):417--420, 1990.
 
 \bibitem{Salvadori2018}
 Emilia Salvadori, Francesca Dieci, Paolo Caffarra, and Leonardo Pantoni.
@@ -296,6 +328,12 @@ Curry Guinn, Ben Singer, and Anthony Habash.
   Intelligence - CICARE 2014: 2014 IEEE Symposium on Computational Intelligence
   in Healthcare and e-Health, Proceedings}, (January):98--103, 2015.
 
+\bibitem{Keenan1973}
+Janice Keenan and Walter Kintsch.
+\newblock {Reading Rate and of Propositions Retention as a Function of the
+  Number in the Base Structure of Sentences '}.
+\newblock {\em Cognitive Psychology}, 274(5):257--274, 1973.
+
 \bibitem{Bucks2000}
 R.~S. Bucks, S.~Singh, J.~M. Cuerden, and G.~K. Wilcock.
 \newblock {Analysis of spontaneous, conversational speech in dementia of
@@ -334,6 +372,12 @@ Shanne~R. Smith, Helen~J. Chenery, and Bruce~E. Murdoch.
   Grammatical semantics}.
 \newblock {\em Brain and Language}, 36(4):533--542, 1989.
 
+\bibitem{Ahmed2013}
+Samrah Ahmed, Anne Marie~F. Haigh, Celeste~A. de~Jager, and Peter Garrard.
+\newblock {Connected speech as a marker of disease progression in
+  autopsy-proven Alzheimer's disease.}
+\newblock {\em Brain : a journal of neurology}, 136(Pt 12):3727--3737, 2013.
+
 \bibitem{Guinn2012}
 Curry Guinn and Anthony Habash.
 \newblock {Language Analysis of Speakers with Dementia of the Alzheimer's
@@ -367,12 +411,6 @@ Vassiliki Rentoumi, Ladan Raoufian, Samrah Ahmed, Celeste~A. {De Jager}, and
   without additional vascular pathology}.
 \newblock {\em Journal of Alzheimer's Disease}, 42(July):S3--S17, 2014.
 
-\bibitem{Ahmed2013}
-Samrah Ahmed, Anne Marie~F. Haigh, Celeste~A. de~Jager, and Peter Garrard.
-\newblock {Connected speech as a marker of disease progression in
-  autopsy-proven Alzheimer's disease.}
-\newblock {\em Brain : a journal of neurology}, 136(Pt 12):3727--3737, 2013.
-
 \bibitem{Fraser2015}
 Kathleen~C. Fraser, Jed~A. Meltzer, and Frank Rudzicz.
 \newblock {Linguistic Features Identify Alzheimer's Disease in Narrative
@@ -395,21 +433,6 @@ Tom Bschor, Klaus~Peter K{\"{u}}hl, and Friedel~M. Reischies.
 \newblock {Spontaneous speech of patients with dementia of the Alzheimer type
   and mild cognitive impairment}.
 \newblock {\em International Psychogeriatrics}, 13(3):289--298, 2001.
-
-\bibitem{Forbes-Mckay2005}
-Katrina~E. Forbes-Mckay, Andrew~W. Ellis, Michael~F. Shanks, and Annalena
-  Venneri.
-\newblock {The age of acquisition of words produced in a semantic fluency task
-  can reliably differentiate normal from pathological age related cognitive
-  decline}.
-\newblock {\em Neuropsychologia}, 43(11):1625--1632, 2005.
-
-\bibitem{Konig2018}
-Alexandra Konig, Aharon Satt, Alex Sorin, Ran Hoory, Alexandre Derreumaux,
-  Renaud David, and Phillippe~H. Robert.
-\newblock {Use of Speech Analyses within a Mobile Application for the
-  Assessment of Cognitive Impairment in Elderly People}.
-\newblock {\em Current Alzheimer Research}, 15(2):120--129, 2018.
 
 \bibitem{Nicholas1985}
 Marjorie Nicholas, Loraine~K. Obler, Martin~L. Albert, and Nancy
