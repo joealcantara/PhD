@@ -417,11 +417,54 @@ There has been a significant research in the area of language deterioration as a
 \par   
 This study replicates work done by Berisha and Liss and extends this by adding Donald Trump as an alternative, more appropriate comparison to Ronald Reagan as he is much closer in age than George H.W. Bush. This experiment will look at the features originally identified by Berisha and Liss, as well as any others that have potential as discussed in the literature review above. 
 \section{Methods}
-I took 46 transcripts of Ronald Reagan’s (RR) press conferences from 1981 to 1988 and compared them with 134 press conferences by George H. W. Bush (GHWB) and 25 press conferences conducted by Donald J. Trump (DJT).  I analyzed transcripts for lexical features shown to change longitudinally with dementia  (for a comprehensive review of these, see the literature review above). For this collection of documents, I generated a number of features which looked at a number of different aspects of each document. These features encompassed, word level, sentence level and document level features and included a number of features contained in the study by Berisha and Liss with the aim of replicating and extending on their findings. These findings were. number of unique words, non-specific nouns and fillers and low imageability (LI) verbs. Imageability is characterized, according to Berisha and Liss, as the ease with which a term gives rise to a sensory .mental image. I compared the trends described in the transcripts of RR and GHWB, but also included DT. Berisha and Liss originally made the comparison as it GHWB (GHWB - age at the start of presidency - 64 years, 222 days) was the closest match to RR in terms of age (RR  - age at the start of presidency, 69 yeaars and 349 days). However, with the inauguration of Trump, he now is the closest comparible president in terms of age (DJT - age at the start of presidency - 70 years, 220 days). It would be interesting to look at a comparison of RR and DJT to see whether the comparisons made by Berisha and Liss hold true with this more appropriate match (in terms of age). DJT as with GHWB has no known diagnosis of AD. I used the press conference transcripts in the American Presidency Project (APP) archive as a data source for this project. The APP is a comprehensive and organized searchable database of presidential documents, including transcripts of speeches, transcripts of news conferences, and other public documents.
+I took 46 transcripts of Ronald Reagan’s (RR) press conferences from 1981 to 1988 and compared them with 134 press conferences by George H. W. Bush (GHWB) and 29 press conferences conducted by Donald J. Trump (DJT).  I analyzed transcripts for lexical features shown to change longitudinally with dementia  (for a comprehensive review of these, see the literature review above). For this collection of documents, I generated a number of features which looked at a number of different aspects of each document. These features encompassed, word level, sentence level and document level features and included a number of features contained in the study by Berisha and Liss with the aim of replicating and extending on their findings. These findings were. number of unique words, non-specific nouns and fillers and low imageability (LI) verbs. Imageability is characterized, according to Berisha and Liss, as the ease with which a term gives rise to a sensory .mental image. I compared the trends described in the transcripts of RR and GHWB, but also included DJT. Berisha and Liss originally made the comparison as it GHWB (GHWB - age at the start of presidency - 64 years, 222 days) was the closest match to RR in terms of age (RR  - age at the start of presidency, 69 yeaars and 349 days). However, with the inauguration of Trump, he now is the closest comparible president in terms of age (DJT - age at the start of presidency - 70 years, 220 days). It would be interesting to look at a comparison of RR and DJT to see whether the comparisons made by Berisha and Liss hold true with this more appropriate match (in terms of age). DJT as with GHWB has no known diagnosis of AD. I used the press conference transcripts in the American Presidency Project (APP) archive as a data source for this project. The APP is a comprehensive and organized searchable database of presidential documents, including transcripts of speeches, transcripts of news conferences, and other public documents.
 \subsection{Pre-processing}
 To generate the files necessary for analysis, I downloaded each transcript and performed the following changes. I omitted the prepared statement by the president and any speech by other individuals. I started each transcript at the beginning of the first answer to a question. I filtered any annotations that were added to the transcript, including any references or clarifications, and any laughter. It's worth noting that there appears to be a difference in how 'hesitations' were marked down between each president, for RR hesitations were marked by a single hyphen whereas for GHWB hesitations are marked by a double hyphen. In order to maintain consistency when parsing through the documents, I have changed both types of hesitation to be marked by a single hyphen. I also omitted one word sentences as this data would, from a theoretical perspective, not be relevant for language analysis. I did not control for the length of the document, but generated features which would normalise by the length of the document. I therefore was able to include all press conferences by both Ronald Reagan and George H.W. Bush where there was a question and answer session conducted at least in part by the sitting president (2 press conferences of GHWB were ommited due to a lack of a question and answer session).
 \subsection{Feature Selection}
+We calculating the following features for each transcript in turn using the NLTK (see section 2 for a description) \cite{Bird2009} and Python. 
+\par 
+\subsubsection{Measures of lexical variation}
+% CITE Richards 1986 Type/Token Ratios: What do they really tell us?
+We constructed two features of lexical variation. Firstly we looked at the number of unique words. To do this we were able to split each transcript into individual words and changed them to lowercase using NLTK and were then count the number of unique words that appeared in each transcript. We also used the TTR formula (see section 2 for a description) for a feature that measures lexical diversity independent of sample size \cite{}. 
+\subsubsection{Fillers, Non-Specific Nouns and LI Verbs}
+For these features, we counted the number of occurrences for different categories (see table for list of categories tracked and the words counted.
+
+\begin{table}
+	\begin{center}
+	\begin{tabular}{ | p{3cm} | p{6cm} |}
+		\hline
+		Category & Words \\ \hline
+		Fillers & \textit{"well", "so", "basically", "actually", "literally", "um", "ah"} \\ \hline
+		Non Specific Nouns & \textit{"something", "anything", "thing", "everything"} \\ \hline
+		LI Verbs & \textit{"be", "come", "do", "get", "give", go", "know", "look", "make", "see", "tell", "think", "want"} \\ \hline
+
+	\end{tabular}
+	\caption{\label{tab:table-name}Categories and Words Counted}
+	\end{center} 
+\end{table}
+
+\subsubsection{Usage of parts of speech}
+This section involves using a Part of Speech tagger (PoS) which analyses a sentence and assigns a 'tag' to each word based on the function the word has in a sentence. At a basic level this can be divided into the eight defined parts of speech: 'nouns', 'pronouns', verbs', 'adjectives', 'adverbs', 'conjunctions', 'prepositions' and 'interjections' but can be further subcategorised. We used the PoS tagger built into NLTK to tag each transcript in turn and used these the counts from each of these eight categories in our analysis. In addition to frequency counts we also normalised these features by dividing the frequency count by the number of words in the document to take into account transcript length.
+
+
+
+
 \section{Results}
+\begin{table}
+	\begin{center}
+	\begin{tabular}{ | p{3cm} | p{3cm} | p{3cm} | p{3cm} |}
+		\hline
+		& RR & GHWB & DJT \\ \hline
+		Total Words & 3423.91 (416.42) & 2607.72 (1210.38) & 1848.65 (1549.38) \\ \hline
+		Unique Words & 894.13 (85.15) & 667.76 (218.67) & 481.82 (221.29) \\ \hline
+		Non Specific Nouns & 12.72 (4.63) & 6.78 (4.32) & 7.41 (8.75) \\ \hline
+		LI Verbs & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
+	\end{tabular}
+	\caption{\label{tab:table-name}Means and Standard Deviations of important features}
+	\end{center} 
+\end{table}
+
+
 \begin{table}
 	\begin{center}
 	\begin{tabular}{ | p{3cm} | p{3cm} | p{3cm} | p{3cm} |}
@@ -432,12 +475,49 @@ To generate the files necessary for analysis, I downloaded each transcript and p
 		LI Verbs & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
 
 	\end{tabular}
-	\caption{\label{tab:table-name}NLTK tasks and functionality}
+	\caption{\label{tab:table-name}RR T-tests vs GWB and DJT}
 	\end{center} 
 \end{table}
-\section{Discussion}
-\section{Conclusion}
 
+\begin{table}
+	\begin{center}
+	\begin{tabular}{ | p{3cm} | p{3cm} | p{3cm} | p{3cm} |}
+		\hline
+		& RR & GHWB & DJT \\ \hline
+		Unique Words & 894.13 (85.15) & 667.76 (218.67) & 481.82 (221.29) \\ \hline
+		Non Specific Nouns & 12.72 (4.63) & 6.78 (4.32) & 7.41 (8.75) \\ \hline
+		LI Verbs & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
+		Nouns Normalised & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
+		Verbs Normalised & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
+		Adjectives Normalised & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
+		Adverbs Normalised & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
+		Pronouns Normalised & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
+		Conjunctions Normalised & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
+		Prepositions Normalised & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
+		Interjections Normalised & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
+
+	\end{tabular}
+	\caption{\label{tab:table-name}Pearson Correlations for Features}
+	\end{center} 
+\end{table}
+
+\section{Discussion}
+% Cite Garrard 2005 -The effects of very early Alzheimer's disease on the characteristics of writing by a renowned author.
+
+Our research supports the findings of Berisha and Liss with regards to unique words, non-specific nouns and low-imageability words\cite{Berisha2015}.
+\par 
+A criticism of Berisha and Liss's work is the problems they had with normalising the transcripts in terms of length. This was also a problem in the work of Garrard et al. Whilst it is important to control for outliers, there are other ways in which we can control for length of sample. In this study, we explored features such as TTR, and also normalised versions of the frequency statistics we used, and also dividing the frequency counts by 100 which and these showed similar significant results. 
+
+
+ In addition, when adding DJT as an additional control to compare to and despite a comparatively smaller sample per press conference held, their findings also hold true. 
+\par 
+It's worth noting that DJT's conferences are, with the exception of one press conference, held jointly with other people and therefore the amount of speech produced per conference is a lot less. This finding is, in itself notable as it illustrates the problems with amounts of speech. This problem could potentially be solved with 
+\par 
+There are limitations of this research. Whilst in terms of age, DJT is certainly more suitable as a control to match with RR, in some ways they held very different styles of press conferences in that RR preferred to do solo press conferences and DJT has shown a preference for doing joint press conferences which have an impact on the amount of language produced. Another limitation is the way in which I normalised the features. 
+\par 
+With further work, we will not have the luxury of having multiple samples and so it would be worth exploring how the quality of these predictions might lessen when faced with considerably fewer samples.
+\section{Conclusion}
+The results of this work show that we can track a person's use of language through time in a number of ways, and that 
 
 
 \chapter{Future Work}
