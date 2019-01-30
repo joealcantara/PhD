@@ -196,6 +196,11 @@ Julie~D. Henry, John~R. Crawford, and Louise~H. Phillips.
   meta-analysis}.
 \newblock {\em Neuropsychologia}, 42(9):1212--1222, 2004.
 
+\bibitem{Williams1989}
+Betsy~White Williams, Wendy Mack, and Victor~W. Henderson.
+\newblock {Boston naming test in Alzheimer's disease}.
+\newblock {\em Neuropsychologia}, 1989.
+
 \bibitem{Willers2008}
 Indra~F. Willers, M{\'{o}}nica~L. Feldman, and Ricardo~F. Allegri.
 \newblock {Subclinical naming errors in mild cognitive impairment: A semantic
@@ -215,6 +220,11 @@ A~Rey.
 \newblock {L'examen psychologique dans les cas d'encephopathie traumatique (The
   psychological examination of cases of traumatic encephalopathy)}.
 \newblock {\em Archives de Psychologie}, 1941.
+
+\bibitem{Osterrieth1944}
+P.~A. Osterrieth.
+\newblock {Le test de copie d'une figure complexe}.
+\newblock {\em Archives de Psychologie}, 1944.
 
 \bibitem{Taylor1969}
 L.~B. Taylor.
@@ -372,6 +382,19 @@ Shanne~R. Smith, Helen~J. Chenery, and Bruce~E. Murdoch.
   Grammatical semantics}.
 \newblock {\em Brain and Language}, 36(4):533--542, 1989.
 
+\bibitem{Bschor2001}
+Tom Bschor, Klaus~Peter K{\"{u}}hl, and Friedel~M. Reischies.
+\newblock {Spontaneous speech of patients with dementia of the Alzheimer type
+  and mild cognitive impairment}.
+\newblock {\em International Psychogeriatrics}, 13(3):289--298, 2001.
+
+\bibitem{Riley2005}
+Kathryn~P. Riley, David~A. Snowdon, Mark~F. Desrosiers, and William~R.
+  Markesbery.
+\newblock {Early life linguistic ability, late life cognitive function, and
+  neuropathology: Findings from the Nun Study}.
+\newblock {\em Neurobiology of Aging}, 26(3):341--347, 2005.
+
 \bibitem{Ahmed2013}
 Samrah Ahmed, Anne Marie~F. Haigh, Celeste~A. de~Jager, and Peter Garrard.
 \newblock {Connected speech as a marker of disease progression in
@@ -385,6 +408,27 @@ Curry Guinn and Anthony Habash.
 \newblock {\em Association for the Advancement of Artificial Intelligence Fall
   Symposia: Artificial Intelligence for Gerontechnology}, (Yaruss 1998):8--13,
   2012.
+
+\bibitem{Nicholas1985}
+Marjorie Nicholas, Loraine~K. Obler, Martin~L. Albert, and Nancy
+  Helm-Estabrooks.
+\newblock {Empty speech in Alzheimer's disease and fluent aphasia.}
+\newblock {\em Journal of Speech, Language, and Hearing Research},
+  28(3):405--410, 1985.
+
+\bibitem{Lira2014}
+Juliana~Onofre de~Lira, Tha{\'{i}}s Soares~Cianciarullo Minett, Paulo
+  Henrique~Ferreira Bertolucci, and Karin~Zazo Ortiz.
+\newblock {Analysis of word number and content in discourse of patients with
+  mild to moderate Alzheimer's disease}.
+\newblock {\em Dementia {\&} Neuropsychologia}, 8(3):260--265, 2014.
+
+\bibitem{Orimaye2017}
+Sylvester~O. Orimaye, Jojo~S.M. Wong, Karen~J. Golden, Chee~P. Wong, and
+  Ireneous~N. Soyiri.
+\newblock {Predicting probable Alzheimer's disease using linguistic deficits
+  and biomarkers}.
+\newblock {\em BMC Bioinformatics}, 18(1):1--13, 2017.
 
 \bibitem{Pennebaker2015}
 James~W Pennebaker, Ryan~L Boyd, Kayla Jordan, and Kate Blackburn.
@@ -428,19 +472,6 @@ J.~L. {Chapman, S. B., Highley, A. P., {\&} Thompson}.
 \newblock {Discourse in fluent aphasia and Alzheimer's disease}.
 \newblock {\em Journal of Neurolinguistics}, 11:55--78, 1998.
 
-\bibitem{Bschor2001}
-Tom Bschor, Klaus~Peter K{\"{u}}hl, and Friedel~M. Reischies.
-\newblock {Spontaneous speech of patients with dementia of the Alzheimer type
-  and mild cognitive impairment}.
-\newblock {\em International Psychogeriatrics}, 13(3):289--298, 2001.
-
-\bibitem{Nicholas1985}
-Marjorie Nicholas, Loraine~K. Obler, Martin~L. Albert, and Nancy
-  Helm-Estabrooks.
-\newblock {Empty speech in Alzheimer's disease and fluent aphasia.}
-\newblock {\em Journal of Speech, Language, and Hearing Research},
-  28(3):405--410, 1985.
-
 \bibitem{Bayles1983}
 Kathryn~A. Bayles and Cheryl~K. Tomoeda.
 \newblock {Confrontation naming impairment in dementia}.
@@ -450,13 +481,6 @@ Kathryn~A. Bayles and Cheryl~K. Tomoeda.
 Steven Bird, Ewan Klein, and Edward Loper.
 \newblock {\em {Language Processing and Python}}.
 \newblock O'Reilly Media Inc, 2009.
-
-\bibitem{Orimaye2017}
-Sylvester~O. Orimaye, Jojo~S.M. Wong, Karen~J. Golden, Chee~P. Wong, and
-  Ireneous~N. Soyiri.
-\newblock {Predicting probable Alzheimer's disease using linguistic deficits
-  and biomarkers}.
-\newblock {\em BMC Bioinformatics}, 18(1):1--13, 2017.
 
 \bibitem{Mueller2018a}
 Kimberly~D. Mueller, Rebecca~L. Koscik, Bruce~P. Hermann, Sterling~C. Johnson,
@@ -478,5 +502,70 @@ R.~C. Petersen, B.~Caracciolo, C.~Brayne, S.~Gauthier, V.~Jelic, and
   L.~Fratiglioni.
 \newblock {Mild cognitive impairment: a concept in evolution}.
 \newblock {\em Journal of Internal Medicine}, 275(3):214--228, mar 2014.
+
+\bibitem{Orimaye2014}
+Sylvester~Olubolu Orimaye, Jojo Sze-Meng Wong, and Karen~Jennifer Golden.
+\newblock {Learning Predictive Linguistic Features for Alzheimer's Disease and
+  related Dementias using Verbal Utterances}.
+\newblock {\em Proceedings of the Workshop on Computational Linguistics and
+  Clinical Psychology: From Linguistic Signal to Clinical Reality}, pages
+  78--87, 2014.
+
+\bibitem{Garrard2005}
+Peter Garrard, Lisa~M. Maloney, John~R. Hodges, and Karalyn Patterson.
+\newblock {The effects of very early Alzheimer's disease on the characteristics
+  of writing by a renowned author}.
+\newblock {\em Brain}, 2005.
+
+\bibitem{Almor1999}
+Amit Almor, Daniel Kempler, Maryellen~C MacDonald, Elaine~S Andersen,
+  Lorraine~K Tyler, Lee Willis, Lori Altmann, Mariela Gil, Laila Lalami, Karen
+  Mar-blestone, Sarah Schuster, and Karen Stevens.
+\newblock {Why Do Alzheimer Patients Have Difficulty with Pronouns? Working
+  Memory, Semantics, and Reference in Comprehension and Production in
+  Alzheimer's Disease}.
+\newblock {\em Brain and Language}, 67:202--227, 1999.
+
+\bibitem{Wendelstein2015}
+Britta Wendelstein, J{\"{o}}rn Stegmeier, Claudia Frankenberg, Ekkehard Felder,
+  and Johannes Schr{\"{o}}der.
+\newblock {Changes in the use of pronouns in spoken language in the course of
+  preclinical to early stages of Alzheimer's disease}.
+\newblock {\em Alzheimer's {\&} Dementia}, 11(7):P784--P785, jul 2015.
+
+\bibitem{Jarrold2014}
+William Jarrold, Bart Peintner, David Wilkins, Dimitra Vergryi, Colleen Richey,
+  Maria~Luisa Gorno-Tempini, and Jennifer Ogar.
+\newblock {Aided diagnosis of dementia type through computer-based analysis of
+  spontaneous speech}.
+\newblock {\em Proceedings of the Workshop on Computational Linguistics and
+  Clinical Psychology: From Linguistic Signal to Clinical Reality}, pages
+  27--37, 2014.
+
+\bibitem{Wendelstein2014}
+Britta Wendelstein, Ekkehard Felder, J{\"{o}}rn Stegmeier, and Johannes
+  Schr{\"{o}}der.
+\newblock {NOUN OR PRONOUN?: USING PARTS OF SPEECH IN ALZHEIMER'S DISEASE}.
+\newblock {\em Alzheimer's {\&} Dementia}, 10(4):P434, jul 2014.
+
+\bibitem{Roberts2014}
+Rosebud~O. Roberts, David~S. Knopman, Michelle~M. Mielke, Ruth~H. Cha, V.~Shane
+  Pankratz, Teresa~J.H. Christianson, Yonas~E. Geda, Bradley~F. Boeve,
+  Robert~J. Ivnik, Eric~G. Tangalos, Walter~A. Rocca, and Ronald~C. Petersen.
+\newblock {Higher risk of progression to dementia in mild cognitive impairment
+  cases who revert to normal}.
+\newblock {\em Neurology}, 2014.
+
+\bibitem{Farias2009}
+Sarah~Tomaszewski Farias, Dan Mungas, Bruce~R. Reed, Danielle Harvey, and
+  Charles DeCarli.
+\newblock {Progression of mild cognitive impairment to dementia in clinic- vs
+  community-based cohorts}.
+\newblock {\em Archives of Neurology}, 2009.
+
+\bibitem{BritishPsychologicalSociety2014}
+{British Psychological Society}.
+\newblock {\em {Code of Human Research Ethics}}.
+\newblock 2014.
 
 \end{thebibliography}
