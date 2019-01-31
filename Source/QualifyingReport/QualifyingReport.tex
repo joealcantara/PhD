@@ -181,7 +181,7 @@ Research has shown there to be deficits in both AD and MCI populations in this t
 \subsection{Free Cued Selective Reminding Test}
 The Free Cued Selective Reminding Test (FCSRT) was borne out of the premise that by controlling the conditions of learning, a measure of memory is possible that is not confounded by normal age related changes in cognition. Theoretically speaking, any controlled learning test should be able to discriminate between cognitive decline due to age and cognitive decline due to a cognitive impairment. The FCSRT starts with a learning phase in which participants are asked to look at a card containing four pictures (e.g., grapes) for an item that belongs to a named category(e.g., fruit). After these four items are identified, immediate cued recall of these four items is tested and this is repeated for a total of 16 items. Following this learning phase is the recall phase in which participants are asked to recall all the items identified without cues and any items which are not recalled are then cued. There are three outcome measures for this test, free recall (the number of items recalled without cues), total recall (the number of items recalled with or without cues) and cue efficiency which is identified as follows \cite{Grober2010}.
 \begin{equation} \label{x1}
-Cue efficiency = (totalRecall-freeRecall)/48-freeRecall, range 0.0-1.0)
+CueEfficiency = (totalRecall-freeRecall)/48-freeRecall, range 0.0-1.0)
 \end{equation}
 Grober found that patients with impaired free recall with four times more likely to develop dementia than those with intact free recall \cite{Grober2010}. This test has also been shown to distinguish patients with MCI who then went on to develop AD, from those with MCI that did not then go on to develop AD and this led the researchers to used the test to categorise prodromal or the amnestic syndrome of the medial temporal lobe by FSCRT score \cite{Sarazin2007}. 
 \subsection{Conclusions}
@@ -307,12 +307,9 @@ The study of "empty speech" by Nicholas et al was one of the first to examine as
 This section has looked at a number of different attributes which researchers have cited as being important in the detection of MCI and AD. Whilst in some cases there is a broad consensus about a given feature in the vast majority of cases there is some uncertainty. Some of the difficulty lies in different approaches used particularly around the criteria for experimental groups which means that it is difficult to be able to compare studies, like for like, as the populations of the participants being studied vary in subtle or obvious ways. It is important for any studies moving forward to use comparable standards when it comes to their experimental groups, such that the picture can be made clearer.
 
 \section{State of literature into Machine Learning and Natural Language processing techniques}
-As we can see, diagnosing dementia through analysis has a large background in terms of psychological research. However, increasingly current research has called for the use of machine learning as a way of assisting in the process of diagnosis \cite{Boschi2017}. This section will look at what areas of machine learning could potentially be used as tools to help in this domain as well as any research that has applied machine learning to this problem.
+Diagnosing dementia through language analysis has a large background in terms of psychological research. Increasingly current research has called for the use of machine learning as a way of assisting in the process of diagnosis \cite{Orimaye2017, Boschi2017}. This section will look at what areas of natural language processing (NLP) and machine learning (ML) could potentially be used as tools to help in this domain as well as any research that has applied machine learning to this problem.
 \subsection{Natural Language Processing}
-Natural Language Processing as a topic can be defined as the intersection between Machine Learning and Linguistics and looks at 
-
-
-Generally speaking, Natural Language Processing (NLP) systems mimic the semiotic perspective on language. That is to say that we can subdivide NLP processes into different components (see Figure 2.3) and model broadly fits with the literature review conducted by Emery \cite{Emery2000}.
+Natural Language Processing as a topic can be defined as the intersection between Machine Learning and Linguistics and looks at a number of language tasks, particularly important in this domain is how to enable a computer to process and analyse large amounts of language data. Some other tasks include speech recognition, natural language understanding and natural language generation. Generally speaking, Natural Language Processing (NLP) systems mimic the semiotic perspective on language. That is to say that we can subdivide NLP processes into different components (see Figure 2.3).
 \begin{enumerate}
 	\item Morphological/Lexical: providing the basic language elements or vocabulary, such as words, their roots and inflections.
 	\item Syntactic: for grouping and sequencing elements within samples of language (usually sentences).
@@ -324,10 +321,9 @@ Generally speaking, Natural Language Processing (NLP) systems mimic the semiotic
 \includegraphics[width=240px, height=150px]{images/workflow.jpg}
 \caption{How Natural Language Processing tasks are subdivided.\label{white}}
 \end{figure}
-
+In order to facilitate these and other tasks, a number of frameworks have been developed that automate some of the more common processing tasks. A brief review of these frameworks follows. 
 \subsubsection{Natural Language Toolkit}
-The Natural Language Toolkit (NLTK) was originally designed as part of a computational linguistics course but has evolved to become an open-source framework which includes methods and modules for a wide array of Natural Language tasks (see Table 2.2 for a full list) \cite{Bird2009}.
-
+The Natural Language Toolkit (NLTK) was originally designed as part of a computational linguistics course at the University of Pennsylvania but has evolved to become an open-source framework which includes methods and modules for a wide array of Natural Language tasks (see Table 2.2 for a full list) \cite{Bird2009}. 
 \begin{table}
 	\begin{tabular}{ | p{4cm} | p{7cm} | p{1cm} |}
 		\hline
@@ -347,21 +343,21 @@ The Natural Language Toolkit (NLTK) was originally designed as part of a computa
 	\end{tabular}
 		\caption{\label{tab:table-name}NLTK tasks and functionality}
 \end{table}
+The NLTK has been successfully used in both teaching and research purposes and as part of this provides access to large array of databases and corpora which have potential uses in common tasks.
 
 \subsubsection{CoreNLP}
-The stanford parser is
-
 Stanford CoreNLP provides a set of human language technology tools. It can give the base forms of words, their parts of speech, whether they are names of companies, people, etc., normalize dates, times, and numeric quantities, mark up the structure of sentences in terms of phrases and syntactic dependencies, indicate which noun phrases refer to the same entities, indicate sentiment, extract particular or open-class relations between entity mentions, get the quotes people said, etc.
-
+\par
+\begin{figure}[H]
+\centering
+\includegraphics[width=350px, height=150px]{images/CoreNLP.jpg}
+\caption{How Natural Language Processing tasks are subdivided.\label{white}}
+\end{figure}
 Stanford CoreNLP’s goal is to make it very easy to apply a bunch of linguistic analysis tools to a piece of text. A tool pipeline can be run on a piece of plain text with just two lines of code. CoreNLP is designed to be highly flexible and extensible. With a single option you can change which tools should be enabled and disabled. Stanford CoreNLP integrates many of Stanford’s NLP tools, including the part-of-speech (POS) tagger, the named entity recognizer (NER), the parser, the coreference resolution system, sentiment analysis, bootstrapped pattern learning, and the open information extraction tools. Moreover, an annotator pipeline can include additional custom or third-party annotators. CoreNLP’s analyses provide the foundational building blocks for higher-level and domain-specific text understanding applications.
 
 
 \subsubsection{Linguistic Inquiry and Word Count}
-The premise behind the Linguistic Inquiry and Word Count (LIWC) is the words we speak inform an observer of the state of mind of an individual. To this end, the creators have constructed a framework which uses a dictionary of words which are pre-categorised \cite{Pennebaker2015}. 
-% Al-Mosaiwi - In an Absolute State: Elevated Use of Absolutist Words Is a Marker Specific to Anxiety, Depression, and Suicidal Ideation 
-A typical example of this might be someone with depression who may typically be more inwardly focused and therefore talking in the first person is common\cite{Al-Mosaiwi2018}. 
-
-The 2015 version of the LIWC has over 90 different categories and some supporting research suggests that it is effective at identifying themes and associating these themes with mental health difficulties such as depression and anxiety \cite{Sonnenschein2018}. 
+The premise behind the Linguistic Inquiry and Word Count (LIWC) is the words we speak inform an observer of the state of mind of an individual. To this end, the creators have constructed a framework which uses a dictionary of words which are pre-categorised \cite{Pennebaker2015}. A typical example of this might be someone with depression who may typically be more inwardly focused and therefore talking in the first person is common\cite{Al-Mosaiwi2018}. The 2015 version of the LIWC has over 90 different categories and some supporting research suggests that it is effective at identifying themes and associating these themes with mental health difficulties such as depression and anxiety \cite{Sonnenschein2018}. 
 \par
 A framework like this could be used as another tool to explore themes within a persons speech.
 
@@ -567,11 +563,11 @@ Machine Learning itself is undergoing a shift in focus at the present time. I wi
 \par 
 The broad objectives of my research are to explore whether the application of Natural Language Processing and Machine Learning techniques to spontaneous speech samples can improve our ability to diagnose Mild Cognitive Impairment in patients that will directly lead to Alzheimer's Disease. Another objective of my research is to provide some clarity as to which language features are most important to measure when looking for evidence of MCI and/or AD. Finally, an additional outcome of my research is the development of a repeatable battery of neuropsychological tests that specifically focus on being sensitive to Mild Cognitive Impairment.
 \begin{itemize}
-	\item \textbf{Hypothesis One} Monitoring language samples and other measures of cognitive decline over the course of the year will be enough to detect cognitive decline in a population of those with Subjective Cognitive Decline and Mild Cognitive Impairment
-	\item \textbf{Hypothesis Two} Those with MCI will show a different language profile to controls if matched similarly for age, gender, education and other significant factors.
-	\item \textbf{Hypothesis Three} The new neuropsychological battery of tests will be more sensitive at detecting mild cognitive impairment than existing measures such as the RBANS.
-	\item \textbf{Hypothesis Four} Given a number of samples of language over a given time frame, it is possible to detect language decline in participants such that you can differentiate between normal language decline, those with Alzheimers Disease and decline in those with MCI.
-	\item \textbf{Hypothesis Five} Using individuals as their own control will be enough to identify trends in the decline of their use of language.
+	\item \textbf{H1} Monitoring language samples and other measures of cognitive decline over the course of the year will be enough to detect cognitive decline in a population of those with Subjective Cognitive Decline and Mild Cognitive Impairment
+	\item \textbf{H2} Those with MCI will show a different language profile to controls if matched similarly for age, gender, education and other significant factors.
+	\item \textbf{H3} The new neuropsychological battery of tests will be more sensitive at detecting mild cognitive impairment than existing measures such as the RBANS.
+	\item \textbf{H4} Given a number of samples of language over a given time frame, it is possible to detect language decline in participants such that you can differentiate between normal language decline, those with Alzheimers Disease and decline in those with MCI.
+	\item \textbf{H5} Using individuals as their own control will be enough to identify trends in the decline of their use of language.
 \end{itemize}
 
 \section{Project Plan and Task Definitions}
