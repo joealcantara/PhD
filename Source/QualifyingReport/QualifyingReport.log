@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.11)  29 JAN 2019 20:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.11)  30 JAN 2019 22:08
 entering extended mode
 **./QualifyingReport.tex
 (QualifyingReport.tex
@@ -92,6 +92,15 @@ LaTeX Warning: Label `white' multiply defined.
 
 
 LaTeX Warning: Label `white' multiply defined.
+
+
+LaTeX Warning: Label `tab:table-name' multiply defined.
+
+
+LaTeX Warning: Label `tab:table-name' multiply defined.
+
+
+LaTeX Warning: Label `tab:table-name' multiply defined.
 
 
 LaTeX Warning: Label `tab:table-name' multiply defined.
@@ -273,112 +282,229 @@ Overfull \hbox (12.36174pt too wide) in paragraph at lines 107--108
 -log-i-cal Sta-tus (RBANS)
  []
 
-[14] [15] [16] [17] [18] [19]
-Underfull \vbox (badness 1655) has occurred while \output is active []
-
- [20]
-[21]
+[14] [15] [16] [17] [18] [19] [20] [21]
 <images/BCTPicture.png, id=76, 451.6875pt x 321.2pt>
 File: images/BCTPicture.png Graphic file (type png)
 <use images/BCTPicture.png>
-Package pdftex.def Info: images/BCTPicture.png  used on input line 206.
+Package pdftex.def Info: images/BCTPicture.png  used on input line 201.
 (pdftex.def)             Requested size: 240.90262pt x 150.56703pt.
  [22 <./images/BCTPicture.png>] [23]
-Underfull \vbox (badness 1067) has occurred while \output is active []
-
- [24]
-[25]
+[24] [25]
 <images/picnic-scene.jpg, id=90, 287.57437pt x 181.42781pt>
 File: images/picnic-scene.jpg Graphic file (type jpg)
 <use images/picnic-scene.jpg>
-Package pdftex.def Info: images/picnic-scene.jpg  used on input line 254.
+Package pdftex.def Info: images/picnic-scene.jpg  used on input line 249.
 (pdftex.def)             Requested size: 240.90701pt x 150.56566pt.
- [26 <./images/picnic-scene.jpg>] [27] [28]
-Overfull \hbox (3.9195pt too wide) in paragraph at lines 288--288
+ [26 <./images/picnic-scene.jpg>]
+Underfull \vbox (badness 2707) has occurred while \output is active []
+
+ [27]
+[28]
+Overfull \hbox (3.9195pt too wide) in paragraph at lines 282--282
 []\OT1/cmr/bx/n/12 Syntactic Com-plex-ity - Com-pos-ite mea-sures of MLU,
  []
 
 [29] [30]
-Overfull \hbox (1.49463pt too wide) in paragraph at lines 315--315
+Underfull \vbox (badness 3058) has occurred while \output is active []
+
+ [31]
+Overfull \hbox (1.49463pt too wide) in paragraph at lines 309--309
 \OT1/cmr/bx/n/14.4 and Nat-u-ral Lan-guage pro-cess-ing tech-niques 
  []
 
-
-Underfull \vbox (badness 1365) has occurred while \output is active []
-
- [31]
 <images/workflow.jpg, id=110, 2409.0pt x 1300.86pt>
 File: images/workflow.jpg Graphic file (type jpg)
 <use images/workflow.jpg>
-Package pdftex.def Info: images/workflow.jpg  used on input line 330.
+Package pdftex.def Info: images/workflow.jpg  used on input line 324.
 (pdftex.def)             Requested size: 240.87735pt x 150.55846pt.
-
-[32 <./images/workflow.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 341--341
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
 []\OT1/cmr/bx/n/10 Language pro-cess-ing
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 349--349
+Underfull \hbox (badness 3148) in paragraph at lines 342--342
 []\OT1/cmr/m/n/10 lambda cal-cu-lus, first-order logic, model
  []
 
 
-Underfull \hbox (badness 2903) in paragraph at lines 351--351
+Underfull \hbox (badness 2903) in paragraph at lines 344--344
 []\OT1/cmr/m/n/10 Probability and es-ti-ma-
  []
 
 
-Underfull \hbox (badness 2426) in paragraph at lines 352--352
+Underfull \hbox (badness 2426) in paragraph at lines 345--345
 []\OT1/cmr/m/n/10 Graphical con-cor-dance, parsers, Word-Net
  []
 
-[33] [34] [35]
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
+[33 <./images/workflow.jpg>] [34] [35] [36]
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
 
  []
 
-[36] [37]
+[37]
 Chapter 3.
-
-LaTeX Warning: Citation `Orimaye2008' on page 38 undefined on input line 416.
-
 [38
 
 ]
-Overfull \hbox (44.43304pt too wide) in paragraph at lines 427--435
- [] 
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 444.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 444.
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+[]\OT1/cmr/m/n/10 3423.91
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+[]\OT1/cmr/m/n/10 2607.72
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+[]\OT1/cmr/m/n/10 1848.65
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+[]\OT1/cmr/m/n/10 894.13
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+[]\OT1/cmr/m/n/10 667.76
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+[]\OT1/cmr/m/n/10 481.82
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--452
+[]\OT1/cmr/m/n/10 12.72
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--452
+[]\OT1/cmr/m/n/10 6.78
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--452
+[]\OT1/cmr/m/n/10 7.41
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
+[]\OT1/cmr/m/n/10 124.22
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
+[]\OT1/cmr/m/n/10 103.45
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
+[]\OT1/cmr/m/n/10 84.48
+ []
+
 [40]
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+[]\OT1/cmr/m/n/10 RR v
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+[]\OT1/cmr/m/n/10 RR v
+ []
+
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 470.
+[41]
+<images/RRUniqueWords.png, id=145, 433.62pt x 289.08pt>
+File: images/RRUniqueWords.png Graphic file (type png)
+<use images/RRUniqueWords.png>
+Package pdftex.def Info: images/RRUniqueWords.png  used on input line 509.
+(pdftex.def)             Requested size: 190.71399pt x 140.52562pt.
+
+Overfull \hbox (52.7161pt too wide) in paragraph at lines 509--510
+[][] 
+ []
+
+<images/GWHBUniqueWords.png, id=147, 433.62pt x 289.08pt>
+File: images/GWHBUniqueWords.png Graphic file (type png)
+<use images/GWHBUniqueWords.png>
+Package pdftex.def Info: images/GWHBUniqueWords.png  used on input line 514.
+(pdftex.def)             Requested size: 190.71399pt x 140.52562pt.
+
+Overfull \hbox (52.7161pt too wide) in paragraph at lines 514--515
+[][] 
+ []
+
+[42]
+<images/RRNSNouns.png, id=151, 433.62pt x 289.08pt>
+File: images/RRNSNouns.png Graphic file (type png)
+<use images/RRNSNouns.png>
+Package pdftex.def Info: images/RRNSNouns.png  used on input line 522.
+(pdftex.def)             Requested size: 190.71399pt x 140.52562pt.
+
+Overfull \hbox (52.7161pt too wide) in paragraph at lines 522--523
+[][] 
+ []
+
+<images/DJTNSNouns.png, id=152, 433.62pt x 289.08pt>
+File: images/DJTNSNouns.png Graphic file (type png)
+<use images/DJTNSNouns.png>
+Package pdftex.def Info: images/DJTNSNouns.png  used on input line 527.
+(pdftex.def)             Requested size: 190.71399pt x 140.52562pt.
+
+Overfull \hbox (52.7161pt too wide) in paragraph at lines 527--528
+[][] 
+ []
+
+[43 <./images/RRUniqueWords.png> <./images/GWHBUniqueWords.png> <./images/RRNSN
+ouns.png> <./images/DJTNSNouns.png>]
+<images/RRNounsNormalised.png, id=161, 433.62pt x 289.08pt>
+File: images/RRNounsNormalised.png Graphic file (type png)
+<use images/RRNounsNormalised.png>
+Package pdftex.def Info: images/RRNounsNormalised.png  used on input line 540.
+(pdftex.def)             Requested size: 240.90015pt x 150.56065pt.
+<images/RRPronouns.png, id=162, 433.62pt x 289.08pt>
+File: images/RRPronouns.png Graphic file (type png)
+<use images/RRPronouns.png>
+Package pdftex.def Info: images/RRPronouns.png  used on input line 546.
+(pdftex.def)             Requested size: 240.90015pt x 150.56065pt.
+ [44 <./images/RRNounsNormalised.png> <./images/RRPronouns.png>] [45]
 Chapter 4.
-[41
+[46
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 455.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 571.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 455.
- [42] [43]
-Overfull \hbox (3.27829pt too wide) in paragraph at lines 477--478
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 571.
+ [47] [48]
+Overfull \hbox (3.27829pt too wide) in paragraph at lines 593--594
 []\OT1/cmr/m/n/10 The Three Au-thors dataset in-cludes the nov-els of P.D. Jame
 s, Agatha Christie
  []
 
-[44] [45] [46]
-
-LaTeX Warning: Citation `Society2012' on page 47 undefined on input line 523.
-
-[47] [48] [49]
+[49] [50] [51] [52] [53] [54]
 Chapter 5.
-(QualifyingReport.bbl [50
+(QualifyingReport.bbl [55
 
 ]
 Underfull \hbox (badness 1603) in paragraph at lines 15--20
@@ -386,36 +512,40 @@ Underfull \hbox (badness 1603) in paragraph at lines 15--20
 nce in
  []
 
-[51
+[56
 
-] [52] [53] [54] [55] [56]) [57] [58] (QualifyingReport.aux)
+] [57] [58] [59] [60] [61] [62]
+Underfull \hbox (badness 1067) in paragraph at lines 530--535
+[]\OT1/cmr/m/n/10 Britta Wen-del-stein, Jorn Stegmeier, Clau-dia Franken-berg,
+ Ekke-hard
+ []
 
-LaTeX Warning: There were undefined references.
-
+[63]) [64] (QualifyingReport.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2219 strings out of 492973
- 32384 string characters out of 3135932
- 103200 words of memory out of 3000000
- 6051 multiletter control sequences out of 15000+200000
+ 2281 strings out of 492973
+ 33649 string characters out of 3135932
+ 103252 words of memory out of 3000000
+ 6104 multiletter control sequences out of 15000+200000
  9748 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,43p,2017b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,12n,43p,2018b,420s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmu10
-.pfb>
-Output written on QualifyingReport.pdf (58 pages, 774539 bytes).
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmu10.pfb>
+Output written on QualifyingReport.pdf (64 pages, 907237 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
+ 268 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

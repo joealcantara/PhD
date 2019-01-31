@@ -80,7 +80,7 @@ It is clear from both the clinical diagnostic criteria and supporting research t
 The purpose of this review is to look at the current standards of cognitive tests available that can be used as a diagnostic tool for MCI. I then go on to explore what techniques for assessing language have been used within the field of cognitive and clinical psychology. I then go on to look at what techniques have been developed in the field of machine learning (ML), deep learning (DL) and natural language processing (NLP) that might enable the automated analysis of language easier as well as an obstacles and/or limitations of current technology. Finally, I look at some studies which have already looked at the intersection of these two domains. \newline
 \par
 A search of the literature was conducted using ProQuest (PsychArticles), SCOPUS, Web of Science. The following results were found (Table 1). All papers were then reviewed for relevance by reading the abstract and full text where appropriate and a shortlist was compiled. An additional search through references of shortlisted papers was also conducted and any papers who upon further review appeared relevant were added to the shortlist. Papers were included where researchers used machine learning to classify participants as MCI, AD or Healthy using language. We excluded any papers that focused on other forms of dementia or cognitive impairment, as well as any papers in which the language being analysed was not English. 
-\begin{table}
+\begin{table}[H]
 	\begin{center}
 	\begin{tabular}{ | p{4cm} | p{1cm} | p{6cm} | p{1cm} |}
 		\hline
@@ -141,55 +141,50 @@ However, whilst the authors claim that the RBANS is adequately sensitive in pers
 \subsection{Digit Span Test}
 The Digit Span Test (DST) is predominantly used to measure a person's working memory capacity, specifically the capacity used to store and recall numbers. A participant is presented with a series of numbers of fixed length and is asked to recall those numbers in normal or reverse order. The series of numbers gets progressively longer until such time as a participant fails three or more times out of eight presentations.
 \par
-% Muangpaisan - Digit span and verbal fluency tests in patients with MCI and normal subjects in Thai community.
 Research has consistently shown that MCI patients have a significantly lower digit span score in both normal and reverse order versions of this test and a study by Muangpaisan has shown that the reverse order version of this test can, to some degree, predict a diagnosis of MCI \cite{Muangpaisan2008}. Muangpaisan also found that Age, Gender and Education have an impact on the performance of the tests. Emrani et al found that the DST revealed no differences between specifically amnestic MCI and controls, but could differentiate between Mixed MCI and the other groups with mixed MCI recalling fewer correct responses than other groups. Notably, there was an attenuated recency effect in those with mixed MCI. \cite{Emrani2018}. Kessels identifies that that there are working memory deficits in MCI patients and these worsen with AD patients. \cite{Kessels2011} He also identified that both MCI and AD have impaired performance on all three conditions of the digit span test. No differences were found between forward and backward conditions in any of the groups. However, available tests may not detect subtle impairments \cite{Kessels2015}.
 \subsection{Rey Auditory-Verbal learning test}
-Rey's Auditory Verbal Learning Test (RAVLT+) looks a wide range of neuropsychological processess including short-term auditory-verbal memory, learning and retention of information. Participants are given a list of 15 unrelated words, repeated over five different trials and are asked to repeat. Another list of 15 unrelated words are given and the client must again repeat the original list of 15 words and then repeat it again after 30 minutes \cite{Schmidt1996}.
+Rey's Auditory Verbal Learning Test (RAVLT+) looks a wide range of neuropsychological processes including short-term auditory-verbal memory, learning and retention of information. Participants are given a list of 15 unrelated words, repeated over five different trials and are asked to repeat. Another list of 15 unrelated words are given and the client must again repeat the original list of 15 words and then repeat it again after 30 minutes \cite{Schmidt1996}.
 \par
 Several studies have shown that an impairment in RAVLT score reflect well the underlying pathology caused by AD. Thus making the RAVLT an effective early marker to detect AD in persons with memory complaints. Moradi investigated to what extent the RAVLT scores are predictable based on MRI data using machine learning approaches, as well as to find out what the most important brain regions are for the estimation of RAVLT scores \cite{Moradi2017}. They found a highly significant cross validated correlation between the estimated and observed RAVLT immediate and RAVLT Percent Forgetting. Further, they found that the conversion of MCI subjects to AD in 3-years could be predicted based on either observed or estimated RAVLT scores with an accuracy comparible to MRI-based biomarkers \cite{Moradi2017}. Another study by Schoenberg found that RAVLT to best distinguish patients suspected of Alzheimer's disease from the psychiatric comparison group \cite{Schoenberg2006}.
 \subsection{Digit Symbol Substitution Test}
 The Digit Symbol Substitution Test (DSST) involves a key consisting of the numbers 1-9 and a corresponding unique symbol. Below this key is a series of numbers from 1-9 in a randomized order and repeated multiple times. The participant is asked to fill in the corresponding symbol for each number. The task requires that the participant move between the key and the randomized sequence such that  they may retrieve the correct answer from the key, hold this in short-term memory and transcribe the key in the appropriate place.
 \par 
-Among those with no disorder in cognition, mobility and mood, being in the lowest DSST quartile compared to the highest was associated with nearly twice the odds of developing one or more clinical or subclinical disorders. Associations were stronger for incident clinical disorders in cognition. Slower psychomotor speed may serve as a biomarker of risk of clinical disorders, mobility and mood. While in part attributable to vascular brain disease, other potentially modifiable contributors may be present \cite{Rosano2016}. Further studying the causes of psychomotor slowing with ageing might provide novel insights into age-related brain disorders. Pascoe compared patients with PD with Normal Cognition (PD-N) with those with PD and MCI (PD-MCI) and healthy participants. PD-MCI pariticipants achieved significantly lower scores than other groups in the DSST task \cite{Pascoe2018}.
+Among those with no disorder in cognition, mobility and mood, being in the lowest DSST quartile compared to the highest was associated with nearly twice the odds of developing one or more clinical or subclinical disorders. Associations were stronger for incident clinical disorders in cognition. Slower psychomotor speed may serve as a biomarker of risk of clinical disorders, mobility and mood. While in part attributable to vascular brain disease, other potentially modifiable contributors may be present \cite{Rosano2016}. Further studying the causes of psychomotor slowing with ageing might provide novel insights into age-related brain disorders. Pascoe compared patients with PD with Normal Cognition (PD-N) with those with PD and MCI (PD-MCI) and healthy participants. PD-MCI participants achieved significantly lower scores than other groups in the DSST task \cite{Pascoe2018}.
 \subsection{Verbal Fluency}
 There are a number of tests that characterise this category of verbal fluency, but generally fall into two categories. Letter (Phonemic) fluency involves the generation of as many words as possible which begin with a specified letter. Category fluency involves the generation of as many words as possible that fall into a specfied category. Both these tasks impose demands on a number of different cognitive processes namely, executive function, verbal retrieval and recall, giving appropriate answers while monitoring previous answers and inhibit inappropriate responses. However, these two tasks require different strategies when attempting them. Letter fluency relies on search strategies based on lexical representations whereas category fluency requires a search for semantic extensions of a superordinate term, meaning that semantic associations within the lexicon must be intact in order for the task to be carried out successfully. 
 \par  
 There have been numerous studies which have documented the impact that AD has on verbal fluency tests in both categories. A review carried out by Henry et al \cite{Henry2004}, found that performance in both letter fluency and category fluency was impaired in those with AD vs controls, but found a larger effect for tests of semantic fluency.
 \subsection{Naming Tests}
-Word-finding difficulty is a common symptom of AD and these deficits usually occur during the early stages of the disease progression. As such , a test of a patients ability to find words (known as confrontation naming) is a common way to measure cognitive decline. One common way to do this is the Boston Naming Test (BNT) which comprises 60 items on a spectrum of very frequent to very infrequent. This has been reduced subsequently to two thirty item versions and four fifteen item versions, which correlate significantly with the original sixty item version and the benefit of the shorter versions of the test is that it facilitates testing of individuals with AD who may suffer from fatigue or limited attention span.
+Word-finding difficulty is a common symptom of AD and these deficits usually occur during the early stages of the disease progression. As such , a test of a patients ability to find words (known as confrontation naming) is a common way to measure cognitive decline. One common way to do this is the Boston Naming Test (BNT) which comprises 60 items on a spectrum of very frequent to very infrequent. This has been reduced subsequently to two thirty item versions and four fifteen item versions, which correlate significantly with the original sixty item version and the benefit of the shorter versions of the test is that it facilitates testing of individuals with AD who may suffer from fatigue or limited attention span \cite{Williams1989}.
 \par 
 Willers et al \cite{Willers2008} studied Twenty aMCI patients, twenty AD and 21 controls matched by age, sex and education level. They found AD patients obtained significantly lower total scores on the BNT than aMCI patients and controls. aMCI patients did not obtain significant differences in total scores but showed significantly higher semantic errors compared to controls. Semantic processing is impaired during confrontation naming in aMCI.
 \par 
 Vadikolias investigated the impact of education on naming tests \cite{Vadikolias2012} and found that higher educational attainment in aMCI subjects were correlated with better performance in verbal and non-verbal tasks during repeated examinations over 1-year. Subjects with a lower level of education performed worse than patients with a high level of education who presented a more stable clinical score. The explanation for this is the idea of a 'cognitive reserve' in participants with a higher education such that this provides a buffer that, while not preventing the physiological symptoms of AD, can potentially delay the clinical onset of cognitive symptoms that characterise AD. This theory is supported by Snowdon who found a relationship between early life linguistic ability and the density of neurofibrillary tangles in his nun study \cite{Snowdon1996}. Whilst these studies and tests provide evidence that there are word finding difficulties in those with MCI, on their own they do not provide sufficient ability to diagnose MCI or provide an prognosis of disease progression.
 \subsection{Rey-Osterrieth Complex Figure Task}
-% CITE - Osterrieth - Filetest de copied’une figure complex: contribution al’etude de la perception et de la memoire [The test of copying a complex figure: a contribution to the study of perception and memory]
-% CITE - Taylor 1969 1979 - Variants
-% CITE - Strauss - A comparison of the Rey and Taylor figures
-The Rey-Osterrieth Complex Figure (ROCF) is a task widely as a test of visuo-spatial skill and visual memory. The task, which was originally designed by Rey (1944) and standardised by Osterrieth (1944) \cite{Rey1941}, asks a participant to copy a complex geometrical figure (known as the immediate copy condition and to recall and reproduce the figure from memory without warning (known as the delayed recall condition). In the immediate copy condition, the complexity of the figure requires an integrative cognitive ability. The reproduction of such a complex structure involves processes such as planning and organizational strategies that are related to executive functions. In order to make this task repeatable, Taylor et al designed a comparable set of figures which have proven to be of equivalent difficulty \cite{Taylor1969, Strauss1990}. 
+The Rey-Osterrieth Complex Figure (ROCF) is a task widely as a test of visuo-spatial skill and visual memory. The task, which was originally designed by Rey (1944) and standardised by Osterrieth (1944) \cite{Rey1941, Osterrieth1944}, asks a participant to copy a complex geometrical figure (known as the immediate copy condition and to recall and reproduce the figure from memory without warning (known as the delayed recall condition). In the immediate copy condition, the complexity of the figure requires an integrative cognitive ability. The reproduction of such a complex structure involves processes such as planning and organizational strategies that are related to executive functions. In order to make this task repeatable, Taylor et al designed a comparable set of figures which have proven to be of equivalent difficulty \cite{Taylor1969, Strauss1990}. 
 \par
-Salvadori found that patients with vascular MCI had a worse performance in the immediate copy of the ROCF compared to individuals with degenerative MCI, despite their significant impairment in terms of general cognitive status and visual memory \cite{Salvadori2018}. Evidence shows that patients with disorders that possibly involve attention and executive functions are characterized by a more disorganised approach when copying the ROCF compared to controls. One of the difficulties with the presentation of this task in a repeated battery will be the fact that it turns from an incidental memory task (it is a memory task but the participant is not forewarned that they will be required to memorise the picture) into an intentional memory task (given the previous exposure to the task, it would be expected that a participant would pre-empt the delayed recall portion of the test and spend more time attempting to memorise the details) \cite{Teng2009}. 
+Salvadori found that patients with vascular MCI had a worse performance in the immediate copy of the ROCF compared to individuals with degenerative MCI, despite their significant impairment in terms of general cognitive status and visual memory \cite{Salvadori2018}. Evidence shows that patients with disorders that possibly involve attention and executive functions are characterized by a more disorganised approach when copying the ROCF compared to controls. One of the difficulties with the presentation of this task in a repeated battery will be the fact that it turns from an incidental memory task (it is a memory task but the participant is not forewarned that they will be required to memorise the picture) into an intentional memory task (given the previous exposure to the task, it would be expected that a participant would preempt the delayed recall portion of the test and spend more time attempting to memorise the details) \cite{Teng2009}. 
 \subsection{Hayling Sentence Completion Test}
-Inhibitory deficits are a common in all stages of dementia. This is usually tested using Stroop test, however this has the drawback of lacking ecological validity. Therefore researchers have moved towards using the Hayling Sentence Completion Test (HCST) which uses skills such as word retreval as well as the ability to inhibit ones responses where appropriate and is therefore a much more ecologically valid task. There are two parts to the HCST. In the first part, participants have to complete a sentence by providing a word that best fits the given sentence (this is known as the initiation condition). In this second part, participants have to complete sentences by inhibiting an impulse to give the word that best first the sentence as in the first part, and producing a semantically unconnected word. Performance in both conditions is measured by the time taken for the participant to initiate a response, and in the inhibition condition also by the correctness of the word.   
+Inhibitory deficits are a common in all stages of dementia. This is usually tested using Stroop test, however this has the drawback of lacking ecological validity. Therefore researchers have moved towards using the Hayling Sentence Completion Test (HCST) which uses skills such as word retrieval as well as the ability to inhibit ones responses where appropriate and is therefore a much more ecologically valid task. There are two parts to the HCST. In the first part, participants have to complete a sentence by providing a word that best fits the given sentence (this is known as the initiation condition). In this second part, participants have to complete sentences by inhibiting an impulse to give the word that best first the sentence as in the first part, and producing a semantically unconnected word. Performance in both conditions is measured by the time taken for the participant to initiate a response, and in the inhibition condition also by the correctness of the word.   
 \par 
-Martyr et al compared healthy controls with patients with dementia and patients with parkinson's disease \cite{Martyr2017}. They found that a high proportion of Category A errors (producing a word that fits the sentence when instructed otherwise) was a factor in performance loss for participants with dementia. Findings suggest that the HSCT may be sensitive to verbal suppression deficits and may provide insight into inhibitory control in participants with dementia. Patients with Dementia were significantly slower than controls in the initiation and inhibition conditions vs healthy controls, and slower than patients with parkinsons disease in the initiation but not the inhibition condition.
+Martyr et al compared healthy controls with patients with dementia and patients with Parkinson's disease \cite{Martyr2017}. They found that a high proportion of Category A errors (producing a word that fits the sentence when instructed otherwise) was a factor in performance loss for participants with dementia. Findings suggest that the HSCT may be sensitive to verbal suppression deficits and may provide insight into inhibitory control in participants with dementia. Patients with Dementia were significantly slower than controls in the initiation and inhibition conditions vs healthy controls, and slower than patients with Parkinson's disease in the initiation but not the inhibition condition.
 \subsection{Grooved Pegboard Test}
 The Grooved Pegboard Test (GPT) was originally designed to cover a variety of different psycho-motor functions including hand-eye coordination and motor speed. However, some studies have shown a correlation of performance in the GPT and measures of cognitive performance such as the Montreal Cognitive Assessment.
 \par 
 Bezdicek found that the GPT predicted performance on the MoCA and concluded that in addition to being a measure of motor skills, there were results that showed that the GPT could also provide information about a participants cognitive skills \cite{Bezdicek2014}. Whilst this was specifically using a population of patients with Parkinson's disease, given the MoCA and GPT have shown degree of correlation, there remains an opportunity for research that explores the use of the GPT with MCI and Early AD populations.
 \par 
-Darweesh et al, used the Purdue Pegboard Test to assess manual dexterity in a healthy older adult population and followed their participants for between eight and twelve years until an indication of the onset of a neurodegenerative disease \cite{Darweesh2017}. In this time 227 (4\%) of their participants went on to develop a diagnosis of dementia. They noted that higher PPT scores were associated with lower risk of incident neurodegnerative disease and noted significant associations of PPT scores with all forms of dementia and this potentially highlights a deterioration of motor function in the pre-clinical  phase of dementia.
+Darweesh et al, used the Purdue Pegboard Test (PPT) to assess manual dexterity in a healthy older adult population and followed their participants for between eight and twelve years until an indication of the onset of a neurodegenerative disease \cite{Darweesh2017}. In this time 227 (4\%) of their participants went on to develop a diagnosis of dementia. They noted that higher PPT scores were associated with lower risk of incident neurodegnerative disease and noted significant associations of PPT scores with all forms of dementia and this potentially highlights a deterioration of motor function in the pre-clinical phase of dementia.
 \subsection{Visual Search}
 The visual search task requires participants to be watching a computerised display in which a target appears either by itself or surrounded by other elements which are used as a distraction. These other elements can be vary in similarity to the target. This is inherently a measure of attention shifting and processing of various similarity and as one would expect, the visual search time is increased in the presence of distractors. This effect is magnified in participants who have a cognitive impairment. 
 \par
 Research has shown there to be deficits in both AD and MCI populations in this task \cite{Tales2005}, and those with MCI exhibited less severe deficits compabut that these deficits were not as apparent in MCI populations, there remained a significant enough difference that could be used to differentiate healthy controls from those with MCI. In a comparison of visual search performance between those with aMCI and healthy controls, Tales noted significantly poorer performance in the aMCI group. However, she also noted a good deal of heterogeneity in the aMCI group which illustrates that whilst the aMCI group have essentially the same condition, presentations within this population can differ markedly. The results from this study also illustrates the use of a non-memory task as a means of diagnosing dementia as patients who went on to be diagnosed with dementia whilst this study was in progress had significantly poorer visual search performance.  
 \subsection{Free Cued Selective Reminding Test}
-% Describe the test
 The Free Cued Selective Reminding Test (FCSRT) was borne out of the premise that by controlling the conditions of learning, a measure of memory is possible that is not confounded by normal age related changes in cognition. Theoretically speaking, any controlled learning test should be able to discriminate between cognitive decline due to age and cognitive decline due to a cognitive impairment. The FCSRT starts with a learning phase in which participants are asked to look at a card containing four pictures (e.g., grapes) for an item that belongs to a named category(e.g., fruit). After these four items are identified, immediate cued recall of these four items is tested and this is repeated for a total of 16 items. Following this learning phase is the recall phase in which participants are asked to recall all the items identified without cues and any items which are not recalled are then cued. There are three outcome measures for this test, free recall (the number of items recalled without cues), total recall (the number of items recalled with or without cues) and cue efficiency which is identified as follows \cite{Grober2010}.
 \begin{equation} \label{x1}
 Cue efficiency = (totalRecall-freeRecall)/48-freeRecall, range 0.0-1.0)
 \end{equation}
 Grober found that patients with impaired free recall with four times more likely to develop dementia than those with intact free recall \cite{Grober2010}. This test has also been shown to distinguish patients with MCI who then went on to develop AD, from those with MCI that did not then go on to develop AD and this led the researchers to used the test to categorise prodromal or the amnestic syndrome of the medial temporal lobe by FSCRT score \cite{Sarazin2007}. 
-\subsubsection{Conclusions}
+\subsection{Conclusions}
 I have looked at a number of different cognitive tests and a battery of tests that aim to have high diagnostic and prognostic capabilities in the MCI population. However, particularly with the RBANS, there lacks sufficient sensitivity in differentiating those with MCI from healthy elderly individuals such that this tool could be used with a level of confidence in a clinical setting. In regard to the tests, a common theme is a lack of studies and therefore evidence into the utility of these tests with an MCI population. However if, as researcher, we aim to investigate this population further then a benchmark battery of tests which is sensitive enough in both diagnostic and/or prognostic utility should be a goal. 
 \par 
 Another criticism of the current literature is the lack of consistency with regard to the experimental groups. For example, some studies focus on differentiating between an MCI group, a AD group and a healthy controls group whereas other studies may further subdivide the MCI category according to a number of factors such as Amnesic or Non-Amnesic MCI, Mixed MCI (sometimes called Multi-domain MCI in the literature). Given the inconsistency in defining the experimental groups the confusing and often conflicting results that researchers produce is to be expected. Future research should look at the standardization of the operational definition of cognitive impairment in MCI may result in more consistent predictions of progression to AD. 
@@ -229,13 +224,13 @@ Part of the reason we need to pay attention to how we ask participants to genera
 \par
 Single word tasks such as the Boston Naming Test and other such standardized language tests generally target a participants word production where this is defined as the ability to form and express words in accordance with certain criteria (see above for a full description of verbal fluency as task). There are a number of benefits to using single word tasks. From a research methodology perspective, using a standardized test allows researchers to target a very specific process in language generation and isolate factors that impact performance in language well. However, this approach does not take into account other cognitive processes that are used in lengthier speech tasks. More specifically, single word language tasks do not look at the interaction between language, executive functions and reasoning abilities. They also do not require the logical and efficient organisation of ideas. 
 \par
-Connected language tasks, such as the picture description task and interviews described above are a much more reflective of processes involved in natural language generation. They are able to be relatively constrained in the language available to be used, for example in the picture description task, or they can be unconstrained in the form of interviews. % ADD MORE!
+Connected language tasks, such as the picture description task and interviews described above are much more reflective of the processes involved in natural language generation. They are able to be relatively constrained in the language available to be used, for example in the picture description task, or they can be unconstrained in the form of interviews. But regardless of how they are framed, they are potentially much more useful in terms looking at all the processes involved in language generation with the drawback that you will not be able to isolate specific parts of the language generation process. A review by Boschi et al concludes that analysis of connected speech is potentially useful in guiding clinicians to identify language disorders \cite{Boschi2017} and also highlights the role of NLP and Machine learning in assisting in this endeavour. 
 \par
 \subsection{Semantics vs Pragmatics}
-When navigating the English language it is necessary to distinguish between what a sentence says in both semantic and pragmatic terms. Semantic meaning refers to the meaning of the words in a sentence local only to the given sentence. Another way to put this is, semantics considers the meaning of words without taking into account the context in which these words are spoken. Pragmatic meaning refers looks at the same sentence in terms of words and grammar but takes into account the situation or context in which these words are spoken. Emery in her literature review looks at all levels of language tasks except for pragmatics, however this is an area that should not be ignored.
+When navigating the English language it is necessary to distinguish between what a sentence says in both semantic and pragmatic terms. Semantic meaning refers to the meaning of the words in a sentence local only to the given sentence. Another way to put this is, semantics considers the meaning of words without taking into account the context in which these words are spoken. Pragmatic meaning refers looks at the same sentence in terms of words and grammar but takes into account the situation or context in which these words are spoken. Emery in her literature review looks at all levels of language tasks except for pragmatics, however this is an area that should not be ignored. Whilst the study of language from a pragmatic perspective is much more complex, it is perhaps one of the most vital areas to study because of the number of different cognitive processes involved.
 \par
 \subsection{Semantic Content}
-Another approach to linguistic analysis in this field is the idea of measuring semantic content and complexity. According to Emery (2000) \cite{Emery2000} in which she states that Semantic and Syntactic skills deteriorate first in people with MCI and AD. If this is true, then psychological measures of semantic and syntactic skills should be able to pick up signs of deterioration and act as markers for possible MCI and AD. An example of a semantic complexity measure is the concept of idea density. Formally, idea density is defined as the average number of propositions per sentence \cite{Keenan1973} and this was used to successfully differentiate between people who would later go on to develop AD \cite{Snowdon1996}. Some examples of semantic content measures are Type to Token Ratio, Brunet's Index and Honore's Statistic (described below) which are used to measure the lexical diversity of a given piece of text and/or utterance.  This has also shown to be effective in differentiating between MCI, AD and Controls, with those with language impairments \cite{Bucks2000} and this has carried through in research involving machine learning \cite{Wang2016, Thomas2013}.
+Another approach to linguistic analysis in this field is the idea of measuring semantic content and complexity. According to Emery (2000) \cite{Emery2000} in which she states that Semantic and Syntactic skills deteriorate first in people with MCI and AD. If this is true, then psychological measures of semantic and syntactic skills should be able to pick up signs of deterioration and act as markers for possible MCI and AD. An example of a semantic complexity measure is the concept of idea density. Formally, idea density is defined as the average number of propositions per sentence \cite{Keenan1973} and this was used to successfully differentiate between people who would later go on to develop AD \cite{Snowdon1996}. An example of semantic content measures is Type to Token Ratio (described below) which is used to measure the lexical diversity of a given piece of text and/or utterance.  This has also shown to be effective in differentiating between MCI, AD and Controls, with those with language impairments \cite{Bucks2000} and this has carried through in research involving machine learning \cite{Wang2016, Thomas2013}.
 \par
 \subsubsection{Type token ratio(TTR)}
 Type token ratio (TTR) is the ratio obtained by dividing the types (The total number of different words) by the tokens (the total number of words in an utterance).
@@ -260,7 +255,6 @@ Finally, a number of studies used composite measures which contained thematic el
 \subsection{General Information Units or Content Information Units}
 Some studies used a more general concept of content, defining "information units" as "the smallest non redundant meaningful fact or inference," whether or not the information conveyed was specific to the context in which the conversation happened. Giles et al for example studied adults with minimal, mild or moderate AD vs controls and found that adults with AD produced fewer overall information units than controls \cite{Giles1996}.
 \subsection{Conciseness of information}
-% CITE RILEY!
 Conciseness has been defined as the number of words a speaker uses to express ideas. The theory is that people with AD will need more words to convey ideas because of word-finding related behaviours such as circumlocutions and repetitions. Conciseness is calculated by dividing the number of ideas expressed by the total number of words in a measure commonly referred to as idea density but also known as lexical index, information content and information unit conciseness index. Snowdon examined written discourse from the Nun study and found that low idea density in early life was associated with reduced cognitive performance in later life \cite{Snowdon1996}. Riley et al extended these findings by concluding that early-life idea density was associated with lower brain weight, higher degree of cerebral atrophy and increased neurofibrillary pathology in later life \cite{Riley2005}.
 \par
 Ahmed, de Jager et al examined idea density with patients who had confirmed AD post mortem \cite{Ahmed2013}. They found that those with AD produced fewer total semantic units than controls but there was no significant difference between the groups with regards to idea density. The study of "empty speech" by Nicholas et al examined conciseness with measures thought to contribute to the "nonspecifity" of discourse in AD, such as empty phrases (defined as common idioms contributing no relevant information), deictic terms (e.g. "this", "that" without referents), indefinite terms (e.g. "thing" or "stuff"), pronouns without proper noun antecedants, and repetitions. In their study they found that AD patients produced more of these behaviours than did controls.
@@ -332,7 +326,6 @@ Generally speaking, Natural Language Processing (NLP) systems mimic the semiotic
 \end{figure}
 
 \subsubsection{Natural Language Toolkit}
-% CITE Bird, Steven, Edward Loper and Ewan Klein (2009). Natural Language Processing with Python.  O'Reilly Media Inc.
 The Natural Language Toolkit (NLTK) was originally designed as part of a computational linguistics course but has evolved to become an open-source framework which includes methods and modules for a wide array of Natural Language tasks (see Table 2.2 for a full list) \cite{Bird2009}.
 
 \begin{table}
@@ -366,9 +359,9 @@ Stanford CoreNLP’s goal is to make it very easy to apply a bunch of linguistic
 \subsubsection{Linguistic Inquiry and Word Count}
 The premise behind the Linguistic Inquiry and Word Count (LIWC) is the words we speak inform an observer of the state of mind of an individual. To this end, the creators have constructed a framework which uses a dictionary of words which are pre-categorised \cite{Pennebaker2015}. 
 % Al-Mosaiwi - In an Absolute State: Elevated Use of Absolutist Words Is a Marker Specific to Anxiety, Depression, and Suicidal Ideation 
-A typical example of this might be someone with depression who may typically be more inwardly focused and therefore talking in the first person is common. 
-% Sonnenschein - Linguistic analysis of patients with mood and anxiety disorders during cognitive behavioral therapy
-The 2015 version of the LIWC has over 90 different categories and some supporting research suggests that it is effective at identifying themes and associating these themes with mental health difficulties such as depression and anxiety. 
+A typical example of this might be someone with depression who may typically be more inwardly focused and therefore talking in the first person is common\cite{Al-Mosaiwi2018}. 
+
+The 2015 version of the LIWC has over 90 different categories and some supporting research suggests that it is effective at identifying themes and associating these themes with mental health difficulties such as depression and anxiety \cite{Sonnenschein2018}. 
 \par
 A framework like this could be used as another tool to explore themes within a persons speech.
 
@@ -377,15 +370,14 @@ A framework like this could be used as another tool to explore themes within a p
 
 In terms of Machine Learning research in this area, a number of researchers have used transcripts based on picture description tasks \cite{Zimmerer2016, Orimaye2017, Mueller2018a, Fraser2015} and have successfully extracted linguistic features that could differentiate between AD and controls.
 \par
-% Thomas - Automatic Detection and Rating of AD through the Lexical Analysis of Spontaneous Speech
-Thomas et al, detail several lexical approaches to the problem of detecting and rating AD. The approaches rely on character n-gram techniques but also explore correlation of usage of frequency of different types of speech. Their results act as a proof in concept of the utility of using a pure computational approach to the diagnosis of dementia using spontaneous speech. Results - 95\% accuracy dementia vs controls. 70\% accuracy classifying dementia into two categories. 50\% accuracy classifying dementia into four categories. They suggest further exploration of characteristics to classify.
-% Bucks et al - Analysis of spontaneous, conversational speech in dementia of the Alzheimer's Type: Evaluation of an objective technique for analyzing lexical performance.
+Thomas et al, detail several lexical approaches to the problem of detecting and rating AD. The approaches rely on character n-gram techniques but also explore correlation of usage of frequency of different types of speech. Their results act as a proof in concept of the utility of using a pure computational approach to the diagnosis of dementia using spontaneous speech. Results - 95\% accuracy dementia vs controls. 70\% accuracy classifying dementia into two categories. 50\% accuracy classifying dementia into four categories. They suggest further exploration of characteristics to classify \cite{Thomas2005}.
+\par 
 AD patients had higher mean P rate, A rate and V rate scores but lower N rate scores vs normal older controls \cite{Bucks2000}.
 One of the first attempts to use machine learning and natural language techniques to look was conducted by Thomas \cite{Thomas2005} who was able to successfully demonstrate the ability of machine learning algorithms to analyse n-grams as well as other features to outperform a naive rule-based classifier which always selects the modal class. Orimaye et al (2017) \cite{Orimaye2017} investigated the use of machine learning algorithms to detect differences primarily in n-gram use to distinguish between those with a diagnosis of AD and healthy controls. Their main finding supported n-grams as the most significant predictor. One of the criticisms is the use of picture description tasks and n-grams. Because the language generated by this task is content specific the n-grams generated are only specific to the task given and cannot be generalised.
 \subsection{The case for Deep Learning}
 % Deep Learning is an NOT 
 
-% One of the main benefits of deep learning is that it does not rely on pre defined features being fed to the model, instead generating it's own features. This move away from relying on features solves one of the difficulties with  
+One of the main benefits of deep learning is that it does not rely on pre defined features being fed to the model, instead generating it's own features. This move away from relying on features solves one of the difficulties with  
 
 
 % One of the drawbacks of attempting to use natural language processing and machine learning in this context is the lack of data.
@@ -427,9 +419,10 @@ We calculating the following features for each transcript in turn using the NLTK
 % CITE Richards 1986 Type/Token Ratios: What do they really tell us?
 We constructed two features of lexical variation. Firstly we looked at the number of unique words. To do this we were able to split each transcript into individual words and changed them to lowercase using NLTK and were then count the number of unique words that appeared in each transcript. We also used the TTR formula (see section 2 for a description) for a feature that measures lexical diversity independent of sample size \cite{}. 
 \subsubsection{Fillers, Non-Specific Nouns and LI Verbs}
+% CITE Bird et al 2000 The Rise and Fall of Frequency and Imageability Noun and Verb Production in Semantic Dementia
 For these features, we counted the number of occurrences for different categories (see table for list of categories tracked and the words counted.
 
-\begin{table}
+\begin{table}[H]
 	\begin{center}
 	\begin{tabular}{ | p{3cm} | p{6cm} |}
 		\hline
@@ -446,78 +439,120 @@ For these features, we counted the number of occurrences for different categorie
 \subsubsection{Usage of parts of speech}
 This section involves using a Part of Speech tagger (PoS) which analyses a sentence and assigns a 'tag' to each word based on the function the word has in a sentence. At a basic level this can be divided into the eight defined parts of speech: 'nouns', 'pronouns', verbs', 'adjectives', 'adverbs', 'conjunctions', 'prepositions' and 'interjections' but can be further subcategorised. We used the PoS tagger built into NLTK to tag each transcript in turn and used these the counts from each of these eight categories in our analysis. In addition to frequency counts we also normalised these features by dividing the frequency count by the number of words in the document to take into account transcript length.
 
-
-
-
 \section{Results}
-\begin{table}
+One of the most important thing to note is the wide variety of samples between the three presidents and also the varying timescales. RR participated in 46 press conferences over eight years (an average of 5.75 a year) which is the fewest number of press conferences given by an American president during their term of office. GHWB participated in 136 press conferences over four years (an average of  34 a year) and DJT participated in 29 press conferences to date (an average of 19.3 per year). Equally, there are variances in the average number of words. RR produced an average of 3424 words per conference compared to 2608 by GHWB (unpaired t = 4.434, p\textless 0.001) and DJT at 1849 words (unpaired t = 6.524, p\textless 0.001).
+\begin{table}[H]
 	\begin{center}
-	\begin{tabular}{ | p{3cm} | p{3cm} | p{3cm} | p{3cm} |}
+	\begin{tabular}{ | p{3cm} | p{1.5cm} | p{1.5cm} | p{1.5cm} |}
 		\hline
 		& RR & GHWB & DJT \\ \hline
 		Total Words & 3423.91 (416.42) & 2607.72 (1210.38) & 1848.65 (1549.38) \\ \hline
 		Unique Words & 894.13 (85.15) & 667.76 (218.67) & 481.82 (221.29) \\ \hline
 		Non Specific Nouns & 12.72 (4.63) & 6.78 (4.32) & 7.41 (8.75) \\ \hline
-		LI Verbs & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
+		LI Verbs & 124.22 (17.89)& 103.45 (51.87) & 84.48 (75.78) \\ \hline
 	\end{tabular}
 	\caption{\label{tab:table-name}Means and Standard Deviations of important features}
 	\end{center} 
 \end{table}
 
+In terms of unique words, we found that RR used significantly more unique words, non-specific nouns and low imageability verbs than GHWB and DJT (see Table 3.3). Some of these differences are due to the length of the sample, particularly in the case of DJT where his average sample is almost half the sample of RR. It could also be said that this could be down to differences in linguistic abilities or speaking style \cite{Berisha2015, Le2011}. However, we can certainly see that as controls GWHB and DJT are comparative in relation to non-specific nouns and LI verbs. 
 
-\begin{table}
+\begin{table}[H]
 	\begin{center}
-	\begin{tabular}{ | p{3cm} | p{3cm} | p{3cm} | p{3cm} |}
+	\begin{tabular}{ | p{3cm} | p{1.5cm} | p{1.5cm} | p{1.5cm} |}
 		\hline
-		& RR & GHWB & DJT \\ \hline
-		Unique Words & 894.13 (85.15) & 667.76 (218.67) & 481.82 (221.29) \\ \hline
-		Non Specific Nouns & 12.72 (4.63) & 6.78 (4.32) & 7.41 (8.75) \\ \hline
-		LI Verbs & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
-
+		& RR v GHWB & RR v DJT & GHWB v DJT \\ \hline
+		Total Words & 4.434*** & 6.524*** & 2.899** \\ \hline
+		Unique Words & 6.832*** & 11.403*** & 4.137*** \\ \hline
+		Non Specific Nouns & 7.877*** & 3.426** & -0.574 \\ \hline
+		LI Verbs & 2.656** & 3.420*** & 1.628 \\ \hline
+		\multicolumn{4}{@{}p{1.5in}}{\footnotesize * denotes p\textless 0.05} \\
+		\multicolumn{4}{@{}p{1.5in}}{\footnotesize ** denotes p\textless 0.01} \\
+		\multicolumn{4}{@{}p{1.5in}}{\footnotesize *** denotes p\textless 0.001} \\
 	\end{tabular}
 	\caption{\label{tab:table-name}RR T-tests vs GWB and DJT}
 	\end{center} 
 \end{table}
 
-\begin{table}
+We then looked at the data from a longitudinal perspective as we are interested seeing whether we can track various language variables and their progress over time. We ran a number of Pearsons correlations with transcript index number as a time reference and the dependant variables (Table 3.4).  For our controls, we found them to be stable for the most part with the main highlights being a decrease in Adverb usage for DJT (R=-0.36, p=0.049) and a steady but not severe decline in a number of variables for GWHB, namely total word count, unique words, low imageability words and verb usage.
+\par 
+For RR, his decline is more marked and more widespread through his language use. We noticed an significant increase in adverb (R=0.41, p=0.004) and pronoun usage (R=0.65, p\textless0.001), as well as a slight usage increase in Non-specific nouns(R=0.30, p=0.03). There was a highly significant decrease in number of unique words (R=-0.56, p\textless0.001) and noun usage (R=-0.70, p\textless0.001). Also very significant decrease in adjective usage (R=-0.40, p=0.005) and a significant decrease in total word count (R=-0.31, p=0.03). 
+
+\begin{table}[H]
 	\begin{center}
-	\begin{tabular}{ | p{3cm} | p{3cm} | p{3cm} | p{3cm} |}
+	\begin{tabular}{ | l | p{1.5cm} | p{1.5cm} | p{1.5cm} |}
 		\hline
 		& RR & GHWB & DJT \\ \hline
-		Unique Words & 894.13 (85.15) & 667.76 (218.67) & 481.82 (221.29) \\ \hline
-		Non Specific Nouns & 12.72 (4.63) & 6.78 (4.32) & 7.41 (8.75) \\ \hline
-		LI Verbs & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
-		Nouns Normalised & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
-		Verbs Normalised & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
-		Adjectives Normalised & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
-		Adverbs Normalised & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
-		Pronouns Normalised & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
-		Conjunctions Normalised & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
-		Prepositions Normalised & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
-		Interjections Normalised & 124.22 (17.89 )& 103.45 (51.87) & 84.48 \\ \hline
-
+		Word Count & \textbf{-0.31*} & \textbf{-0.21*} & 0.08 \\ \hline 
+		Unique Words & \textbf{-0.56***} & \textbf{-0.25**} & 0.16 \\ \hline
+		Non Specific Nouns & \textbf{0.30*} & -0.08 & -0.03 \\ \hline
+		LI Verbs & -0.19 & \textbf{-0.20**} & 0.02 \\ \hline
+		Nouns Normalised & \textbf{-0.70***} & -0.03 & 0.14 \\ \hline
+		Verbs Normalised & \textbf{0.36**} & \textbf{0.24***} & -0.03 \\ \hline
+		Adjectives Normalised & \textbf{-0.40**} & 0.08 & -0.34 \\ \hline
+		Adverbs Normalised & \textbf{0.41***} & 0.02 & \textbf{-0.36*} \\ \hline
+		Pronouns Normalised & \textbf{0.65***} & 0.13 & 0.07 \\ \hline
+		\multicolumn{4}{@{}p{1.5in}}{\footnotesize * denotes p\textless 0.05} \\
+    	\multicolumn{4}{@{}p{1.5in}}{\footnotesize ** denotes p\textless 0.01} \\
+    	\multicolumn{4}{@{}p{1.5in}}{\footnotesize *** denotes p\textless 0.001} \\
 	\end{tabular}
 	\caption{\label{tab:table-name}Pearson Correlations for Features}
 	\end{center} 
 \end{table}
 
 \section{Discussion}
-% Cite Garrard 2005 -The effects of very early Alzheimer's disease on the characteristics of writing by a renowned author.
+President Reagan received his diagnosis of AD in August 1994 but using transcripts of speeches he made in his two terms as President (January 1981 - January 1989) we have be able to identify certain changes in his use of language that we might ascribe to the onset of MCI and early AD. Despite differences in our methodology, our research supports the findings of Berisha and Liss in that we both find a significant decrease in unique words over time and an increase in non-specifc noun usage. Compared to our controls (GWHB andDJT), we find some slight trends with GWHB but no such trends with DJT in his speech albeit his samples of speech span a shorter amount of time.
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.4\textwidth}
+		\includegraphics[width=190px, height=140px]{images/RRUniqueWords.png}
+		\caption{Ronald Reagan - Unique Words over time}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[b]{0.4\textwidth}
+		\includegraphics[width=190px, height=140px]{images/GWHBUniqueWords.png}
+		\caption{George H.W. Bush - Unique Words over time}
+	\end{minipage}
+\end{figure}
 
-Our research supports the findings of Berisha and Liss with regards to unique words, non-specific nouns and low-imageability words\cite{Berisha2015}.
-\par 
-A criticism of Berisha and Liss's work is the problems they had with normalising the transcripts in terms of length. This was also a problem in the work of Garrard et al. Whilst it is important to control for outliers, there are other ways in which we can control for length of sample. In this study, we explored features such as TTR, and also normalised versions of the frequency statistics we used, and also dividing the frequency counts by 100 which and these showed similar significant results. 
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.4\textwidth}
+		\includegraphics[width=190px, height=140px]{images/RRNSNouns.png}
+		\caption{Ronald Reagan - Non-specifc Nouns over time}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[b]{0.4\textwidth}
+		\includegraphics[width=190px, height=140px]{images/DJTNSNouns.png}
+		\caption{Donald J. Trump - Non-specific Nouns over time}
+	\end{minipage}
+\end{figure}
 
+A criticism of Berisha and Liss's work is the problems they had with normalising the transcripts in terms of length. This was also a problem in the work of Garrard et al \cite{Garrard2005, Le2011}. Whilst it is important to control for outliers, there are other ways in which we can control for length of sample.  
+\par 
+Interestingly, when we normalised the various types of words used by the presidents we found some interesting patterns that further differentiated RR from the controls. Whilst Non-specific nouns increased over time, we found that noun usage in general significantly decreased and pronouns increased similarly significantly. The increase in pronoun for those with early AD has been identified in literature, although there are only a few studies that explore this \cite{Almor1999, Wendelstein2015}. Wendlestein et al propose that the increased used of pronouns is an expression of an impaired ability to adapt language to the listener's needs \cite{Wendelstein2015}. Almor et al attributed this reliance on pronouns due to a impaired working memory \cite{Almor1999}.
+\par 
+The decrease in overall noun usage has also been identified as a feature. Jarrold et al found that AD patients would use more pronouns, verbs and fewer nouns than controls \cite{Jarrold2014}. Wendlestein in their investigations into noun usage found that decreased later on in AD progression and was unaffected in the pre-clinical stages of AD \cite{Wendelstein2014}. Our results are supported by existing literature and this potentially means that language analysis in the way we have structured it may have diagnostic or prognostic properties.
 
- In addition, when adding DJT as an additional control to compare to and despite a comparatively smaller sample per press conference held, their findings also hold true. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=240px, height=150px]{images/RRNounsNormalised.png}
+	\caption{Ronald Reagan - Nouns Normalised over time}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=240px, height=150px]{images/RRPronouns.png}
+	\caption{Ronald Reagan - Pronouns Normalised over time}
+\end{figure}
+ 
+There are limitations of this research. Whilst in terms of age, DJT is certainly more suitable as a control to match with RR, in some ways they held very different styles of press conferences in that RR preferred to do solo press conferences and DJT has shown a preference for doing joint press conferences which have an impact on the amount of language produced. This finding is, in itself notable as it illustrates the problems with small amounts of speech. 
+\par
+The problem of finding an appropriate control is a common one in this domain. Given that those with MCI and early dementia have such variable presentations, it might prove of limited value in matched pairs design. 
 \par 
-It's worth noting that DJT's conferences are, with the exception of one press conference, held jointly with other people and therefore the amount of speech produced per conference is a lot less. This finding is, in itself notable as it illustrates the problems with amounts of speech. This problem could potentially be solved with 
+With further work, we will not have the luxury of having multiple samples and so it would be worth exploring how the quality of these predictions might lessen when faced with considerably fewer samples and over a smaller time period. In addition, this replication and extension has demonstrated the potential utility of using longitudinal data as a means of comparing language use of a person at two or more time periods and using this information as a diagnostic aid for MCI. 
 \par 
-There are limitations of this research. Whilst in terms of age, DJT is certainly more suitable as a control to match with RR, in some ways they held very different styles of press conferences in that RR preferred to do solo press conferences and DJT has shown a preference for doing joint press conferences which have an impact on the amount of language produced. Another limitation is the way in which I normalised the features. 
-\par 
-With further work, we will not have the luxury of having multiple samples and so it would be worth exploring how the quality of these predictions might lessen when faced with considerably fewer samples.
-\section{Conclusion}
-The results of this work show that we can track a person's use of language through time in a number of ways, and that 
+The results of this work show that we can track a person's use of language through time in a number of ways, and th
 
 
 \chapter{Future Work}
@@ -580,13 +615,8 @@ The writing of the thesis, including additional over-running data analysis is pl
 \section{Research Challenges}
 \subsection{Data Collection}
 There are a few challenges that I have identified with the process of data collection. As with all longitudinal studies, the data collected is only valid if there are at least two sets of data points for a given participant. Given the population I am exploring, it is expected that there is some level of drop out rate over the course of the year and this has been accounted for.  Nevertheless, a higher than average drop out rate would weaken the strength of the study, especially if those who dropped out came from the experimental group.
-
 \subsection{Commonality of MCI}
-% Roberts - Higher risk of progression to dementia in mild cognitive impairment cases who revert to normal.
-Whilst research has consistently shown that those with a diagnosis of MCI tend to have a significantly higher risk of progression to dementia (CITE Roberts). The progression at any given time is low and variable.
-% Farias - Progression of Mild Cognitive Impairment to Dementia in Clinic- vs Community Based Cohorts
-Annual conversion rates vary across longitudinal studies conducted in this population, but researchers have shown that there is a higher conversion rate in clinical samples of this population than in community samples. In my proposed longitudinal study, I aim to collect a clinical MCI population, but depending on the availability of such samples I may have to collect from the community. If this is the case then, the prevalence of those with MCI who have language deficits within my participants may be low.
-
+Whilst research has consistently shown that those with a diagnosis of MCI tend to have a significantly higher risk of progression to dementia \cite{Roberts2014}. The progression at any given time is low and variable. Annual conversion rates vary across longitudinal studies conducted in this population, but researchers have shown that there is a higher conversion rate in clinical samples of this population than in community samples \cite{Farias2009}. In my proposed longitudinal study, I aim to collect a clinical MCI population, but depending on the availability of such samples I may have to collect from the community. If this is the case then, the prevalence of those with MCI who have language deficits within my participants may be low.
 \subsection{Sparsity of Language}
 I have tried to estimate the amount of language I will collect by conducting a pilot study on healthy controls. However, until the first sets of data collection with the MCI population, I will not be able to tell if this is a problem. I fully expect there to be little difference in the amount of language collected in the MCI population, but this remains a possibility which I will need to adjust for at the 2nd and 3rd data collection phases. 
 
@@ -602,7 +632,7 @@ Every effort will be made to submit a complete ethics application through the NH
 \section{Ethical Considerations}
 In this section I discuss the ethical considerations related to this project and any adjustments that I have made to my research because of these considerations. I am aware of the code of human  research ethics published by the British Psychological Society \cite{BritishPsychologicalSociety2014} and my research has been designed in a way that fits with these guidelines.
 \subsection{Risk}
-I will be working with a middle-aged to elderly population who have identified in some way that there is a difficulty with cognition. However, I do not anticipate working with vulnerable groups, those lacking capacity or individuals in a dependant or unequal relationship. Should any participants I am working with lose capacity during the course of the study, I will remove that participants details and data from the study.
+I will be working with a middle-aged to elderly population who have identified in some way that there is a difficulty with cognition. However, I do not anticipate working with vulnerable groups, those lacking capacity or individuals in a dependent or unequal relationship. Should any participants I am working with lose capacity during the course of the study, I will remove that participants details and data from the study.
 \subsection{Informed Consent}
 Consent will be sought overtly at the recruitment and initial data collection point by way of an information sheet and associated consent form. At other data collection points, I will have information sheets available if participants request them and if such a request is made then I will seek consent again at this stage. As part of this process, I will be supplying my participants with my contact details should they have any question or for the purposes of withdrawing consent. These consent forms will be stored in a secure, locked cabinet at the university. 
 \subsection{Confidentiality}
@@ -669,16 +699,6 @@ In this section I provide a provisional table of contents based on the work I ha
 
 \bibliographystyle{unsrt}
 \bibliography{QualifyingReport}
-
-\appendix
-\section{Title of Appendix A}
-Text of Appendix A is Here
-
-\section{Title of Appendix B}
-Text of Appendix B is Here
-
-\section{Title of Appendix C}
-Text of Appendix C is Here.
 
 \end{document}
 %DOCUMENT ENDS
