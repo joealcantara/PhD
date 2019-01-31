@@ -346,40 +346,44 @@ The Natural Language Toolkit (NLTK) was originally designed as part of a computa
 The NLTK has been successfully used in both teaching and research purposes and as part of this provides access to large array of databases and corpora which have potential uses in common tasks.
 
 \subsubsection{CoreNLP}
-Stanford CoreNLP provides a set of human language technology tools. It can give the base forms of words, their parts of speech, whether they are names of companies, people, etc., normalize dates, times, and numeric quantities, mark up the structure of sentences in terms of phrases and syntactic dependencies, indicate which noun phrases refer to the same entities, indicate sentiment, extract particular or open-class relations between entity mentions, get the quotes people said, etc.
+Stanford CoreNLP provides a set of human language technology tools. This comes as an installable package that requires JAVA and can be interacted with through the command line or by an accompanying API. Whilst NLTK is much more oriented to parsing text and generating features, CoreNLP does this and adds more functionality such as a Named Entity Recogniser and sentiment analysis functions. At it's centre is the Stanford parser, which parses text and can give the base forms of words, their parts of speech, whether they are names of companies, people, etc., normalize dates, times, and numeric quantities, mark up the structure of sentences in terms of phrases and syntactic dependencies, indicate which noun phrases refer to the same entities, indicate sentiment, extract particular or open-class relations between entity mentions, get the quotes people said, etc.
 \par
 \begin{figure}[H]
 \centering
-\includegraphics[width=350px, height=150px]{images/CoreNLP.jpg}
-\caption{How Natural Language Processing tasks are subdivided.\label{white}}
+\includegraphics[width=350px, height=200px]{images/CoreNLP.jpg}
+\caption{Depiction of how Core NLP marks up a sentence}
 \end{figure}
-Stanford CoreNLP’s goal is to make it very easy to apply a bunch of linguistic analysis tools to a piece of text. A tool pipeline can be run on a piece of plain text with just two lines of code. CoreNLP is designed to be highly flexible and extensible. With a single option you can change which tools should be enabled and disabled. Stanford CoreNLP integrates many of Stanford’s NLP tools, including the part-of-speech (POS) tagger, the named entity recognizer (NER), the parser, the coreference resolution system, sentiment analysis, bootstrapped pattern learning, and the open information extraction tools. Moreover, an annotator pipeline can include additional custom or third-party annotators. CoreNLP’s analyses provide the foundational building blocks for higher-level and domain-specific text understanding applications.
-
+It's intended for CoreNLP to provide tools and frameworks that will enable higher level language analysis whilst remaining domain agnostic.
 
 \subsubsection{Linguistic Inquiry and Word Count}
-The premise behind the Linguistic Inquiry and Word Count (LIWC) is the words we speak inform an observer of the state of mind of an individual. To this end, the creators have constructed a framework which uses a dictionary of words which are pre-categorised \cite{Pennebaker2015}. A typical example of this might be someone with depression who may typically be more inwardly focused and therefore talking in the first person is common\cite{Al-Mosaiwi2018}. The 2015 version of the LIWC has over 90 different categories and some supporting research suggests that it is effective at identifying themes and associating these themes with mental health difficulties such as depression and anxiety \cite{Sonnenschein2018}. 
+The Linguistic Inquiry and Word Count (LIWC) is a piece of software that counts words and assigns these counts to categories \cite{Pennebaker2015}. The rationale behind this is that the words we speak inform an observer of the state of mind of an individual. A typical example of this might be someone with depression who may typically be more inwardly focused and therefore talking in the first person is common\cite{Al-Mosaiwi2018}. The 2015 version of the LIWC has over 90 different categories \cite{Pennebaker2015} and some supporting research suggests that it is effective at identifying themes and associating these themes with mental health difficulties such as depression and anxiety \cite{Sonnenschein2018}. 
 \par
-A framework like this could be used as another tool to explore themes within a persons speech.
-
+Whilst not necessarily a tool that can parse data and look at trends from a linguistic perspective, a framework like this could be used as another tool to explore themes within a persons speech from a more qualitative angle. To the authors knowledge, there is no research that looks at speech changes from this perspective. 
 
 \subsection{Traditional methods of Machine Learning}
-
 In terms of Machine Learning research in this area, a number of researchers have used transcripts based on picture description tasks \cite{Zimmerer2016, Orimaye2017, Mueller2018a, Fraser2015} and have successfully extracted linguistic features that could differentiate between AD and controls.
 \par
-Thomas et al, detail several lexical approaches to the problem of detecting and rating AD. The approaches rely on character n-gram techniques but also explore correlation of usage of frequency of different types of speech. Their results act as a proof in concept of the utility of using a pure computational approach to the diagnosis of dementia using spontaneous speech. Results - 95\% accuracy dementia vs controls. 70\% accuracy classifying dementia into two categories. 50\% accuracy classifying dementia into four categories. They suggest further exploration of characteristics to classify \cite{Thomas2005}.
+One of the first attempts to use machine learning and natural language techniques to look was conducted by Thomas \cite{Thomas2005} who was able to successfully demonstrate the ability of machine learning algorithms to analyse n-grams as well as other features to outperform a naive rule-based classifier which always selects the most frequent class. They detail several lexical approaches to the problem of detecting and rating AD. The approaches they looked at relied primarily on character n-gram techniques but also explore correlation of usage of frequency of different types of speech. Their results act as a proof in concept of the utility of using a pure computational approach to the diagnosis of dementia using spontaneous speech. The were able to obtain 95\% accuracy dementia vs controls, 70\% accuracy classifying dementia into two categories and 50\% accuracy classifying dementia into four categories. They suggest further exploration of characteristics to classify \cite{Thomas2005}.
 \par 
-AD patients had higher mean P rate, A rate and V rate scores but lower N rate scores vs normal older controls \cite{Bucks2000}.
-One of the first attempts to use machine learning and natural language techniques to look was conducted by Thomas \cite{Thomas2005} who was able to successfully demonstrate the ability of machine learning algorithms to analyse n-grams as well as other features to outperform a naive rule-based classifier which always selects the modal class. Orimaye et al (2017) \cite{Orimaye2017} investigated the use of machine learning algorithms to detect differences primarily in n-gram use to distinguish between those with a diagnosis of AD and healthy controls. Their main finding supported n-grams as the most significant predictor. One of the criticisms is the use of picture description tasks and n-grams. Because the language generated by this task is content specific the n-grams generated are only specific to the task given and cannot be generalised.
+% Cite CRUM Population-based norms for the Mini-Mental Status Examination by age and educational level
+Bucks et al \cite{Bucks2000} took a more traditional approach using frequency rates per 100 words of various word types such as nouns, verbs, adjectives and pronouns and some measures of lexical richness to attempt to discriminate between healthy older participants and participants with probable AD. They found that AD patients had higher mean pronoun rate, adjective rate and verb rate but lower noun rate vs normal older controls \cite{Bucks2000}. It's important to note that the clinical group averaged a score on the MMSE of 15 (sd=6.8) which puts the clinical group in the 'moderately impaired range'. At this stage, the two groups should be reasonably easy to differentiate in terms of language and other cognitive abilities.
+\par 
+Fraser et al \cite{Fraser2015} built upon the work by Bucks by adding an acoustic analysis element to her analysis using the DementiaBank corpus, as well as significantly expanding the list of linguistic features they used. They used features generated from the Stanford parser (Now known as Core NLP) and computed the frequency of the occurrence of different parts of speech which they then normalised by the total number of words in each utterance. They also computed ratios between these parts of speech such as pronouns to nouns. They also included measures of syntactic complexity such as mean length of sentences and measures of lexical richness such as TTR. Their analysis showed was able to achieve 81\% accuracy in distinguishing individuals with AD from controls based on short samples of speech. They found that there are four factors which they felt were important in discriminating between these two groups: semantic impairment, acoustic abnormality, syntactic impairment and information impairment. 
+\par 
+Zimmerer et al \cite{Zimmerer2016} took a slightly different approach in that they developed the Frequency in Language Analysis Tool (FLAT) which looked at the degree of formulaicity in an individual sample. The rationale behind this is that people with impaired cognitive function are able to depend on formulaic sentences for language generation to ease the burden of language generation on cognitive symptoms. They were able find that those with probable AD produced more formulaic language than controls. 
+\par 
+Orimaye et al (2017) \cite{Orimaye2017} investigated the use of machine learning algorithms to detect differences primarily in n-gram use to distinguish between those with a diagnosis of AD and healthy controls. Their main finding supported n-grams as the most significant predictor. One of the criticisms is the use of picture description tasks and n-grams. Because the language generated by this task is content specific the n-grams generated are only specific to the task given and cannot be generalised.
+\par 
+
 \subsection{The case for Deep Learning}
-% Deep Learning is an NOT 
-
-One of the main benefits of deep learning is that it does not rely on pre defined features being fed to the model, instead generating it's own features. This move away from relying on features solves one of the difficulties with  
-
-
-% One of the drawbacks of attempting to use natural language processing and machine learning in this context is the lack of data.
+One of the criticisms of traditional learning models is it's reliance on features that are generated for them. As we can see from the brief look at some of the research in this field, researchers have taken a number of different approaches with success. However, there does not seem to be a consensus. As machine learning in general moves away from traditional machine learning models to deep learning techniques, it poses the question can deep learning assist with this problem?
+\par 
+One of the main benefits of deep learning is that it does not rely on pre defined features being fed to the model. Instead, deep learning models take raw data in with some amount of preprocessing and generates it's own features. This move away from relying on features solves one of the difficulties we have with the current psychological literature, namely that there are some disagreement on the which 
+\par 
+One of the drawbacks of attempting to use natural language processing and machine learning in this context is the lack of data. This is the case with all machine learning techniques, but more so with deep learning. There have been ways to 'create' more data such as data augmentation. 
 
 \subsection{Conclusions}
-We can see that both Natural Language Processing and Machine Learning techniques have a lot to offer, Indeed there has been a lot of research which have used pre-existing datasets to explore this area with promising results. To date, there has not been much in the way of research in which these techniques are applied to newly created samples of language. 
+We can see that both Natural Language Processing and Machine Learning techniques have a lot to offer, Indeed there has been a lot of research which have used pre-existing datasets to explore this area with promising results. One of the difficulties with the current research is the approach of trying to discriminate between those AD and healthy controls. This is not necessarily a problem in the real world as it is trivially easy to do for trained clinicians. A more interesting, but potentially harder to problem to solve is to discriminate between those with MCI and healthy controls, and more importantly to track their decline over time. Further, to date the authors are unaware of any research in which these techniques are applied to newly created samples of language. 
 
 \section{Discussion}
 Current state-of-the-art diagnostic measures of AD are invasive (CSF analysis), expensive (neuroimaging), and time-consuming (neuropsychological assessment). Furthermore, these measures are limited to speciality clinics and thus have limited accessibility as frontline screening and diagnostic tools for AD. More importantly, nonspecialists are often inaccurate at identifying early AD and MCI. Thus, there is an increasing need for additional noninvasive and/or cost-effective tools, allowing effective frontline identification of subjects in the preclinical or early clinical stages of AD who could be suitable for monitoring in speciality clinics and for early treatment. Implementation of effective screening instruments will allow diagnosis earlier in the course of dementia, even at the point when memory function is still essentially within the normal range. This strategy would enable an earlier, and potentially more effective, prevention and treatment of AD with a special focus to preserve cognitive functions.
@@ -607,6 +611,18 @@ The final output of this task will be a paper discussing the results of the batt
 
 \subsection{Task 6 - Thesis Writing}
 The writing of the thesis, including additional over-running data analysis is planned for the last six months of the project (Oct '20 to Mar '21).
+
+% GANTT CHART
+\begin{sidewaysfigure}[ht]
+    \includegraphics[width=\textwidth]{/images/GanttChart.png}
+    \caption{Proposed Timetable.}
+\end{sidewaysfigure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=240px, height=150px]{images/RRPronouns.png}
+	\caption{Ronald Reagan - Pronouns Normalised over time}
+\end{figure}
 
 \section{Research Challenges}
 \subsection{Data Collection}
