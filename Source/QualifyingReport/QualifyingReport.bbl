@@ -435,26 +435,6 @@ James~W Pennebaker, Ryan~L Boyd, Kayla Jordan, and Kate Blackburn.
 \newblock {The Development and Psychometric Properties of LIWC2015}.
 \newblock {\em Departement of Psychology}, page~1, 2015.
 
-\bibitem{Ripich1988}
-D~N Ripich and B~Y Terrell.
-\newblock {Patterns of discourse cohesion and coherence in Alzheimer's
-  disease.}
-\newblock {\em The Journal of speech and hearing disorders}, 53(1):8--15, 1988.
-
-\bibitem{Kave2018}
-Gitit Kav{\'{e}} and Mira Goral.
-\newblock {Word retrieval in connected speech in Alzheimer's disease: a review
-  with meta-analyses}.
-\newblock {\em Aphasiology}, 32(1):4--26, 2018.
-
-\bibitem{Rentoumi2014}
-Vassiliki Rentoumi, Ladan Raoufian, Samrah Ahmed, Celeste~A. {De Jager}, and
-  Peter Garrard.
-\newblock {Features and machine learning classification of connected speech
-  samples from patients with autopsy proven Alzheimer's disease with and
-  without additional vascular pathology}.
-\newblock {\em Journal of Alzheimer's Disease}, 42(July):S3--S17, 2014.
-
 \bibitem{Fraser2015}
 Kathleen~C. Fraser, Jed~A. Meltzer, and Frank Rudzicz.
 \newblock {Linguistic Features Identify Alzheimer's Disease in Narrative
@@ -481,6 +461,18 @@ Kathryn~A. Bayles and Cheryl~K. Tomoeda.
 Steven Bird, Ewan Klein, and Edward Loper.
 \newblock {\em {Language Processing and Python}}.
 \newblock O'Reilly Media Inc, 2009.
+
+\bibitem{Al-Mosaiwi2018}
+Mohammed Al-Mosaiwi and Tom Johnstone.
+\newblock {In an Absolute State: Elevated Use of Absolutist Words Is a Marker
+  Specific to Anxiety, Depression, and Suicidal Ideation}.
+\newblock {\em Clinical Psychological Science}, 2018.
+
+\bibitem{Sonnenschein2018}
+Anke~R Sonnenschein, Stefan~G Hofmann, Tobias Ziegelmayer, and Wolfgang Lutz.
+\newblock {Linguistic analysis of patients with mood and anxiety disorders
+  during cognitive behavioral therapy.}
+\newblock {\em Cognitive behaviour therapy}, 47(4):315--327, jul 2018.
 
 \bibitem{Mueller2018a}
 Kimberly~D. Mueller, Rebecca~L. Koscik, Bruce~P. Hermann, Sterling~C. Johnson,
@@ -510,6 +502,17 @@ Sylvester~Olubolu Orimaye, Jojo Sze-Meng Wong, and Karen~Jennifer Golden.
 \newblock {\em Proceedings of the Workshop on Computational Linguistics and
   Clinical Psychology: From Linguistic Signal to Clinical Reality}, pages
   78--87, 2014.
+
+\bibitem{Richards1987}
+Brian Richards.
+\newblock {Type/Token Ratios: what do they really tell us?}
+\newblock {\em Journal of Child Language}, 14(02):201, jun 1987.
+
+\bibitem{Bird2000}
+Helen Bird, Matthew~A. {Lambon Ralph}, Karalyn Patterson, and John~R. Hodges.
+\newblock {The rise and fall of frequency and imageability: Noun and verb
+  production in semantic dementia}.
+\newblock {\em Brain and Language}, 73(1):17--49, 2000.
 
 \bibitem{Garrard2005}
 Peter Garrard, Lisa~M. Maloney, John~R. Hodges, and Karalyn Patterson.

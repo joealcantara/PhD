@@ -25,64 +25,60 @@
 \contentsline {subsection}{\numberline {2.4.2}Semantics vs Pragmatics}{25}
 \contentsline {subsection}{\numberline {2.4.3}Semantic Content}{25}
 \contentsline {subsubsection}{Type token ratio(TTR)}{25}
-\contentsline {subsection}{\numberline {2.4.4}Picture-related content thematic elements}{26}
+\contentsline {subsection}{\numberline {2.4.4}Thematic and Content elements in relation to the Picture description task}{26}
 \contentsline {subsection}{\numberline {2.4.5}General Information Units or Content Information Units}{27}
 \contentsline {subsection}{\numberline {2.4.6}Conciseness of information}{27}
 \contentsline {subsection}{\numberline {2.4.7}Efficiency}{28}
-\contentsline {subsection}{\numberline {2.4.8}Quantity - Total number of words}{28}
+\contentsline {subsection}{\numberline {2.4.8}Total number of words}{28}
 \contentsline {section}{\numberline {2.5}Syntax and Morphology (Language Form)}{28}
 \contentsline {subsubsection}{N-grams}{29}
-\contentsline {subsection}{\numberline {2.5.1}Mean length of utterance (MLU)}{29}
-\contentsline {subsection}{\numberline {2.5.2}Proportion of verbs to nouns plus verbs}{29}
-\contentsline {subsection}{\numberline {2.5.3}Syntactic Complexity - Composite measures of MLU, syntactic errors and verbs}{29}
-\contentsline {subsection}{\numberline {2.5.4}Formulaic Language}{29}
-\contentsline {section}{\numberline {2.6}Pragmatic Language}{30}
-\contentsline {subsection}{\numberline {2.6.1}Questions, turn-taking, unsure statements, egocentric comments}{30}
-\contentsline {subsection}{\numberline {2.6.2}Coherence}{30}
-\contentsline {subsection}{\numberline {2.6.3}Perseveration}{31}
-\contentsline {subsection}{\numberline {2.6.4}Empty Speech}{31}
-\contentsline {subsection}{\numberline {2.6.5}Conclusions}{32}
-\contentsline {section}{\numberline {2.7}State of literature into Machine Learning and Natural Language processing techniques}{32}
-\contentsline {subsection}{\numberline {2.7.1}Natural Language Processing}{32}
-\contentsline {subsubsection}{Natural Language Toolkit}{33}
-\contentsline {subsubsection}{CoreNLP}{33}
-\contentsline {subsubsection}{Linguistic Inquiry and Word Count}{35}
+\contentsline {subsection}{\numberline {2.5.1}Formulaic Language}{29}
+\contentsline {section}{\numberline {2.6}Pragmatic Language}{29}
+\contentsline {subsection}{\numberline {2.6.1}Coherence}{29}
+\contentsline {subsection}{\numberline {2.6.2}Perseveration}{30}
+\contentsline {subsection}{\numberline {2.6.3}Empty Speech}{30}
+\contentsline {subsection}{\numberline {2.6.4}Conclusions}{31}
+\contentsline {section}{\numberline {2.7}State of literature into Machine Learning and Natural Language processing techniques}{31}
+\contentsline {subsection}{\numberline {2.7.1}Natural Language Processing}{31}
+\contentsline {subsubsection}{Natural Language Toolkit}{32}
+\contentsline {subsubsection}{CoreNLP}{32}
+\contentsline {subsubsection}{Linguistic Inquiry and Word Count}{34}
 \contentsline {subsection}{\numberline {2.7.2}Traditional methods of Machine Learning}{35}
-\contentsline {subsection}{\numberline {2.7.3}The case for Deep Learning}{35}
+\contentsline {subsection}{\numberline {2.7.3}The case for Deep Learning}{36}
 \contentsline {subsection}{\numberline {2.7.4}Conclusions}{36}
-\contentsline {section}{\numberline {2.8}Discussion}{36}
-\contentsline {subsection}{\numberline {2.8.1}Future Work}{37}
-\contentsline {chapter}{\numberline {3}Initial Study of the Presidents corpus}{38}
-\contentsline {section}{\numberline {3.1}Background}{38}
-\contentsline {section}{\numberline {3.2}Methods}{38}
-\contentsline {subsection}{\numberline {3.2.1}Pre-processing}{39}
-\contentsline {subsection}{\numberline {3.2.2}Feature Selection}{40}
-\contentsline {subsubsection}{Measures of lexical variation}{40}
-\contentsline {subsubsection}{Fillers, Non-Specific Nouns and LI Verbs}{40}
-\contentsline {subsubsection}{Usage of parts of speech}{40}
-\contentsline {section}{\numberline {3.3}Results}{41}
-\contentsline {section}{\numberline {3.4}Discussion}{42}
-\contentsline {chapter}{\numberline {4}Future Work}{46}
-\contentsline {section}{\numberline {4.1}Introduction}{46}
-\contentsline {section}{\numberline {4.2}Research Aims and Objectives}{46}
-\contentsline {section}{\numberline {4.3}Project Plan and Task Definitions}{48}
-\contentsline {subsection}{\numberline {4.3.1}Task 2 - Pilot Study for the Neuropsychological Battery of Tests}{48}
-\contentsline {subsection}{\numberline {4.3.2}Task 3 - Exploration of language with the DementiaBank dataset and Three Authors dataset.}{48}
-\contentsline {subsection}{\numberline {4.3.3}Task 4 - Longditunal Study}{49}
-\contentsline {subsection}{\numberline {4.3.4}Task 5 - Analysis of performance and validation of the proposed Repeatable Neuropsychological Battery of Tests}{50}
-\contentsline {subsection}{\numberline {4.3.5}Task 6 - Thesis Writing}{50}
-\contentsline {section}{\numberline {4.4}Research Challenges}{50}
-\contentsline {subsection}{\numberline {4.4.1}Data Collection}{50}
-\contentsline {subsection}{\numberline {4.4.2}Commonality of MCI}{50}
-\contentsline {subsection}{\numberline {4.4.3}Sparsity of Language}{51}
-\contentsline {section}{\numberline {4.5}Risk Assessment}{51}
-\contentsline {subsection}{\numberline {4.5.1}Delay in data collection}{51}
-\contentsline {subsection}{\numberline {4.5.2}Rejected Publications}{51}
-\contentsline {subsection}{\numberline {4.5.3}Rejected NHS Ethics and/or University Ethics}{52}
-\contentsline {section}{\numberline {4.6}Ethical Considerations}{52}
-\contentsline {subsection}{\numberline {4.6.1}Risk}{52}
-\contentsline {subsection}{\numberline {4.6.2}Informed Consent}{52}
-\contentsline {subsection}{\numberline {4.6.3}Confidentiality}{52}
-\contentsline {subsection}{\numberline {4.6.4}Disclosure of suicidal ideation or other risks}{53}
-\contentsline {section}{\numberline {4.7}Thesis - Provisional Table of Contents}{53}
-\contentsline {chapter}{\numberline {5}Conclusion}{55}
+\contentsline {section}{\numberline {2.8}Discussion}{37}
+\contentsline {subsection}{\numberline {2.8.1}Future Work}{38}
+\contentsline {chapter}{\numberline {3}Initial Study of the Presidents corpus}{39}
+\contentsline {section}{\numberline {3.1}Background}{39}
+\contentsline {section}{\numberline {3.2}Methods}{39}
+\contentsline {subsection}{\numberline {3.2.1}Pre-processing}{40}
+\contentsline {subsection}{\numberline {3.2.2}Feature Selection}{41}
+\contentsline {subsubsection}{Measures of lexical variation}{41}
+\contentsline {subsubsection}{Fillers, Non-Specific Nouns and LI Verbs}{41}
+\contentsline {subsubsection}{Usage of parts of speech}{41}
+\contentsline {section}{\numberline {3.3}Results}{42}
+\contentsline {section}{\numberline {3.4}Discussion}{43}
+\contentsline {chapter}{\numberline {4}Future Work}{47}
+\contentsline {section}{\numberline {4.1}Introduction}{47}
+\contentsline {section}{\numberline {4.2}Research Aims and Objectives}{47}
+\contentsline {section}{\numberline {4.3}Project Plan and Task Definitions}{49}
+\contentsline {subsection}{\numberline {4.3.1}Task 2 - Pilot Study for the Neuropsychological Battery of Tests}{49}
+\contentsline {subsection}{\numberline {4.3.2}Task 3 - Exploration of language with the DementiaBank dataset and Three Authors dataset.}{49}
+\contentsline {subsection}{\numberline {4.3.3}Task 4 - Longditunal Study}{50}
+\contentsline {subsection}{\numberline {4.3.4}Task 5 - Analysis of performance and validation of the proposed Repeatable Neuropsychological Battery of Tests}{51}
+\contentsline {subsection}{\numberline {4.3.5}Task 6 - Thesis Writing}{51}
+\contentsline {section}{\numberline {4.4}Research Challenges}{52}
+\contentsline {subsection}{\numberline {4.4.1}Data Collection}{52}
+\contentsline {subsection}{\numberline {4.4.2}Commonality of MCI}{52}
+\contentsline {subsection}{\numberline {4.4.3}Sparsity of Language}{53}
+\contentsline {section}{\numberline {4.5}Risk Assessment}{53}
+\contentsline {subsection}{\numberline {4.5.1}Delay in data collection}{53}
+\contentsline {subsection}{\numberline {4.5.2}Rejected Publications}{53}
+\contentsline {subsection}{\numberline {4.5.3}Rejected NHS Ethics and/or University Ethics}{53}
+\contentsline {section}{\numberline {4.6}Ethical Considerations}{54}
+\contentsline {subsection}{\numberline {4.6.1}Risk}{54}
+\contentsline {subsection}{\numberline {4.6.2}Informed Consent}{54}
+\contentsline {subsection}{\numberline {4.6.3}Confidentiality}{54}
+\contentsline {subsection}{\numberline {4.6.4}Disclosure of suicidal ideation or other risks}{54}
+\contentsline {section}{\numberline {4.7}Thesis - Provisional Table of Contents}{55}
+\contentsline {chapter}{\numberline {5}Conclusion}{58}
