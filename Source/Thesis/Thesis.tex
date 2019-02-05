@@ -5,12 +5,25 @@
 \documentclass[a4paper]{report}
 %% Packages
 \input{settings/packages}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{rotating}
 %% Page Settings
 \input{settings/page}
 %% Own Commands
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[CE,CO]{\leftmark}
+\fancyfoot[CE,CO]{Early Detection of MCI that progresses to dementia - An Interdisciplinary Approach}
+\fancyhead[LE,RO]{\thepage}
+
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
 \input{settings/macros}
 \title{Thesis}
-\date{2018-09-17}
+\date{2019-02-05}
 \author{Jomar Alcantara}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin {document}
