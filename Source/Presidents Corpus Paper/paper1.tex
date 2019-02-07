@@ -53,13 +53,17 @@
 % DOCUMENT BEGINS
 \begin{document}
 \maketitle
-\section{Abstract}
+\begin{abstract}
+Dementia is a neurological disorder that has been consistently growing in numbers over time. The analysis of language has been highlighted as a potential method for diagnosing Alzheimer's disease at its early or pre-clinical stages. This paper builds on the work of Berisha and Liss who looked at extracting language features from the non-scripted portions of press conferences from two US presidents, President Ronald Reagan, who would later go on to receive a diagnosis of Alzheimer's Disease and President George Herbert Walker Bush who received no such diagnosis. In this paper, we add the transcripts of President Donald John Trump who in terms of age is a much more appropriate match and we extract a larger variety of language features which have been shown to be associated with language decline due to Dementia. Once the features were extracted we completed a regression analyses. We found that President Reagan showed a significant decrease in unique words over time and his usage of nouns and adjectives. We also found that there was an increase in his usage of non-specific nouns, adverbs and pronouns. We found no significant trends in the transcripts of Presidents Bush and Trump. This study shows that language deterioration can be tracked over time in those with Mild Cognitive Impairment and is generally differentiable from healthy controls. The results also potentially demonstrate the utility of longitudinal language analysis as a method of diganosing Mild Cognitive Impairment in the future.
+\end{abstract}
+\keywords{Mild Cognitive Impairment \and Alzheimer's Disease \and Natural Language Processing \and Longitudinal \and Early Diagnosis \and Language}
+
 \section{Background}
 Dementia has been identified as one of the fastest growing difficulties facing the world today. A recent report suggests that in 2015 there were 46 million people with a diagnosis of dementia and that number is expected to hit 131.5 million by 2050 \cite{Prince2015}. The report also states that the worldwide cost of dementia in 2018 is estimated to be in the region of one trillion US dollars.
 \par
-In 2009, the Department of Health designed it's National Dementia strategy and as part of this made early diagnosis and support one of it's key priorities \cite{England2009}. A lot of work has gone into trying to find ways of improving the early diagnosis of Alzheimer's Disease (AD) and Mild Cognitive Impairment (MCI) with research focused on two areas - identifying biological markers and analyzing the cognitive decline of those who are suspected to have the disease \cite{Taler2008}. As described above, the numbers of those suffering from AD and MCI are going to increase as the population ages \cite{Prince2015} and thus it is important that we utilize technology wherever possible to aid clinicians in the detection of MCI and AD. At the present time diagnosis is typically conducted at memory clinics by trained clinicians \cite{Boschi2017}. I theorize that we may be able to enable an earlier diagnosis of those with MCI and AD using samples of spontaneous speech, natural language processing (NLP) and machine learning (ML).
+In 2009, the UK's Department of Health designed it's National Dementia strategy and as part of this made early diagnosis and support one of it's key priorities \cite{England2009}. A lot of work has gone into this with research focused on two areas - identifying biological markers and analyzing the cognitive decline of those who are suspected to have the disease \cite{Taler2008}. Recently, researchers have highlighted that technology, more specifically the domains of Natural Language Processing (NLP) and Machine Learning (ML), is ideally placed to aid in this endeavour \cite{Boschi2017}. It is theorized that we may be able to use these technologies to enable an earlier diagnosis of those with MCI and AD using samples of spontaneous speech, natural language processing (NLP) and machine learning (ML) \cite{Orimaye2014, Boschi2017}.
 \par
-There is a large body of research that looks at the decline in language of those with MCI and AD \cite{Taler2008, Boschi2017}. However there is conflicting evidence in these studies about which declining language factors are associated with MCI and AD \cite{Taler2008, Boschi2017}. Research therefore should look at these features in more detail and a clarification of this currently disorganised picture should go some way to helping researchers further understand the disease and it's progression. There is some evidence to support this, Berisha et al \cite{Berisha2015}, has shown through a longitudinal language analysis of spontaneous speech that there are marked differences in different parts of speech in this process between those who would go on to have a diagnosis of AD and a healthy control. 
+There is a large body of research that looks at the decline in language of those with MCI and AD \cite{Taler2008, Boschi2017, Emery2000}. However there is conflicting evidence in these studies about which declining language factors are associated with MCI and AD \cite{Taler2008, Boschi2017}. Some work therefore should look at these features in more detail and a clarification of this currently disorganised picture should go some way to helping researchers further understand the disease and it's progression. There is some evidence to support this, Berisha et al \cite{Berisha2015}, has shown through a longitudinal language analysis of spontaneous speech that there are marked differences in different parts of speech in this process between those who would go on to have a diagnosis of AD and a healthy control. 
 \par
 The potential impact of this research in this area is immense. Research has shown that early diagnosis of people with AD or MCI improves sufferers quality of life and can, in some cases, slow the progress of the disease. Early diagnosis can increase the number of research opportunities for understanding the early stages of dementia and how the disease progresses so that more research can be conducted which may, in the future, lead to new treatments and other interventions.
 \par 
@@ -207,8 +211,7 @@ With further work, it is not feasible to the vast array of samples over a timefr
 \par 
 The results of this work show that we can track a person's use of language through time in a number of ways, and it is possible for an individual to be his or her own control. This is important as it means the heterogenous nature of the MCI population does not impact results as much as if we were comparing those with MCI to controls. Equally, it would be helpful to have controls to ascertain what would be usual to expect in the decline of language in a healthy older adult. 
 
-
-
+\bibliographystyle{unsrt}
 \begin{thebibliography}{10}
 
 \bibitem{Prince2015}
@@ -235,13 +238,6 @@ Veronica Boschi, Eleonora Catrical{\`{a}}, Monica Consonni, Cristiano Chesi,
 \newblock {Connected speech in neurodegenerative language disorders: A review}.
 \newblock {\em Frontiers in Psychology}, 8(MAR), 2017.
 
-\bibitem{Berisha2015}
-Visar Berisha, Shuai Wang, Amy LaCross, and Julie Liss.
-\newblock {Tracking Discourse Complexity Preceding Alzheimer's Disease
-  Diagnosis: A Case Study Comparing the Press Conferences of Presidents Ronald
-  Reagan and George Herbert Walker Bush}.
-\newblock {\em Journal of Alzheimer's Disease}, 45(3):959--963, 2015.
-
 \bibitem{Orimaye2014}
 Sylvester~Olubolu Orimaye, Jojo Sze-Meng Wong, and Karen~Jennifer Golden.
 \newblock {Learning Predictive Linguistic Features for Alzheimer's Disease and
@@ -249,6 +245,20 @@ Sylvester~Olubolu Orimaye, Jojo Sze-Meng Wong, and Karen~Jennifer Golden.
 \newblock {\em Proceedings of the Workshop on Computational Linguistics and
   Clinical Psychology: From Linguistic Signal to Clinical Reality}, pages
   78--87, 2014.
+
+\bibitem{Emery2000}
+Olga~B. Emery.
+\newblock {Language Impairment in Dementia of the Alzheimer's Type: A
+  Hierarchical Decline?}
+\newblock {\em International Journal of Psychiatry in Medicine},
+  30(2):145--164, jul 2000.
+
+\bibitem{Berisha2015}
+Visar Berisha, Shuai Wang, Amy LaCross, and Julie Liss.
+\newblock {Tracking Discourse Complexity Preceding Alzheimer's Disease
+  Diagnosis: A Case Study Comparing the Press Conferences of Presidents Ronald
+  Reagan and George Herbert Walker Bush}.
+\newblock {\em Journal of Alzheimer's Disease}, 45(3):959--963, 2015.
 
 \bibitem{Fraser2015}
 Kathleen~C. Fraser, Jed~A. Meltzer, and Frank Rudzicz.
@@ -312,7 +322,7 @@ William Jarrold, Bart Peintner, David Wilkins, Dimitra Vergryi, Colleen Richey,
 \bibitem{Wendelstein2014}
 Britta Wendelstein, Ekkehard Felder, J{\"{o}}rn Stegmeier, and Johannes
   Schr{\"{o}}der.
-\newblock {Noun or Pronoun?: Using Parts of Speech in ALzheimer's Disease}.
+\newblock {NOUN OR PRONOUN?: USING PARTS OF SPEECH IN ALZHEIMER'S DISEASE}.
 \newblock {\em Alzheimer's {\&} Dementia}, 10(4):P434, jul 2014.
 
 \end{thebibliography}

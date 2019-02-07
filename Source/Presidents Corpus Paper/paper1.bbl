@@ -24,13 +24,6 @@ Veronica Boschi, Eleonora Catrical{\`{a}}, Monica Consonni, Cristiano Chesi,
 \newblock {Connected speech in neurodegenerative language disorders: A review}.
 \newblock {\em Frontiers in Psychology}, 8(MAR), 2017.
 
-\bibitem{Berisha2015}
-Visar Berisha, Shuai Wang, Amy LaCross, and Julie Liss.
-\newblock {Tracking Discourse Complexity Preceding Alzheimer's Disease
-  Diagnosis: A Case Study Comparing the Press Conferences of Presidents Ronald
-  Reagan and George Herbert Walker Bush}.
-\newblock {\em Journal of Alzheimer's Disease}, 45(3):959--963, 2015.
-
 \bibitem{Orimaye2014}
 Sylvester~Olubolu Orimaye, Jojo Sze-Meng Wong, and Karen~Jennifer Golden.
 \newblock {Learning Predictive Linguistic Features for Alzheimer's Disease and
@@ -38,6 +31,20 @@ Sylvester~Olubolu Orimaye, Jojo Sze-Meng Wong, and Karen~Jennifer Golden.
 \newblock {\em Proceedings of the Workshop on Computational Linguistics and
   Clinical Psychology: From Linguistic Signal to Clinical Reality}, pages
   78--87, 2014.
+
+\bibitem{Emery2000}
+Olga~B. Emery.
+\newblock {Language Impairment in Dementia of the Alzheimer's Type: A
+  Hierarchical Decline?}
+\newblock {\em International Journal of Psychiatry in Medicine},
+  30(2):145--164, jul 2000.
+
+\bibitem{Berisha2015}
+Visar Berisha, Shuai Wang, Amy LaCross, and Julie Liss.
+\newblock {Tracking Discourse Complexity Preceding Alzheimer's Disease
+  Diagnosis: A Case Study Comparing the Press Conferences of Presidents Ronald
+  Reagan and George Herbert Walker Bush}.
+\newblock {\em Journal of Alzheimer's Disease}, 45(3):959--963, 2015.
 
 \bibitem{Fraser2015}
 Kathleen~C. Fraser, Jed~A. Meltzer, and Frank Rudzicz.
