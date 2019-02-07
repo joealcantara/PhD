@@ -7,23 +7,52 @@
 \usepackage{enumitem}
 \usepackage{fancyhdr}
 \usepackage{rotating}
+
+\usepackage{arxiv}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{lipsum}
+
 %% Page Settings
 \input{settings/page}
 %% Own Commands
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[CE,CO]{Early Detection of MCI that progresses to dementia - An Interdisciplinary Approach}
-\fancyfoot[LE,RO]{\thepage}
-
-\renewcommand{\headrulewidth}{2pt}
-\renewcommand{\footrulewidth}{1pt}
 \input{settings/macros}
-\title{Qualifying Report}
-\date{2019-01-31}
-\author{Jomar Alcantara}
+\title{Longitudinal Language Analysis in the Diagnosis of Mild Cognitive Impairment: A Case Study}
+
+
+\author{
+  Jomar C. Alcantara \\
+  Department of Computer Science \\
+  School of Engineering and Applied Sciences\\
+  Aston University\\
+  Birmingham, UK \\
+  \texttt{alcantaj@aston.ac.uk} \\
+  \And
+  Peter Sawyer \\
+  Department of Computer Science \\
+  School of Engineering and Applied Sciences \\
+  Aston University\\
+  Birmingham, UK \\
+  \texttt{p.sawyer@aston.ac.uk} \\
+  \And
+  Cristina Romani \\
+  Department of Psychology \\
+  School of Life and Health Science\\
+  Aston University\\
+  Birmingham, UK \\
+  \texttt{c.romani@aston.ac.uk} \\
+}
 % HEADER ENDS
 % DOCUMENT BEGINS
 \begin{document}
+\maketitle
 \section{Abstract}
 \section{Background}
 Dementia has been identified as one of the fastest growing difficulties facing the world today. A recent report suggests that in 2015 there were 46 million people with a diagnosis of dementia and that number is expected to hit 131.5 million by 2050 \cite{Prince2015}. The report also states that the worldwide cost of dementia in 2018 is estimated to be in the region of one trillion US dollars.
@@ -33,8 +62,7 @@ In 2009, the Department of Health designed it's National Dementia strategy and a
 There is a large body of research that looks at the decline in language of those with MCI and AD \cite{Taler2008, Boschi2017}. However there is conflicting evidence in these studies about which declining language factors are associated with MCI and AD \cite{Taler2008, Boschi2017}. Research therefore should look at these features in more detail and a clarification of this currently disorganised picture should go some way to helping researchers further understand the disease and it's progression. There is some evidence to support this, Berisha et al \cite{Berisha2015}, has shown through a longitudinal language analysis of spontaneous speech that there are marked differences in different parts of speech in this process between those who would go on to have a diagnosis of AD and a healthy control. 
 \par
 The potential impact of this research in this area is immense. Research has shown that early diagnosis of people with AD or MCI improves sufferers quality of life and can, in some cases, slow the progress of the disease. Early diagnosis can increase the number of research opportunities for understanding the early stages of dementia and how the disease progresses so that more research can be conducted which may, in the future, lead to new treatments and other interventions.
-
-
+\par 
 There has been a significant research in the area of language deterioration as a means of detecting Alzheimer's Disease. This usually takes the form analysis of speech recorded as part of a cognitive assessment such as the Picture Description Task \cite{Orimaye2014,Fraser2015}. Given that language samples are relatively easy to collect, research has moved towards analysis of spontaneous speech. An good example of this type of research is the study conducted by Berisha and Liss which looked at the differences in language use between two US presidents, Ronald Reagan (who would go on to receive a diagnosis of Dementia) and George H.W. Bush who acted as a matched control based on Age \cite{Berisha2015}. They found several differences in language use which they felt acted as indicators of Reagan's difficulties with language due to dementia. These significant differences were in the number of unique words used per speech, the use of non-specific nouns and fillers and low-imageability verbs \cite{Berisha2015}. 
 \par   
 This study replicates work done by Berisha and Liss and extends this by adding Donald Trump as an alternative, more appropriate comparison to Ronald Reagan as he is much closer in age than George H.W. Bush. This experiment will look at the features originally identified by Berisha and Liss, as well as any others that have potential as discussed in the literature review above. 
@@ -181,8 +209,113 @@ The results of this work show that we can track a person's use of language throu
 
 
 
-\bibliographystyle{unsrt}
-\bibliography{QualifyingReport}
+\begin{thebibliography}{10}
+
+\bibitem{Prince2015}
+Martin Prince, Anders Wimo, Guerchet M, Ali GC, Wu~YT, and Prina M.
+\newblock {World Alzheimer Report 2015 The Global Impact of Dementia An
+  analysis of prevalence, incidence, cost and trends}.
+\newblock {\em Alzheimer's Disease International}, 2015.
+
+\bibitem{England2009}
+{Department of Health}.
+\newblock {Living well with dementia : Dementia Strategy (England)}.
+\newblock Technical report, Department of Health, 2009.
+
+\bibitem{Taler2008}
+Vanessa Taler and Natalie~A. Phillips.
+\newblock {Language performance in Alzheimer's disease and mild cognitive
+  impairment: A comparative review}.
+\newblock {\em Journal of Clinical and Experimental Neuropsychology},
+  30(5):501--556, 2008.
+
+\bibitem{Boschi2017}
+Veronica Boschi, Eleonora Catrical{\`{a}}, Monica Consonni, Cristiano Chesi,
+  Andrea Moro, and Stefano~F. Cappa.
+\newblock {Connected speech in neurodegenerative language disorders: A review}.
+\newblock {\em Frontiers in Psychology}, 8(MAR), 2017.
+
+\bibitem{Berisha2015}
+Visar Berisha, Shuai Wang, Amy LaCross, and Julie Liss.
+\newblock {Tracking Discourse Complexity Preceding Alzheimer's Disease
+  Diagnosis: A Case Study Comparing the Press Conferences of Presidents Ronald
+  Reagan and George Herbert Walker Bush}.
+\newblock {\em Journal of Alzheimer's Disease}, 45(3):959--963, 2015.
+
+\bibitem{Orimaye2014}
+Sylvester~Olubolu Orimaye, Jojo Sze-Meng Wong, and Karen~Jennifer Golden.
+\newblock {Learning Predictive Linguistic Features for Alzheimer's Disease and
+  related Dementias using Verbal Utterances}.
+\newblock {\em Proceedings of the Workshop on Computational Linguistics and
+  Clinical Psychology: From Linguistic Signal to Clinical Reality}, pages
+  78--87, 2014.
+
+\bibitem{Fraser2015}
+Kathleen~C. Fraser, Jed~A. Meltzer, and Frank Rudzicz.
+\newblock {Linguistic Features Identify Alzheimer's Disease in Narrative
+  Speech}.
+\newblock {\em Journal of Alzheimer's Disease}, 49(2):407--422, oct 2015.
+
+\bibitem{Bird2009}
+Steven Bird, Ewan Klein, and Edward Loper.
+\newblock {\em {Language Processing and Python}}.
+\newblock O'Reilly Media Inc, 2009.
+
+\bibitem{Richards1987}
+Brian Richards.
+\newblock {Type/Token Ratios: what do they really tell us?}
+\newblock {\em Journal of Child Language}, 14(02):201, jun 1987.
+
+\bibitem{Bird2000}
+Helen Bird, Matthew~A. {Lambon Ralph}, Karalyn Patterson, and John~R. Hodges.
+\newblock {The rise and fall of frequency and imageability: Noun and verb
+  production in semantic dementia}.
+\newblock {\em Brain and Language}, 73(1):17--49, 2000.
+
+\bibitem{Le2011}
+Xuan Le, Ian Lancashire, Graeme Hirst, and Regina Jokel.
+\newblock {Longitudinal detection of dementia through lexical and syntactic
+  changes in writing: A case study of three British novelists}.
+\newblock {\em Literary and Linguistic Computing}, 26(4):435--461, 2011.
+
+\bibitem{Garrard2005}
+Peter Garrard, Lisa~M. Maloney, John~R. Hodges, and Karalyn Patterson.
+\newblock {The effects of very early Alzheimer's disease on the characteristics
+  of writing by a renowned author}.
+\newblock {\em Brain}, 2005.
+
+\bibitem{Almor1999}
+Amit Almor, Daniel Kempler, Maryellen~C MacDonald, Elaine~S Andersen,
+  Lorraine~K Tyler, Lee Willis, Lori Altmann, Mariela Gil, Laila Lalami, Karen
+  Mar-blestone, Sarah Schuster, and Karen Stevens.
+\newblock {Why Do Alzheimer Patients Have Difficulty with Pronouns? Working
+  Memory, Semantics, and Reference in Comprehension and Production in
+  Alzheimer's Disease}.
+\newblock {\em Brain and Language}, 67:202--227, 1999.
+
+\bibitem{Wendelstein2015}
+Britta Wendelstein, J{\"{o}}rn Stegmeier, Claudia Frankenberg, Ekkehard Felder,
+  and Johannes Schr{\"{o}}der.
+\newblock {Changes in the use of pronouns in spoken language in the course of
+  preclinical to early stages of Alzheimer's disease}.
+\newblock {\em Alzheimer's {\&} Dementia}, 11(7):P784--P785, jul 2015.
+
+\bibitem{Jarrold2014}
+William Jarrold, Bart Peintner, David Wilkins, Dimitra Vergryi, Colleen Richey,
+  Maria~Luisa Gorno-Tempini, and Jennifer Ogar.
+\newblock {Aided diagnosis of dementia type through computer-based analysis of
+  spontaneous speech}.
+\newblock {\em Proceedings of the Workshop on Computational Linguistics and
+  Clinical Psychology: From Linguistic Signal to Clinical Reality}, pages
+  27--37, 2014.
+
+\bibitem{Wendelstein2014}
+Britta Wendelstein, Ekkehard Felder, J{\"{o}}rn Stegmeier, and Johannes
+  Schr{\"{o}}der.
+\newblock {Noun or Pronoun?: Using Parts of Speech in ALzheimer's Disease}.
+\newblock {\em Alzheimer's {\&} Dementia}, 10(4):P434, jul 2014.
+
+\end{thebibliography}
 
 \end{document}
 %DOCUMENT ENDS
