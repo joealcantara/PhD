@@ -1,23 +1,66 @@
 \documentclass[11pt]{article}
+
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\singlespacing\small\itshape}
+
 \begin{document}
-\textbf{Response to the Qualification Report and Viva Voce feedback}
+\title{Response to the Qualification Report and Viva Voce feedback}
+\maketitle
 \par 
-\textbf{Your feedback}
+\begin{quote}
 The student had a very good understanding of the literature and could summarise it well. It was a bit lacking in the machine learning area but he has the capacity for improving that and is aware of what he needs to do. His research background was good but there needed to be more focus on the research questions. These were not explored well in the QR but were much clearer in the viva. He now has some very good ideas to take forward that should lead to a Ph.D.
 \par 
+\bigskip
 The main advice we would give is to be much more careful about how and what data you collect. Getting the participants to do it themselves on a daily basis by, for example, a speech diary that they record and submit, is much more practical than a battery of tests in a clinic. Plus you do not want to be asking about clinical diagnoses using, for example, PHQ9 that measures depression because this raises a lot of ethics issues that will make it harder for NHS ethics approval. Keep the data collection simple, especially as the focus of the Ph.D is about changes in language and not about the cognitive tests themselves. We do not think the latter are necessary because the focus of the Ph.D is on whether you can detect decline by differences in language use over time and not about determining the clinical underpinnings of those differences.
+\end{quote}
 
 \section{Research Aims and Questions}
-The broad objectives of my research are to explore whether the application of Natural Language Processing and Machine Learning techniques to spontaneous speech samples can improve our ability to diagnose Mild Cognitive Impairment in patients that will directly lead to Alzheimer's Disease. Another objective of my research is to provide some clarity as to which language features are most important to measure when looking for evidence of MCI and/or AD. 
+In my The revised objectives of my research are to explore whether the application of Natural Language Processing and Machine Learning techniques to spontaneous speech samples can improve our ability to diagnose Mild Cognitive Impairment in patients that will directly lead to Alzheimer's Disease and to provide some clarity as to which language features are most important to measure when looking for evidence of MCI and/or AD. 
 \begin{itemize}
-	\item \textbf{(H1)} Monitoring language samples and other measures of cognitive decline over the course of the year will be enough to detect cognitive decline in a population of those with Subjective Cognitive Decline and Mild Cognitive Impairment
-	\item \textbf{(H2)} Given a number of samples of language over a given time frame, it is possible to detect language decline in participants such that you can differentiate between normal language decline, these with Alzheimers Disease and decline in those with MCI.
+	\item \textbf{(Hypothesis One)} Monitoring language samples over the course of the year will be enough to detect cognitive decline in those diagnosed with Mild Cognitive Impairment and Early Alzheimer's Disease at specific points in time.
+	\item \textbf{(Hypothesis Two)} Given a number of samples of language over a given time frame, it is possible to detect language decline in participants such that you can differentiate between normal language decline, these with Alzheimers Disease and decline in those with MCI.
+	\item \textbf{(Hypothesis Three)} T
 \end{itemize}
 
-\section{Data Collection Methodology}
+\section{Data Collection and Analysis Methodology}
+One of the main concerns I have had was about the amount of data collection that needed to be done. Given the low rate of progression from MCI to AD year on year, there is a non-zero possibility that I could have a cohort where no-one progresses to AD. Equally, working with a clinical population would invariably require NHS Ethics. Since this problem is essentially a classification problem, in theory we can look at things from a different perspective. 
+
+\subsection{Why not stick to picture tasks or narrative storytelling tasks?}
+Semi-structured speech data in commonly available data sets such as the DementiaBank corpus or the Wisconsin Registry for Alzheimer's Prevention (WRAP) focus on picture description tasks. These samples are usually collected once an individual is referred to a clinician for assessment. 
+
+\subsection{One Class Classification}
+The prevalence of Dementia in the UK's population is roughly 1 in 14 or 7\%. The prevalence of MCI has only briefly been explored, however some research by a team at the Univesity of Leeds indicate that the prevalence of MCI is between 3.2 - 24\%, and found that the prevalence of MCI in people who have self-reported memory problems is almost double (18\%) the amount of do not self report. Whilst this means that it is entirely possible to recruit a cohort with MCI and AD, it is comparatively costly in terms of time and resources. Given that, from a statistical perspective, this is a highly imbalanced population we can look at the problem as a kind of anomaly detection.
+\par 
+This has some precedent in the field of . In 
+\par 
+One-class classifiers analyze only examples of the majority class (in this case - Healthy Older Adults) to learn a classification boundary that excludes outlier examples. When dealing with heavily imbalanced datasets with text classifcation as an objective, the one-class classifier approach has been demonstrated to outperform conventional two-class classification.  
+
+\section{Proposed Methodology}
+\subsection{Stage 1 - Exploratory Data Analysis of DementiaBank dataset}
 
 
-\section{Project Aims}
+
+\subsection{Stage 2 - Collection of Longitudinal Data}
+Given the aim is to collect a large sample of language from a healthy population. I now estimate the numbers of samples to be as follows. 100 Healthy Older Adults, 20 MCI, 20 Early AD. The 20 MCI and 20 Early AD will be categorised based on a clinical diagnosis given by a mental health professional. In addition, from the Healthy Older Adults, I will ascertain a participants level of concern about their cognitive ability with a simple 2 item questionnaire. The intention, if there are enough people who express a level of concern, is to conduct an of the majority class with and without those who demonstrate concern.
+\par 
+\begin{itemize}
+	\item Question 1. How concerned are you about your cognitive health? Rate on a scale of 0 to 10, where 0 is not concerned at all and 10 is extremely concerned.
+	\item Question 2. If you answered 1 or more on Question 1, please explain what your concerns are.
+\end{itemize}
+\par 
+
+\subsection{Stage 3 - Analysis of Longitudinal Data}
+Once the data has been collected. The analysis of the data will be begin from the perspective of treating the healthy older adults as the Majority class, and all others as 'outliers'. The first stage of this is to see whether using a One-class classifier is sensitive enough to detect those with a diagnosis of MCI and AD without differentiating between the two. 
+
+This is important from the perspective of identifying people 
+
+
+\section{Proposed Extension}
+\subsection{Analysis of written blogs}
+
 
 
 \end{document}
