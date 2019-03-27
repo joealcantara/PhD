@@ -1,8 +1,5 @@
-%% TO DO LIST
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Document Class
-\documentclass[a4paper]{report}
+\documentclass[a4paper]{book}
 %% Packages
 \input{settings/packages}
 \usepackage{graphicx}
@@ -23,16 +20,16 @@
 \renewcommand{\footrulewidth}{1pt}
 \input{settings/macros}
 \title{Thesis}
-\date{2019-02-05}
+\date{2019-03-27}
 \author{Jomar Alcantara}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin {document}
 \maketitle
 \newpage
 % Abstract
-\section{Abstract}
+\section*{Abstract}
 % Acknowledgements
-\section{Acknowledgements}
+\section*{Acknowledgements}
 \tableofcontents
 \newpage
 \listoffigures
@@ -261,7 +258,7 @@ Sajjadi et al examined 10 pictorial themes in picture description the Comprehens
 Finally, a number of studies used composite measures which contained thematic elements and other unspecified information units resulting in a list of 23 possible information units of the Cookie Theft picture. The authors felt that this provided a wider, more liberal range of relevant content and thus subtler differences could be noted. Studies using these features found some differences between AD and controls, and some could differentiate between different stages of AD.
 \subsection{General Information Units or Content Information Units}
 Some studies used a more general concept of content, using terms such as "general information units" or "content information units" and this could be defined as "the smallest non redundant meaningful fact or inference,"  and was counted whether or not the information conveyed was specific to the context in which the conversation happened. Giles et al for example studied adults with minimal, mild or moderate AD vs controls and found that adults with AD produced fewer overall information units than controls \cite{Giles1996}.
-\subsection{Conciseness of information}1`
+\subsection{Conciseness of information}
 Conciseness has been defined as the number of words a speaker uses to express ideas. The theory is that people with AD would need more words to convey ideas because of difficulties with word-finding and compensatory  behaviours such as circumlocutions and repetitions. Conciseness has previously been calculated by dividing the number of ideas expressed by the total number of words in a measure commonly referred to as idea density but also known as lexical index, information content and information unit conciseness index. Snowdon examined written discourse from the Nun study and found that low idea density in early life was associated with reduced cognitive performance in later life \cite{Snowdon1996}. Riley et al extended these findings by concluding that early-life idea density was associated with lower brain weight, higher degree of cerebral atrophy and increased neurofibrillary pathology in later life \cite{Riley2005}.
 \par
 Ahmed, de Jager et al examined idea density with patients who had confirmed AD post mortem \cite{Ahmed2013}. They found that those with AD produced fewer total semantic units than controls but there was no significant difference between the groups with regards to idea density. The study of "empty speech" by Nicholas et al examined conciseness and specifically looked at empty phrases (defined as common utterances which contribute no relevant information), deictic terms (e.g. "this", "that" without referents), indefinite terms (e.g. "thing" or "stuff"), pronouns without proper noun antecedants, and repetitions. In their study they found that AD patients produced more of these than did controls.
@@ -404,7 +401,13 @@ One of the drawbacks of attempting to use natural language processing and machin
 \subsection{Conclusions}
 We can see that both Natural Language Processing and Machine Learning techniques have a lot to offer, Indeed there has been a lot of research which have used pre-existing datasets to explore this area with promising results. One of the difficulties with the current research is the approach of trying to discriminate between those AD and healthy controls. This is not necessarily a problem in the real world as it is trivially easy to do for trained clinicians. A more interesting, but potentially harder to problem to solve is to discriminate between those with MCI and healthy controls, and more importantly to track their decline over time. Further, to date the authors are unaware of any research in which these techniques are applied to newly created samples of language. 
 
-\section{One Class Classification}
+\subsection{One Class Classification}
+The prevalence of Dementia in the UK's population is roughly 1 in 14 or 7\%. The prevalence of MCI has only briefly been explored, however some research by a team at the Univesity of Leeds indicate that the prevalence of MCI is between 3.2 - 24\%, and found that the prevalence of MCI in people who have self-reported memory problems is almost double (18\%) the amount of do not self report. Whilst this means that it is entirely possible to recruit a cohort with MCI and AD, it is comparatively costly in terms of time and resources. Given that, from a statistical perspective, this is a highly imbalanced population we can look at the problem as a kind of anomaly detection.
+\par 
+This has some precedent in the field of . In 
+\par 
+One-class classifiers analyze only examples of the majority class (in this case - Healthy Older Adults) to learn a classification boundary that excludes outlier examples. When dealing with heavily imbalanced datasets with text classifcation as an objective, the one-class classifier approach has been demonstrated to outperform conventional two-class classification.  
+
 
 \section{Discussion}
 Current state-of-the-art diagnostic measures of AD are invasive (CSF analysis), expensive (neuroimaging), and time-consuming (neuropsychological assessment). Furthermore, these measures are limited to speciality clinics and thus have limited accessibility as frontline screening and diagnostic tools for AD. More importantly, nonspecialists are often inaccurate at identifying early AD and MCI. Thus, there is an increasing need for additional noninvasive and/or cost-effective tools, allowing effective frontline identification of subjects in the preclinical or early clinical stages of AD who could be suitable for monitoring in speciality clinics and for early treatment. Implementation of effective screening instruments will allow diagnosis earlier in the course of dementia, even at the point when memory function is still essentially within the normal range. This strategy would enable an earlier, and potentially more effective, prevention and treatment of AD with a special focus to preserve cognitive functions.
@@ -414,8 +417,7 @@ However the literature has identified a number of challenges when approaching th
 Another challenge lies with the recruitment of suitable individuals who may notice a decline in cognition to the point where we might classify them as having MCI, but these individuals deduce that there is little to no value to admitting there is a problem and seeking help whilst their symptoms are 'manageable'.
 \par
 Finally there is a large amount of variability in the presentations of those with MCI and early dementia, and this is compounded by an similar amount of variability in the criteria researchers have used for experimental groups and the approaches researchers have used to tackle this problem. This had led to a confused literature. Recently a call for research that has consistent inclusion / exclusion criteria has been made along with some proposed definitions of MCI and it's subgroups \cite{Petersen2014}. Researchers have identified the analysis of language impairment as an area of promise to explore in the diagnosis of MCI and early AD and recent developments in natural language processing and machine learning techniques have the potential to assist in this research. Indeed, given the increased burden on the diagnosis of MCI and AD on professionals there has been a call to use technology to potentially ease this burden \cite{Boschi2017}. A small but growing amount of research has gone into the use of machine learning techniques to potentially look at the automated classification of participants with MCI and/or AD, however this is a new area of research and there are some gaps in our knowledge.
-
-\subsection{Future Work}
+\par 
 One of the areas for research to study is a careful examination of the features that are being used to measure language deterioration. For example, Zimmerer (2016) \cite{Zimmerer2016} describes connectivity in such as a way that correlates directly with what Mueller (2018) \cite{Mueller2018a} calls Fluency. Whilst these are very nuanced measures which differ slightly in the form they take, the sheer range of measures and features being produced make it difficult to organise and explore what is truly going on in those with MCI and early AD.. Some work needs to be done in producing a consistent list of measures that are validated using existing datasets and can be used for future research moving forward. \newline
 \par
 Teng et al suggests that work should focus on the MCI population and concentrate on developing a consensus neuropsychological battery that could yield predictable rates of progression to AD \cite{Teng2009}. This, in conjunction with the development of a model of language, sensitive enough to detect subtle deterioration in language use to act as an additional cognitive marker to aid diagnosis could potentially move some way to providing this.
@@ -423,305 +425,16 @@ Teng et al suggests that work should focus on the MCI population and concentrate
 Future research should also be directed towards developing non-intrusive ways of detecting subtle changes in natural language such that any perceived deterioration that could indicate the presence of MCI or AD could be flagged up early. Machine learning approaches seem to be the most logical approach for achieving this aim as language could be collected in non-intrusive ways and passed to a machine learning algorithm for preliminary classification.  Despite the excellent quality of datasets, for example the DementiaBank dataset, being used to 'backtest' these algorithms, further research should look at generating additional datasets to increase the validity of the results found so far as well as using other methods to generate data other than Picture Description tasks which some researchers could claim are limited in scope. Finally, the recent resurgence in the use of neural networks and deep learning could provide the answer to the confused literature in terms of features. A key benefit of deep learning is it's ability to automate the process of feature engineering. So there is an opportunity to explore the use of deep learning, to not only develop new features but also validate existing features independently.  
 \par
 This area of research is extremely promising in its early results and the impact of successful research would be life changing for both individuals and the health of the worlds aging population in general.
-\chapter{Initial Study of the Presidents corpus}
-\section{Background}
-There has been a significant research in the area of language deterioration as a means of detecting Alzheimer's Disease. This usually takes the form analysis of speech recorded as part of a cognitive assessment such as the Picture Description Task \cite{Orimaye2014,Fraser2015}. Given that language samples are relatively easy to collect, research has moved towards analysis of spontaneous speech. An good example of this type of research is the study conducted by Berisha and Liss which looked at the differences in language use between two US presidents, Ronald Reagan (who would go on to receive a diagnosis of Dementia) and George H.W. Bush who acted as a matched control based on Age \cite{Berisha2015}. They found several differences in language use which they felt acted as indicators of Reagan's difficulties with language due to dementia. These significant differences were in the number of unique words used per speech, the use of non-specific nouns and fillers and low-imageability verbs \cite{Berisha2015}. 
-\par   
-This study replicates work done by Berisha and Liss and extends this by adding Donald Trump as an alternative, more appropriate comparison to Ronald Reagan as he is much closer in age than George H.W. Bush. This experiment will look at the features originally identified by Berisha and Liss, as well as any others that have potential as discussed in the literature review above. 
-\section{Methods}
-I took 46 transcripts of Ronald Reagan’s (RR) press conferences from 1981 to 1988 and compared them with 134 press conferences by George H. W. Bush (GHWB) and 29 press conferences conducted by Donald J. Trump (DJT).  I analyzed transcripts for lexical features shown to change longitudinally with dementia  (for a comprehensive review of these, see the literature review above). For this collection of documents, I generated a number of features which looked at a number of different aspects of each document. These features encompassed, word level, sentence level and document level features and included a number of features contained in the study by Berisha and Liss with the aim of replicating and extending on their findings. These findings were. number of unique words, non-specific nouns and fillers and low imageability (LI) verbs. Imageability is characterized, according to Berisha and Liss, as the ease with which a term gives rise to a sensory .mental image. I compared the trends described in the transcripts of RR and GHWB, but also included DJT. Berisha and Liss originally made the comparison as it GHWB (GHWB - age at the start of presidency - 64 years, 222 days) was the closest match to RR in terms of age (RR  - age at the start of presidency, 69 yeaars and 349 days). However, with the inauguration of Trump, he now is the closest comparible president in terms of age (DJT - age at the start of presidency - 70 years, 220 days). It would be interesting to look at a comparison of RR and DJT to see whether the comparisons made by Berisha and Liss hold true with this more appropriate match (in terms of age). DJT as with GHWB has no known diagnosis of AD. I used the press conference transcripts in the American Presidency Project (APP) archive as a data source for this project. The APP is a comprehensive and organized searchable database of presidential documents, including transcripts of speeches, transcripts of news conferences, and other public documents.
-\subsection{Pre-processing}
-To generate the files necessary for analysis, I downloaded each transcript and performed the following changes. I omitted the prepared statement by the president and any speech by other individuals. I started each transcript at the beginning of the first answer to a question. I filtered any annotations that were added to the transcript, including any references or clarifications, and any laughter. It's worth noting that there appears to be a difference in how 'hesitations' were marked down between each president, for RR hesitations were marked by a single hyphen whereas for GHWB hesitations are marked by a double hyphen. In order to maintain consistency when parsing through the documents, I have changed both types of hesitation to be marked by a single hyphen. I also omitted one word sentences as this data would, from a theoretical perspective, not be relevant for language analysis. I did not control for the length of the document, but generated features which would normalise by the length of the document. I therefore was able to include all press conferences by both Ronald Reagan and George H.W. Bush where there was a question and answer session conducted at least in part by the sitting president (2 press conferences of GHWB were ommited due to a lack of a question and answer session).
-\subsection{Feature Selection}
-We calculated the following features for each transcript in turn using the NLTK (see section 2 for a description) \cite{Bird2009} and Python. 
-\par 
-\subsubsection{Measures of lexical variation}
-We constructed two features of lexical variation. Firstly we looked at the number of unique words. To do this we were able to split each transcript into individual words and changed them to lowercase using NLTK and were then count the number of unique words that appeared in each transcript. We also used the TTR formula (see section 2 for a description) for a feature that measures lexical diversity independent of sample size \cite{Richards1987}. 
-\subsubsection{Fillers, Non-Specific Nouns and LI Verbs}
-For these features, we counted the number of occurrences for different categories (see table for list of categories tracked and the words counted). The features were used by Berisha and Liss in their research \cite{Berisha2015} and were taken from work done by Bird et al \cite{Bird2000}. 
 
-\begin{table}[H]
-	\begin{center}
-	\begin{tabular}{ | p{3cm} | p{6cm} |}
-		\hline
-		Category & Words \\ \hline
-		Fillers & \textit{"well", "so", "basically", "actually", "literally", "um", "ah"} \\ \hline
-		Non Specific Nouns & \textit{"something", "anything", "thing", "everything"} \\ \hline
-		LI Verbs & \textit{"be", "come", "do", "get", "give", go", "know", "look", "make", "see", "tell", "think", "want"} \\ \hline
+\chapter{Feature Engineering and Classification of DementiaBank Transcripts and Audio}
 
-	\end{tabular}
-	\caption{\label{tab:table-name}Categories and Words Counted}
-	\end{center} 
-\end{table}
+\chapter{Comparison of different speech to language applications}
 
-\subsubsection{Usage of parts of speech}
-This section involves using a Part of Speech tagger (PoS) which analyses a sentence and assigns a 'tag' to each word based on the function the word has in a sentence. At a basic level this can be divided into the eight defined parts of speech: 'nouns', 'pronouns', verbs', 'adjectives', 'adverbs', 'conjunctions', 'prepositions' and 'interjections' but can be further subcategorised. We used the PoS tagger built into NLTK to tag each transcript in turn and used these the counts from each of these eight categories in our analysis. In addition to frequency counts we also normalised these features by dividing the frequency count by the number of words in the document to take into account transcript length.
+\chapter{Development of an application}
 
-\section{Results}
-One of the most important thing to note is the wide variety of samples between the three presidents and also the varying timescales. RR participated in 46 press conferences over eight years (an average of 5.75 a year) which is the fewest number of press conferences given by an American president during their term of office. GHWB participated in 136 press conferences over four years (an average of  34 a year) and DJT participated in 29 press conferences to date (an average of 19.3 per year). Equally, there are variances in the average number of words. RR produced an average of 3424 words per conference compared to 2608 by GHWB (unpaired t = 4.434, p\textless 0.001) and DJT at 1849 words (unpaired t = 6.524, p\textless 0.001).
-\begin{table}[H]
-	\begin{center}
-	\begin{tabular}{ | p{3cm} | p{1.5cm} | p{1.5cm} | p{1.5cm} |}
-		\hline
-		& RR & GHWB & DJT \\ \hline
-		Total Words & 3423.91 (416.42) & 2607.72 (1210.38) & 1848.65 (1549.38) \\ \hline
-		Unique Words & 894.13 (85.15) & 667.76 (218.67) & 481.82 (221.29) \\ \hline
-		Non Specific Nouns & 12.72 (4.63) & 6.78 (4.32) & 7.41 (8.75) \\ \hline
-		LI Verbs & 124.22 (17.89)& 103.45 (51.87) & 84.48 (75.78) \\ \hline
-	\end{tabular}
-	\caption{\label{tab:table-name}Means and Standard Deviations of important features}
-	\end{center} 
-\end{table}
+\chapter{Techniques in feature engineering - What features matter? Comparing language generated from picture description task to language generated from our task}
 
-In terms of unique words, we found that RR used significantly more unique words, non-specific nouns and low imageability verbs than GHWB and DJT (see Table 3.3). Some of these differences are due to the length of the sample, particularly in the case of DJT where his average sample is almost half the sample of RR. It could also be said that this could be down to differences in linguistic abilities or speaking style \cite{Berisha2015, Le2011}. However, we can certainly see that as controls GWHB and DJT are comparative in relation to non-specific nouns and LI verbs. 
-
-\begin{table}[H]
-	\begin{center}
-	\begin{tabular}{ | p{3cm} | p{1.5cm} | p{1.5cm} | p{1.5cm} |}
-		\hline
-		& RR v GHWB & RR v DJT & GHWB v DJT \\ \hline
-		Total Words & \textbf{4.434***} & \textbf{6.524***} & \textbf{2.899**} \\ \hline
-		Unique Words & \textbf{6.832***} & \textbf{11.403***} & \textbf{4.137***} \\ \hline
-		Non Specific Nouns & \textbf{7.877***} & \textbf{3.426**} & -0.574 \\ \hline
-		LI Verbs & \textbf{2.656**} & \textbf{3.420***} & 1.628 \\ \hline
-		\multicolumn{4}{@{}p{1.5in}}{\footnotesize * denotes p\textless 0.05} \\
-		\multicolumn{4}{@{}p{1.5in}}{\footnotesize ** denotes p\textless 0.01} \\
-		\multicolumn{4}{@{}p{1.5in}}{\footnotesize *** denotes p\textless 0.001} \\
-	\end{tabular}
-	\caption{\label{tab:table-name}RR T-tests vs GWB and DJT}
-	\end{center} 
-\end{table}
-
-We then looked at the data from a longitudinal perspective as we are interested seeing whether we can track various language variables and their progress over time. We ran a number of Pearsons correlations with transcript index number as a time reference and the dependant variables (Table 3.4).  For our controls, we found them to be stable for the most part with the main highlights being a decrease in Adverb usage for DJT (R=-0.36, p=0.049) and a steady but not severe decline in a number of variables for GWHB, namely total word count, unique words, low imageability words and verb usage.
-\par 
-For RR, his decline is more marked and more widespread through his language use. We noticed an significant increase in adverb (R=0.41, p=0.004) and pronoun usage (R=0.65, p\textless0.001), as well as a slight usage increase in Non-specific nouns(R=0.30, p=0.03). There was a highly significant decrease in number of unique words (R=-0.56, p\textless0.001) and noun usage (R=-0.70, p\textless0.001). Also very significant decrease in adjective usage (R=-0.40, p=0.005) and a significant decrease in total word count (R=-0.31, p=0.03). 
-
-\begin{table}[H]
-	\begin{center}
-	\begin{tabular}{ | l | p{1.5cm} | p{1.5cm} | p{1.5cm} |}
-		\hline
-		& RR & GHWB & DJT \\ \hline
-		Word Count & \textbf{-0.31*} & \textbf{-0.21*} & 0.08 \\ \hline 
-		Unique Words & \textbf{-0.56***} & \textbf{-0.25**} & 0.16 \\ \hline
-		Non Specific Nouns & \textbf{0.30*} & -0.08 & -0.03 \\ \hline
-		LI Verbs & -0.19 & \textbf{-0.20**} & 0.02 \\ \hline
-		Nouns Normalised & \textbf{-0.70***} & -0.03 & 0.14 \\ \hline
-		Verbs Normalised & \textbf{0.36**} & \textbf{0.24***} & -0.03 \\ \hline
-		Adjectives Normalised & \textbf{-0.40**} & 0.08 & -0.34 \\ \hline
-		Adverbs Normalised & \textbf{0.41***} & 0.02 & \textbf{-0.36*} \\ \hline
-		Pronouns Normalised & \textbf{0.65***} & 0.13 & 0.07 \\ \hline
-		\multicolumn{4}{@{}p{1.5in}}{\footnotesize * denotes p\textless 0.05} \\
-    	\multicolumn{4}{@{}p{1.5in}}{\footnotesize ** denotes p\textless 0.01} \\
-    	\multicolumn{4}{@{}p{1.5in}}{\footnotesize *** denotes p\textless 0.001} \\
-	\end{tabular}
-	\caption{\label{tab:table-name}Pearson Correlations for Features}
-	\end{center} 
-\end{table}
-
-\section{Discussion}
-President Reagan received his diagnosis of AD in August 1994 but using transcripts of speeches he made in his two terms as President (January 1981 - January 1989) we have be able to identify certain changes in his use of language that we might ascribe to the onset of MCI and early AD. Despite differences in our methodology, our research supports the findings of Berisha and Liss in that we both find a significant decrease in unique words over time and an increase in non-specifc noun usage. Compared to our controls (GWHB andDJT), we find some slight trends with GWHB but no such trends with DJT in his speech albeit his samples of speech span a shorter amount of time.
-\begin{figure}[H]
-	\centering
-	\begin{minipage}[b]{0.4\textwidth}
-		\includegraphics[width=190px, height=140px]{images/RRUniqueWords.png}
-		\caption{Ronald Reagan - Unique Words over time}
-	\end{minipage}
-	\hfill
-	\begin{minipage}[b]{0.4\textwidth}
-		\includegraphics[width=190px, height=140px]{images/GWHBUniqueWords.png}
-		\caption{George H.W. Bush - Unique Words over time}
-	\end{minipage}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\begin{minipage}[b]{0.4\textwidth}
-		\includegraphics[width=190px, height=140px]{images/RRNSNouns.png}
-		\caption{Ronald Reagan - Non-specifc Nouns over time}
-	\end{minipage}
-	\hfill
-	\begin{minipage}[b]{0.4\textwidth}
-		\includegraphics[width=190px, height=140px]{images/DJTNSNouns.png}
-		\caption{Donald J. Trump - Non-specific Nouns over time}
-	\end{minipage}
-\end{figure}
-
-A criticism of Berisha and Liss's work is the problems they had with normalising the transcripts in terms of length. This was also a problem in the work of Garrard et al \cite{Garrard2005, Le2011}. Whilst it is important to control for outliers, there are other ways in which we can control for length of sample.  
-\par 
-Interestingly, when we normalised the various types of words used by the presidents we found some interesting patterns that further differentiated RR from the controls. Whilst Non-specific nouns increased over time, we found that noun usage in general significantly decreased and pronouns increased similarly significantly. The increase in pronoun for those with early AD has been identified in literature, although there are only a few studies that explore this \cite{Almor1999, Wendelstein2015}. Wendlestein et al propose that the increased used of pronouns is an expression of an impaired ability to adapt language to the listener's needs \cite{Wendelstein2015}. Almor et al attributed this reliance on pronouns due to a impaired working memory \cite{Almor1999}.
-\par 
-The decrease in overall noun usage has also been identified as a feature. Jarrold et al found that AD patients would use more pronouns, verbs and fewer nouns than controls \cite{Jarrold2014}. Wendlestein in their investigations into noun usage found that decreased later on in AD progression and was unaffected in the pre-clinical stages of AD \cite{Wendelstein2014}. Our results are supported by existing literature and this potentially means that language analysis in the way we have structured it may have diagnostic or prognostic properties.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=240px, height=150px]{images/RRNounsNormalised.png}
-	\caption{Ronald Reagan - Nouns Normalised over time}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=240px, height=150px]{images/RRPronouns.png}
-	\caption{Ronald Reagan - Pronouns Normalised over time}
-\end{figure}
- 
-There are limitations of this research. Whilst in terms of age, DJT is certainly more suitable as a control to match with RR, in some ways they held very different styles of press conferences in that RR preferred to do solo press conferences and DJT has shown a preference for doing joint press conferences which have an impact on the amount of language produced. This artifact of the data is in itself notable as it illustrates the problems we may have with smaller amounts of speech. Also, the problem of finding an appropriate control is a common one in this domain. Given that those with MCI and early dementia have such variable presentations, it might prove of limited value in matched pairs design. 
-\par 
-With further work, it is not feasible to the vast array of samples over a timeframe, as we have had with the president corpus and so it would be worth exploring how the quality of these predictions might lessen when faced with considerably fewer samples and over a smaller time period. It would also be worth extending this research further to encompass more of the linguistic features Fraser used in her work \cite{Fraser2015} to see if there are any further insights to be gained. In addition, this replication and extension has demonstrated the potential utility of using longitudinal data as a means of comparing language use of a person at two or more time periods and using this information as a diagnostic aid for MCI and therefore more work would be helpful from a longitudinal perspective to see if this approach may be valid in moving towards a solution for this particular problem. 
-\par 
-The results of this work show that we can track a person's use of language through time in a number of ways, and it is possible for an individual to be his or her own control. This is important as it means the heterogenous nature of the MCI population does not impact results as much as if we were comparing those with MCI to controls. Equally, it would be helpful to have controls to ascertain what would be usual to expect in the decline of language in a healthy older adult. 
-\chapter{Future Work}
-\section{Introduction}
-This section looks at my research aims and objectives given the literature review presented above. This section will then go on to explore any challenges to my research. I then present the work I have planned for the next two years, divided into distinct tasks with their own aims and objectives. As part of this I will identify target conferences where I could present my work. Finally, I look at potential risks and ethical concerns that could conceivably occur.
-\section{Research Aims and Objectives}
-The aim of my research is to ultimately to identify more accurate and efficient ways of detecting MCI and early dementia without the use of invasive procedures (taking bloods, or using medical equipment such as MRIs and EEGs) by utilising spontaneous speech. There is a lot of research into the analysis of language as a marker for MCI \cite{Taler2008, Boschi2017} and there have been calls for research that explores the use of Natural Language Processing and Machine Learning techniques to aid in the analysis of language \cite{Boschi2017}. This will be the focus of my research.
-\par
-I have deliberately selected the MCI population as examining language decline at this stage has the potential to further our understanding of how MCI progresses into dementia. Given that sampling a person's language is relatively effortless, my proposed research will look at whether we can find markers of MCI in natural language. I plan to explore the use of Natural Language Processing and Machine Learning techniques to assist in this process. There have been a number of studies from the psychological perspective that look at the changes in language in those with Dementia. As documented above, these studies have identified a number of speech and language differences between healthy controls and those with dementia. Some of these features have been incorporated in work using machine learning to classify healthy controls from those with dementia. However, these have been done in lab settings, with formal cognitive assessment tasks such as the 'picture description task'. While this is helpful to establish that machine learning can be used to differentiate between healthy controls and those with dementia, there has been little work looking at those in the MCI phase although it is apparent that language is still affected \cite{Berisha2015, Snowdon1996, Le2011}. Therefore we would like to clarify whether natural language generated outside the framework of a deliberate language generating task, has the same ability to discriminate.
-\par
-Machine Learning itself is undergoing a shift in focus at the present time. I will describe this shift using the context of my proposed research. In traditional machine learning, the transcripts from cognitive assessments are used to generate abstract features such as idea density and more concrete features such as mean length of sentence or number of unique words. These features are then used to classify patients. As we have seen above, the picture with regards to what features deem important in this area is somewhat muddy. Machine Learning has a number of tools at it's disposal to aid this. The first is to statistically determine, given a model, which features contribute most highly to a given prediction. The second is to use a deep learning model which has the ability to automate the process of feature engineering. 
-\par 
-The broad objectives of my research are to explore whether the application of Natural Language Processing and Machine Learning techniques to spontaneous speech samples can improve our ability to diagnose Mild Cognitive Impairment in patients that will directly lead to Alzheimer's Disease. Another objective of my research is to provide some clarity as to which language features are most important to measure when looking for evidence of MCI and/or AD. Finally, an additional outcome of my research is the development of a repeatable battery of neuropsychological tests that specifically focus on being sensitive to Mild Cognitive Impairment.
-\begin{itemize}
-	\item \textbf{(H1)} Monitoring language samples and other measures of cognitive decline over the course of the year will be enough to detect cognitive decline in a population of those with Subjective Cognitive Decline and Mild Cognitive Impairment
-	\item \textbf{(H2)} Those with MCI will show a different language profile to controls if matched similarly for age, gender, education and other significant factors.
-	\item \textbf{(H3)} The new neuropsychological battery of tests will be more sensitive at detecting mild cognitive impairment than existing measures such as the RBANS.
-	\item \textbf{(H4)} Given a number of samples of language over a given time frame, it is possible to detect language decline in participants such that you can differentiate between normal language decline, those with Alzheimers Disease and decline in those with MCI.
-	\item \textbf{(H5)} Using individuals as their own control will be enough to identify trends in the decline of their use of language.
-\end{itemize}
-
-\section{Project Plan and Task Definitions}
-In this section, I describe each task in detail along with a projected timeline depicted in a Gantt chart.
-\subsection{Task 2 - Pilot Study for the Neuropsychological Battery of Tests}
-The aim of this study is complete a trial run of the administration of a new battery of neuropsychological battery of tests. We aim to find out whether the tests in question generate enough language so that features such as those generated in Task 1 are meaningful and can be used as language markers that can then be tracked over time. We also aim to look at whether there are significant practice effects between three versions of these tests with a gap of seven days between each test.
-\par 
-We compiled a series of tests which look at a number of cognitive functions which have previously demonstrated a level of effectiveness in discriminating an MCI population from a healthy population (see literature review for a comprehensive list, explanation and rationale for each test). In addition to these tests, we have incorporated two language tasks in which a participant's ability to generate spontaneous speech that we can use to further analyse. As a planned future study is longitudinal, it is important that this battery of tests is repeatable but does not have significant practice effects that may interfere with our ability to track cognitive decline.
-\par 
-We have recruited a cohort of 4 volunteers who will complete the battery of neuropsychological tests on three separate days with a gap of at least seven days between each administration. The results of which will compiled and analysed. Our hypothesis is that there would be no difference in performance between one battery of tests and another. An additional hypothesis is that the language tasks included on each test would be enough to collect an appropriate sample for linguistic analysis such that we may be able to detect cognitive decline in a clinical population.
-\par 
-While the pilot study in itself is not valid for submission to a conference or journal, it is hoped that the results of the study will allow subsequent studies using the same or adjusted battery of tests to be published.
-\subsection{Task 3 - Exploration of language with the DementiaBank dataset and Three Authors dataset.}
-The aim of this task is to replicate and extend the work of Fraser and Orimaye who both used the DementiaBank dataset and set out to use traditional machine learning techniques to see whether they could categorize people into dementia or healthy categories using the samples given. We also aim to replicate and extend the work of Le et al who used electronic versions of the novels of three authors. Both datasets are longitudinal and have been shown to track language decline over time in different ways.
-\par 
-The DementiaBank dataset was a product of a longitudinal study which was run by the University of Pittsburgh School of Medicine. The dataset contains transcripts of interviews conducted with participants with MCI / AD and other forms of dementia. These interviews were conducted in English and used the cookie-theft picture language task (see Literature Review for a full description). The full data set consists of 314 patients classified as having dementia and 242 patients who are classified as healthy and these patients are tested on a minimum of two separate occasions. 
-\par 
-The Three Authors dataset includes the novels of P.D. James, Agatha Christie and Iris Murdoch. It contains twenty of Murdoch's novels which were published between the ages of 35 and 76, sixteen of Christie's novels written between the ages of 28 and 82 and fifteen of P.D. James novels written between the ages of 42 and 82. These three authors are notable as Murdoch had a confirmed diagnosis of Dementia after her death, Christie had a suspected diagnosis of Dementia and P.D. James was used as a control.  
-\par 
-These two existing datasets in addition to the President's Press Conference corpus described above will provide three sources of validation of features that we generate as well as give us clues as how to best process the data we receive from our longitudinal study. 
-\par 
-The final output of this task will be a paper which looks at the importance of various word-level and sentence-level features in the deterioration of language for people with AD. The target conference for this work is the UK Alzheimer's Research conference in March 2020 with an expected Abstract submission date of December 2019 and the Student Research Workshop of the ACL in July 2020 with an expected submission date of April 2020.
-\subsection{Task 4 - Longditunal Study}
-Previously we have looked at historical datasets, the aim of this task is see whether a formalised collection of specific data, namely our language tasks are enough to be able to be able to detect cognitive decline in participants at different stages of the MCI / Alzheimer's disease progression. To this end, we plan on administering our neuropsychological battery of tests from Task 2 to each participant three times (six monthly intervals) over the course of the year. 
-\par 
-We therefore plan to recruit a set of 80 participants divided evenly into four groups. These groups are Healthy Older Controls (HOC), Early Alzheimers (EA), Subjective Mild Cognitive Impairment (SMCI) and Diagnosed Mild Cognitive Impairment (DMCI). We expect to see typical age related decline in our HOC group and more dramatic decline in our EA group. We are most interested to see if there is any measurable language decline in the SMCI or DMCI experimental groups.
-\par 
-Whilst we have divided participants into experimental groups we aim to investigate each participant individually. Because there is a large amount of heterogeneity in this population, we will initially be analysing each participant's results in isolation with the participant acting as their own control. However, we will also be exploring the use of traditional machine learning and/or deep learning across cohorts to investigate whether each cohort has their own distinct 'language profile'.
-\par 
-The final output of this task will be a paper discussing the results of our longitudinal study from a language analysis perspective. The target conference for this work will be the UK Alzheimer's Research conference in March 2021 with an expected submission date of December 2020, the Alzheimer's Association International Conference in July 2021 with an expected submission date of January 2021 and the Association of Computational Linguistics Conference (ACL) in July 2021 with an expected submission date of March 2021.
-\subsection{Task 5 - Analysis of performance and validation of the proposed Repeatable Neuropsychological Battery of Tests}  
-In this task, I will be looking at the results of the neuropsychological battery of tests without the additional language tasks to determine whether we can detect cognitive decline. 
-\par 
-We expect to see no decline in our HOC group within this timeframe and more severe decline in our EA group. Once again, we will be interested in whether there is any measurable decline in our SMCI or DMCI experimental groups with our battery of tests.
-\par 
-The final output of this task will be a paper discussing the results of the battery of tests, including how the battery does in terms of diagnostic and prognostic utility. The target conference for this work is to be decided. 
-
-\subsection{Task 6 - Thesis Writing}
-The writing of the thesis, including additional over-running data analysis is planned for the last six months of the project (Oct '20 to Mar '21).
-
-% GANTT CHART
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=350px, height=200px]{images/TaskList.png}
-	\caption{Task List}
-\end{figure}
-
-\begin{sidewaysfigure}[ht]
-	\includegraphics[width=\textwidth]{images/GanttChart.png}
-	\caption{Proposed Timetable.}
-\end{sidewaysfigure}
-
-\section{Research Challenges}
-\subsection{Data Collection}
-There are a few challenges that I have identified with the process of data collection. As with all longitudinal studies, the data collected is only valid if there are at least two sets of data points for a given participant. Given the population I am exploring, it is expected that there is some level of drop out rate over the course of the year and this has been accounted for.  Nevertheless, a higher than average drop out rate would weaken the strength of the study, especially if those who dropped out came from the experimental group.
-\subsection{Commonality of MCI}
-Whilst research has consistently shown that those with a diagnosis of MCI tend to have a significantly higher risk of progression to dementia \cite{Roberts2014}. The progression at any given time is low and variable. Annual conversion rates vary across longitudinal studies conducted in this population, but researchers have shown that there is a higher conversion rate in clinical samples of this population than in community samples \cite{Farias2009}. In my proposed longitudinal study, I aim to collect a clinical MCI population, but depending on the availability of such samples I may have to collect from the community. If this is the case then, the prevalence of those with MCI who have language deficits within my participants may be low.
-\subsection{Sparsity of Language}
-I have tried to estimate the amount of language I will collect by conducting a pilot study on healthy controls. However, until the first sets of data collection with the MCI population, I will not be able to tell if this is a problem. I fully expect there to be little difference in the amount of language collected in the MCI population, but this remains a possibility which I will need to adjust for at the 2nd and 3rd data collection phases. 
-
-\section{Risk Assessment}
-In this section, I look at the potential difficulties that may produce a delay to the proposed research, define any strategies that have already been put in place to account for this as well as define any other potential solutions.
-\subsection{Delay in data collection}
-When working with a clinical population, the collection of data can be subject to delays. This can be for a number of reasons including but not limited to sickness (patient or researcher), unavailability of participant for another reason or unavailability of venue to collect data. The collection of data could also be subject to delays due to ethical approval for the research being delayed. For individual participants unavailability, flexibility has been built into the data collection schedule to allow for an extra month (capacity for one additional cohort) of data collection per collection cycle. 
-\subsection{Rejected Publications}
-For each task defined above, with the exception of task 2 and task 6 I have identified suitable conferences at which I can present my work. With the target conferences identified every effort will be made to meet the submission deadlines for these conferences. If submissions are rejected at these conferences, I have identified alternative conferences to present at. 
-\subsection{Rejected NHS Ethics and/or University Ethics}
-Every effort will be made to submit a complete ethics application through the NHS. However, in the event that there is a delay in the ethical approval process then data collection will proceed with a priority placed on the control group. Future cohorts will then have proportionally more clinical participants until the research meets it's target numbers. In the event that NHS ethics is not granted in time for me to write up, participants will be sought from other areas such as the Alzheimer's Research pool of volunteers and venues where suitable candidates may be present such as meetings of the University of the Third age.   
-
-\section{Ethical Considerations}
-In this section I discuss the ethical considerations related to this project and any adjustments that I have made to my research because of these considerations. I am aware of the code of human  research ethics published by the British Psychological Society \cite{BritishPsychologicalSociety2014} and my research has been designed in a way that fits with these guidelines.
-\subsection{Risk}
-I will be working with a middle-aged to elderly population who have identified in some way that there is a difficulty with cognition. However, I do not anticipate working with vulnerable groups, those lacking capacity or individuals in a dependent or unequal relationship. Should any participants I am working with lose capacity during the course of the study, I will remove that participants details and data from the study.
-\subsection{Informed Consent}
-Consent will be sought overtly at the recruitment and initial data collection point by way of an information sheet and associated consent form. At other data collection points, I will have information sheets available if participants request them and if such a request is made then I will seek consent again at this stage. As part of this process, I will be supplying my participants with my contact details should they have any question or for the purposes of withdrawing consent. These consent forms will be stored in a secure, locked cabinet at the university. 
-\subsection{Confidentiality}
-Given the nature of the study and the possibility of disclosures of suicidal ideation, it is important that confidentiality is discussed at each data collection point. I will also provide an information sheet which details the confidentiality statement and also the situations in which I may need to break confidentiality. In addition, I will make a verbal confidentiality statement at each collection point and seek acknowledgement of their understanding and permission to continue. The spoken confidentiality statement will be as follows.
-\begin{center}
-	\textit{"Anything you say to me today will be confidential unless I feel that there is a risk to you, or to someone else. If this is the case, I may need to speak to or write to third parties such as your GP. I will endeavor to discuss this communications with yourself where it is possible to do so. Is this ok?"}
-\end{center}
-\subsection{Disclosure of suicidal ideation or other risks}
-As part of the battery of tests for this experiment, there is an opportunity for a participant to reveal that he or she has had suicidal ideation in the past two weeks (Patient Health Questionnaire, Question 9). This is something to explore further. As I have been trained in psychological risk assessments, it seems appropriate to carry out a further risk assessment.  Optionally with the tape recorder turned on, or off as requested.  Any text recorded during the risk assessment will not be included in the language analysis. Following this, some information about local services such as Improving Access to Psychological Therapies (IAPT), Samaritans and other appropriate services will be provided. A discussion will then be made about whether it is appropriate to notify the GP of the disclosure. In the event that there is imminent risk to self or others, a discussion will be made about who I need to contact. (Crisis Team and GP). In the event that the participant scores 0 on Q9 of the PHQ, no risk assessment will be undertaken.
-
-\section{Thesis - Provisional Table of Contents}
-In this section I provide a provisional table of contents based on the work I have either completed or proposed above.
-\begin{enumerate}
-	\item Introduction
-	\begin{enumerate}
-		\item Overview
-		\item Background and Context
-		\item Aims and Objectives
-		\item Challenges and Achievements
-	\end{enumerate}
-	\item Literature Review
-	\begin{enumerate}
-		\item Introduction
-		\item Assessing Mild Cognitive Impairment using cognitive tests.
-		\item Assessing Mild Cognitive Impairment using Language.
-		\item Natural Language Processing and Machine Learning
-		\item Conclusion
-	\end{enumerate}
-	\item Further Exploration of the Presidents Corpus
-	\begin{enumerate}
-		\item Introduction
-		\item Methodology
-		\item Results
-		\item Discussion
-		\item Conclusion
-	\end{enumerate}
-	\item Validation of a Repeatable Neuropsychological Battery of Tests
-	\begin{enumerate}
-		\item Introduction
-		\item Methodology
-		\item Pilot Study Results
-		\item Longitundinal Study results
-		\item Discussion
-		\item Conclusion
-	\end{enumerate}
-	\item Longitudnal Study
-	\begin{enumerate}
-		\item Introduction
-		\item Methodology
-		\item Experiment 1 Results
-		\item Experiment 2 Results
-		\item Discussion
-		\item Conclusion
-	\end{enumerate}
-	\item General Discussion
-	\begin{enumerate}
-		\item Discussion
-		\item Future Work
-		\item Conclusion
-	\end{enumerate}
-\end{enumerate}
-
-\chapter{Conclusion}
+\chapter{Conclusions and Future Work}
 With the older population of the world continuing to grow year upon year, Dementia in all it's forms is also going to continue to grow. Indeed it is already one of the most common causes of death among the elderly \cite{Prince2015}. Whilst a lot of research gone into Alzheimer's disease and other forms of dementia, this research thus far has not yielded positive results in terms of our understanding of the disease or of a potential cure. Focus therefore should be on the early, pre-clinical stages of dementia to increase our understanding of the disease and to research potential early interventions in those who are likely to go on to develop dementia.
 \par 
 We looked at areas of research in terms of what is available for testing for MCI at the moment and what language markers have been identified as potentially significant. We also reviewed the contributions that Natural Language Processing and Machine Learning techniques could make to the field as well as a brief look at some of the key pieces of research that have used techniques. The picture is confusing as there has not been much in the way of consistency in researchers results in either of these areas for those with MCI. We propose that the problem is due to the heterogeneity of the MCI population and that simple differentiation of MCI or Healthy may not be possible.
@@ -734,51 +447,6 @@ If this work is successful, we have the opportunity to increase our understandin
 
 
 
-\chapter{Research Questions and Hypotheses}
-The broad question is can we use Machine Learning to assist in the diagnosis of dementia through natural language. There have been a number of studies from the psychological perspective that look at the changes in language in those with Dementia. These 
-
-\chapter{Experiment: Presidential Debates revisited}
-\section{Background}
-Aim: To replicate and extend the work by Berisha and Liss. To use traditional machine learning techniques to test whether they can differentiate between Reagan, Bush and Trump using similar features. To test to see whether Deep Learning can also differentiate between the three. \newline
-\section{Data}
-Dataset: the presidential press conferences given by Presidents Ronald Reagan, George H.W. Bush and Donald Trump. \newline 
-Paper: This experiment replicates work done by Berisha and Liss and extends this by adding Donald Trump as an alternative comparison to Ronald Reagan. This experiment will look at the features originally recommended by Berisha and Liss, as well as any others that have potential as discussed in the literature review above. \newline
-\chapter{Experiment: Three Authors - Murdoch, Christie and James}
-\section{Background}
-\section{Data}
-Aim: To replicate the work by Le et al. To use traditional machine learning techniques to see if it can differentiate between the three authors using similar features. To test to see whether deep learning can also differentiate between the three. To add 'pre-trained' layers from Presidential Debates experiment to see if this improves accuracy. \newline
-Dataset is the literary novels of Iris Murdoch, Agatha Christie and P.D. James. \newline
-Paper: 
-\chapter{Experiment: Using the DementiaBank Corpus}
-Aim: To replicate and extend the work of Orimaye et al. To use traditional machine learning techniques to see if it can categorise people into dementia or healthy categories using the samples given. To see whether can use pre-trained layer from presidential debates to improve accuracy. It doesn't seem relevant to use pretrained layer from Experiment four, but it might be worth looking at the results of this. \newline
-Dataset: The DementiaBank Corpus. \newline
-Paper: To replicate and extend the work of Orimaye et al. To compare traditional machine learning techniques (already completed by Orimaye) and deep learning. \newline
-\chapter{Experiment: Longitudinal Data - Current Cohort}
-Aim: \newline
-Dataset: To be created.
-\subsection{Dataset creation}
-The aim is to recruit a set of 50 participants with MCI / Early Dementia (diagnosed or undiagnosed) and a set of 50 controls with a similar age and broadly similar educational background (a known potential confound in assessing cognitive decline). The rationale for recruiting this number is that there will be an expected drop out rate and so 
-\subsubsection{Patient Health Questionnaire (PHQ-9)}
-\subsubsection{Free Cued Selective Reminding Test (FCSRT)}
-\subsubsection{Mini Mental State Examination(MMSE)}
-\subsubsection{Written Description (Cookie Theft Picture)}
-\subsubsection{Semi-Structured Interview}
-
-Paper:
-
-
-
-\subsection{Ethics} 
-Need to discuss confidentiality right at the start of each conversation and to reiterate at every meeting. I will also provide an information sheet which details the confidentiality statement. The spoken confidentiality statement will be as follows.
-"Anything you say to me today will be confidential unless I feel that there is a risk to you, or someone else. If this is the case, I may need to speak to or write to third parties such as your GP. Is this ok?" \newline
-\par
-\subsection{What if someone reveals suicidal ideation or other risks?}
-As part of the battery of tests for this experiment, there is an opportunity for a participant to reveal that he or she has had suicidal ideation in the past two weeks (Patient Health Questionnaire, Question 9). This is something to explore further. As I have been trained in psychological risk assessments, it seems appropriate to carry out a further risk assessment.  Optionally with the tape recorder turned on, or off as requested.  Any text recorded during the risk assessment will not be included in the language analysis. Following this, some information about local services such as Improving Access to Psychological Therapies (IAPT), Samaritans and other appropriate services will be provided. A discussion will then be made about whether it is appropriate to notify the GP of the disclosure. In the event that there is imminent risk to self or others, a discussion will be made about who I need to contact. (Crisis Team and GP). In the event that the participant scores 0 on Q9 of the PHQ, no risk assessment will be undertaken. \newline
-\subsection{What happens at the end of the data collection phase if there is a suspected decline in a participant's cognitive function}
-
-
-\chapter{Overall results and Discussion}
-\chapter{Conclusions and Future work}
 
 \bibliographystyle{unsrt}
 \bibliography{Bibliography}

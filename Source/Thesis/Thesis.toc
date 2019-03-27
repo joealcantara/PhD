@@ -1,111 +1,73 @@
-\contentsline {section}{\numberline {0.1}Abstract}{1}
-\contentsline {section}{\numberline {0.2}Acknowledgements}{1}
-\contentsline {chapter}{\numberline {1}Introduction}{7}
-\contentsline {chapter}{\numberline {2}Background and related work}{9}
-\contentsline {subsection}{\numberline {2.0.1}Aims and Methodology}{13}
-\contentsline {section}{\numberline {2.1}Existing Neuropsychological Measures of Cognitive Impairment, and Repeatable Battery of Neuropsychological Tests}{14}
-\contentsline {subsection}{\numberline {2.1.1}Repeatable Battery for the Assessment of Neuropsychological Status}{14}
-\contentsline {subsection}{\numberline {2.1.2}Digit Span Test}{15}
-\contentsline {subsection}{\numberline {2.1.3}Rey Auditory-Verbal learning test}{16}
-\contentsline {subsection}{\numberline {2.1.4}Digit Symbol Substitution Test}{16}
-\contentsline {subsection}{\numberline {2.1.5}Verbal Fluency}{17}
-\contentsline {subsection}{\numberline {2.1.6}Naming Tests}{17}
-\contentsline {subsection}{\numberline {2.1.7}Rey-Osterrieth Complex Figure Task}{18}
-\contentsline {subsection}{\numberline {2.1.8}Hayling Sentence Completion Test}{18}
-\contentsline {subsection}{\numberline {2.1.9}Grooved Pegboard Test}{19}
-\contentsline {subsection}{\numberline {2.1.10}Visual Search}{19}
-\contentsline {subsection}{\numberline {2.1.11}Free Cued Selective Reminding Test}{20}
-\contentsline {subsection}{\numberline {2.1.12}Conclusions}{20}
-\contentsline {section}{\numberline {2.2}Types of Language Assessment}{21}
-\contentsline {subsection}{\numberline {2.2.1}Picture Description Tasks}{21}
-\contentsline {subsection}{\numberline {2.2.2}Narrative description task}{22}
-\contentsline {subsection}{\numberline {2.2.3}Interviews}{22}
-\contentsline {subsection}{\numberline {2.2.4}Conclusions}{23}
-\contentsline {section}{\numberline {2.3}How do we analyse language, issues and debates}{23}
-\contentsline {subsection}{\numberline {2.3.1}Single Word Language tasks vs Connected Language tasks}{23}
-\contentsline {subsection}{\numberline {2.3.2}Semantics vs Pragmatics}{24}
-\contentsline {subsection}{\numberline {2.3.3}Semantic Content}{24}
-\contentsline {subsubsection}{Type token ratio(TTR)}{24}
-\contentsline {subsection}{\numberline {2.3.4}Thematic and Content elements in relation to the Picture description task}{24}
-\contentsline {subsection}{\numberline {2.3.5}General Information Units or Content Information Units}{26}
-\contentsline {subsection}{\numberline {2.3.6}Conciseness of information}{26}
-\contentsline {subsection}{\numberline {2.3.7}Efficiency}{26}
-\contentsline {subsection}{\numberline {2.3.8}Total number of words}{27}
-\contentsline {section}{\numberline {2.4}Syntax and Morphology (Language Form)}{27}
-\contentsline {subsubsection}{N-grams}{27}
-\contentsline {subsection}{\numberline {2.4.1}Formulaic Language}{28}
-\contentsline {section}{\numberline {2.5}Pragmatic Language}{28}
-\contentsline {subsection}{\numberline {2.5.1}Coherence}{28}
-\contentsline {subsection}{\numberline {2.5.2}Perseveration}{28}
-\contentsline {subsection}{\numberline {2.5.3}Empty Speech}{29}
-\contentsline {subsection}{\numberline {2.5.4}Conclusions}{29}
-\contentsline {section}{\numberline {2.6}Mild Cognitive Impairment}{29}
-\contentsline {subsection}{\numberline {2.6.1}Criteria for Mild Cognitive Impairment due to Alzheimer Disease}{30}
-\contentsline {subsection}{\numberline {2.6.2}}{30}
-\contentsline {subsection}{\numberline {2.6.3}Rates of conversion from MCI to Dementia}{30}
-\contentsline {section}{\numberline {2.7}Online collection of Data}{30}
-\contentsline {section}{\numberline {2.8}State of literature into Machine Learning and Natural Language processing techniques}{30}
-\contentsline {subsection}{\numberline {2.8.1}Natural Language Processing}{30}
-\contentsline {subsubsection}{Natural Language Toolkit}{31}
-\contentsline {subsubsection}{CoreNLP}{31}
-\contentsline {subsubsection}{Linguistic Inquiry and Word Count}{33}
-\contentsline {subsection}{\numberline {2.8.2}Traditional methods of Machine Learning}{33}
-\contentsline {subsection}{\numberline {2.8.3}The case for Deep Learning}{34}
-\contentsline {subsection}{\numberline {2.8.4}Conclusions}{35}
-\contentsline {section}{\numberline {2.9}One Class Classification}{35}
-\contentsline {section}{\numberline {2.10}Discussion}{35}
-\contentsline {subsection}{\numberline {2.10.1}Future Work}{36}
-\contentsline {chapter}{\numberline {3}Initial Study of the Presidents corpus}{37}
-\contentsline {section}{\numberline {3.1}Background}{37}
-\contentsline {section}{\numberline {3.2}Methods}{37}
-\contentsline {subsection}{\numberline {3.2.1}Pre-processing}{38}
-\contentsline {subsection}{\numberline {3.2.2}Feature Selection}{38}
-\contentsline {subsubsection}{Measures of lexical variation}{38}
-\contentsline {subsubsection}{Fillers, Non-Specific Nouns and LI Verbs}{39}
-\contentsline {subsubsection}{Usage of parts of speech}{39}
-\contentsline {section}{\numberline {3.3}Results}{39}
-\contentsline {section}{\numberline {3.4}Discussion}{41}
-\contentsline {chapter}{\numberline {4}Future Work}{45}
-\contentsline {section}{\numberline {4.1}Introduction}{45}
-\contentsline {section}{\numberline {4.2}Research Aims and Objectives}{45}
-\contentsline {section}{\numberline {4.3}Project Plan and Task Definitions}{46}
-\contentsline {subsection}{\numberline {4.3.1}Task 2 - Pilot Study for the Neuropsychological Battery of Tests}{47}
-\contentsline {subsection}{\numberline {4.3.2}Task 3 - Exploration of language with the DementiaBank dataset and Three Authors dataset.}{47}
-\contentsline {subsection}{\numberline {4.3.3}Task 4 - Longditunal Study}{48}
-\contentsline {subsection}{\numberline {4.3.4}Task 5 - Analysis of performance and validation of the proposed Repeatable Neuropsychological Battery of Tests}{49}
-\contentsline {subsection}{\numberline {4.3.5}Task 6 - Thesis Writing}{49}
-\contentsline {section}{\numberline {4.4}Research Challenges}{49}
-\contentsline {subsection}{\numberline {4.4.1}Data Collection}{49}
-\contentsline {subsection}{\numberline {4.4.2}Commonality of MCI}{50}
-\contentsline {subsection}{\numberline {4.4.3}Sparsity of Language}{50}
-\contentsline {section}{\numberline {4.5}Risk Assessment}{50}
-\contentsline {subsection}{\numberline {4.5.1}Delay in data collection}{50}
-\contentsline {subsection}{\numberline {4.5.2}Rejected Publications}{50}
-\contentsline {subsection}{\numberline {4.5.3}Rejected NHS Ethics and/or University Ethics}{51}
-\contentsline {section}{\numberline {4.6}Ethical Considerations}{51}
-\contentsline {subsection}{\numberline {4.6.1}Risk}{51}
-\contentsline {subsection}{\numberline {4.6.2}Informed Consent}{51}
-\contentsline {subsection}{\numberline {4.6.3}Confidentiality}{51}
-\contentsline {subsection}{\numberline {4.6.4}Disclosure of suicidal ideation or other risks}{52}
-\contentsline {section}{\numberline {4.7}Thesis - Provisional Table of Contents}{52}
-\contentsline {chapter}{\numberline {5}Conclusion}{55}
-\contentsline {chapter}{\numberline {6}Research Questions and Hypotheses}{56}
-\contentsline {chapter}{\numberline {7}Experiment: Presidential Debates revisited}{57}
-\contentsline {section}{\numberline {7.1}Background}{57}
-\contentsline {section}{\numberline {7.2}Data}{57}
-\contentsline {chapter}{\numberline {8}Experiment: Three Authors - Murdoch, Christie and James}{58}
-\contentsline {section}{\numberline {8.1}Background}{58}
-\contentsline {section}{\numberline {8.2}Data}{58}
-\contentsline {chapter}{\numberline {9}Experiment: Using the DementiaBank Corpus}{59}
-\contentsline {chapter}{\numberline {10}Experiment: Longitudinal Data - Current Cohort}{60}
-\contentsline {subsection}{\numberline {10.0.1}Dataset creation}{60}
-\contentsline {subsubsection}{Patient Health Questionnaire (PHQ-9)}{60}
-\contentsline {subsubsection}{Free Cued Selective Reminding Test (FCSRT)}{60}
-\contentsline {subsubsection}{Mini Mental State Examination(MMSE)}{60}
-\contentsline {subsubsection}{Written Description (Cookie Theft Picture)}{60}
-\contentsline {subsubsection}{Semi-Structured Interview}{60}
-\contentsline {subsection}{\numberline {10.0.2}Ethics}{60}
-\contentsline {subsection}{\numberline {10.0.3}What if someone reveals suicidal ideation or other risks?}{61}
-\contentsline {subsection}{\numberline {10.0.4}What happens at the end of the data collection phase if there is a suspected decline in a participant's cognitive function}{61}
-\contentsline {chapter}{\numberline {11}Overall results and Discussion}{62}
-\contentsline {chapter}{\numberline {12}Conclusions and Future work}{63}
+\contentsline {chapter}{\numberline {1}Introduction}{9}
+\contentsline {chapter}{\numberline {2}Background and related work}{11}
+\contentsline {subsection}{\numberline {2.0.1}Aims and Methodology}{15}
+\contentsline {section}{\numberline {2.1}Existing Neuropsychological Measures of Cognitive Impairment, and Repeatable Battery of Neuropsychological Tests}{16}
+\contentsline {subsection}{\numberline {2.1.1}Repeatable Battery for the Assessment of Neuropsychological Status}{16}
+\contentsline {subsection}{\numberline {2.1.2}Digit Span Test}{17}
+\contentsline {subsection}{\numberline {2.1.3}Rey Auditory-Verbal learning test}{18}
+\contentsline {subsection}{\numberline {2.1.4}Digit Symbol Substitution Test}{18}
+\contentsline {subsection}{\numberline {2.1.5}Verbal Fluency}{19}
+\contentsline {subsection}{\numberline {2.1.6}Naming Tests}{19}
+\contentsline {subsection}{\numberline {2.1.7}Rey-Osterrieth Complex Figure Task}{20}
+\contentsline {subsection}{\numberline {2.1.8}Hayling Sentence Completion Test}{20}
+\contentsline {subsection}{\numberline {2.1.9}Grooved Pegboard Test}{21}
+\contentsline {subsection}{\numberline {2.1.10}Visual Search}{21}
+\contentsline {subsection}{\numberline {2.1.11}Free Cued Selective Reminding Test}{22}
+\contentsline {subsection}{\numberline {2.1.12}Conclusions}{22}
+\contentsline {section}{\numberline {2.2}Types of Language Assessment}{23}
+\contentsline {subsection}{\numberline {2.2.1}Picture Description Tasks}{23}
+\contentsline {subsection}{\numberline {2.2.2}Narrative description task}{24}
+\contentsline {subsection}{\numberline {2.2.3}Interviews}{24}
+\contentsline {subsection}{\numberline {2.2.4}Conclusions}{25}
+\contentsline {section}{\numberline {2.3}How do we analyse language, issues and debates}{25}
+\contentsline {subsection}{\numberline {2.3.1}Single Word Language tasks vs Connected Language tasks}{25}
+\contentsline {subsection}{\numberline {2.3.2}Semantics vs Pragmatics}{26}
+\contentsline {subsection}{\numberline {2.3.3}Semantic Content}{26}
+\contentsline {subsubsection}{Type token ratio(TTR)}{26}
+\contentsline {subsection}{\numberline {2.3.4}Thematic and Content elements in relation to the Picture description task}{26}
+\contentsline {subsection}{\numberline {2.3.5}General Information Units or Content Information Units}{28}
+\contentsline {subsection}{\numberline {2.3.6}Conciseness of information}{28}
+\contentsline {subsection}{\numberline {2.3.7}Efficiency}{28}
+\contentsline {subsection}{\numberline {2.3.8}Total number of words}{29}
+\contentsline {section}{\numberline {2.4}Syntax and Morphology (Language Form)}{29}
+\contentsline {subsubsection}{N-grams}{29}
+\contentsline {subsection}{\numberline {2.4.1}Formulaic Language}{30}
+\contentsline {section}{\numberline {2.5}Pragmatic Language}{30}
+\contentsline {subsection}{\numberline {2.5.1}Coherence}{30}
+\contentsline {subsection}{\numberline {2.5.2}Perseveration}{30}
+\contentsline {subsection}{\numberline {2.5.3}Empty Speech}{31}
+\contentsline {subsection}{\numberline {2.5.4}Conclusions}{31}
+\contentsline {section}{\numberline {2.6}Mild Cognitive Impairment}{31}
+\contentsline {subsection}{\numberline {2.6.1}Criteria for Mild Cognitive Impairment due to Alzheimer Disease}{32}
+\contentsline {subsection}{\numberline {2.6.2}}{32}
+\contentsline {subsection}{\numberline {2.6.3}Rates of conversion from MCI to Dementia}{32}
+\contentsline {section}{\numberline {2.7}Online collection of Data}{32}
+\contentsline {section}{\numberline {2.8}State of literature into Machine Learning and Natural Language processing techniques}{32}
+\contentsline {subsection}{\numberline {2.8.1}Natural Language Processing}{32}
+\contentsline {subsubsection}{Natural Language Toolkit}{33}
+\contentsline {subsubsection}{CoreNLP}{33}
+\contentsline {subsubsection}{Linguistic Inquiry and Word Count}{35}
+\contentsline {subsection}{\numberline {2.8.2}Traditional methods of Machine Learning}{35}
+\contentsline {subsection}{\numberline {2.8.3}The case for Deep Learning}{36}
+\contentsline {subsection}{\numberline {2.8.4}Conclusions}{37}
+\contentsline {subsection}{\numberline {2.8.5}One Class Classification}{37}
+\contentsline {section}{\numberline {2.9}Discussion}{37}
+\contentsline {subsection}{\numberline {2.9.1}Future Work}{38}
+\contentsline {chapter}{\numberline {3}Initial Study of the Presidents corpus}{41}
+\contentsline {section}{\numberline {3.1}Background}{41}
+\contentsline {section}{\numberline {3.2}Methods}{41}
+\contentsline {subsection}{\numberline {3.2.1}Pre-processing}{42}
+\contentsline {subsection}{\numberline {3.2.2}Feature Selection}{42}
+\contentsline {subsubsection}{Measures of lexical variation}{42}
+\contentsline {subsubsection}{Fillers, Non-Specific Nouns and LI Verbs}{43}
+\contentsline {subsubsection}{Usage of parts of speech}{43}
+\contentsline {section}{\numberline {3.3}Results}{43}
+\contentsline {section}{\numberline {3.4}Discussion}{45}
+\contentsline {chapter}{\numberline {4}Future Work}{49}
+\contentsline {section}{\numberline {4.1}Introduction}{49}
+\contentsline {section}{\numberline {4.2}Research Aims and Objectives}{49}
+\contentsline {chapter}{\numberline {5}Feature Engineering and Classification of DementiaBank Transcripts and Audio}{51}
+\contentsline {chapter}{\numberline {6}Comparison of different speech to language applications}{53}
+\contentsline {chapter}{\numberline {7}Development of an application}{55}
+\contentsline {chapter}{\numberline {8}Techniques in feature engineering - What features matter? Comparing language generated from picture description task to language generated from our task}{57}
+\contentsline {chapter}{\numberline {9}Conclusions and Future Work}{59}
