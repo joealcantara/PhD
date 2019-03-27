@@ -40,11 +40,10 @@ One-class classifiers analyze only examples of the majority class (in this case 
 
 \section{Proposed Methodology}
 \subsection{Stage 1 - Exploratory Data Analysis of DementiaBank dataset}
-
-
+The aim of this stage is to explore language features and acoustic features to an existing dataset. This allows the development of an automated pipeline using a more accurate speech-to-language application (IBM Watson). This also allows us the opportunity to explore the use of the one-class classifier to an existing data set as a proof in concept. 
 
 \subsection{Stage 2 - Collection of Longitudinal Data}
-Given the aim is to collect a large sample of language from a healthy population. I now estimate the numbers of samples to be as follows. 100 Healthy Older Adults, 20 MCI, 20 Early AD. The 20 MCI and 20 Early AD will be categorised based on a clinical diagnosis given by a mental health professional. In addition, from the Healthy Older Adults, I will ascertain a participants level of concern about their cognitive ability with a simple 2 item questionnaire. The intention, if there are enough people who express a level of concern, is to conduct an of the majority class with and without those who demonstrate concern.
+Given the aim is to collect a large sample of language from a healthy population. I now estimate the numbers of samples to be as follows. 100 Healthy Older Adults, 20 MCI, 20 Early AD. The 20 MCI and 20 Early AD will be categorised based on a clinical diagnosis given by a mental health professional. In addition, from the Healthy Older Adults, I will ascertain a participants level of concern about their cognitive ability with a simple 2 item questionnaire. The intention, if there are enough people who express a level of concern, is to conduct an analysis of the majority class with and without those who demonstrate concern.
 \par 
 \begin{itemize}
 	\item Question 1. How concerned are you about your cognitive health? Rate on a scale of 0 to 10, where 0 is not concerned at all and 10 is extremely concerned.
@@ -53,14 +52,21 @@ Given the aim is to collect a large sample of language from a healthy population
 \par 
 
 \subsection{Stage 3 - Analysis of Longitudinal Data}
-Once the data has been collected. The analysis of the data will be begin from the perspective of treating the healthy older adults as the Majority class, and all others as 'outliers'. The first stage of this is to see whether using a One-class classifier is sensitive enough to detect those with a diagnosis of MCI and AD without differentiating between the two. 
+Once the data has been collected, we can test the automated pipeline on new data which allows the validation of this protocol.  The analysis of the data will be begin from the perspective of treating the healthy older adults as the Majority class, and all others as 'outliers'. The first stage of this is to see whether using a One-class classifier is sensitive enough to detect those with a diagnosis of MCI and AD without differentiating between the two. 
 
 This is important from the perspective of identifying people 
 
 
-\section{Proposed Extension}
-\subsection{Analysis of written blogs}
 
 
-
+\section{Revised Chapters of Thesis}
+\begin{itemize}
+	\item Chapter 1 - Introduction
+	\item Chapter 2 - Background and Related Work
+	\item Chapter 3 - Feature Engineering and Classification of DementiaBank Transcripts and Audio.
+	\item Chapter 4 - Comparison of different speech to language applications.
+	\item Chapter 5 - Classification of language generated from Longitudinal Study.
+	\item Chapter 6 - Techniques in feature engineering - What features matter? Comparing language generated from picture description task to language generated from our task.
+	\item Chapter 7 - Conclusions and Future Work
+\end{itemize}
 \end{document}
