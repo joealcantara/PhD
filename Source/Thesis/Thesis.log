@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.13)  27 MAR 2019 16:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.13)  24 MAY 2019 13:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -24,1133 +24,118 @@ File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(./settings/packages.tex)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+LaTeX Warning: Unused global option(s):
+    [twopages].
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count89
-\float@exts=\toks15
-\float@box=\box26
-\@float@everytoks=\toks16
-\@floatcapt=\box27
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip43
-\enit@outerparindent=\dimen105
-\enit@toks=\toks17
-\enit@inbox=\box28
-\enitdp@description=\count90
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip44
-\f@nch@O@elh=\skip45
-\f@nch@O@erh=\skip46
-\f@nch@O@olh=\skip47
-\f@nch@O@orh=\skip48
-\f@nch@O@elf=\skip49
-\f@nch@O@erf=\skip50
-\f@nch@O@olf=\skip51
-\f@nch@O@orf=\skip52
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/rotating.sty
-Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-\c@r@tfl@t=\count91
-\rotFPtop=\skip53
-\rotFPbot=\skip54
-\rot@float@box=\box29
-\rot@mess@toks=\toks18
-)
-(./settings/page.tex) (./settings/macros.tex) (./Thesis.aux
-
-LaTeX Warning: Label `tab:table-name' multiply defined.
-
-
-LaTeX Warning: Label `tab:table-name' multiply defined.
-
-
-LaTeX Warning: Label `tab:table-name' multiply defined.
-
-
-LaTeX Warning: Label `tab:table-name' multiply defined.
-
-
-LaTeX Warning: Label `tab:table-name' multiply defined.
-
-)
+(./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
- (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count92
-\scratchdimen=\dimen106
-\scratchbox=\box30
-\nofMPsegments=\count93
-\nofMParguments=\count94
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count95
-\MPscratchDim=\dimen107
-\MPnumerator=\count96
-\makeMPintoPDFobject=\count97
-\everyMPtoPDFconversion=\toks20
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 27.
+(Font)              <12> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 27.
+(Font)              <8> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 27.
+(Font)              <6> on input line 14.
+ [1
 
-[1
 
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+ [4
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] (./Thesis.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
- [3
-
-]
-Overfull \hbox (4.82523pt too wide) in paragraph at lines 72--72
- [] []\OT1/cmr/bx/n/10 Techniques in fea-ture en-gi-neer-ing - What fea-tures m
-at-ter? Com- 
- []
-
-)
+] (./Thesis.toc)
 \tf@toc=\write3
 \openout3 = `Thesis.toc'.
 
- [4] (./Thesis.lof)
+ [5] [6
+
+] (./Thesis.lof)
 \tf@lof=\write4
 \openout4 = `Thesis.lof'.
-
- [5
-
-] [6
-
-] (./Thesis.lot)
-\tf@lot=\write5
-\openout5 = `Thesis.lot'.
 
  [7] [8
 
 ]
-Chapter 1.
+(./Thesis.lot)
+\tf@lot=\write5
+\openout5 = `Thesis.lot'.
 
-LaTeX Warning: Citation `Prince2015' on page 9 undefined on input line 38.
-
-
-LaTeX Warning: Citation `England2009' on page 9 undefined on input line 40.
-
-
-LaTeX Warning: Citation `Taler2008' on page 9 undefined on input line 40.
-
-
-LaTeX Warning: Citation `Prince2015' on page 9 undefined on input line 40.
-
-
-LaTeX Warning: Citation `Boschi2017' on page 9 undefined on input line 40.
-
-
-LaTeX Warning: Citation `Taler2008' on page 9 undefined on input line 42.
-
-
-LaTeX Warning: Citation `Boschi2017' on page 9 undefined on input line 42.
-
-
-LaTeX Warning: Citation `Taler2008' on page 9 undefined on input line 42.
-
-
-LaTeX Warning: Citation `Boschi2017' on page 9 undefined on input line 42.
-
-
-LaTeX Warning: Citation `Berisha2015' on page 9 undefined on input line 42.
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 46--48
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-
- []
-
-[10]
-Chapter 2.
-
-LaTeX Warning: Citation `McKhann2011' on page 11 undefined on input line 51.
-
-
-LaTeX Warning: Citation `AlzheimersSociety2014' on page 11 undefined on input l
-ine 53.
-
-
-LaTeX Warning: Citation `Prince2015' on page 11 undefined on input line 53.
-
-
-LaTeX Warning: Citation `AlzheimersSociety2014' on page 11 undefined on input l
-ine 55.
-
-[11
+ [9] [10
 
 ]
-
-LaTeX Warning: Citation `Nestor2006' on page 12 undefined on input line 57.
-
-
-LaTeX Warning: Citation `Le2011' on page 12 undefined on input line 57.
-
-
-LaTeX Warning: Citation `Albert2011' on page 12 undefined on input line 57.
-
-[12]
-
-LaTeX Warning: Citation `Folstein1975' on page 13 undefined on input line 68.
-
-
-LaTeX Warning: Citation `Folstein1975' on page 13 undefined on input line 68.
-
-
-LaTeX Warning: Citation `Folstein1975' on page 13 undefined on input line 68.
-
-
-LaTeX Warning: Citation `Grober2010' on page 13 undefined on input line 68.
-
-
-LaTeX Warning: Citation `Davis2015' on page 13 undefined on input line 68.
-
-
-LaTeX Warning: Citation `Prince2015' on page 13 undefined on input line 70.
-
-
-LaTeX Warning: Citation `AmericanPsychiatricAssociation2013' on page 13 undefin
-ed on input line 74.
-
-[13]
-
-LaTeX Warning: Citation `Berisha2015' on page 14 undefined on input line 76.
-
-
-LaTeX Warning: Citation `Snowdon1996' on page 14 undefined on input line 76.
-
-
-LaTeX Warning: Citation `Berisha2015' on page 14 undefined on input line 76.
-
-
-LaTeX Warning: Citation `Emery2000' on page 14 undefined on input line 78.
-
-
-LaTeX Warning: Citation `Berisha2015' on page 14 undefined on input line 80.
-
-
-LaTeX Warning: Citation `Snowdon1996' on page 14 undefined on input line 80.
-
-
-LaTeX Warning: Citation `Le2011' on page 14 undefined on input line 80.
-
-
-LaTeX Warning: Citation `Boschi2017' on page 14 undefined on input line 80.
-
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-
- []
-
-
-Overfull \hbox (3.46396pt too wide) in paragraph at lines 91--91
-[]\OT1/cmr/m/n/10 Results| 
- []
-
-
-Underfull \hbox (badness 7522) in paragraph at lines 94--94
-[]\OT1/cmr/m/n/10 Machine Learn-ing AND De-men-tia
- []
-
-
-Underfull \hbox (badness 7522) in paragraph at lines 97--97
-[]\OT1/cmr/m/n/10 Machine Learn-ing AND De-men-tia
- []
-
-
-Underfull \hbox (badness 7522) in paragraph at lines 100--100
-[]\OT1/cmr/m/n/10 Machine Learn-ing AND De-men-tia
- []
-
-
-Overfull \hbox (3.98029pt too wide) in paragraph at lines 89--103
- [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15]
-Overfull \hbox (13.38469pt too wide) in paragraph at lines 107--107
-[]\OT1/cmr/bx/n/14.4 Existing Neu-ropsy-cho-log-i-cal Mea-sures of Cog-
- []
-
-
-Overfull \hbox (0.29868pt too wide) in paragraph at lines 110--110
-[]\OT1/cmr/bx/n/12 Repeatable Bat-tery for the As-sess-ment of Neu-ropsy-
- []
-
-
-LaTeX Warning: Citation `Randolph1998' on page 16 undefined on input line 111.
-
-
-Overfull \hbox (12.36174pt too wide) in paragraph at lines 111--112
-\OT1/cmr/m/n/10 The Re-peat-able Bat-tery for the As-sess-ment of Neu-ropsy-cho
--log-i-cal Sta-tus (RBANS)
- []
-
-[16]
-
-LaTeX Warning: Citation `Randolph1998' on page 17 undefined on input line 143.
-
-
-LaTeX Warning: Citation `Karantzoulis2013' on page 17 undefined on input line 1
-43.
-
-
-LaTeX Warning: Citation `Duff2010' on page 17 undefined on input line 143.
-
-
-LaTeX Warning: Citation `Duff2010' on page 17 undefined on input line 143.
-
-
-LaTeX Warning: Citation `Muangpaisan2008' on page 17 undefined on input line 14
-8.
-
-
-LaTeX Warning: Citation `Emrani2018' on page 17 undefined on input line 148.
-
-
-LaTeX Warning: Citation `Kessels2011' on page 17 undefined on input line 148.
-
-
-LaTeX Warning: Citation `Kessels2015' on page 17 undefined on input line 148.
-
-[17]
-
-LaTeX Warning: Citation `Schmidt1996' on page 18 undefined on input line 150.
-
-
-LaTeX Warning: Citation `Moradi2017' on page 18 undefined on input line 152.
-
-
-LaTeX Warning: Citation `Moradi2017' on page 18 undefined on input line 152.
-
-
-LaTeX Warning: Citation `Schoenberg2006' on page 18 undefined on input line 152
-.
-
-
-LaTeX Warning: Citation `Rosano2016' on page 18 undefined on input line 156.
-
-
-LaTeX Warning: Citation `Pascoe2018' on page 18 undefined on input line 156.
-
-
-Underfull \vbox (badness 1365) has occurred while \output is active []
-
- [18]
-
-LaTeX Warning: Citation `Henry2004' on page 19 undefined on input line 160.
-
-
-LaTeX Warning: Citation `Williams1989' on page 19 undefined on input line 162.
-
-
-LaTeX Warning: Citation `Willers2008' on page 19 undefined on input line 164.
-
-
-LaTeX Warning: Citation `Vadikolias2012' on page 19 undefined on input line 166
-.
-
-
-LaTeX Warning: Citation `Snowdon1996' on page 19 undefined on input line 166.
-
-[19]
-
-LaTeX Warning: Citation `Rey1941' on page 20 undefined on input line 168.
-
-
-LaTeX Warning: Citation `Osterrieth1944' on page 20 undefined on input line 168
-.
-
-
-LaTeX Warning: Citation `Taylor1969' on page 20 undefined on input line 168.
-
-
-LaTeX Warning: Citation `Strauss1990' on page 20 undefined on input line 168.
-
-
-LaTeX Warning: Citation `Salvadori2018' on page 20 undefined on input line 170.
-
-
-
-LaTeX Warning: Citation `Teng2009' on page 20 undefined on input line 170.
-
-
-LaTeX Warning: Citation `Martyr2017' on page 20 undefined on input line 174.
-
-[20]
-
-LaTeX Warning: Citation `Bezdicek2014' on page 21 undefined on input line 178.
-
-
-LaTeX Warning: Citation `Darweesh2017' on page 21 undefined on input line 180.
-
-
-LaTeX Warning: Citation `Tales2005' on page 21 undefined on input line 184.
-
-
-LaTeX Warning: Citation `Grober2010' on page 21 undefined on input line 186.
-
-[21]
-
-LaTeX Warning: Citation `Grober2010' on page 22 undefined on input line 190.
-
-
-LaTeX Warning: Citation `Sarazin2007' on page 22 undefined on input line 190.
-
-[22]
-
-LaTeX Warning: Citation `Borod1980' on page 23 undefined on input line 202.
-
-
-LaTeX Warning: Citation `Giles1996' on page 23 undefined on input line 202.
-
-<images/BCTPicture.png, id=80, 451.6875pt x 321.2pt>
-File: images/BCTPicture.png Graphic file (type png)
-<use images/BCTPicture.png>
-Package pdftex.def Info: images/BCTPicture.png  used on input line 205.
-(pdftex.def)             Requested size: 240.90262pt x 150.56703pt.
-
-LaTeX Warning: Citation `Boschi2017' on page 23 undefined on input line 209.
-
-
-LaTeX Warning: Citation `Sajjadi2012' on page 23 undefined on input line 209.
-
-
-LaTeX Warning: Citation `Ash2012' on page 23 undefined on input line 209.
-
-[23 <./images/BCTPicture.png>]
-
-LaTeX Warning: Citation `Fraser2014' on page 24 undefined on input line 212.
-
-
-LaTeX Warning: Citation `Ash2012' on page 24 undefined on input line 212.
-
-
-LaTeX Warning: Citation `DeLira2011' on page 24 undefined on input line 212.
-
-
-LaTeX Warning: Citation `Fraser2014' on page 24 undefined on input line 214.
-
-
-LaTeX Warning: Citation `Boschi2017' on page 24 undefined on input line 217.
-
-
-LaTeX Warning: Citation `Sajjadi2012' on page 24 undefined on input line 219.
-
-
-LaTeX Warning: Citation `Asgari2017' on page 24 undefined on input line 219.
-
-
-LaTeX Warning: Citation `Guinn2015' on page 24 undefined on input line 219.
-
-[24]
-
-LaTeX Warning: Citation `Boschi2017' on page 25 undefined on input line 231.
-
-[25]
-
-LaTeX Warning: Citation `Emery2000' on page 26 undefined on input line 237.
-
-
-LaTeX Warning: Citation `Keenan1973' on page 26 undefined on input line 237.
-
-
-LaTeX Warning: Citation `Snowdon1996' on page 26 undefined on input line 237.
-
-
-LaTeX Warning: Citation `Bucks2000' on page 26 undefined on input line 237.
-
-
-LaTeX Warning: Citation `Wang2016' on page 26 undefined on input line 237.
-
-
-LaTeX Warning: Citation `Thomas2013' on page 26 undefined on input line 237.
-
-[26]
-
-LaTeX Warning: Citation `Hier1985' on page 27 undefined on input line 247.
-
-
-LaTeX Warning: Citation `Lukatela1998' on page 27 undefined on input line 247.
-
-
-LaTeX Warning: Citation `Smith1989' on page 27 undefined on input line 249.
-
-<images/picnic-scene.jpg, id=94, 287.57437pt x 181.42781pt>
-File: images/picnic-scene.jpg Graphic file (type jpg)
-<use images/picnic-scene.jpg>
-Package pdftex.def Info: images/picnic-scene.jpg  used on input line 253.
-(pdftex.def)             Requested size: 240.90701pt x 150.56566pt.
-
-LaTeX Warning: Citation `Sajjadi2012' on page 27 undefined on input line 256.
-
-
-LaTeX Warning: Citation `Bschor2001' on page 27 undefined on input line 256.
-
-
-LaTeX Warning: Citation `Giles1996' on page 27 undefined on input line 260.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27 <./images/picnic-scene.jpg>]
-
-LaTeX Warning: Citation `Snowdon1996' on page 28 undefined on input line 262.
-
-
-LaTeX Warning: Citation `Riley2005' on page 28 undefined on input line 262.
-
-
-LaTeX Warning: Citation `Ahmed2013' on page 28 undefined on input line 264.
-
-
-LaTeX Warning: Citation `Smith1989' on page 28 undefined on input line 268.
-
-
-LaTeX Warning: Citation `Guinn2012' on page 28 undefined on input line 268.
-
-
-LaTeX Warning: Citation `Guinn2015' on page 28 undefined on input line 268.
-
-[28]
-
-LaTeX Warning: Citation `Nicholas1985' on page 29 undefined on input line 270.
-
-
-LaTeX Warning: Citation `Lira2014' on page 29 undefined on input line 270.
-
-
-LaTeX Warning: Citation `Orimaye2017' on page 29 undefined on input line 273.
-
-
-LaTeX Warning: Citation `Asgari2017' on page 29 undefined on input line 278.
-
-
-LaTeX Warning: Citation `Pennebaker2015' on page 29 undefined on input line 278
-.
-
-
-LaTeX Warning: Citation `Fraser2015' on page 29 undefined on input line 281.
-
-
-LaTeX Warning: Citation `Zimmerer2016' on page 29 undefined on input line 281.
-
-[29]
-
-LaTeX Warning: Citation `Chapman1998' on page 30 undefined on input line 286.
-
-
-LaTeX Warning: Citation `Bayles198' on page 30 undefined on input line 291.
-
-[30]
-
-LaTeX Warning: Citation `Nicholas1985' on page 31 undefined on input line 296.
-
-
-LaTeX Warning: Citation `Bayles1983' on page 31 undefined on input line 296.
-
-
-LaTeX Warning: Citation `Ahmed2013' on page 31 undefined on input line 296.
-
-[31]
-Overfull \hbox (26.93059pt too wide) in paragraph at lines 310--310
-[]\OT1/cmr/bx/n/12 Criteria for Mild Cog-ni-tive Im-pair-ment due to Alzheimer
- []
-
-
-Overfull \hbox (1.49463pt too wide) in paragraph at lines 325--325
-\OT1/cmr/bx/n/14.4 and Nat-u-ral Lan-guage pro-cess-ing tech-niques 
- []
-
-
-LaTeX Warning: Citation `Orimaye2017' on page 32 undefined on input line 326.
-
-
-LaTeX Warning: Citation `Boschi2017' on page 32 undefined on input line 326.
-
-[32]
-<images/workflow.jpg, id=114, 2409.0pt x 1300.86pt>
-File: images/workflow.jpg Graphic file (type jpg)
-<use images/workflow.jpg>
-Package pdftex.def Info: images/workflow.jpg  used on input line 337.
-(pdftex.def)             Requested size: 240.87735pt x 150.55846pt.
-
-
-LaTeX Warning: Citation `Bird2009' on page 33 undefined on input line 342.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 346--346
-[]\OT1/cmr/bx/n/10 Language pro-cess-ing
- []
-
-
-Underfull \hbox (badness 3148) in paragraph at lines 354--354
-[]\OT1/cmr/m/n/10 lambda cal-cu-lus, first-order logic, model
- []
-
-
-Underfull \hbox (badness 2903) in paragraph at lines 356--356
-[]\OT1/cmr/m/n/10 Probability and es-ti-ma-
- []
-
-
-Underfull \hbox (badness 2426) in paragraph at lines 357--357
-[]\OT1/cmr/m/n/10 Graphical con-cor-dance, parsers, Word-Net
- []
-
-[33 <./images/workflow.jpg>]
-<images/CoreNLP.png, id=118, 848.16875pt x 649.42625pt>
-File: images/CoreNLP.png Graphic file (type png)
-<use images/CoreNLP.png>
-Package pdftex.def Info: images/CoreNLP.png  used on input line 369.
-(pdftex.def)             Requested size: 351.31049pt x 200.7453pt.
-
-Overfull \hbox (6.31049pt too wide) in paragraph at lines 369--370
- [][] 
- []
-
-[34 <./images/CoreNLP.png>]
-
-LaTeX Warning: Citation `Pennebaker2015' on page 35 undefined on input line 375
-.
-
-
-LaTeX Warning: Citation `Al-Mosaiwi2018' on page 35 undefined on input line 375
-.
-
-
-LaTeX Warning: Citation `Pennebaker2015' on page 35 undefined on input line 375
-.
-
-
-LaTeX Warning: Citation `Sonnenschein2018' on page 35 undefined on input line 3
-75.
-
-
-LaTeX Warning: Citation `Zimmerer2016' on page 35 undefined on input line 380.
-
-
-LaTeX Warning: Citation `Orimaye2017' on page 35 undefined on input line 380.
-
-
-LaTeX Warning: Citation `Mueller2018a' on page 35 undefined on input line 380.
-
-
-LaTeX Warning: Citation `Fraser2015' on page 35 undefined on input line 380.
-
-
-LaTeX Warning: Citation `Thomas2005' on page 35 undefined on input line 382.
-
-
-LaTeX Warning: Citation `Thomas2005' on page 35 undefined on input line 382.
-
-
-LaTeX Warning: Citation `Bucks2000' on page 35 undefined on input line 385.
-
-
-LaTeX Warning: Citation `Bucks2000' on page 35 undefined on input line 385.
-
-
-LaTeX Warning: Citation `Fraser2015' on page 35 undefined on input line 387.
-
-[35]
-
-LaTeX Warning: Citation `Zimmerer2016' on page 36 undefined on input line 389.
-
-
-LaTeX Warning: Citation `Orimaye2017' on page 36 undefined on input line 391.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [36]
-[37]
-
-LaTeX Warning: Citation `Petersen2014' on page 38 undefined on input line 419.
-
-
-LaTeX Warning: Citation `Boschi2017' on page 38 undefined on input line 419.
-
-
-LaTeX Warning: Citation `Zimmerer2016' on page 38 undefined on input line 422.
-
-
-LaTeX Warning: Citation `Mueller2018a' on page 38 undefined on input line 422.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 422--423
-
- []
-
-
-LaTeX Warning: Citation `Teng2009' on page 38 undefined on input line 424.
-
-[38] [39] [40
+Chapter 1.
+[11] [12
+
+]
+Chapter 2.
+[13] [14
 
 ]
 Chapter 3.
+[15] [16
 
-LaTeX Warning: Citation `Orimaye2014' on page 41 undefined on input line 431.
-
-
-LaTeX Warning: Citation `Fraser2015' on page 41 undefined on input line 431.
-
-
-LaTeX Warning: Citation `Berisha2015' on page 41 undefined on input line 431.
-
-
-LaTeX Warning: Citation `Berisha2015' on page 41 undefined on input line 431.
-
-[41]
-
-LaTeX Warning: Citation `Bird2009' on page 42 undefined on input line 439.
-
-
-LaTeX Warning: Citation `Richards1987' on page 42 undefined on input line 442.
-
-[42]
-
-LaTeX Warning: Citation `Berisha2015' on page 43 undefined on input line 444.
-
-
-LaTeX Warning: Citation `Bird2000' on page 43 undefined on input line 444.
-
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 464.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 464.
-
-Underfull \hbox (badness 10000) in paragraph at lines 470--470
-[]\OT1/cmr/m/n/10 3423.91
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 470--470
-[]\OT1/cmr/m/n/10 2607.72
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 470--470
-[]\OT1/cmr/m/n/10 1848.65
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 471--471
-[]\OT1/cmr/m/n/10 894.13
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 471--471
-[]\OT1/cmr/m/n/10 667.76
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 471--471
-[]\OT1/cmr/m/n/10 481.82
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 472--472
-[]\OT1/cmr/m/n/10 12.72
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 472--472
-[]\OT1/cmr/m/n/10 6.78
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 472--472
-[]\OT1/cmr/m/n/10 7.41
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
-[]\OT1/cmr/m/n/10 124.22
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
-[]\OT1/cmr/m/n/10 103.45
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
-[]\OT1/cmr/m/n/10 84.48
- []
-
-[43]
-
-LaTeX Warning: Citation `Berisha2015' on page 44 undefined on input line 479.
-
-
-LaTeX Warning: Citation `Le2011' on page 44 undefined on input line 479.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
-[]\OT1/cmr/m/n/10 RR v
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
-[]\OT1/cmr/m/n/10 RR v
- []
-
-
-Overfull \hbox (0.76509pt too wide) in paragraph at lines 486--486
-[]\OT1/cmr/bx/n/10 4.434***| 
- []
-
-
-Overfull \hbox (0.76509pt too wide) in paragraph at lines 486--486
-[]\OT1/cmr/bx/n/10 6.524***| 
- []
-
-
-Overfull \hbox (0.76509pt too wide) in paragraph at lines 487--487
-[]\OT1/cmr/bx/n/10 6.832***| 
- []
-
-
-Overfull \hbox (6.51506pt too wide) in paragraph at lines 487--487
-[]\OT1/cmr/bx/n/10 11.403***| 
- []
-
-
-Overfull \hbox (0.76509pt too wide) in paragraph at lines 487--487
-[]\OT1/cmr/bx/n/10 4.137***| 
- []
-
-
-Overfull \hbox (0.76509pt too wide) in paragraph at lines 488--488
-[]\OT1/cmr/bx/n/10 7.877***| 
- []
-
-
-Overfull \hbox (0.76509pt too wide) in paragraph at lines 489--489
-[]\OT1/cmr/bx/n/10 3.420***| 
- []
-
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 490.
-[44]
-<images/RRUniqueWords.png, id=159, 433.62pt x 289.08pt>
-File: images/RRUniqueWords.png Graphic file (type png)
-<use images/RRUniqueWords.png>
-Package pdftex.def Info: images/RRUniqueWords.png  used on input line 529.
-(pdftex.def)             Requested size: 190.71399pt x 140.52562pt.
-
-Overfull \hbox (52.7161pt too wide) in paragraph at lines 529--530
-[][] 
- []
-
-<images/GWHBUniqueWords.png, id=160, 433.62pt x 289.08pt>
-File: images/GWHBUniqueWords.png Graphic file (type png)
-<use images/GWHBUniqueWords.png>
-Package pdftex.def Info: images/GWHBUniqueWords.png  used on input line 534.
-(pdftex.def)             Requested size: 190.71399pt x 140.52562pt.
-
-Overfull \hbox (52.7161pt too wide) in paragraph at lines 534--535
-[][] 
- []
-
-<images/RRNSNouns.png, id=161, 433.62pt x 289.08pt>
-File: images/RRNSNouns.png Graphic file (type png)
-<use images/RRNSNouns.png>
-Package pdftex.def Info: images/RRNSNouns.png  used on input line 542.
-(pdftex.def)             Requested size: 190.71399pt x 140.52562pt.
-
-Overfull \hbox (52.7161pt too wide) in paragraph at lines 542--543
-[][] 
- []
-
-<images/DJTNSNouns.png, id=162, 433.62pt x 289.08pt>
-File: images/DJTNSNouns.png Graphic file (type png)
-<use images/DJTNSNouns.png>
-Package pdftex.def Info: images/DJTNSNouns.png  used on input line 547.
-(pdftex.def)             Requested size: 190.71399pt x 140.52562pt.
-
-Overfull \hbox (52.7161pt too wide) in paragraph at lines 547--548
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [45 <./images/RRUniqueWords.png> <./images/GWHBUniqueWords.png>]
-
-LaTeX Warning: Citation `Garrard2005' on page 46 undefined on input line 552.
-
-
-LaTeX Warning: Citation `Le2011' on page 46 undefined on input line 552.
-
-
-LaTeX Warning: Citation `Almor1999' on page 46 undefined on input line 554.
-
-
-LaTeX Warning: Citation `Wendelstein2015' on page 46 undefined on input line 55
-4.
-
-
-LaTeX Warning: Citation `Wendelstein2015' on page 46 undefined on input line 55
-4.
-
-
-LaTeX Warning: Citation `Almor1999' on page 46 undefined on input line 554.
-
-
-LaTeX Warning: Citation `Jarrold2014' on page 46 undefined on input line 556.
-
-
-LaTeX Warning: Citation `Wendelstein2014' on page 46 undefined on input line 55
-6.
-
-<images/RRNounsNormalised.png, id=168, 433.62pt x 289.08pt>
-File: images/RRNounsNormalised.png Graphic file (type png)
-<use images/RRNounsNormalised.png>
-Package pdftex.def Info: images/RRNounsNormalised.png  used on input line 560.
-(pdftex.def)             Requested size: 240.90015pt x 150.56065pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [46 <./images/RRNSNouns.png> <./images/DJTNSNouns.png>]
-<images/RRPronouns.png, id=174, 433.62pt x 289.08pt>
-File: images/RRPronouns.png Graphic file (type png)
-<use images/RRPronouns.png>
-Package pdftex.def Info: images/RRPronouns.png  used on input line 566.
-(pdftex.def)             Requested size: 240.90015pt x 150.56065pt.
-
-
-LaTeX Warning: Citation `Fraser2015' on page 47 undefined on input line 572.
-
-[47 <./images/RRNounsNormalised.png> <./images/RRPronouns.png>] [48]
+]
 Chapter 4.
-
-LaTeX Warning: Citation `Taler2008' on page 49 undefined on input line 579.
-
-
-LaTeX Warning: Citation `Boschi2017' on page 49 undefined on input line 579.
-
-
-LaTeX Warning: Citation `Boschi2017' on page 49 undefined on input line 579.
-
-
-LaTeX Warning: Citation `Berisha2015' on page 49 undefined on input line 581.
-
-
-LaTeX Warning: Citation `Snowdon1996' on page 49 undefined on input line 581.
-
-
-LaTeX Warning: Citation `Le2011' on page 49 undefined on input line 581.
-
-[49
-
-]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 587.
-
- (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 587.
-
-Overfull \hbox (3.13948pt too wide) in paragraph at lines 587--588
-\OT1/cmr/m/n/10 Mild Cog-ni-tive Im-pair-ment and Early Alzheimer's Dis-ease at
- spe-cific points
+[17]
+Overfull \hbox (39.41643pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 18 \OT1/cmr/m/sl/10 CHAPTER 4.  LANGUAGE DATA COLLECTION - DEVE
+LOPING A CONSENSUS
  []
 
-[50]
-Chapter 5.
-[51
+[18
 
 ]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 22.43335pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[52
+Chapter 5.
+[19] [20
 
 ]
 Chapter 6.
-[53] [54
+[21] [22
 
 ]
 Chapter 7.
-[55] [56
+[23] [24
 
 ]
 Chapter 8.
-[57]
-
-Package Fancyhdr Warning: \headheight is too small (22.43335pt): 
- Make it at least 46.43335pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[58
+[25] [26
 
 ]
 Chapter 9.
+(./Thesis.bbl [27] [28
 
-LaTeX Warning: Citation `Prince2015' on page 59 undefined on input line 601.
-
-
-LaTeX Warning: Citation `Berisha2015' on page 59 undefined on input line 605.
-
-[59]
-No file Thesis.bbl.
-[60] (./Thesis.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+]) [29] (./Thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 2148 strings out of 492649
- 31586 string characters out of 6129622
- 107183 words of memory out of 5000000
- 5983 multiletter control sequences out of 15000+600000
- 9748 words of font info for 34 fonts, out of 8000000 for 9000
+ 272 strings out of 492649
+ 2898 string characters out of 6129622
+ 60661 words of memory out of 5000000
+ 4217 multiletter control sequences out of 15000+600000
+ 9153 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,43p,2006b,414s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
-sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
-texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmu10.pfb>
-Output written on Thesis.pdf (60 pages, 1455086 bytes).
+ 23i,6n,18p,420b,191s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsl10.pfb>
+Output written on Thesis.pdf (29 pages, 100169 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
- 168 compressed objects within 2 object streams
+ 121 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
