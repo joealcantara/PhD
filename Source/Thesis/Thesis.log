@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.13)  24 MAY 2019 13:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.13)  20 JUN 2019 10:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@chapter=\count81
@@ -28,7 +28,39 @@ File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 LaTeX Warning: Unused global option(s):
     [twopages].
 
-(./Thesis.aux)
+(./Thesis.aux (./Chapter1.aux) (./Chapter2.aux
+
+LaTeX Warning: Label `simple_equation' multiply defined.
+
+) (./Chapter3.aux
+
+LaTeX Warning: Label `simple_equation' multiply defined.
+
+) (./Chapter4.aux
+
+LaTeX Warning: Label `simple_equation' multiply defined.
+
+) (./Chapter5.aux
+
+LaTeX Warning: Label `simple_equation' multiply defined.
+
+) (./Chapter6.aux
+
+LaTeX Warning: Label `simple_equation' multiply defined.
+
+) (./Chapter7.aux
+
+LaTeX Warning: Label `simple_equation' multiply defined.
+
+) (./Chapter8.aux
+
+LaTeX Warning: Label `simple_equation' multiply defined.
+
+) (./Chapter9.aux
+
+LaTeX Warning: Label `simple_equation' multiply defined.
+
+))
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -44,98 +76,193 @@ LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 14.
+(Font)              <12> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
+(Font)              <8> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
+(Font)              <6> on input line 15.
  [1
 
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
- [4
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2] [3] [4
 
-] (./Thesis.toc)
+] (./Thesis.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 2.
+ [5])
 \tf@toc=\write3
 \openout3 = `Thesis.toc'.
 
- [5] [6
-
-] (./Thesis.lof)
+ [6] (./Thesis.lof)
 \tf@lof=\write4
 \openout4 = `Thesis.lof'.
 
- [7] [8
+ [7
 
-]
-(./Thesis.lot)
+] [8
+
+] (./Thesis.lot)
 \tf@lot=\write5
 \openout5 = `Thesis.lot'.
 
- [9] [10
+
+[9] [10
 
 ]
 Chapter 1.
-[11] [12
+[11]
+\openout2 = `Chapter1.aux'.
+
+ (./Chapter1.tex
+
+LaTeX Warning: Citation `Prince2015' on page 12 undefined on input line 2.
+
+
+LaTeX Warning: Citation `England2009' on page 12 undefined on input line 4.
+
+
+LaTeX Warning: Citation `Taler2008' on page 12 undefined on input line 4.
+
+
+LaTeX Warning: Citation `Boschi2017' on page 12 undefined on input line 4.
+
+) [12
 
 ]
 Chapter 2.
-[13] [14
+[13
+
+
+]
+\openout2 = `Chapter2.aux'.
+
+ (./Chapter2.tex) [14
 
 ]
 Chapter 3.
-[15] [16
+[15
+
+
+]
+\openout2 = `Chapter3.aux'.
+
+ (./Chapter3.tex)
+Overfull \hbox (97.58539pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10.95 16 \OT1/cmr/m/sl/10.95 CHAPTER 3.  SYSTEMATIC REVIEW OF NLP 
+AND MACHINE LEARNING RESEARCH
+ []
+
+[16
 
 ]
 Chapter 4.
-[17]
-Overfull \hbox (39.41643pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 18 \OT1/cmr/m/sl/10 CHAPTER 4.  LANGUAGE DATA COLLECTION - DEVE
-LOPING A CONSENSUS
+[17
+
+
+]
+\openout2 = `Chapter4.aux'.
+
+ (./Chapter4.tex)
+Overfull \hbox (430.71735pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10.95 18 \OT1/cmr/m/sl/10.95 CHAPTER 4.  DELPHI METHODOLOGY AND DE
+VELOPING CONSENSUS ON HOW BEST TO COLLECT LANGUAGE SAMPLES USING TECHNOLOGY
  []
 
 [18
 
 ]
 Chapter 5.
-[19] [20
+[19
+
+
+]
+\openout2 = `Chapter5.aux'.
+
+ (./Chapter5.tex)
+Overfull \hbox (175.5269pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10.95 20 \OT1/cmr/m/sl/10.95 CHAPTER 5.  DEVELOPMENT OF A PIPELINE
+ THAT PROCESSES LANGUAGE DATA ACCURATELY
+ []
+
+[20
 
 ]
 Chapter 6.
-[21] [22
+[21
+
+
+]
+\openout2 = `Chapter6.aux'.
+
+ (./Chapter6.tex) [22
 
 ]
 Chapter 7.
-[23] [24
+[23
+
+
+]
+\openout2 = `Chapter7.aux'.
+
+ (./Chapter7.tex)
+Overfull \hbox (9.83577pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10.95 24 \OT1/cmr/m/sl/10.95 CHAPTER 7.  PILOT STUDY OF THE METHOD
+OLOGY DEVELOPED
+ []
+
+[24
 
 ]
 Chapter 8.
-[25] [26
+[25
+
+
+]
+\openout2 = `Chapter8.aux'.
+
+ (./Chapter8.tex) [26
 
 ]
 Chapter 9.
-(./Thesis.bbl [27] [28
+[27
 
-]) [29] (./Thesis.aux) ) 
+
+]
+\openout2 = `Chapter9.aux'.
+
+ (./Chapter9.tex) [28
+
+] (./Thesis.bbl) (./Thesis.aux (./Chapter1.aux)
+(./Chapter2.aux) (./Chapter3.aux) (./Chapter4.aux) (./Chapter5.aux)
+(./Chapter6.aux) (./Chapter7.aux) (./Chapter8.aux) (./Chapter9.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 272 strings out of 492649
- 2898 string characters out of 6129622
- 60661 words of memory out of 5000000
- 4217 multiletter control sequences out of 15000+600000
- 9153 words of font info for 32 fonts, out of 8000000 for 9000
+ 349 strings out of 492649
+ 3868 string characters out of 6129622
+ 66139 words of memory out of 5000000
+ 4231 multiletter control sequences out of 15000+600000
+ 10376 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,6n,18p,420b,191s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsl10.pfb>
-Output written on Thesis.pdf (29 pages, 100169 bytes).
+ 23i,6n,20p,1075b,191s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
+cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
+Output written on Thesis.pdf (28 pages, 121624 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 126 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

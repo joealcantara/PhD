@@ -1,3 +1,5 @@
+\documentclass[twopages, a4paper,11pt]{book}
+
 \title{Early Detection of MCI that progresses to dementia - An Interdisciplinary Approach}
 \author{
         Jomar Alcantara \\
@@ -8,9 +10,8 @@
 }
 \date{\today}
 
-\documentclass[twopages, a4paper]{book}
-
 \begin{document}
+
 \maketitle
 \newpage
 % Abstract
@@ -23,28 +24,34 @@
 \newpage
 \listoffigures
 \listoftables
+
 \chapter{Introduction}
-Dementia has been identified as one of the one of the biggest global health and social care challenges facing the world today. A recent report suggests that in 2015 there were 46 million people with a diagnosis of dementia and that number is expected to hit 131.5 million by 2050 \cite{Prince2015}. The report also states that the worldwide cost of dementia in 2018 is estimated to be in the region of one trillion US dollars.
-\par
-In 2009, the UK's Department of Health designed it's National Dementia strategy and as part of this made early diagnosis and support one of it's key priorities \cite{England2009}. A lot of work has gone into trying to find ways of improving the early diagnosis of Alzheimer's Disease (AD) and Mild Cognitive Impairment (MCI) with research focused on two distinct areas - identifying biological markers and analyzing the cognitive decline of those who are suspected to have the disease \cite{Taler2008}. As our aging population increases, the potential burden on health care and social services will increase and thus it is important that we utilize technology wherever possible to aid clinicians in the detection of MCI and AD. At the present time diagnosis is typically conducted at memory clinics by trained clinicians \cite{Boschi2017}. I theorize that we may be able to enable an earlier diagnosis of those with MCI and AD using samples of spontaneous speech, natural language processing (NLP) and machine learning (ML).
-\par
+\include{Chapter1}
+
 \chapter{Background and Related Work}
+\include{Chapter2}
 
-\chapter{Systematic Review}
+\chapter{Systematic Review of NLP and Machine Learning Research}
+\include{Chapter3}
 
-\chapter{Language Data Collection - Developing a consensus}
+\chapter{Delphi Methodology and developing consensus on how best to collect language samples using technology}
+\include{Chapter4}
 
-\chapter{Pipeline Development}
+\chapter{Development of a pipeline that processes language data accurately}
+\include{Chapter5}
 
 \chapter{Analysis of DementiaBank dataset}
+\include{Chapter6}
 
-\chapter{Pilot Study}
+\chapter{Pilot study of the methodology developed}
+\include{Chapter7}
 
-\chapter{Discussion and Future Work}
+\chapter{General Discussion}
+\include{Chapter8}
 
 \chapter{Conclusions}
-
-\bibliographystyle{ieeetr}
-\bibliography{ThesisRefs}
+\include{Chapter9}
+\bibliographystyle{unsrt}
+\bibliography{main.bib}
 
 \end{document}
