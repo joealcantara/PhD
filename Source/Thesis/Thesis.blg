@@ -1,48 +1,117 @@
 This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Thesis.aux
-I found no \citation commands---while reading file Thesis.aux
-I found no \bibdata command---while reading file Thesis.aux
-I found no \bibstyle command---while reading file Thesis.aux
-You've used 0 entries,
-            0 wiz_defined-function locations,
-            83 strings with 486 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+A level-1 auxiliary file: Chapter1.aux
+A level-1 auxiliary file: Chapter2.aux
+A level-1 auxiliary file: Chapter3.aux
+A level-1 auxiliary file: Chapter4.aux
+A level-1 auxiliary file: Chapter5.aux
+A level-1 auxiliary file: Chapter6.aux
+A level-1 auxiliary file: Chapter7.aux
+A level-1 auxiliary file: Chapter8.aux
+The style file: unsrt.bst
+Database file #1: main.bib
+Warning--I didn't find a database entry for "AlzheimersSociety2014"
+Warning--I didn't find a database entry for "Albert2011"
+Warning--I didn't find a database entry for "Davis2015"
+Warning--I didn't find a database entry for "AmericanPsychiatricAssociation2013"
+Warning--I didn't find a database entry for "Emery2000"
+Warning--I didn't find a database entry for "England2009"
+Warning--I didn't find a database entry for "Taler2008"
+Warning--I didn't find a database entry for "Randolph1998"
+Warning--I didn't find a database entry for "Karantzoulis2013"
+Warning--I didn't find a database entry for "Duff2010"
+Warning--I didn't find a database entry for "Muangpaisan2008"
+Warning--I didn't find a database entry for "Emrani2018"
+Warning--I didn't find a database entry for "Kessels2011"
+Warning--I didn't find a database entry for "Kessels2015"
+Warning--I didn't find a database entry for "Schmidt1996"
+Warning--I didn't find a database entry for "Moradi2017"
+Warning--I didn't find a database entry for "Schoenberg2006"
+Warning--I didn't find a database entry for "Rosano2016"
+Warning--I didn't find a database entry for "Pascoe2018"
+Warning--I didn't find a database entry for "Henry2004"
+Warning--I didn't find a database entry for "Williams1989"
+Warning--I didn't find a database entry for "Willers2008"
+Warning--I didn't find a database entry for "Vadikolias2012"
+Warning--I didn't find a database entry for "Rey1941"
+Warning--I didn't find a database entry for "Osterrieth1944"
+Warning--I didn't find a database entry for "Taylor1969"
+Warning--I didn't find a database entry for "Strauss1990"
+Warning--I didn't find a database entry for "Salvadori2018"
+Warning--I didn't find a database entry for "Teng2009"
+Warning--I didn't find a database entry for "Martyr2017"
+Warning--I didn't find a database entry for "Bezdicek2014"
+Warning--I didn't find a database entry for "Darweesh2017"
+Warning--I didn't find a database entry for "Tales2005"
+Warning--I didn't find a database entry for "Sarazin2007"
+Warning--I didn't find a database entry for "Borod1980"
+Warning--I didn't find a database entry for "Keenan1973"
+Warning--I didn't find a database entry for "Thomas2013"
+Warning--I didn't find a database entry for "Hier1985"
+Warning--I didn't find a database entry for "Lukatela1998"
+Warning--I didn't find a database entry for "Smith1989"
+Warning--I didn't find a database entry for "Bschor2001"
+Warning--I didn't find a database entry for "Ahmed2013"
+Warning--I didn't find a database entry for "Nicholas1985"
+Warning--I didn't find a database entry for "Lira2014"
+Warning--I didn't find a database entry for "Fraser2015"
+Warning--I didn't find a database entry for "Chapman1998"
+Warning--I didn't find a database entry for "Bayles198"
+Warning--I didn't find a database entry for "Bayles1983"
+Warning--I didn't find a database entry for "Bird2009"
+Warning--I didn't find a database entry for "Al-Mosaiwi2018"
+Warning--I didn't find a database entry for "Sonnenschein2018"
+Warning--I didn't find a database entry for "Petersen2014"
+Warning--I didn't find a database entry for "Richards1987"
+Warning--I didn't find a database entry for "Bird2000"
+Warning--I didn't find a database entry for "Garrard2005"
+Warning--I didn't find a database entry for "Almor1999"
+Warning--I didn't find a database entry for "Wendelstein2015"
+Warning--I didn't find a database entry for "Wendelstein2014"
+Warning--empty institution in Prince2015
+Warning--empty school in Wang2016
+Warning--empty institution in Guinn2012
+Warning--empty journal in Orimaye2014
+You've used 27 entries,
+            1791 wiz_defined-function locations,
+            757 strings with 12219 characters,
+and the built_in function-call counts, 7078 in all, are:
+= -- 572
+> -- 476
+< -- 3
++ -- 168
+- -- 141
+* -- 613
+:= -- 1199
+add.period$ -- 80
+call.type$ -- 27
+change.case$ -- 27
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
+cite$ -- 31
+duplicate$ -- 247
+empty$ -- 589
+format.name$ -- 141
+if$ -- 1473
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
+int.to.str$ -- 27
+missing$ -- 23
+newline$ -- 137
+num.names$ -- 27
+pop$ -- 52
+preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 0
+skip$ -- 96
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 492
+swap$ -- 40
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 0
-(There were 3 error messages)
+warning$ -- 4
+while$ -- 70
+width$ -- 29
+write$ -- 290
+(There were 62 warnings)
