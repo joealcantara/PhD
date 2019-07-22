@@ -4,8 +4,12 @@
 \usepackage{setspace}
 \doublespacing
 
+\usepackage[utf8]{inputenc}
+\usepackage{fdsymbol} 
 \usepackage{graphicx}
 \usepackage{float}
+
+\DeclareUnicodeCharacter{03B2}{\ensuremath{\beta}}
 
 \title{Early Detection of MCI that progresses to dementia - An Interdisciplinary Approach}
 \author{
@@ -23,6 +27,7 @@
 \newpage
 % Abstract
 \section*{Abstract}
+My original contribution to knowledge is....
 \newpage
 % Acknowledgements
 \section*{Acknowledgements}
@@ -36,26 +41,23 @@ Please note: An editor has not been used in the construction of this thesis.
 \chapter{Introduction}
 \include{Chapter1}
 
-\chapter{Background and Related Work}
+\chapter{Background and Related Work, Systematic Review of NLP and Machine Learning Research}
 \include{Chapter2}
 
-\chapter{Systematic Review of NLP and Machine Learning Research}
+\chapter{Delphi Methodology and developing consensus on how best to collect language samples using technology}
 \include{Chapter3}
 
-\chapter{Delphi Methodology and developing consensus on how best to collect language samples using technology}
+\chapter{Development of a pipeline that processes language data accurately}
 \include{Chapter4}
 
-\chapter{Development of a pipeline that processes language data accurately}
+\chapter{Analysis of DementiaBank dataset}
 \include{Chapter5}
 
-\chapter{Analysis of DementiaBank dataset}
+\chapter{Pilot study of the methodology developed}
 \include{Chapter6}
 
-\chapter{Pilot study of the methodology developed}
-\include{Chapter7}
-
 \chapter{General Discussion, Conclusions and Future Work}
-\include{Chapter8}
+\include{Chapter7}
 
 \bibliographystyle{unsrt}
 \bibliography{main.bib}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.13)  4 JUL 2019 12:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.13)  18 JUL 2019 08:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -27,13 +27,310 @@ File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fdsymbol/fdsymbol.sty
+Package: fdsymbol 2011/11/01 v0.8 FdSymbol support package
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count89
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen103
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks19
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks20
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks21
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+LaTeX Info: Redefining \dagger on input line 81.
+LaTeX Info: Redefining \ddagger on input line 82.
+LaTeX Info: Redefining \mathparagraph on input line 83.
+LaTeX Info: Redefining \mathsection on input line 84.
+LaTeX Info: Redefining \mathdollar on input line 85.
+LaTeX Info: Redefining \mathsterling on input line 86.
+LaTeX Info: Redefining \Re on input line 92.
+LaTeX Info: Redefining \Im on input line 93.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 180.
+LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 180.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> U/FdSymbolA/m/n on input line 180.
+LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 180.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> U/FdSymbolA/m/n on input line 180.
+\symrelations=\mathgroup4
+\symarrows=\mathgroup5
+\symnarrows=\mathgroup6
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 184.
+LaTeX Font Info:    Encoding `OMX' has changed to `U' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 1
+84.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> U/FdSymbolE/m/n on input line 184.
+LaTeX Font Info:    Encoding `OMX' has changed to `U' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 184
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> U/FdSymbolE/m/n on input line 184.
+\symdelimiters=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  U/FdSymbolA/m/n --> U/FdSymbolA/b/n on input line 186.
+LaTeX Font Info:    Overwriting symbol font `relations' in version `bold'
+(Font)                  U/FdSymbolB/m/n --> U/FdSymbolB/b/n on input line 187.
+LaTeX Font Info:    Overwriting symbol font `arrows' in version `bold'
+(Font)                  U/FdSymbolC/m/n --> U/FdSymbolC/b/n on input line 188.
+LaTeX Font Info:    Overwriting symbol font `narrows' in version `bold'
+(Font)                  U/FdSymbolD/m/n --> U/FdSymbolD/b/n on input line 189.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  U/FdSymbolE/m/n --> U/FdSymbolE/b/n on input line 190.
+LaTeX Font Info:    Overwriting symbol font `delimiters' in version `bold'
+(Font)                  U/FdSymbolF/m/n --> U/FdSymbolF/b/n on input line 191.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 192.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
+(Font)                  OMS/cmsy/m/n --> OMS/cmsy/b/n on input line 193.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 196.
+LaTeX Info: Redefining \vdots on input line 221.
+LaTeX Info: Redefining \relbar on input line 1205.
+LaTeX Info: Redefining \Relbar on input line 1206.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 1796.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 1797.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 1799.
+LaTeX Font Info:    Redeclaring math symbol \setminus on input line 1902.
+LaTeX Font Info:    Redeclaring math symbol \mid on input line 1907.
+LaTeX Font Info:    Redeclaring math symbol \parallel on input line 1912.
+LaTeX Font Info:    Redeclaring math symbol \braceld on input line 1944.
+LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 1945.
+LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 1946.
+LaTeX Font Info:    Redeclaring math symbol \braceru on input line 1947.
+LaTeX Info: Redefining \overbrace on input line 1963.
+LaTeX Info: Redefining \underbrace on input line 1966.
+LaTeX Font Info:    Redeclaring math symbol \surd on input line 1980.
+)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
-)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
@@ -48,17 +345,19 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count89
-\float@exts=\toks15
-\float@box=\box26
-\@float@everytoks=\toks16
-\@floatcapt=\box27
-) (./Thesis.aux
+\c@float@type=\count102
+\float@exts=\toks23
+\float@box=\box28
+\@float@everytoks=\toks24
+\@floatcapt=\box29
+)
+   defining Unicode char U+03B2 (decimal 946)
+ (./Thesis.aux
 (./Chapter1.aux) (./Chapter2.aux) (./Chapter3.aux) (./Chapter4.aux
 
 LaTeX Warning: Label `simple_equation' multiply defined.
@@ -84,38 +383,41 @@ LaTeX Warning: Label `simple_equation' multiply defined.
 
 LaTeX Warning: Label `simple_equation' multiply defined.
 
-) (./Chapter8.aux
-
-LaTeX Warning: Label `simple_equation' multiply defined.
-
 ))
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
- (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 24.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 24.
+
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count90
-\scratchdimen=\dimen105
-\scratchbox=\box28
-\nofMPsegments=\count91
-\nofMParguments=\count92
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count93
-\MPscratchDim=\dimen106
-\MPnumerator=\count94
-\makeMPintoPDFobject=\count95
-\everyMPtoPDFconversion=\toks18
+\scratchcounter=\count103
+\scratchdimen=\dimen114
+\scratchbox=\box30
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen115
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks26
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -172,22 +474,84 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 22.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 22.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 22.
+LaTeX Font Info:    Font shape `U/FdSymbolA/m/n' will be
+(Font)              scaled to size 12.0pt on input line 26.
+LaTeX Font Info:    Font shape `U/FdSymbolA/m/n' will be
+(Font)              scaled to size 8.0pt on input line 26.
+LaTeX Font Info:    Font shape `U/FdSymbolA/m/n' will be
+(Font)              scaled to size 6.0pt on input line 26.
+LaTeX Font Info:    Font shape `U/FdSymbolE/m/n' will be
+(Font)              scaled to size 12.0pt on input line 26.
+LaTeX Font Info:    Font shape `U/FdSymbolE/m/n' will be
+(Font)              scaled to size 8.0pt on input line 26.
+LaTeX Font Info:    Font shape `U/FdSymbolE/m/n' will be
+(Font)              scaled to size 6.0pt on input line 26.
+LaTeX Font Info:    Font shape `U/FdSymbolB/m/n' will be
+(Font)              scaled to size 12.0pt on input line 26.
+LaTeX Font Info:    Font shape `U/FdSymbolB/m/n' will be
+(Font)              scaled to size 8.0pt on input line 26.
+LaTeX Font Info:    Font shape `U/FdSymbolB/m/n' will be
+(Font)              scaled to size 6.0pt on input line 26.
+LaTeX Font Info:    Font shape `U/FdSymbolC/m/n' will be
+(Font)              scaled to size 12.0pt on input line 26.
+LaTeX Font Info:    Font shape `U/FdSymbolC/m/n' will be
+(Font)              scaled to size 8.0pt on input line 26.
+LaTeX Font Info:    Font shape `U/FdSymbolC/m/n' will be
+(Font)              scaled to size 6.0pt on input line 26.
+LaTeX Font Info:    Font shape `U/FdSymbolD/m/n' will be
+(Font)              scaled to size 12.0pt on input line 26.
+LaTeX Font Info:    Font shape `U/FdSymbolD/m/n' will be
+(Font)              scaled to size 8.0pt on input line 26.
+LaTeX Font Info:    Font shape `U/FdSymbolD/m/n' will be
+(Font)              scaled to size 6.0pt on input line 26.
+LaTeX Font Info:    Font shape `U/FdSymbolF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 26.
+LaTeX Font Info:    Font shape `U/FdSymbolF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 26.
+LaTeX Font Info:    Font shape `U/FdSymbolF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 26.
 
 [1
 
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2] [3] (./Thesis.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 2.
+LaTeX Font Info:    Font shape `U/FdSymbolA/m/n' will be
+(Font)              scaled to size 10.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/FdSymbolA/m/n' will be
+(Font)              scaled to size 7.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/FdSymbolA/m/n' will be
+(Font)              scaled to size 5.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/FdSymbolE/m/n' will be
+(Font)              scaled to size 10.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/FdSymbolE/m/n' will be
+(Font)              scaled to size 7.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/FdSymbolE/m/n' will be
+(Font)              scaled to size 5.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/FdSymbolB/m/n' will be
+(Font)              scaled to size 10.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/FdSymbolB/m/n' will be
+(Font)              scaled to size 7.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/FdSymbolB/m/n' will be
+(Font)              scaled to size 5.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/FdSymbolC/m/n' will be
+(Font)              scaled to size 10.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/FdSymbolC/m/n' will be
+(Font)              scaled to size 7.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/FdSymbolC/m/n' will be
+(Font)              scaled to size 5.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/FdSymbolD/m/n' will be
+(Font)              scaled to size 10.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/FdSymbolD/m/n' will be
+(Font)              scaled to size 7.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/FdSymbolD/m/n' will be
+(Font)              scaled to size 5.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/FdSymbolF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/FdSymbolF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/FdSymbolF/m/n' will be
+(Font)              scaled to size 5.0pt on input line 2.
  [4
 
 ] [5] [6])
@@ -215,38 +579,19 @@ Chapter 1.
 \openout2 = `Chapter1.aux'.
 
  (./Chapter1.tex
-
-LaTeX Warning: Citation `AlzheimersSociety2014' on page 11 undefined on input l
-ine 4.
-
-
-LaTeX Warning: Citation `AlzheimersSociety2014' on page 11 undefined on input l
-ine 6.
-
-
 Underfull \vbox (badness 1728) has occurred while \output is active []
 
  [11
 
 ]
-
-LaTeX Warning: Citation `Albert2011' on page 12 undefined on input line 8.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12]
-[13]
-
-LaTeX Warning: Citation `Davis2015' on page 14 undefined on input line 19.
-
-
+[12] [13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
-
-LaTeX Warning: Citation `AmericanPsychiatricAssociation2013' on page 15 undefin
-ed on input line 25.
+Overfull \hbox (0.2507pt too wide) in paragraph at lines 28--29
+\OT1/cmr/m/n/10 dif-fi-culty think-ing of com-mon words while speak-ing, hes-i-
+ta-tions ;speech, spelling,
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -255,32 +600,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
-
-LaTeX Warning: Citation `Emery2000' on page 17 undefined on input line 29.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
-
-LaTeX Warning: Citation `England2009' on page 18 undefined on input line 33.
-
-
-LaTeX Warning: Citation `Taler2008' on page 18 undefined on input line 33.
-
-
-LaTeX Warning: Citation `Taler2008' on page 18 undefined on input line 37.
-
-
-LaTeX Warning: Citation `Taler2008' on page 18 undefined on input line 37.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18])
-[19]
+ [18]
+[19]) [20]
 Chapter 2.
-[20
+[21
 
 
 ]
@@ -297,7 +625,7 @@ Overfull \hbox (0.29868pt too wide) in paragraph at lines 4--4
  []
 
 
-LaTeX Warning: Citation `Randolph1998' on page 21 undefined on input line 5.
+LaTeX Warning: Citation `Randolph1998' on page 22 undefined on input line 5.
 
 
 Overfull \hbox (12.36174pt too wide) in paragraph at lines 5--6
@@ -306,43 +634,26 @@ Overfull \hbox (12.36174pt too wide) in paragraph at lines 5--6
  []
 
 
-Overfull \hbox (399.06439pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 2.1.  EXISTING NEUROPSYCHOLOGICAL MEASURES OF COGNITIVE IMPAIR
-MENT, AND REPEATABLE BATTERY OF NEUROPSYCHOLOGICAL TESTS \OT1/cmr/m/n/10 21
+Overfull \hbox (263.2307pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 22 \OT1/cmr/m/sl/10 CHAPTER 2.  BACKGROUND AND RELATED WORK, SY
+STEMATIC REVIEW OF NLP AND MACHINE LEARNING RESEARCH
  []
 
-[21
+[22
 
 ]
 
-LaTeX Warning: Citation `Randolph1998' on page 22 undefined on input line 37.
+LaTeX Warning: Citation `Randolph1998' on page 23 undefined on input line 37.
 
 
-LaTeX Warning: Citation `Karantzoulis2013' on page 22 undefined on input line 3
+LaTeX Warning: Citation `Karantzoulis2013' on page 23 undefined on input line 3
 7.
 
 
-LaTeX Warning: Citation `Duff2010' on page 22 undefined on input line 37.
+LaTeX Warning: Citation `Duff2010' on page 23 undefined on input line 37.
 
 
-LaTeX Warning: Citation `Duff2010' on page 22 undefined on input line 37.
-
-[22]
-
-LaTeX Warning: Citation `Muangpaisan2008' on page 23 undefined on input line 42
-.
-
-
-LaTeX Warning: Citation `Emrani2018' on page 23 undefined on input line 42.
-
-
-LaTeX Warning: Citation `Kessels2011' on page 23 undefined on input line 42.
-
-
-LaTeX Warning: Citation `Kessels2015' on page 23 undefined on input line 42.
-
-
-LaTeX Warning: Citation `Schmidt1996' on page 23 undefined on input line 44.
+LaTeX Warning: Citation `Duff2010' on page 23 undefined on input line 37.
 
 
 Overfull \hbox (399.06439pt too wide) has occurred while \output is active
@@ -352,27 +663,43 @@ MENT, AND REPEATABLE BATTERY OF NEUROPSYCHOLOGICAL TESTS \OT1/cmr/m/n/10 23
 
 [23]
 
-LaTeX Warning: Citation `Moradi2017' on page 24 undefined on input line 46.
+LaTeX Warning: Citation `Muangpaisan2008' on page 24 undefined on input line 42
+.
 
 
-LaTeX Warning: Citation `Moradi2017' on page 24 undefined on input line 46.
+LaTeX Warning: Citation `Emrani2018' on page 24 undefined on input line 42.
 
 
-LaTeX Warning: Citation `Schoenberg2006' on page 24 undefined on input line 46.
+LaTeX Warning: Citation `Kessels2011' on page 24 undefined on input line 42.
 
 
+LaTeX Warning: Citation `Kessels2015' on page 24 undefined on input line 42.
 
-LaTeX Warning: Citation `Rosano2016' on page 24 undefined on input line 50.
+
+LaTeX Warning: Citation `Schmidt1996' on page 24 undefined on input line 44.
 
 
-LaTeX Warning: Citation `Pascoe2018' on page 24 undefined on input line 50.
+Overfull \hbox (263.2307pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 24 \OT1/cmr/m/sl/10 CHAPTER 2.  BACKGROUND AND RELATED WORK, SY
+STEMATIC REVIEW OF NLP AND MACHINE LEARNING RESEARCH
+ []
 
 [24]
 
-LaTeX Warning: Citation `Henry2004' on page 25 undefined on input line 54.
+LaTeX Warning: Citation `Moradi2017' on page 25 undefined on input line 46.
 
 
-LaTeX Warning: Citation `Williams1989' on page 25 undefined on input line 56.
+LaTeX Warning: Citation `Moradi2017' on page 25 undefined on input line 46.
+
+
+LaTeX Warning: Citation `Schoenberg2006' on page 25 undefined on input line 46.
+
+
+
+LaTeX Warning: Citation `Rosano2016' on page 25 undefined on input line 50.
+
+
+LaTeX Warning: Citation `Pascoe2018' on page 25 undefined on input line 50.
 
 
 Overfull \hbox (399.06439pt too wide) has occurred while \output is active
@@ -382,34 +709,27 @@ MENT, AND REPEATABLE BATTERY OF NEUROPSYCHOLOGICAL TESTS \OT1/cmr/m/n/10 25
 
 [25]
 
-LaTeX Warning: Citation `Willers2008' on page 26 undefined on input line 58.
+LaTeX Warning: Citation `Henry2004' on page 26 undefined on input line 54.
 
 
-LaTeX Warning: Citation `Vadikolias2012' on page 26 undefined on input line 60.
+LaTeX Warning: Citation `Williams1989' on page 26 undefined on input line 56.
+
+
+Overfull \hbox (263.2307pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 26 \OT1/cmr/m/sl/10 CHAPTER 2.  BACKGROUND AND RELATED WORK, SY
+STEMATIC REVIEW OF NLP AND MACHINE LEARNING RESEARCH
+ []
+
+[26]
+
+LaTeX Warning: Citation `Willers2008' on page 27 undefined on input line 58.
+
+
+LaTeX Warning: Citation `Vadikolias2012' on page 27 undefined on input line 60.
 
 
 
 Underfull \vbox (badness 4205) has occurred while \output is active []
-
- [26]
-
-LaTeX Warning: Citation `Rey1941' on page 27 undefined on input line 62.
-
-
-LaTeX Warning: Citation `Osterrieth1944' on page 27 undefined on input line 62.
-
-
-
-LaTeX Warning: Citation `Taylor1969' on page 27 undefined on input line 62.
-
-
-LaTeX Warning: Citation `Strauss1990' on page 27 undefined on input line 62.
-
-
-LaTeX Warning: Citation `Salvadori2018' on page 27 undefined on input line 64.
-
-
-LaTeX Warning: Citation `Teng2009' on page 27 undefined on input line 64.
 
 
 Overfull \hbox (399.06439pt too wide) has occurred while \output is active
@@ -419,14 +739,33 @@ MENT, AND REPEATABLE BATTERY OF NEUROPSYCHOLOGICAL TESTS \OT1/cmr/m/n/10 27
 
 [27]
 
-LaTeX Warning: Citation `Martyr2017' on page 28 undefined on input line 68.
+LaTeX Warning: Citation `Rey1941' on page 28 undefined on input line 62.
+
+
+LaTeX Warning: Citation `Osterrieth1944' on page 28 undefined on input line 62.
+
+
+
+LaTeX Warning: Citation `Taylor1969' on page 28 undefined on input line 62.
+
+
+LaTeX Warning: Citation `Strauss1990' on page 28 undefined on input line 62.
+
+
+LaTeX Warning: Citation `Salvadori2018' on page 28 undefined on input line 64.
+
+
+LaTeX Warning: Citation `Teng2009' on page 28 undefined on input line 64.
+
+
+Overfull \hbox (263.2307pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 28 \OT1/cmr/m/sl/10 CHAPTER 2.  BACKGROUND AND RELATED WORK, SY
+STEMATIC REVIEW OF NLP AND MACHINE LEARNING RESEARCH
+ []
 
 [28]
 
-LaTeX Warning: Citation `Bezdicek2014' on page 29 undefined on input line 72.
-
-
-LaTeX Warning: Citation `Darweesh2017' on page 29 undefined on input line 74.
+LaTeX Warning: Citation `Martyr2017' on page 29 undefined on input line 68.
 
 
 Overfull \hbox (399.06439pt too wide) has occurred while \output is active
@@ -436,11 +775,20 @@ MENT, AND REPEATABLE BATTERY OF NEUROPSYCHOLOGICAL TESTS \OT1/cmr/m/n/10 29
 
 [29]
 
-LaTeX Warning: Citation `Tales2005' on page 30 undefined on input line 78.
+LaTeX Warning: Citation `Bezdicek2014' on page 30 undefined on input line 72.
+
+
+LaTeX Warning: Citation `Darweesh2017' on page 30 undefined on input line 74.
+
+
+Overfull \hbox (263.2307pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 30 \OT1/cmr/m/sl/10 CHAPTER 2.  BACKGROUND AND RELATED WORK, SY
+STEMATIC REVIEW OF NLP AND MACHINE LEARNING RESEARCH
+ []
 
 [30]
 
-LaTeX Warning: Citation `Sarazin2007' on page 31 undefined on input line 84.
+LaTeX Warning: Citation `Tales2005' on page 31 undefined on input line 78.
 
 
 Overfull \hbox (399.06439pt too wide) has occurred while \output is active
@@ -450,107 +798,226 @@ MENT, AND REPEATABLE BATTERY OF NEUROPSYCHOLOGICAL TESTS \OT1/cmr/m/n/10 31
 
 [31]
 
-LaTeX Warning: Citation `Borod1980' on page 32 undefined on input line 96.
+LaTeX Warning: Citation `Sarazin2007' on page 32 undefined on input line 84.
 
-<images/BCTPicture.png, id=110, 451.6875pt x 321.2pt>
+
+Overfull \hbox (263.2307pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 32 \OT1/cmr/m/sl/10 CHAPTER 2.  BACKGROUND AND RELATED WORK, SY
+STEMATIC REVIEW OF NLP AND MACHINE LEARNING RESEARCH
+ []
+
+[32]
+
+LaTeX Warning: Citation `Borod1980' on page 33 undefined on input line 96.
+
+
+LaTeX Warning: Citation `Giles1996' on page 33 undefined on input line 96.
+
+<images/BCTPicture.png, id=115, 451.6875pt x 321.2pt>
 File: images/BCTPicture.png Graphic file (type png)
 <use images/BCTPicture.png>
 Package pdftex.def Info: images/BCTPicture.png  used on input line 99.
 (pdftex.def)             Requested size: 240.90262pt x 150.56703pt.
-[32]
+[33]
+
+LaTeX Warning: Citation `Sajjadi2012' on page 34 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Ash2012' on page 34 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Fraser2014' on page 34 undefined on input line 106.
+
+
+LaTeX Warning: Citation `Ash2012' on page 34 undefined on input line 106.
+
+
+LaTeX Warning: Citation `DeLira2011' on page 34 undefined on input line 106.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33 <./images/BCTPicture.png>] [34]
+
+Overfull \hbox (263.2307pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 34 \OT1/cmr/m/sl/10 CHAPTER 2.  BACKGROUND AND RELATED WORK, SY
+STEMATIC REVIEW OF NLP AND MACHINE LEARNING RESEARCH
+ []
+
+[34 <./images/BCTPicture.png>]
+
+LaTeX Warning: Citation `Fraser2014' on page 35 undefined on input line 108.
+
+[35]
+
+LaTeX Warning: Citation `Sajjadi2012' on page 36 undefined on input line 113.
+
+
+LaTeX Warning: Citation `Asgari2017' on page 36 undefined on input line 113.
+
+
+LaTeX Warning: Citation `Guinn2015' on page 36 undefined on input line 113.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
-[36]
 
-LaTeX Warning: Citation `Emery2000' on page 37 undefined on input line 131.
+Overfull \hbox (263.2307pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 36 \OT1/cmr/m/sl/10 CHAPTER 2.  BACKGROUND AND RELATED WORK, SY
+STEMATIC REVIEW OF NLP AND MACHINE LEARNING RESEARCH
+ []
 
+[36] [37]
 
-LaTeX Warning: Citation `Keenan1973' on page 37 undefined on input line 131.
-
-
-LaTeX Warning: Citation `Thomas2013' on page 37 undefined on input line 131.
-
-[37] [38]
-
-LaTeX Warning: Citation `Hier1985' on page 39 undefined on input line 141.
+LaTeX Warning: Citation `Keenan1973' on page 38 undefined on input line 131.
 
 
-LaTeX Warning: Citation `Lukatela1998' on page 39 undefined on input line 141.
+LaTeX Warning: Citation `Bucks2000' on page 38 undefined on input line 131.
 
 
-LaTeX Warning: Citation `Smith1989' on page 39 undefined on input line 143.
+LaTeX Warning: Citation `Wang2016' on page 38 undefined on input line 131.
 
-<images/picnic-scene.jpg, id=133, 287.57437pt x 181.42781pt>
+
+LaTeX Warning: Citation `Thomas2013' on page 38 undefined on input line 131.
+
+
+Overfull \hbox (263.2307pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 38 \OT1/cmr/m/sl/10 CHAPTER 2.  BACKGROUND AND RELATED WORK, SY
+STEMATIC REVIEW OF NLP AND MACHINE LEARNING RESEARCH
+ []
+
+[38] [39]
+
+LaTeX Warning: Citation `Hier1985' on page 40 undefined on input line 141.
+
+
+LaTeX Warning: Citation `Lukatela1998' on page 40 undefined on input line 141.
+
+
+LaTeX Warning: Citation `Smith1989' on page 40 undefined on input line 143.
+
+<images/picnic-scene.jpg, id=138, 287.57437pt x 181.42781pt>
 File: images/picnic-scene.jpg Graphic file (type jpg)
 <use images/picnic-scene.jpg>
 Package pdftex.def Info: images/picnic-scene.jpg  used on input line 147.
 (pdftex.def)             Requested size: 240.90701pt x 150.56566pt.
 
-LaTeX Warning: Citation `Bschor2001' on page 39 undefined on input line 150.
-
-[39 <./images/picnic-scene.jpg>] [40]
-
-LaTeX Warning: Citation `Ahmed2013' on page 41 undefined on input line 158.
+LaTeX Warning: Citation `Sajjadi2012' on page 40 undefined on input line 150.
 
 
-LaTeX Warning: Citation `Smith1989' on page 41 undefined on input line 162.
+LaTeX Warning: Citation `Bschor2001' on page 40 undefined on input line 150.
+
+
+Overfull \hbox (263.2307pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 40 \OT1/cmr/m/sl/10 CHAPTER 2.  BACKGROUND AND RELATED WORK, SY
+STEMATIC REVIEW OF NLP AND MACHINE LEARNING RESEARCH
+ []
+
+[40 <./images/picnic-scene.jpg>]
+
+LaTeX Warning: Citation `Giles1996' on page 41 undefined on input line 154.
+
+
+LaTeX Warning: Citation `Riley2005' on page 41 undefined on input line 156.
 
 [41]
 
-LaTeX Warning: Citation `Nicholas1985' on page 42 undefined on input line 164.
+LaTeX Warning: Citation `Ahmed2013' on page 42 undefined on input line 158.
 
 
-LaTeX Warning: Citation `Lira2014' on page 42 undefined on input line 164.
+LaTeX Warning: Citation `Smith1989' on page 42 undefined on input line 162.
+
+
+LaTeX Warning: Citation `Guinn2012' on page 42 undefined on input line 162.
+
+
+LaTeX Warning: Citation `Guinn2015' on page 42 undefined on input line 162.
+
+
+Overfull \hbox (263.2307pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 42 \OT1/cmr/m/sl/10 CHAPTER 2.  BACKGROUND AND RELATED WORK, SY
+STEMATIC REVIEW OF NLP AND MACHINE LEARNING RESEARCH
+ []
 
 [42]
 
-LaTeX Warning: Citation `Fraser2015' on page 43 undefined on input line 175.
+LaTeX Warning: Citation `Nicholas1985' on page 43 undefined on input line 164.
+
+
+LaTeX Warning: Citation `Lira2014' on page 43 undefined on input line 164.
+
+
+LaTeX Warning: Citation `Orimaye2017' on page 43 undefined on input line 167.
+
+[43]
+
+LaTeX Warning: Citation `Asgari2017' on page 44 undefined on input line 172.
+
+
+LaTeX Warning: Citation `Pennebaker2015' on page 44 undefined on input line 172
+.
+
+
+LaTeX Warning: Citation `Fraser2015' on page 44 undefined on input line 175.
+
+
+LaTeX Warning: Citation `Zimmerer2016' on page 44 undefined on input line 175.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43]
 
-LaTeX Warning: Citation `Chapman1998' on page 44 undefined on input line 180.
+Overfull \hbox (263.2307pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 44 \OT1/cmr/m/sl/10 CHAPTER 2.  BACKGROUND AND RELATED WORK, SY
+STEMATIC REVIEW OF NLP AND MACHINE LEARNING RESEARCH
+ []
 
 [44]
 
-LaTeX Warning: Citation `Bayles198' on page 45 undefined on input line 185.
+LaTeX Warning: Citation `Chapman1998' on page 45 undefined on input line 180.
 
 [45]
 
-LaTeX Warning: Citation `Nicholas1985' on page 46 undefined on input line 190.
+LaTeX Warning: Citation `Bayles198' on page 46 undefined on input line 185.
 
 
-LaTeX Warning: Citation `Bayles1983' on page 46 undefined on input line 190.
-
-
-LaTeX Warning: Citation `Ahmed2013' on page 46 undefined on input line 190.
+Overfull \hbox (263.2307pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 46 \OT1/cmr/m/sl/10 CHAPTER 2.  BACKGROUND AND RELATED WORK, SY
+STEMATIC REVIEW OF NLP AND MACHINE LEARNING RESEARCH
+ []
 
 [46]
+
+LaTeX Warning: Citation `Nicholas1985' on page 47 undefined on input line 190.
+
+
+LaTeX Warning: Citation `Bayles1983' on page 47 undefined on input line 190.
+
+
+LaTeX Warning: Citation `Ahmed2013' on page 47 undefined on input line 190.
+
+[47]
 Overfull \hbox (1.49463pt too wide) in paragraph at lines 194--194
 \OT1/cmr/bx/n/14.4 and Nat-u-ral Lan-guage pro-cess-ing tech-niques 
  []
 
 
-Overfull \hbox (216.70285pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/10 2.6.  STATE OF LITERATURE INTO MACHINE LEARNING AND NATURAL LA
-NGUAGE PROCESSING TECHNIQUES \OT1/cmr/m/n/10 47
+LaTeX Warning: Citation `Orimaye2017' on page 48 undefined on input line 195.
+
+
+Overfull \hbox (263.2307pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 48 \OT1/cmr/m/sl/10 CHAPTER 2.  BACKGROUND AND RELATED WORK, SY
+STEMATIC REVIEW OF NLP AND MACHINE LEARNING RESEARCH
  []
 
-[47]
-<images/workflow.jpg, id=162, 2409.0pt x 1300.86pt>
+[48]
+<images/workflow.jpg, id=167, 2409.0pt x 1300.86pt>
 File: images/workflow.jpg Graphic file (type jpg)
 <use images/workflow.jpg>
 Package pdftex.def Info: images/workflow.jpg  used on input line 206.
 (pdftex.def)             Requested size: 240.87735pt x 150.55846pt.
 
 
-LaTeX Warning: Citation `Bird2009' on page 48 undefined on input line 211.
+LaTeX Warning: Citation `Bird2009' on page 49 undefined on input line 211.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 215--215
@@ -572,14 +1039,20 @@ Underfull \hbox (badness 2426) in paragraph at lines 226--226
 []\OT1/cmr/m/n/10 Graphical con-cor-dance, parsers, Word-Net
  []
 
-[48 <./images/workflow.jpg>]
+
 Overfull \hbox (216.70285pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/10 2.6.  STATE OF LITERATURE INTO MACHINE LEARNING AND NATURAL LA
 NGUAGE PROCESSING TECHNIQUES \OT1/cmr/m/n/10 49
  []
 
-[49]
-<images/CoreNLP.png, id=170, 848.16875pt x 649.42625pt>
+[49 <./images/workflow.jpg>]
+Overfull \hbox (263.2307pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 50 \OT1/cmr/m/sl/10 CHAPTER 2.  BACKGROUND AND RELATED WORK, SY
+STEMATIC REVIEW OF NLP AND MACHINE LEARNING RESEARCH
+ []
+
+[50]
+<images/CoreNLP.png, id=175, 848.16875pt x 649.42625pt>
 File: images/CoreNLP.png Graphic file (type png)
 <use images/CoreNLP.png>
 Package pdftex.def Info: images/CoreNLP.png  used on input line 238.
@@ -592,31 +1065,59 @@ Overfull \hbox (6.31049pt too wide) in paragraph at lines 238--239
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50]
-
-LaTeX Warning: Citation `Al-Mosaiwi2018' on page 51 undefined on input line 244
-.
-
-
-LaTeX Warning: Citation `Sonnenschein2018' on page 51 undefined on input line 2
-44.
-
 
 Overfull \hbox (216.70285pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/10 2.6.  STATE OF LITERATURE INTO MACHINE LEARNING AND NATURAL LA
 NGUAGE PROCESSING TECHNIQUES \OT1/cmr/m/n/10 51
  []
 
-[51 <./images/CoreNLP.png>]
+[51]
 
-LaTeX Warning: Citation `Fraser2015' on page 52 undefined on input line 249.
-
-[52]
-
-LaTeX Warning: Citation `Fraser2015' on page 53 undefined on input line 256.
+LaTeX Warning: Citation `Pennebaker2015' on page 52 undefined on input line 244
+.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Citation `Al-Mosaiwi2018' on page 52 undefined on input line 244
+.
+
+
+LaTeX Warning: Citation `Pennebaker2015' on page 52 undefined on input line 244
+.
+
+
+LaTeX Warning: Citation `Sonnenschein2018' on page 52 undefined on input line 2
+44.
+
+
+Overfull \hbox (263.2307pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 52 \OT1/cmr/m/sl/10 CHAPTER 2.  BACKGROUND AND RELATED WORK, SY
+STEMATIC REVIEW OF NLP AND MACHINE LEARNING RESEARCH
+ []
+
+[52 <./images/CoreNLP.png>]
+
+LaTeX Warning: Citation `Zimmerer2016' on page 53 undefined on input line 249.
+
+
+LaTeX Warning: Citation `Orimaye2017' on page 53 undefined on input line 249.
+
+
+LaTeX Warning: Citation `Mueller2018a' on page 53 undefined on input line 249.
+
+
+LaTeX Warning: Citation `Fraser2015' on page 53 undefined on input line 249.
+
+
+LaTeX Warning: Citation `Thomas2005' on page 53 undefined on input line 251.
+
+
+LaTeX Warning: Citation `Thomas2005' on page 53 undefined on input line 251.
+
+
+LaTeX Warning: Citation `Bucks2000' on page 53 undefined on input line 254.
+
+
+LaTeX Warning: Citation `Bucks2000' on page 53 undefined on input line 254.
 
 
 Overfull \hbox (216.70285pt too wide) has occurred while \output is active
@@ -625,59 +1126,90 @@ NGUAGE PROCESSING TECHNIQUES \OT1/cmr/m/n/10 53
  []
 
 [53]
+
+LaTeX Warning: Citation `Fraser2015' on page 54 undefined on input line 256.
+
+
+LaTeX Warning: Citation `Zimmerer2016' on page 54 undefined on input line 258.
+
+
+LaTeX Warning: Citation `Orimaye2017' on page 54 undefined on input line 260.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54]
+
+Overfull \hbox (263.2307pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 54 \OT1/cmr/m/sl/10 CHAPTER 2.  BACKGROUND AND RELATED WORK, SY
+STEMATIC REVIEW OF NLP AND MACHINE LEARNING RESEARCH
+ []
+
+[54]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (216.70285pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/10 2.6.  STATE OF LITERATURE INTO MACHINE LEARNING AND NATURAL LA
+NGUAGE PROCESSING TECHNIQUES \OT1/cmr/m/n/10 55
+ []
+
 [55]
+Overfull \hbox (263.2307pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 56 \OT1/cmr/m/sl/10 CHAPTER 2.  BACKGROUND AND RELATED WORK, SY
+STEMATIC REVIEW OF NLP AND MACHINE LEARNING RESEARCH
+ []
 
-LaTeX Warning: Citation `Petersen2014' on page 56 undefined on input line 280.
+[56]
+
+LaTeX Warning: Citation `Petersen2014' on page 57 undefined on input line 280.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56]
+ [57]
+
+LaTeX Warning: Citation `Zimmerer2016' on page 58 undefined on input line 283.
+
+
+LaTeX Warning: Citation `Mueller2018a' on page 58 undefined on input line 283.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 283--284
 
  []
 
 
-LaTeX Warning: Citation `Teng2009' on page 57 undefined on input line 285.
+LaTeX Warning: Citation `Teng2009' on page 58 undefined on input line 285.
 
-[57]) [58]
+
+Overfull \hbox (263.2307pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10 58 \OT1/cmr/m/sl/10 CHAPTER 2.  BACKGROUND AND RELATED WORK, SY
+STEMATIC REVIEW OF NLP AND MACHINE LEARNING RESEARCH
+ []
+
+[58]) [59]
 Chapter 3.
-[59
+[60
 
 
 ]
 \openout2 = `Chapter3.aux'.
 
- (./Chapter3.tex)
-Overfull \hbox (72.88649pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 60 \OT1/cmr/m/sl/10 CHAPTER 3.  SYSTEMATIC REVIEW OF NLP AND MA
-CHINE LEARNING RESEARCH
- []
-
-[60
+ (./Chapter3.tex) [61
 
 ]
 Chapter 4.
-[61
+[62
 
 
 ]
 \openout2 = `Chapter4.aux'.
 
- (./Chapter4.tex)
-Overfull \hbox (377.11665pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 62 \OT1/cmr/m/sl/10 CHAPTER 4.  DELPHI METHODOLOGY AND DEVELOPI
-NG CONSENSUS ON HOW BEST TO COLLECT LANGUAGE SAMPLES USING TECHNOLOGY
- []
-
-[62
+ (./Chapter4.tex) [63
 
 ]
 Chapter 5.
-[63
+[64
 
 
 ]
@@ -685,41 +1217,33 @@ Chapter 5.
 
  (./Chapter5.tex
 
-LaTeX Warning: Citation `Fraser2015' on page 64 undefined on input line 2.
+LaTeX Warning: Citation `Orimaye2014' on page 65 undefined on input line 2.
 
 
-Overfull \hbox (144.06606pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 64 \OT1/cmr/m/sl/10 CHAPTER 5.  DEVELOPMENT OF A PIPELINE THAT 
-PROCESSES LANGUAGE DATA ACCURATELY
- []
+LaTeX Warning: Citation `Fraser2015' on page 65 undefined on input line 2.
 
-[64
+[65
 
 ]
 Underfull \vbox (badness 1132) has occurred while \output is active []
 
- [65]
+ [66]
 
-LaTeX Warning: Citation `Bird2009' on page 66 undefined on input line 10.
-
-
-LaTeX Warning: Citation `Richards1987' on page 66 undefined on input line 13.
+LaTeX Warning: Citation `Bird2009' on page 67 undefined on input line 10.
 
 
-LaTeX Warning: Citation `Bird2000' on page 66 undefined on input line 15.
+LaTeX Warning: Citation `Richards1987' on page 67 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Bird2000' on page 67 undefined on input line 15.
 
 
 Underfull \vbox (badness 5847) has occurred while \output is active []
 
-
-Overfull \hbox (144.06606pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 66 \OT1/cmr/m/sl/10 CHAPTER 5.  DEVELOPMENT OF A PIPELINE THAT 
-PROCESSES LANGUAGE DATA ACCURATELY
- []
-
-[66]
+ [67]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 35.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omlcmr.fd
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
@@ -784,13 +1308,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--44
 []\OT1/cmr/m/n/10 84.48
  []
 
-[67]
-Overfull \hbox (144.06606pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 68 \OT1/cmr/m/sl/10 CHAPTER 5.  DEVELOPMENT OF A PIPELINE THAT 
-PROCESSES LANGUAGE DATA ACCURATELY
- []
-
-[68]
+[68] [69]
 Underfull \hbox (badness 10000) in paragraph at lines 56--56
 []\OT1/cmr/m/n/10 RR v
  []
@@ -837,8 +1355,8 @@ Overfull \hbox (0.76509pt too wide) in paragraph at lines 60--60
 
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 61.
-[69]
-<images/RRUniqueWords.png, id=241, 433.62pt x 289.08pt>
+[70]
+<images/RRUniqueWords.png, id=245, 433.62pt x 289.08pt>
 File: images/RRUniqueWords.png Graphic file (type png)
 <use images/RRUniqueWords.png>
 Package pdftex.def Info: images/RRUniqueWords.png  used on input line 100.
@@ -848,7 +1366,7 @@ Overfull \hbox (52.7161pt too wide) in paragraph at lines 100--101
 [][] 
  []
 
-<images/GWHBUniqueWords.png, id=242, 433.62pt x 289.08pt>
+<images/GWHBUniqueWords.png, id=246, 433.62pt x 289.08pt>
 File: images/GWHBUniqueWords.png Graphic file (type png)
 <use images/GWHBUniqueWords.png>
 Package pdftex.def Info: images/GWHBUniqueWords.png  used on input line 105.
@@ -858,14 +1376,8 @@ Overfull \hbox (52.7161pt too wide) in paragraph at lines 105--106
 [][] 
  []
 
-
-Overfull \hbox (144.06606pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 70 \OT1/cmr/m/sl/10 CHAPTER 5.  DEVELOPMENT OF A PIPELINE THAT 
-PROCESSES LANGUAGE DATA ACCURATELY
- []
-
-[70]
-<images/RRNSNouns.png, id=246, 433.62pt x 289.08pt>
+[71]
+<images/RRNSNouns.png, id=250, 433.62pt x 289.08pt>
 File: images/RRNSNouns.png Graphic file (type png)
 <use images/RRNSNouns.png>
 Package pdftex.def Info: images/RRNSNouns.png  used on input line 113.
@@ -875,7 +1387,7 @@ Overfull \hbox (52.7161pt too wide) in paragraph at lines 113--114
 [][] 
  []
 
-<images/DJTNSNouns.png, id=247, 433.62pt x 289.08pt>
+<images/DJTNSNouns.png, id=251, 433.62pt x 289.08pt>
 File: images/DJTNSNouns.png Graphic file (type png)
 <use images/DJTNSNouns.png>
 Package pdftex.def Info: images/DJTNSNouns.png  used on input line 118.
@@ -886,34 +1398,37 @@ Overfull \hbox (52.7161pt too wide) in paragraph at lines 118--119
  []
 
 
-LaTeX Warning: Citation `Garrard2005' on page 71 undefined on input line 123.
+LaTeX Warning: Citation `Garrard2005' on page 72 undefined on input line 123.
 
-[71 <./images/RRUniqueWords.png> <./images/GWHBUniqueWords.png> <./images/RRNSN
+[72 <./images/RRUniqueWords.png> <./images/GWHBUniqueWords.png> <./images/RRNSN
 ouns.png> <./images/DJTNSNouns.png>]
 
-LaTeX Warning: Citation `Almor1999' on page 72 undefined on input line 125.
+LaTeX Warning: Citation `Almor1999' on page 73 undefined on input line 125.
 
 
-LaTeX Warning: Citation `Wendelstein2015' on page 72 undefined on input line 12
+LaTeX Warning: Citation `Wendelstein2015' on page 73 undefined on input line 12
 5.
 
 
-LaTeX Warning: Citation `Wendelstein2015' on page 72 undefined on input line 12
+LaTeX Warning: Citation `Wendelstein2015' on page 73 undefined on input line 12
 5.
 
 
-LaTeX Warning: Citation `Almor1999' on page 72 undefined on input line 125.
+LaTeX Warning: Citation `Almor1999' on page 73 undefined on input line 125.
 
 
-LaTeX Warning: Citation `Wendelstein2014' on page 72 undefined on input line 12
+LaTeX Warning: Citation `Jarrold2014' on page 73 undefined on input line 127.
+
+
+LaTeX Warning: Citation `Wendelstein2014' on page 73 undefined on input line 12
 7.
 
-<images/RRNounsNormalised.png, id=255, 433.62pt x 289.08pt>
+<images/RRNounsNormalised.png, id=259, 433.62pt x 289.08pt>
 File: images/RRNounsNormalised.png Graphic file (type png)
 <use images/RRNounsNormalised.png>
 Package pdftex.def Info: images/RRNounsNormalised.png  used on input line 131.
 (pdftex.def)             Requested size: 240.90015pt x 150.56065pt.
-<images/RRPronouns.png, id=256, 433.62pt x 289.08pt>
+<images/RRPronouns.png, id=260, 433.62pt x 289.08pt>
 File: images/RRPronouns.png Graphic file (type png)
 <use images/RRPronouns.png>
 Package pdftex.def Info: images/RRPronouns.png  used on input line 137.
@@ -921,67 +1436,48 @@ Package pdftex.def Info: images/RRPronouns.png  used on input line 137.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [73 <./images/RRNounsNormalised.png>]
 
-Overfull \hbox (144.06606pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 72 \OT1/cmr/m/sl/10 CHAPTER 5.  DEVELOPMENT OF A PIPELINE THAT 
-PROCESSES LANGUAGE DATA ACCURATELY
- []
-
-[72 <./images/RRNounsNormalised.png>]
-
-LaTeX Warning: Citation `Fraser2015' on page 73 undefined on input line 143.
+LaTeX Warning: Citation `Fraser2015' on page 74 undefined on input line 143.
 
 
 Underfull \vbox (badness 5726) has occurred while \output is active []
 
- [73 <./images/RRPronouns.png>])
-Overfull \hbox (144.06606pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 74 \OT1/cmr/m/sl/10 CHAPTER 5.  DEVELOPMENT OF A PIPELINE THAT 
-PROCESSES LANGUAGE DATA ACCURATELY
- []
-
-[74]
+ [74 <./images/RRPronouns.png>]) [75]
 Chapter 6.
-[75
+[76
 
 
 ]
 \openout2 = `Chapter6.aux'.
 
- (./Chapter6.tex) [76
+ (./Chapter6.tex) [77
 
 ]
 Chapter 7.
-[77
+[78
 
 
 ]
 \openout2 = `Chapter7.aux'.
 
- (./Chapter7.tex) [78
+ (./Chapter7.tex) [79
+
+] (./Thesis.bbl
+Underfull \vbox (badness 1688) has occurred while \output is active []
+
+ [80
+
 
 ]
-Chapter 8.
-[79
-
-
-]
-\openout2 = `Chapter8.aux'.
-
- (./Chapter8.tex)
-Overfull \hbox (29.13979pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/10 80 \OT1/cmr/m/sl/10 CHAPTER 8.  GENERAL DISCUSSION, CONCLUSIONS
- AND FUTURE WORK
+[81]
+Underfull \hbox (badness 1603) in paragraph at lines 101--106
+[]\OT1/cmr/m/n/10 Vanessa Taler and Na-talie A. Phillips.  Lan-guage per-for-ma
+nce in
  []
 
-[80
-
-] (./Thesis.bbl [81
-
-
-] [82] [83] [84]) [85] (./Thesis.aux (./Chapter1.aux)
-(./Chapter2.aux) (./Chapter3.aux) (./Chapter4.aux) (./Chapter5.aux)
-(./Chapter6.aux) (./Chapter7.aux) (./Chapter8.aux))
+) [82] (./Thesis.aux (./Chapter1.aux) (./Chapter2.aux) (./Chapter3.aux)
+(./Chapter4.aux) (./Chapter5.aux) (./Chapter6.aux) (./Chapter7.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -990,30 +1486,32 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1744 strings out of 492649
- 25357 string characters out of 6129622
- 92914 words of memory out of 5000000
- 5542 multiletter control sequences out of 15000+600000
- 10101 words of font info for 35 fonts, out of 8000000 for 9000
+ 4642 strings out of 492649
+ 61488 string characters out of 6129622
+ 112851 words of memory out of 5000000
+ 8399 multiletter control sequences out of 15000+600000
+ 20041 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,25p,2025b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
-l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmu10.pfb>
-Output written on Thesis.pdf (85 pages, 1490303 bytes).
+ 41i,10n,37p,2025b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/fdsymbol/FdSymbolA-Book
+.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/fdsymbol/FdSymbolB-
+Book.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/fdsymbol/FdSymb
+olF-Book.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
+pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pf
+b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Thesis.pdf (82 pages, 1486479 bytes).
 PDF statistics:
- 350 PDF objects out of 1000 (max. 8388607)
- 230 compressed objects within 3 object streams
+ 345 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

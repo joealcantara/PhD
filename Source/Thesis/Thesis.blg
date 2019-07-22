@@ -8,16 +8,8 @@ A level-1 auxiliary file: Chapter4.aux
 A level-1 auxiliary file: Chapter5.aux
 A level-1 auxiliary file: Chapter6.aux
 A level-1 auxiliary file: Chapter7.aux
-A level-1 auxiliary file: Chapter8.aux
 The style file: unsrt.bst
 Database file #1: main.bib
-Warning--I didn't find a database entry for "AlzheimersSociety2014"
-Warning--I didn't find a database entry for "Albert2011"
-Warning--I didn't find a database entry for "Davis2015"
-Warning--I didn't find a database entry for "AmericanPsychiatricAssociation2013"
-Warning--I didn't find a database entry for "Emery2000"
-Warning--I didn't find a database entry for "England2009"
-Warning--I didn't find a database entry for "Taler2008"
 Warning--I didn't find a database entry for "Randolph1998"
 Warning--I didn't find a database entry for "Karantzoulis2013"
 Warning--I didn't find a database entry for "Duff2010"
@@ -46,72 +38,90 @@ Warning--I didn't find a database entry for "Darweesh2017"
 Warning--I didn't find a database entry for "Tales2005"
 Warning--I didn't find a database entry for "Sarazin2007"
 Warning--I didn't find a database entry for "Borod1980"
+Warning--I didn't find a database entry for "Giles1996"
+Warning--I didn't find a database entry for "Sajjadi2012"
+Warning--I didn't find a database entry for "Ash2012"
+Warning--I didn't find a database entry for "Fraser2014"
+Warning--I didn't find a database entry for "DeLira2011"
+Warning--I didn't find a database entry for "Asgari2017"
+Warning--I didn't find a database entry for "Guinn2015"
 Warning--I didn't find a database entry for "Keenan1973"
+Warning--I didn't find a database entry for "Bucks2000"
+Warning--I didn't find a database entry for "Wang2016"
 Warning--I didn't find a database entry for "Thomas2013"
 Warning--I didn't find a database entry for "Hier1985"
 Warning--I didn't find a database entry for "Lukatela1998"
 Warning--I didn't find a database entry for "Smith1989"
 Warning--I didn't find a database entry for "Bschor2001"
+Warning--I didn't find a database entry for "Riley2005"
 Warning--I didn't find a database entry for "Ahmed2013"
+Warning--I didn't find a database entry for "Guinn2012"
 Warning--I didn't find a database entry for "Nicholas1985"
 Warning--I didn't find a database entry for "Lira2014"
+Warning--I didn't find a database entry for "Orimaye2017"
+Warning--I didn't find a database entry for "Pennebaker2015"
 Warning--I didn't find a database entry for "Fraser2015"
+Warning--I didn't find a database entry for "Zimmerer2016"
 Warning--I didn't find a database entry for "Chapman1998"
 Warning--I didn't find a database entry for "Bayles198"
 Warning--I didn't find a database entry for "Bayles1983"
 Warning--I didn't find a database entry for "Bird2009"
 Warning--I didn't find a database entry for "Al-Mosaiwi2018"
 Warning--I didn't find a database entry for "Sonnenschein2018"
+Warning--I didn't find a database entry for "Mueller2018a"
+Warning--I didn't find a database entry for "Thomas2005"
 Warning--I didn't find a database entry for "Petersen2014"
+Warning--I didn't find a database entry for "Orimaye2014"
 Warning--I didn't find a database entry for "Richards1987"
 Warning--I didn't find a database entry for "Bird2000"
 Warning--I didn't find a database entry for "Garrard2005"
 Warning--I didn't find a database entry for "Almor1999"
 Warning--I didn't find a database entry for "Wendelstein2015"
+Warning--I didn't find a database entry for "Jarrold2014"
 Warning--I didn't find a database entry for "Wendelstein2014"
-Warning--empty institution in Prince2015
-Warning--empty school in Wang2016
-Warning--empty institution in Guinn2012
-Warning--empty journal in Orimaye2014
-You've used 27 entries,
+Warning--empty institution in AlzheimersSociety2014
+Warning--empty journal in Grober2010
+Warning--there's a number but no volume in Davis2015
+Warning--empty journal in Nestor2006
+You've used 16 entries,
             1791 wiz_defined-function locations,
-            757 strings with 12219 characters,
-and the built_in function-call counts, 7078 in all, are:
-= -- 572
-> -- 476
-< -- 3
-+ -- 168
-- -- 141
-* -- 613
-:= -- 1199
-add.period$ -- 80
-call.type$ -- 27
-change.case$ -- 27
+            704 strings with 9386 characters,
+and the built_in function-call counts, 4045 in all, are:
+= -- 312
+> -- 284
+< -- 0
++ -- 101
+- -- 85
+* -- 366
+:= -- 709
+add.period$ -- 48
+call.type$ -- 16
+change.case$ -- 17
 chr.to.int$ -- 0
-cite$ -- 31
-duplicate$ -- 247
-empty$ -- 589
-format.name$ -- 141
-if$ -- 1473
+cite$ -- 20
+duplicate$ -- 137
+empty$ -- 332
+format.name$ -- 85
+if$ -- 824
 int.to.chr$ -- 0
-int.to.str$ -- 27
-missing$ -- 23
-newline$ -- 137
-num.names$ -- 27
-pop$ -- 52
+int.to.str$ -- 16
+missing$ -- 15
+newline$ -- 83
+num.names$ -- 16
+pop$ -- 25
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 96
+skip$ -- 47
 stack$ -- 0
-substring$ -- 492
-swap$ -- 40
-text.length$ -- 3
+substring$ -- 261
+swap$ -- 13
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 70
-width$ -- 29
-write$ -- 290
-(There were 62 warnings)
+while$ -- 36
+width$ -- 18
+write$ -- 174
+(There were 73 warnings)
