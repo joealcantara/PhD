@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.13)  26 JUN 2019 10:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.13)  24 JUL 2019 09:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -56,15 +56,6 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box27
 )
 (./Systematic Review - Protocol.aux
-
-LaTeX Warning: Label `table:name' multiply defined.
-
-
-LaTeX Warning: Label `table:name' multiply defined.
-
-
-LaTeX Warning: Label `table:name' multiply defined.
-
 
 LaTeX Warning: Label `table:name' multiply defined.
 
@@ -166,106 +157,58 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `"Systematic Review - Protocol.toc"'.
 
-
-
-LaTeX Warning: Citation `Prince2015' on page 1 undefined on input line 8.
-
-
-LaTeX Warning: Citation `England2009' on page 1 undefined on input line 10.
-
-
-LaTeX Warning: Citation `Taler2008' on page 1 undefined on input line 10.
-
-
-LaTeX Warning: Citation `Prince2015' on page 1 undefined on input line 10.
-
-
-LaTeX Warning: Citation `Boschi2017' on page 1 undefined on input line 10.
-
-
-LaTeX Warning: Citation `Taler2008' on page 1 undefined on input line 12.
-
-
-LaTeX Warning: Citation `Boschi2017' on page 1 undefined on input line 12.
-
-
-LaTeX Warning: Citation `Taler2008' on page 1 undefined on input line 12.
-
-
-LaTeX Warning: Citation `Boschi2017' on page 1 undefined on input line 12.
-
-
-LaTeX Warning: Citation `Berisha2015' on page 1 undefined on input line 12.
-
-[1
+ [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 16--18
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-[3]
-Underfull \hbox (badness 5802) in paragraph at lines 47--47
+[2] [3]
+Underfull \hbox (badness 5802) in paragraph at lines 46--46
 []\OT1/cmr/m/n/12 (dementia OR MCI OR Mild Cog-ni-tive Im-pair-ment OR
  []
 
-[4] [5]
+[4]
 
-LaTeX Warning: File `images/PRISMA - Chart.png' not found on input line 75.
+LaTeX Warning: File `images/PRISMA - Chart.png' not found on input line 74.
 
-<images/PRISMA - Chart.png, id=20, 647.41875pt x 411.5375pt>
+<images/PRISMA - Chart.png, id=17, 647.41875pt x 411.5375pt>
 File: images/PRISMA - Chart.png Graphic file (type png)
 <use images/PRISMA - Chart.png>
-Package pdftex.def Info: images/PRISMA - Chart.png  used on input line 75.
+Package pdftex.def Info: images/PRISMA - Chart.png  used on input line 74.
 (pdftex.def)             Requested size: 301.12563pt x 150.56473pt.
 
-Underfull \hbox (badness 3407) in paragraph at lines 89--89
+Underfull \hbox (badness 3407) in paragraph at lines 88--88
 []\OT1/cmr/m/n/12 Were the find-ings clearly re-
  []
 
-
-Underfull \hbox (badness 5802) in paragraph at lines 116--116
-[]\OT1/cmr/m/n/12 (dementia OR MCI OR Mild Cog-ni-tive Im-pair-ment OR
- []
-
-
-Underfull \hbox (badness 5802) in paragraph at lines 127--127
-[]\OT1/cmr/m/n/12 (dementia OR MCI OR Mild Cog-ni-tive Im-pair-ment OR
- []
-
-
-Underfull \hbox (badness 5802) in paragraph at lines 138--138
-[]\OT1/cmr/m/n/12 (dementia OR MCI OR Mild Cog-ni-tive Im-pair-ment OR
- []
-
-[6 <./images/PRISMA - Chart.png>] [7] [8] [9] [10]
-(./Systematic Review - Protocol.aux)
-
-LaTeX Warning: There were undefined references.
-
+(./Systematic Review - Protocol.bbl [5 <./images/PRISMA - Chart.png>] [6])
+[7] (./Systematic Review - Protocol.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1504 strings out of 492649
- 21963 string characters out of 6129622
- 93681 words of memory out of 5000000
- 5389 multiletter control sequences out of 15000+600000
- 7894 words of font info for 28 fonts, out of 8000000 for 9000
+ 1514 strings out of 492649
+ 22110 string characters out of 6129622
+ 89692 words of memory out of 5000000
+ 5395 multiletter control sequences out of 15000+600000
+ 8241 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,25p,1493b,215s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,25p,1491b,215s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "Systematic Review - Protocol.pdf" (10 pages, 139643 bytes).
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "Systematic Review - Protocol.pdf" (7 pages, 150222 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 43 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

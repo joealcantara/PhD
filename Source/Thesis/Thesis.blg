@@ -10,6 +10,7 @@ A level-1 auxiliary file: Chapter6.aux
 A level-1 auxiliary file: Chapter7.aux
 The style file: unsrt.bst
 Database file #1: main.bib
+Warning--I didn't find a database entry for "K"
 Warning--I didn't find a database entry for "Randolph1998"
 Warning--I didn't find a database entry for "Karantzoulis2013"
 Warning--I didn't find a database entry for "Duff2010"
@@ -85,7 +86,7 @@ Warning--there's a number but no volume in Davis2015
 Warning--empty journal in Nestor2006
 You've used 16 entries,
             1791 wiz_defined-function locations,
-            704 strings with 9386 characters,
+            706 strings with 9388 characters,
 and the built_in function-call counts, 4045 in all, are:
 = -- 312
 > -- 284
@@ -124,4 +125,4 @@ warning$ -- 4
 while$ -- 36
 width$ -- 18
 write$ -- 174
-(There were 73 warnings)
+(There were 74 warnings)
