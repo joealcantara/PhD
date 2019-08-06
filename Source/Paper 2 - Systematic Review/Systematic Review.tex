@@ -40,7 +40,8 @@
 \usepackage{amsfonts}       % blackboard math symbols
 \usepackage{nicefrac}       % compact symbols for 1/2, etc.
 \usepackage{microtype}      % microtypography
-\usepackage{lipsum}
+\usepackage{longtable}		% for use in table in Appendix A
+
 
 \begin{document}
 \maketitle
@@ -84,18 +85,12 @@ Performing an SLR comprises the following steps:
 	\item report the SLR.
 \end{enumerate}
 
-The main research question this SLR aims to address is: “How has the field of machine learning and natural language processing addressed language deterioration in the diagnosis of Mild Cognitive Impairment and Early Alzheimer's Disease?”. This main question can be decomposed further into four research questions:
-\begin{itemize}
-	\item RQ1: Which NLP and ML techniques are being used in dementia research?
-	\item RQ2: What features / data characteristics of text (variables, determinants and indicators) that are considered when applying the ML techniques (n-grams, PoS Tagging etc)?
-	\item RQ3: What are the goals of the studies that employ NLP / ML techniques for prognosis of dementia?
-	\item RQ4: Do the studies focus on time as factor?
-\end{itemize}
-
-The present paper builds upon these questions and additionally presents the results of the other two additional research questions. Further, the key terms related to comorbidities were included in the search string to ensure that relevant studies about ML or MS for the prognosis of a disease, where dementia is considered a comorbidity to that disease would also be retrieved from the database searches, even when the term dementia was not mentioned in the paper’s title or abstract.
-
 \subsection{Search strategy}
-To address the research questions, a search string was defined using the PICO approach, which decomposes the main question into four parts: 
+The main research question this SLR aims to address is: “How has the field of machine learning and natural language processing addressed language deterioration in the diagnosis of Mild Cognitive Impairment and Early Alzheimer's Disease?”. 
+
+This SLR builds upon these questions and additionally presents the results of the other two additional research questions. Further, the key terms related to MCI and the other names by which it is known were included in the search string to ensure that relevant studies about machine learning and the diagnosis of a disease were also retrieved, even if not specifically mentioned in the paper's title or abstract.
+\par 
+To address the research questions, a search string was defined using the PICO approach, which decomposes the main research question into four parts: 
 \begin{enumerate}
 	\item Population - Studies that present research on mild cognitive impairment and dementia. Mild Cognitive Impairment and Dementia keywords were selected from the Systematized Nomenclature of Medicine–Clinical Terms (SNOMED-CT).
 	\item Intervention - Intervention: ML or MS techniques. The ML keywords were selected from the branch “Machine Learning Approaches” of the “2012 ACM Computing Classification System”. The MS keywords were selected by A2.
@@ -104,6 +99,14 @@ To address the research questions, a search string was defined using the PICO ap
 by A4.
 \end{enumerate}
 
+Using this process, the main research question was decomposed  into four research questions:
+\begin{itemize}
+	\item RQ1: Which NLP and ML techniques are being used in dementia research?
+	\item RQ2: What features / data characteristics of text (variables, determinants and indicators) that are considered when applying the ML techniques (n-grams, PoS Tagging etc)?
+	\item RQ3: What are the goals of the studies that employ NLP / ML techniques for prognosis of dementia?
+	\item RQ4: Do the studies focus on time as factor?
+\end{itemize}
+\par 
 The automated searches were performed in the Pubmed, Web of Science, Scopus and IEEE databases. Table 1 shows the search string used for the Pubmed automated search, but note that this search string was adapted to each of the other databases’ search context.
 
 \begin{table}[H]
@@ -115,7 +118,7 @@ The automated searches were performed in the Pubmed, Web of Science, Scopus and 
 	\hline
 	\end{tabular}
 	\end{center}
-	\caption[Table caption text]{Search Terms for Web of Science database}
+	\caption[Table caption text]{Example of Search Terms for Web of Science database}
 	\label{table:name}
 \end{table}
 
@@ -128,26 +131,12 @@ The automated searches were performed in the Pubmed, Web of Science, Scopus and 
 	\hline
 	\end{tabular}
 	\end{center}
-	\caption[Table caption text]{Totals from each database}
+	\caption[Table caption text]{Number of articles found from each database - complete search terms appear in Appendix B}
 	\label{table:name}
 \end{table}
 
-This yielded 25 studies for review, 43 papers were reviewed.
-
-\subsection{Study selection}
-A total of 1490 unique papers were identified through the searches conducted above.  Each paper was initially reviewed by just the title and the abstract. This yielded a total of 67 potential papers. Papers were then evaluated by the JA based on the inclusion and exclusion criteria defined previously (see Table 6). Where JA could not reach a decision, PS and GV were consulted and majority vote on inclusion was conducted.
-\par 
-% Check these numbers
-After these evaluations, 37 papers were selected. Then a one-iteration backward snowballing process was carried out looking for possible additional studies. There were 1199 newly identified studies were assessed analogously as the previous ones, resulting in 41 new selected papers. Throughout the whole selection process, PS and GV acted as additional assessors in the case where there was uncertainty about whether a paper should be included.
-\par 
-In total, 78 papers were selected to be fully read and assessed regarding its eligibility. The ones that successfully passed the filtering criteria described earlier had their relevant data extracted. In order to minimize the chance of selecting studies with bias evidence, a quality assessment questionnaire was used. This questionnaire was adapted from Kitchenham’s guidelines and can be found in the SLR protocol. If the grading attributed to a paper fell below 8 points (out of a total of 12), it would be rejected for quality reasons. The 8-point threshold was decided in the research group discussions involving all the authors. In this phase, a paper could also be rejected due to inclusion and exclusion criteria because the selection process adopted an inclusive approach. This means that during the reading of the titles and abstracts, in the case where the information provided was incomplete or too general it was selected to be fully read in the posterior phase. A common example is the case when the data analysis technique specified in the abstract was merely “classification”, so it was not possible to know if any machine learning occurred.
-\par
-As in the study selection, a quality assessment evaluation round was performed beforehand to ensure consistency in the evaluations. A1, A2 and A5 participated in this task. In total, 37 studies composed the final set of included primary studies and had their relevant data extracted, 7 papers were rejected due quality reasons, and 34 papers were rejected due to failing the inclusion and exclusion criteria. One reason for the high number of the latter was the decision to exclude the papers that used solely statistical methods as data analysis tech- niques to build the prognostic models. The selected studies were also assessed for the risk of cumulative evidence bias. This was done by checking, in the case of the same research group with different studies in the final set of included primary studies, if it was justified having both studies (i.e different samples).
-
-A search of the literature was conducted using ProQuest (PsychArticles), SCOPUS, Web of Science. The following results were found (Table 1). All papers were then reviewed for relevance by reading the abstract and full text where appropriate and a shortlist was compiled. An additional search through references of shortlisted papers was also conducted and any papers who upon further review appeared relevant were added to the shortlist. Papers were included where researchers used machine learning to classify participants as MCI, AD or Healthy using language. We excluded any papers that focused on other forms of dementia or cognitive impairment, as well as any papers in which the language being analysed was not English. 
-
-\subsection{Data collection}
-For the data collection, a base extraction form was defined in the protocol, but later in the study it was evolved based on the research group discussions. Table 3 lists and defines the collected variables.
+\subsection{Study selection} 
+A total of 1490 unique papers were identified through the searches conducted above.  Each paper was initially reviewed by just the title and the abstract. This yielded a total of 25 potential papers. Papers were then evaluated by the JA based on the inclusion and exclusion criteria  (see Table 3). Where JA could not reach a decision, PS and GV were consulted and majority vote on inclusion was conducted.
 
 \begin{table}[H]
 	\begin{center}
@@ -162,6 +151,10 @@ For the data collection, a base extraction form was defined in the protocol, but
 	\label{table:name}
 	\end{center}
 \end{table}
+ 
+After the identification of these papers, a one-iteration backward snowballing process was carried out using the reference lists of the original set of papers looking for studies that were missed in the original searches. This resulted in 41 additionally identified papers. Throughout the whole selection process, PS and GV acted as additional assessors in the case where there was uncertainty about whether a paper should be included.
+\par 
+In total, 66 papers were selected to be fully read. A quality assessment questionnaire (see Table 4) was developed based on Kitchenham's guidelines and was used to minimize the chance of bias in the selection process. Studies were graded on a 12 point scale and any studies which scored less than 8 points were excluded for quality reasons. The ones that successfully passed the filtering criteria described earlier had their relevant data extracted. 
 
 \begin{table}[H]
 	\begin{center}
@@ -177,8 +170,22 @@ For the data collection, a base extraction form was defined in the protocol, but
 	Aim of the Study & The goal of the built diagnostic models. \\
 	\hline 
 	\end{tabular}
+	\caption[Table caption text]{Quality Assessment Questionnaire}
+	\label{table:name}
 	\end{center}
 \end{table}
+
+In this phase, a paper could also be rejected due to inclusion and exclusion criteria because the selection process adopted an inclusive approach. This means that during the reading of the titles and abstracts, in the case where the information provided was incomplete or too general it was selected to be fully read in the posterior phase. A common example is the case when the data analysis technique specified in the abstract was merely “classification”, so it was not possible to know if any machine learning occurred.
+\par
+% NUMBERS!
+In total, 37 studies composed the final set of included primary studies and had their relevant data extracted, 7 papers were rejected due quality reasons, and 34 papers were rejected due to failing the inclusion and exclusion criteria. One reason for the high number of the latter was the decision to exclude the papers that used solely statistical methods as data analysis techniques to build the prognostic models. The selected studies were also assessed for the risk of cumulative evidence bias. This was done by checking, in the case of the same research group with different studies in the final set of included primary studies, if it was justified having both studies (i.e different samples).
+
+\subsection{Data collection}
+For the data collection, a base extraction form was defined in the protocol, but later in the study it was evolved based on the research group discussions. Table 4 lists and defines the collected variables.
+
+
+
+
 
 In addition to these variables other basic data about the studies was collected, these were: title, authors, journal/source, year and type of publication. No summary measures were used. Summary tables were used for the synthesis of results and no additional analyses were carried out
 
