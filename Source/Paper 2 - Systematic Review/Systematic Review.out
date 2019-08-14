@@ -11,32 +11,34 @@
 \BOOKMARK [3][-]{subsubsection.3.2.3}{Linear Discriminant Analysis}{subsection.3.2}% 11
 \BOOKMARK [3][-]{subsubsection.3.2.4}{Decision Trees}{subsection.3.2}% 12
 \BOOKMARK [3][-]{subsubsection.3.2.5}{Naive Bayes}{subsection.3.2}% 13
-\BOOKMARK [2][-]{subsection.3.3}{Deep Learning methods}{section.3}% 14
-\BOOKMARK [3][-]{subsubsection.3.3.1}{Deep language space neural network for classifying mild cognitive impairment and Alzheimer-type dementia - Orimaye, Wong and Wong \(2018\)}{subsection.3.3}% 15
-\BOOKMARK [2][-]{subsection.3.4}{Features of Language}{section.3}% 16
-\BOOKMARK [3][-]{subsubsection.3.4.1}{Measures of Semantic Complexity}{subsection.3.4}% 17
-\BOOKMARK [2][-]{subsection.3.5}{Quantity - Total number of words}{section.3}% 18
-\BOOKMARK [2][-]{subsection.3.6}{Syntax and Morphology \(Language Form\)}{section.3}% 19
-\BOOKMARK [2][-]{subsection.3.7}{N-grams and skip-grams}{section.3}% 20
-\BOOKMARK [2][-]{subsection.3.8}{Mean length of utterance \(MLU\)}{section.3}% 21
-\BOOKMARK [2][-]{subsection.3.9}{Proportion of verbs to nouns plus verbs}{section.3}% 22
-\BOOKMARK [2][-]{subsection.3.10}{Syntactic Complexity - Composite measures of MLU, syntactic errors and verbs}{section.3}% 23
-\BOOKMARK [2][-]{subsection.3.11}{Semantic features}{section.3}% 24
-\BOOKMARK [2][-]{subsection.3.12}{Syntactic features}{section.3}% 25
-\BOOKMARK [2][-]{subsection.3.13}{Pragmatic features.}{section.3}% 26
-\BOOKMARK [3][-]{subsubsection.3.13.1}{Go-ahead Utterances}{subsection.3.13}% 27
-\BOOKMARK [2][-]{subsection.3.14}{Formulaic Language}{section.3}% 28
-\BOOKMARK [2][-]{subsection.3.15}{Number of syllables and Characters}{section.3}% 29
-\BOOKMARK [2][-]{subsection.3.16}{Number of fillers}{section.3}% 30
-\BOOKMARK [2][-]{subsection.3.17}{Readability}{section.3}% 31
-\BOOKMARK [2][-]{subsection.3.18}{Polarity}{section.3}% 32
-\BOOKMARK [2][-]{subsection.3.19}{Frequency}{section.3}% 33
-\BOOKMARK [2][-]{subsection.3.20}{Dysfluencies}{section.3}% 34
-\BOOKMARK [2][-]{subsection.3.21}{What are the goals of the studies that employ ML or MS techniques for prognosis of dementia and comorbidities?}{section.3}% 35
-\BOOKMARK [1][-]{section.4}{Discussion and conclusions}{}% 36
-\BOOKMARK [2][-]{subsection.4.1}{Discussion of the current evidence}{section.4}% 37
-\BOOKMARK [2][-]{subsection.4.2}{Methodological Issues}{section.4}% 38
-\BOOKMARK [2][-]{subsection.4.3}{Limitations}{section.4}% 39
-\BOOKMARK [2][-]{subsection.4.4}{The future of the field}{section.4}% 40
-\BOOKMARK [1][-]{section.5}{Conclusions}{}% 41
-\BOOKMARK [1][-]{appendix.A}{Article Table}{}% 42
+\BOOKMARK [3][-]{subsubsection.3.2.6}{Artificial Neural Networks}{subsection.3.2}% 14
+\BOOKMARK [3][-]{subsubsection.3.2.7}{K-nearest neighbours}{subsection.3.2}% 15
+\BOOKMARK [2][-]{subsection.3.3}{Deep Learning methods}{section.3}% 16
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Deep language space neural network for classifying mild cognitive impairment and Alzheimer-type dementia - Orimaye, Wong and Wong \(2018\)}{subsection.3.3}% 17
+\BOOKMARK [2][-]{subsection.3.4}{Features of Language}{section.3}% 18
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Measures of Semantic Complexity}{subsection.3.4}% 19
+\BOOKMARK [2][-]{subsection.3.5}{Quantity - Total number of words}{section.3}% 20
+\BOOKMARK [2][-]{subsection.3.6}{Syntax and Morphology \(Language Form\)}{section.3}% 21
+\BOOKMARK [2][-]{subsection.3.7}{N-grams and skip-grams}{section.3}% 22
+\BOOKMARK [2][-]{subsection.3.8}{Mean length of utterance \(MLU\)}{section.3}% 23
+\BOOKMARK [2][-]{subsection.3.9}{Proportion of verbs to nouns plus verbs}{section.3}% 24
+\BOOKMARK [2][-]{subsection.3.10}{Syntactic Complexity - Composite measures of MLU, syntactic errors and verbs}{section.3}% 25
+\BOOKMARK [2][-]{subsection.3.11}{Semantic features}{section.3}% 26
+\BOOKMARK [2][-]{subsection.3.12}{Syntactic features}{section.3}% 27
+\BOOKMARK [2][-]{subsection.3.13}{Pragmatic features.}{section.3}% 28
+\BOOKMARK [3][-]{subsubsection.3.13.1}{Go-ahead Utterances}{subsection.3.13}% 29
+\BOOKMARK [2][-]{subsection.3.14}{Formulaic Language}{section.3}% 30
+\BOOKMARK [2][-]{subsection.3.15}{Number of syllables and Characters}{section.3}% 31
+\BOOKMARK [2][-]{subsection.3.16}{Number of fillers}{section.3}% 32
+\BOOKMARK [2][-]{subsection.3.17}{Readability}{section.3}% 33
+\BOOKMARK [2][-]{subsection.3.18}{Polarity}{section.3}% 34
+\BOOKMARK [2][-]{subsection.3.19}{Frequency}{section.3}% 35
+\BOOKMARK [2][-]{subsection.3.20}{Dysfluencies}{section.3}% 36
+\BOOKMARK [2][-]{subsection.3.21}{What are the goals of the studies that employ ML or MS techniques for prognosis of dementia and comorbidities?}{section.3}% 37
+\BOOKMARK [1][-]{section.4}{Discussion and conclusions}{}% 38
+\BOOKMARK [2][-]{subsection.4.1}{Discussion of the current evidence}{section.4}% 39
+\BOOKMARK [2][-]{subsection.4.2}{Methodological Issues}{section.4}% 40
+\BOOKMARK [2][-]{subsection.4.3}{Limitations}{section.4}% 41
+\BOOKMARK [2][-]{subsection.4.4}{The future of the field}{section.4}% 42
+\BOOKMARK [1][-]{section.5}{Conclusions}{}% 43
+\BOOKMARK [1][-]{appendix.A}{Article Table}{}% 44

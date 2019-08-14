@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.13)  6 AUG 2019 17:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.13)  13 AUG 2019 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -461,301 +461,159 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 104.
  [3]
-[4]
+[4] [5]
 
-LaTeX Warning: Citation `Asgari2017' on page 5 undefined on input line 233.
-
-
-LaTeX Warning: Citation `Pennebaker2015' on page 5 undefined on input line 233.
+LaTeX Warning: Citation `Asgari2017' on page 6 undefined on input line 252.
 
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 245--247
+LaTeX Warning: Citation `Pennebaker2015' on page 6 undefined on input line 252.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
-
- []
-
-
-LaTeX Warning: Citation `Thomas2005' on page 6 undefined on input line 265.
-
-
-LaTeX Warning: Citation `Orimaye2017' on page 6 undefined on input line 265.
 
 [6]
-
-LaTeX Warning: Citation `Le2012' on page 7 undefined on input line 281.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+Underfull \hbox (badness 10000) in paragraph at lines 264--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
+LaTeX Warning: Citation `Thomas2005' on page 7 undefined on input line 284.
 
- []
+
+LaTeX Warning: Citation `Orimaye2017' on page 7 undefined on input line 284.
 
 [7]
 
-LaTeX Warning: Citation `Fraser2015' on page 8 undefined on input line 305.
+LaTeX Warning: Citation `Le2012' on page 8 undefined on input line 300.
 
 
-LaTeX Warning: Citation `Zimmerer2016' on page 8 undefined on input line 305.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
 
  []
 
-(./Systematic Review.bbl [8])
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+
+ []
+
+[8]
+
+LaTeX Warning: Citation `Fraser2015' on page 9 undefined on input line 324.
+
+
+LaTeX Warning: Citation `Zimmerer2016' on page 9 undefined on input line 324.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+
+ []
+
+[9]
+
+LaTeX Warning: Citation `Petersen2014' on page 10 undefined on input line 360.
+
+
+LaTeX Warning: Citation `Zimmerer2016' on page 10 undefined on input line 366.
+
+
+LaTeX Warning: Citation `Mueller2018a' on page 10 undefined on input line 366.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+
+LaTeX Warning: Citation `Teng2009' on page 11 undefined on input line 368.
+
+(./Systematic Review.bbl [11])
+Underfull \hbox (badness 10000) in paragraph at lines 387--387
 []|\T1/ptm/m/n/10 (+20) Paper
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
+Underfull \hbox (badness 10000) in paragraph at lines 387--387
 \T1/ptm/m/n/10 (+20) Num-
  []
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 346--346
+Underfull \hbox (badness 1107) in paragraph at lines 388--388
 \T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
  []
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 347--347
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
+[]|\T1/ptm/m/n/10 (+20) Changes in Style in Au-thors with
  []
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 348--348
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
+Underfull \hbox (badness 2529) in paragraph at lines 399--399
+[]|\T1/ptm/m/n/10 (+20) Deep-Deep Neu-ral Net-work Lan-guage
  []
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 349--349
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
+Underfull \vbox (badness 10000) detected at line 406
  []
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 350--350
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
+Underfull \hbox (badness 1117) in paragraph at lines 407--407
+[]|\T1/ptm/m/n/10 (+20) Language an-a-lyt-ics for as-sess-ing brain
  []
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 351--351
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
+Underfull \hbox (badness 1168) in paragraph at lines 423--423
+[]|\T1/ptm/m/n/10 (+20) The Ef-fect of Het-ero-ge-neous Data for
  []
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 352--352
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
+Underfull \hbox (badness 10000) in paragraph at lines 423--423
+\T1/ptm/m/n/10 (+20) Alzheimer's Dis-ease De-tec-tion from
  []
 
-
-Underfull \hbox (badness 1107) in paragraph at lines 353--353
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 354--354
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 355--355
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 356--356
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 357--357
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 358--358
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 359--359
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 360--360
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 361--361
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 362--362
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 363--363
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 364--364
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \vbox (badness 10000) detected at line 364
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 365--365
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 366--366
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 367--367
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 368--368
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 369--369
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 370--370
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 371--371
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 372--372
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 373--373
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 374--374
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 375--375
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 376--376
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 377--377
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 378--378
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 379--379
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 380--380
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 381--381
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 382--382
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 383--383
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 384--384
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-[9]
-Underfull \hbox (badness 1107) in paragraph at lines 385--385
-\T1/ptm/m/n/10 (+20) Res-i-dents with Alzheimer's Dis-ease in
- []
-
-[10] [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 387.
- [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 387.
+[12] [13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 429.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 429.
  (./Systematic Review.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 387.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 387.
-Package rerunfilecheck Info: File `"Systematic Review".out' has not changed.
-(rerunfilecheck)             Checksum: D73DE0223B16AD29950E69B5EE13FFD4;3213.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 429.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 429.
 
+
+Package rerunfilecheck Warning: File `"Systematic Review".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Systematic Review".out':
+(rerunfilecheck)             Before: D73DE0223B16AD29950E69B5EE13FFD4;3213
+(rerunfilecheck)             After:  3B0F941ACB849BE89EF04BBB59D69EC4;3379.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 387.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 429.
  ) 
 Here is how much of TeX's memory you used:
- 7323 strings out of 492649
- 113023 string characters out of 6129622
- 266112 words of memory out of 5000000
+ 7333 strings out of 492649
+ 113126 string characters out of 6129622
+ 256920 words of memory out of 5000000
  10874 multiletter control sequences out of 15000+600000
- 59283 words of font info for 150 fonts, out of 8000000 for 9000
+ 59543 words of font info for 154 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,11n,45p,1639b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,11n,45p,1639b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
@@ -769,10 +627,10 @@ mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fo
 nts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
 /urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on "Systematic Review.pdf" (12 pages, 175028 bytes).
+Output written on "Systematic Review.pdf" (14 pages, 188966 bytes).
 PDF statistics:
- 338 PDF objects out of 1000 (max. 8388607)
- 309 compressed objects within 4 object streams
- 84 named destinations out of 1000 (max. 500000)
+ 351 PDF objects out of 1000 (max. 8388607)
+ 320 compressed objects within 4 object streams
+ 88 named destinations out of 1000 (max. 500000)
  30033 words of extra memory for PDF output out of 35830 (max. 10000000)
 

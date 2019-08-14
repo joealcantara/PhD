@@ -184,9 +184,6 @@ In total, 37 studies composed the final set of included primary studies and had 
 For the data collection, a base extraction form was defined in the protocol, but later in the study it was evolved based on the research group discussions. Table 4 lists and defines the collected variables.
 
 
-
-
-
 In addition to these variables other basic data about the studies was collected, these were: title, authors, journal/source, year and type of publication. No summary measures were used. Summary tables were used for the synthesis of results and no additional analyses were carried out
 
 \section{Results}\label{results}
@@ -209,18 +206,40 @@ Intro - Addresses Research Question 1
 
 \subsection{Traditional Machine Learning methods}
 \subsubsection{Logistic Regression}
+Logistic Regressions is a probabilistic approach to classification and is dependant on the assumption that your input space can be separated into two distinct regions, one for each class, by a linear boundary. In 2D space, this boundary is a line and in 3D space, this boundary is defined as a plane. 
+\par 
+In the results of this survey.
 
 \subsubsection{Support Vector Machines}
+Support Vector Machine (SVM) was originally proposed as an algorithm for classification problems; it is a relatively new technique compared to the other ML approaches. The classification
+process consists of mapping the data points (usually the study subjects) into a feature space composed of the variables that characterize these data points, except for the outcome variable.
+Then, the algorithm finds patterns in this feature space by defining the maximum separation between two or more classes, depending on the problem to be solved. Contrary
+to some regression techniques, SVMs are not dependent on a pre-determined model for data fitting, although there are still algorithm specifications to be considered (e.g. choice of a kernel
+function); instead, it is a data-driven algorithm that can work relatively well in a scenario where sample sizes are small compared to the number of variables, reason why it has been widely employed by diagnostic studies in tasks related to the automated classification of diseases. 
+\par 
+Regarding the SLR results, SVMs were present in ??/41 selected studies, in 38 proposed models, and being by far the most used machine learning technique in the dementia diagnosis research. These numbers account for the traditional SVM and variations. In all of the ?? selected studies the SVMs focused at binary classifications where the task was to discriminate mild cognitively impaired (MCI) patients that will or will not develop Alzheimer's Disease (AD). In the general case, the problem is posed as either MCI converters versus MCI non-converters, or progressive MCI versus stable MCI classification. This outlines a situation in which a regression problem (when will the MCI patients convert to AD?) is formulated as a classification problem (which MCI patients will convert to AD in X months?) to be solved. Reasons for this could be due to limitations in the data used, i.e. the limited follow-up periods of the subjects included in the studies.
 
 \subsubsection{Linear Discriminant Analysis}
 
 \subsubsection{Decision Trees}
+A Decision Tree (DT) is a classification algorithm in which the learned knowledge is represented in a tree structure that can be translated to if-then rules. DT's learning process is recursive
+and starts by testing each input variable as to how well each of them, alone, can classify the labeled examples. The best one is selected as a root node for the tree and its descendant nodes
+are defined as the possible values (or relevant ratios) of the selected input variable. The training set is then classified between the descendant nodes according to the values of the selected input variable. This process is repeated recursively until no more splits in the tree are possible. Like SVMs, DTs do not depend on a pre-defined model and are mostly used
+to find important interactions between variables. Being intuitive and easy to interpret, DTs have been used in prognostic studies as a tool for determining prognostic subgroups.
+In this SLR, DTs were the second most frequently used ML technique, present in 6/37 selected studies and proposed in 7 models. It was employed for the same reason as SVM; except for one study that investigated the evolution of patients diagnosed with cognitive impairment no dementia (CIND) to AD.
+
 
 Curry, Singer and Habash - Alz (66.7 - Pres, 66.7 - Recall) and Control (67.9 - Pres, 67.9 Recall)
 
 \subsubsection{Naive Bayes}
 
 Curry, Singer and Habash - Alz(80.8 - Pres, 0.75 - Recall) and Control (79.3 - Pres, 82.1 Recall) - In the naive bayes classifier, they identified that pauses, go-ahead, fillers and incomplete words as the most significant features.  %Why is Recall at 0.75???????
+
+\subsubsection{Artificial Neural Networks}
+An Artificial Neural Network (ANN) is a methodology that performs multifactorial analyses, which is desirable in the health area as medical decision-making problems are usually dependent of many factors. An ANN is composed of nodes connected by weighted edges in a multi-layer architecture that comprises: an input layer, one or more hidden layers and an output layer. In the training process, inputs and outputs values are known to the network, while the weights are incrementally adjusted so that the outputs of the network are approximate to the known outputs. Despite being a powerful predictor, ANNs are `black boxes', which means that they are not able to explain their predictions in an intuitive way, contrary to DTs or BNs. Also, they require the specification of the architecture to be used beforehand (i.e. the number of hidden layers).
+
+\subsubsection{K-nearest neighbours}
+K Nearest Neighbors (KNN) is a classification algorithm that takes a data point from an unknown class and assigns it as an input vector in the feature space. Then, the classification process follows by assigning the unknown class data point to the class in which the majority of the K nearest data points belong to. The distance between data points is usually measured by Euclidean distance, but it is possible to employ other measures. KNN is one of the simplest ML classification algorithms and have been used in a wide range of applications; however, it can be computationally expensive in a highly dimensional scenario. Further, it considers all features to be equally weighted, which can be a problem if the data has superfluous attributes.
 
 \subsection{Deep Learning methods}
 \subsubsection{Deep language space neural network for classifying mild cognitive impairment and Alzheimer-type dementia - Orimaye, Wong and Wong (2018)}
@@ -326,13 +345,36 @@ Curry, Singer and Habash noted that in comparing controls and those with Dementi
 
 \section{Discussion and conclusions}\label{discussion}
 \subsection{Discussion of the current evidence}
+One of the criticisms of traditional learning models is it's reliance on features that are generated for them. As we can see from the brief look at some of the research in this field, researchers have taken a number of different approaches with success. However, there does not seem to be a consensus. As machine learning in general moves away from traditional machine learning models to deep learning techniques, it poses the question can deep learning assist with this problem?
+\par 
+One of the main benefits of deep learning is that it does not rely on pre defined features being fed to the model. Instead, deep learning models take raw data in with some amount of preprocessing and generates it's own features. This move away from relying on features solves one of the difficulties we have with the current psychological literature, namely that there are some disagreement on the which 
+\par 
+One of the drawbacks of attempting to use natural language processing and machine learning in this context is the lack of data. This is the case with all machine learning techniques, but more so with deep learning. There have been ways to 'create' more data such as data augmentation. 
+
+Current state-of-the-art diagnostic measures of AD are invasive (CSF analysis), expensive (neuroimaging), and time-consuming (neuropsychological assessment). Furthermore, these measures are limited to speciality clinics and thus have limited accessibility as frontline screening and diagnostic tools for AD. More importantly, nonspecialists are often inaccurate at identifying early AD and MCI. Thus, there is an increasing need for additional noninvasive and/or cost-effective tools, allowing effective frontline identification of subjects in the preclinical or early clinical stages of AD who could be suitable for monitoring in speciality clinics and for early treatment. Implementation of effective screening instruments will allow diagnosis earlier in the course of dementia, even at the point when memory function is still essentially within the normal range. This strategy would enable an earlier, and potentially more effective, prevention and treatment of AD with a special focus to preserve cognitive functions.
+\par 
+However the literature has identified a number of challenges when approaching this problem. Firstly, the clinical features that combine to meet the diagnostic criteria for Dementia or it's variants are continuous in nature and heterogenous between patients and are also impacted by other variables. For example as shown above, cognitive performance is affected in part by a patients educational attainment and a patients ability to live independently is impacted by a their physical health as much as their cognitive health. The challenge therefore is to find features that are minimally impacted by other factors, or that can be controlled for by a experimental design such as a matched pairs design to control for educational attainment.
+\par 
+Another challenge lies with the recruitment of suitable individuals who may notice a decline in cognition to the point where we might classify them as having MCI, but these individuals deduce that there is little to no value to admitting there is a problem and seeking help whilst their symptoms are 'manageable'.
+\par
+Finally there is a large amount of variability in the presentations of those with MCI and early dementia, and this is compounded by an similar amount of variability in the criteria researchers have used for experimental groups and the approaches researchers have used to tackle this problem. This had led to a confused literature. Recently a call for research that has consistent inclusion / exclusion criteria has been made along with some proposed definitions of MCI and it's subgroups \cite{Petersen2014}. Researchers have identified the analysis of language impairment as an area of promise to explore in the diagnosis of MCI and early AD and recent developments in natural language processing and machine learning techniques have the potential to assist in this research. Indeed, given the increased burden on the diagnosis of MCI and AD on professionals there has been a call to use technology to potentially ease this burden \cite{Boschi2017}. A small but growing amount of research has gone into the use of machine learning techniques to potentially look at the automated classification of participants with MCI and/or AD, however this is a new area of research and there are some gaps in our knowledge.
+
 \subsection{Methodological Issues}
 \subsection{Limitations}
+
 \subsection{The future of the field}
+One of the areas for research to study is a careful examination of the features that are being used to measure language deterioration. For example, Zimmerer (2016) \cite{Zimmerer2016} describes connectivity in such as a way that correlates directly with what Mueller (2018) \cite{Mueller2018a} calls Fluency. Whilst these are very nuanced measures which differ slightly in the form they take, the sheer range of measures and features being produced make it difficult to organise and explore what is truly going on in those with MCI and early AD.. Some work needs to be done in producing a consistent list of measures that are validated using existing datasets and can be used for future research moving forward. \newline
+\par
+Teng et al suggests that work should focus on the MCI population and concentrate on developing a consensus neuropsychological battery that could yield predictable rates of progression to AD \cite{Teng2009}. This, in conjunction with the development of a model of language, sensitive enough to detect subtle deterioration in language use to act as an additional cognitive marker to aid diagnosis could potentially move some way to providing this.
+\par 
+Future research should also be directed towards developing non-intrusive ways of detecting subtle changes in natural language such that any perceived deterioration that could indicate the presence of MCI or AD could be flagged up early. Machine learning approaches seem to be the most logical approach for achieving this aim as language could be collected in non-intrusive ways and passed to a machine learning algorithm for preliminary classification.  Despite the excellent quality of datasets, for example the DementiaBank dataset, being used to 'backtest' these algorithms, further research should look at generating additional datasets to increase the validity of the results found so far as well as using other methods to generate data other than Picture Description tasks which some researchers could claim are limited in scope. Finally, the recent resurgence in the use of neural networks and deep learning could provide the answer to the confused literature in terms of features. A key benefit of deep learning is it's ability to automate the process of feature engineering. So there is an opportunity to explore the use of deep learning, to not only develop new features but also validate existing features independently.  
+\par
+This area of research is extremely promising in its early results and the impact of successful research would be life changing for both individuals and the health of the worlds aging population in general.
+
+
 
 \section{Conclusions}\label{conclusions}
-We worked hard, and achieved very little.
-
+We can see that both Natural Language Processing and Machine Learning techniques have a lot to offer, Indeed there has been a lot of research which have used pre-existing datasets to explore this area with promising results. One of the difficulties with the current research is the approach of trying to discriminate between those AD and healthy controls. This is not necessarily a problem in the real world as it is trivially easy to do for trained clinicians. A more interesting, but potentially harder to problem to solve is to discriminate between those with MCI and healthy controls, and more importantly to track their decline over time. Further, to date the authors are unaware of any research in which these techniques are applied to newly created samples of language. 
 
 
 \bibliographystyle{unsrt}
@@ -344,45 +386,45 @@ We worked hard, and achieved very little.
 	\hline
 	Paper Number & Paper Title & Authors \\ \hline
 	1 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	2 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	3 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	4 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	5 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	6 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	7 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	8 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	9 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	10 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	11 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	12 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	13 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	14 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	15 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	16 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	17 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	18 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	19 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	20 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	21 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	22 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	23 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	24 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	25 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	26 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	27 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	28 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	29 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	30 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	31 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	32 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	33 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	34 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	35 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	36 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	37 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	39 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	40 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
-	41 & A Comparison of Syntax, Semantics, and Pragmatics in Spoken Language among Residents with Alzheimer's Disease in Managed-Care Facilities & Authors \\ \hline
+	2 & Abnormalities of Connected Speech in Semantic Dementia vs Alzheimer’s diseases & Authors \\ \hline
+	3 & Aided Diagnosis of Dementia Type through Computer-Based Analysis of Spontaneous Speech & Authors \\ \hline
+	4 & Alignment of spoken narratives for automated neuropsychological assessment & Authors \\ \hline
+	5 & Automatic detection and rating of dementia of alzheimer type through lexical analysis of spontaneous speech & Authors \\ \hline
+	6 & Changes in Style in Authors with Alzheimer’s Disease & Authors \\ \hline
+	7 & Computer-based evaluation of Alzheimer's disease and mild cognitive impairment patients during a picture description task & Authors \\ \hline
+	8 & Computerized assessment of syntactic complexity in Alzheimer's disease: A case study of Iris Murdoch's writing & Authors \\ \hline
+	9 & Computerized neuropsychological assessment in mild cognitive impairment based on natural language processing-oriented feature extraction & Authors \\ \hline
+	10 & Contrastive conversational analysis of language production by Alzheimer's and control people& Authors \\ \hline
+	11 & Declines in Connected Language Are Associated with Very Early Mild Cognitive Impairment: Results from the Wisconsin Registry for Alzheimer’s Prevention & Authors \\ \hline
+	12 & Deep-Deep Neural Network Language Models for Predicting Mild Cognitive Impairment & Authors \\ \hline
+	13 & Domain Adaptation for Detecting Mild Cognitive Impairment & Authors \\ \hline
+	14 & Diagnosing people with dementia using automatic Conversation Analysis & Authors \\ \hline
+	15 & Deep language space neural network for classifying mild cognitive impairment and Alzheimer-type dementia & Authors \\ \hline
+	16 & Enriching Complex Networks withWord Embeddings for Detecting Mild Cognitive Impairment from Speech Transcripts & Authors \\ \hline
+	17 & Features and Machine Learning Classification of Connected Speech Samples from Patients with Autopsy Proven Alzheimer’s Disease with and without Additional Vascular Pathology & Authors \\ \hline
+	18 & Formulaic Language in People with Probable Alzheimer’s Disease: A Frequency-Based Approach & Authors \\ \hline
+	19 & Language Analysis of Speakers with Dementia of the Alzheimer’s Type & Authors \\ \hline
+	20 & Language analytics for assessing brain health: Cognitive impairment, depression and pre-symptomatic Alzheimer's disease & Authors \\ \hline
+	21 & Learning Linguistic Biomarkers for Predicting Mild Cognitive Impairment using Compound Skip-grams & Authors \\ \hline
+	22 & Learning Predictive Linguistic Features for Alzheimer’s Disease and related Dementias using Verbal Utterances & Authors \\ \hline
+	23 & Linguistic Features Identify Alzheimer's Disease in Narrative Speech & Authors \\ \hline
+	24 & Longitudinal detection of dementia through lexical and syntactic changes in writing: a case study of three British novelists & Authors \\ \hline
+	25 & Microlinguistic aspects of the oral narrative in patients with Alzheimer’s disease & Authors \\ \hline
+	26 & Multilingual word embeddings for the assessment of narrative speech in mild cognitive impairment & Authors \\ \hline
+	27 & Natural Language Features for Detection of Alzheimer's Disease in Conversational Speech & Authors \\ \hline
+	28 & NLP-Oriented Contrastive Study of Linguistic Productions of Alzheimer's and Control People & Authors \\ \hline
+	29 & Predicting mild cognitive impairment from spontaneous spoken utterances & Authors \\ \hline
+	30 & Predicting probable Alzheimer's disease using linguistic deficits and biomarkers & Authors \\ \hline
+	31 & Propositional Idea Density in women’s written language over the lifespan: Computerized analysis & Authors \\ \hline
+	32 & Sentence segmentation in narrative transcripts from neuropsychological tests using recurrent convolutional neural networks & Authors \\ \hline
+	33 & Speech processing approach for diagnosing dementia in an early stage & Authors \\ \hline
+	34 & Spoken language biomarkers for detecting cognitive impairment & Authors \\ \hline
+	35 & Talk2Me: Automated linguistic data collection for personal assessment & Authors \\ \hline
+	36 & The Effect of Heterogeneous Data for Alzheimer’s Disease Detection from Speech & Authors \\ \hline
+	37 & Toward the Automation of Diagnostic Conversation Analysis in Patients with Memory Complaintss & Authors \\ \hline
+	39 & Tracking Discourse Complexity Preceding Alzheimer's Disease Diagnosis: A Case Study Comparing the Press Conferences of Presidents Ronald Reagan and George Herbert Walker Bush & Authors \\ \hline
+	40 & Vector-space topic models for detecting Alzheimer's disease & Authors \\ \hline
+	41 & Vocabulary Size in Speech May Be an Early Indicator of Cognitive Impairment. & Authors \\ \hline
 \end{longtable}
 \end{document}
 
