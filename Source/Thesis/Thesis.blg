@@ -1,6 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2018)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: Thesis.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Thesis.aux
 A level-1 auxiliary file: Chapter1.aux
 A level-1 auxiliary file: Chapter2.aux
 A level-1 auxiliary file: Chapter3.aux
@@ -9,7 +7,28 @@ A level-1 auxiliary file: Chapter5.aux
 A level-1 auxiliary file: Chapter6.aux
 A level-1 auxiliary file: Chapter7.aux
 The style file: unsrt.bst
-Database file #1: main.bib
+I couldn't open database file main.bib.bib
+---line 31 of file Thesis.aux
+ : \bibdata{main.bib
+ :                  }
+I'm skipping whatever remains of this command
+I found no database files---while reading file Thesis.aux
+Warning--I didn't find a database entry for "McKhann2011"
+Warning--I didn't find a database entry for "AlzheimersSociety2014"
+Warning--I didn't find a database entry for "Prince2015"
+Warning--I didn't find a database entry for "Cummings2014"
+Warning--I didn't find a database entry for "Albert2011"
+Warning--I didn't find a database entry for "Folstein1975"
+Warning--I didn't find a database entry for "Grober2010"
+Warning--I didn't find a database entry for "Davis2015"
+Warning--I didn't find a database entry for "Nestor2006"
+Warning--I didn't find a database entry for "Le2011"
+Warning--I didn't find a database entry for "Berisha2015"
+Warning--I didn't find a database entry for "Snowdon1996"
+Warning--I didn't find a database entry for "Emery2000"
+Warning--I didn't find a database entry for "Boschi2017"
+Warning--I didn't find a database entry for "Taler2008"
+Warning--I didn't find a database entry for "Komeili2019"
 Warning--I didn't find a database entry for "K"
 Warning--I didn't find a database entry for "Randolph1998"
 Warning--I didn't find a database entry for "Karantzoulis2013"
@@ -80,49 +99,4 @@ Warning--I didn't find a database entry for "Almor1999"
 Warning--I didn't find a database entry for "Wendelstein2015"
 Warning--I didn't find a database entry for "Jarrold2014"
 Warning--I didn't find a database entry for "Wendelstein2014"
-Warning--empty institution in AlzheimersSociety2014
-Warning--empty journal in Grober2010
-Warning--there's a number but no volume in Davis2015
-Warning--empty journal in Nestor2006
-You've used 16 entries,
-            1791 wiz_defined-function locations,
-            706 strings with 9388 characters,
-and the built_in function-call counts, 4045 in all, are:
-= -- 312
-> -- 284
-< -- 0
-+ -- 101
-- -- 85
-* -- 366
-:= -- 709
-add.period$ -- 48
-call.type$ -- 16
-change.case$ -- 17
-chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 137
-empty$ -- 332
-format.name$ -- 85
-if$ -- 824
-int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 15
-newline$ -- 83
-num.names$ -- 16
-pop$ -- 25
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 47
-stack$ -- 0
-substring$ -- 261
-swap$ -- 13
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 4
-while$ -- 36
-width$ -- 18
-write$ -- 174
-(There were 74 warnings)
+(There were 2 error messages)
