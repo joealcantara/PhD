@@ -23,23 +23,23 @@
 \BOOKMARK [2][-]{subsection.3.15}{Polarity}{section.3}% 23
 \BOOKMARK [2][-]{subsection.3.16}{Frequency}{section.3}% 24
 \BOOKMARK [2][-]{subsection.3.17}{Dysfluencies}{section.3}% 25
-\BOOKMARK [2][-]{subsection.3.18}{Machine Learning methods}{section.3}% 26
-\BOOKMARK [2][-]{subsection.3.19}{Traditional Machine Learning methods}{section.3}% 27
-\BOOKMARK [3][-]{subsubsection.3.19.1}{Logistic Regression}{subsection.3.19}% 28
-\BOOKMARK [3][-]{subsubsection.3.19.2}{Support Vector Machines}{subsection.3.19}% 29
-\BOOKMARK [3][-]{subsubsection.3.19.3}{Linear Discriminant Analysis}{subsection.3.19}% 30
-\BOOKMARK [3][-]{subsubsection.3.19.4}{Decision Trees}{subsection.3.19}% 31
-\BOOKMARK [3][-]{subsubsection.3.19.5}{Naive Bayes}{subsection.3.19}% 32
-\BOOKMARK [3][-]{subsubsection.3.19.6}{Artificial Neural Networks}{subsection.3.19}% 33
-\BOOKMARK [3][-]{subsubsection.3.19.7}{K-nearest neighbours}{subsection.3.19}% 34
-\BOOKMARK [2][-]{subsection.3.20}{Deep Learning methods}{section.3}% 35
-\BOOKMARK [3][-]{subsubsection.3.20.1}{Deep language space neural network for classifying mild cognitive impairment and Alzheimer-type dementia - Orimaye, Wong and Wong \(2018\)}{subsection.3.20}% 36
-\BOOKMARK [2][-]{subsection.3.21}{What are the goals of the studies that employ ML or Statistical Learning techniques for diagnosis of MCI or AD?}{section.3}% 37
-\BOOKMARK [2][-]{subsection.3.22}{Do the studies focus on a one point in time or looking at cognitive deterioration over time?}{section.3}% 38
-\BOOKMARK [1][-]{section.4}{Discussion and conclusions}{}% 39
-\BOOKMARK [2][-]{subsection.4.1}{Discussion of the current evidence}{section.4}% 40
-\BOOKMARK [2][-]{subsection.4.2}{Methodological Issues}{section.4}% 41
-\BOOKMARK [2][-]{subsection.4.3}{Limitations}{section.4}% 42
-\BOOKMARK [2][-]{subsection.4.4}{The future of the field}{section.4}% 43
-\BOOKMARK [1][-]{section.5}{Conclusions}{}% 44
+\BOOKMARK [1][-]{section.4}{Machine Learning methods}{}% 26
+\BOOKMARK [2][-]{subsection.4.1}{Traditional Machine Learning methods}{section.4}% 27
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Logistic Regression}{subsection.4.1}% 28
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Support Vector Machines}{subsection.4.1}% 29
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Linear Discriminant Analysis}{subsection.4.1}% 30
+\BOOKMARK [3][-]{subsubsection.4.1.4}{Decision Trees}{subsection.4.1}% 31
+\BOOKMARK [3][-]{subsubsection.4.1.5}{Naive Bayes}{subsection.4.1}% 32
+\BOOKMARK [3][-]{subsubsection.4.1.6}{Artificial Neural Networks}{subsection.4.1}% 33
+\BOOKMARK [3][-]{subsubsection.4.1.7}{K-nearest neighbours}{subsection.4.1}% 34
+\BOOKMARK [2][-]{subsection.4.2}{Deep Learning methods}{section.4}% 35
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Deep language space neural network for classifying mild cognitive impairment and Alzheimer-type dementia - Orimaye, Wong and Wong \(2018\)}{subsection.4.2}% 36
+\BOOKMARK [2][-]{subsection.4.3}{What are the goals of the studies that employ ML or Statistical Learning techniques for diagnosis of MCI or AD?}{section.4}% 37
+\BOOKMARK [2][-]{subsection.4.4}{Do the studies focus on a one point in time or looking at cognitive deterioration over time?}{section.4}% 38
+\BOOKMARK [1][-]{section.5}{Discussion and conclusions}{}% 39
+\BOOKMARK [2][-]{subsection.5.1}{Discussion of the current evidence}{section.5}% 40
+\BOOKMARK [2][-]{subsection.5.2}{Methodological Issues}{section.5}% 41
+\BOOKMARK [2][-]{subsection.5.3}{Limitations}{section.5}% 42
+\BOOKMARK [2][-]{subsection.5.4}{The future of the field}{section.5}% 43
+\BOOKMARK [1][-]{section.6}{Conclusions}{}% 44
 \BOOKMARK [1][-]{appendix.A}{Article Table}{}% 45
