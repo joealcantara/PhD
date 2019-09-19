@@ -289,10 +289,11 @@ The next stage of building statistical or Machine Learning models is to take som
 	\begin{tabular}{ p{6cm} | p{6cm} }
 	\hline
 	Machine Learning technique used & Paper Number \\ \hline
-	Logistic Regression & Orimaye \\ \hline
-	Support Vector Machines & Orimaye \\ \hline
-	Linear Discriminant Analysis & Orimaye \\ \hline
-	Decision Trees & Orimaye \\ \hline	
+	Logistic Regression & 2 \\ \hline
+	Support Vector Machines & 4 \\ \hline
+	Naive Bayes & 1 \\ \hline
+	Decision Trees & 1, 2 \\ \hline
+	Multi-layered perceptrons & 2 \\ \hline
 	\hline 
 	\end{tabular}
 	\end{center}
@@ -329,10 +330,54 @@ An Artificial Neural Network (ANN) is a methodology that performs multifactorial
 \subsubsection{K-nearest neighbours}
 K Nearest Neighbors (KNN) is a classification algorithm that takes a data point from an unknown class and assigns it as an input vector in the feature space. Then, the classification process follows by assigning the unknown class data point to the class in which the majority of the K nearest data points belong to. The distance between data points is usually measured by Euclidean distance, but it is possible to employ other measures. KNN is one of the simplest ML classification algorithms and have been used in a wide range of applications; however, it can be computationally expensive in a highly dimensional scenario. Further, it considers all features to be equally weighted, which can be a problem if the data has superfluous attributes.
 
+\subsubsection{Best Results}
+\begin{table}[H]
+	\begin{center}
+	\begin{tabular}{ p{6cm} | p{6cm} }
+	\hline
+	Machine Learning technique used & Paper Number \\ \hline
+	Logistic Regression & 2 \\ \hline
+	Support Vector Machines & 4, 5 \\ \hline
+	Naive Bayes & 1 \\ \hline
+	Decision Trees and Random Forest Classifiers & 1, 2, 5 \\ \hline
+	Multi-layered perceptrons & 2 \\ \hline
+	\hline 
+	\end{tabular}
+	\end{center}
+\end{table}
+
+
 \subsection{Deep Learning methods}
 \subsubsection{Deep language space neural network for classifying mild cognitive impairment and Alzheimer-type dementia - Orimaye, Wong and Wong (2018)}
 In this paper, Orimaye et al use deep-deep neural networks language models (D2NNLM) to learn linguistic changes that distinguish the language of patients with MCI and AD-type dementia from the healthy controls using higher order n-grams. An ordinary DNNLM uses lower order n-gram N-dimensional sparse vectors as descrete feature representations to train the neural network with multiple hidden layers.
 
+
+\subsection{What type of data is used by the studies?}
+One of the key debates when looking at how to analyse language is the type of task provided to elicit language production in participants. In the literature researchers have primarily focused on Picture Description tasks but have also suggested other ways in which we might collect data.
+\par
+\subsection{Picture Description Tasks}
+One of the most commonly used tasks to measure language is the Picture Description task. An example of this is part of the Boston Diagnostic Aphasia Examination (BDAE), called the Boston Cookie Theft picture description task \cite{Borod1980}. The Cookie Theft picture (pictured below) depicts a scene of a home typical of the period of time when it was created and would generally not require participants to use any complicated vocabulary to describe. In this task participants are asked to describe the picture presented to them in as much detail as possible.  This task was originally designed to assess Aphasia, but has shown itself to be useful in the assessment of language for the purposes of diagnosis of MCI and AD as well \cite{Giles1996}
+\begin{figure}[H]
+\centering
+\includegraphics[width=240px, height=150px]{images/BCTPicture.png}
+\caption{Cookie Theft Picture - From Kaplan and Goodglass (1983)}
+\end{figure}
+\par
+The picture description task does a fine job of eliciting descriptive language however because of the specific content the language produce could be considered quite limited. There is some disagreement as to the benefits of this using this methodology. This task is reported as being useful to lexico-semantic disorders \cite{Boschi2017, Sajjadi2012} as the language being generated is primarly nouns and deixis (words to identify items and words to put those items into context). However, Ash \cite{Ash2012}felt that there was no difference in using this task vs Story Narration (described below). In explaining the differences, it is worth noting that these researchers were using differing variables and this could explain their different perspectives.
+\par 
+There are a number of existing corpus which use this tasks as the foundation of their data. The most well known is the Pitt Corpus of the Dementia Bank database. The participants of the corpus are mainly healthy controls, those with MCI and those with probable and/or possible AD. 
+\subsection{Narrative description task}
+The story narration task is designed to study a participant's ability to describe and elaborate on a story which is depicted using a series of pictures. The stories depicted are usually based on children's books or famous stories with the Cinderella being the one most typically used \cite{Fraser2014}. This task requires ordering the story in a structured and coherent framework. It also requires comprehension and understanding of the stories characters and the events depicted, as well as an awareness of a character's actions, motivations and internal reactions to given events. This task is particularly useful as the procedure reduces the demands on memory, due to the participant being able to access the picture book during the description and is therefore able rule out memory as a confounding variable for any results observed. As noted above, Ash \cite{Ash2012} felt that this task was interchangable with the Picture Description task. However, other research felt that this was a studier test of lexical and semantic abilities as well as syntactic complexity because this task requires interpretation and elaboration in additional to a simple description \cite{DeLira2011}. 
+\par
+Given the relative strengths of the Narrative description task vs Picture description task, there are few pieces of research that have used Machine Learning to analyse features from Narrative picture tasks \cite{Fraser2014}. This could be due to the availability of data and the absence of any meaningful sets of transcripts of participants performing this task. However, this could be an interesting direction to take research in the future to see if features generated from this task could be used to predict MCI or AD.  
+\par
+\subsection{Interviews}
+Interviews can also be used to elicit language in a more natural way by asking questions to guide a conversation between speakers. There are three types of interviews: unstructured, structured and semi-structured. Structured interviews tend to produce very limited speech and therefore has never been used in this area \cite{Boschi2017}. Unstructured interviews are open ended and generally do not conform to any particular pattern. They use generic themes such as family or hobbies to guide the conversation. Whilst this is the most ecologically valid form of conversation and therefore language generation, it's unstructured nature means that the protocol cannot be consistent and therefore reproduced. Semi-structured interviews are therefore preferred over other forms of interview as a middle ground. The semi structured nature of these interviews means that there is some replicability but does not constrain the participant in answering questions.
+\par
+The analysis of interviews can be difficult to analyse as both the content can vary even between participants, although it can be argued that content should not affect the type of language being generated unless it is narrow topic or the participant is constrained in how they answer a given question. It is also difficult to measure as there are no pre-defined task goals in comparison to the other two methods. Nevertheless, this is the most naturalistic setting for looking at language production and can be used to look at the syntactic and semantic parts of language generation \cite{Sajjadi2012}. There have been some attempts to use interviews to assess language production in AD with promising results \cite{Asgari2017, Guinn2015}.
+\par
+\subsection{Conclusions}
+One can view the different types of tasks above as a continuum where picture tasks represent a much more controllable task with a lot of supporting research but which generates a much more constrained set of language that is atypical of normal speech in terms of the cognitive functions used. 
 
 
 \subsection{What are the goals of the studies that employ ML or Statistical Learning techniques for diagnosis of MCI or AD?}
@@ -406,7 +451,7 @@ We can see that both Natural Language Processing and Machine Learning techniques
 	23 & Spoken Language Derivied Measures for Detecting Mild Cognitive Impairment & B. Roark, M. Mitchell, J-P. Hosom, K. Hollingshead, J. A. Kaye \\ \hline
 	24 & Talk2Me: Automated linguistic data collection for personal assessment & M. Komeili, C. Pou-Prom, D. Liaqat, K. C. Fraser, M. Yancheva, F. Rudzicz \\ \hline
 	25 & The Effect of Heterogeneous Data for Alzheimer’s Disease Detection from Speech & A. Balagopalan, J. Novikova, F. Rudzicz, M. Ghassemi \\ \hline
-	26 & Toward the Automation of Diagnostic Conversation Analysis in Patients with Memory Complaintss & B. Mirheidari, D. Blackburn, K. Harkness, T. Walker, A. Venneri, M. Reuber, H. Cristensen \\ \hline
+	26 & Toward the Automation of Diagnostic Conversation Analysis in Patients with Memory Complaints & B. Mirheidari, D. Blackburn, K. Harkness, T. Walker, A. Venneri, M. Reuber, H. Cristensen \\ \hline
 	27 & Tracking Discourse Complexity Preceding Alzheimer's Disease Diagnosis: A Case Study Comparing the Press Conferences of Presidents Ronald Reagan and George Herbert Walker Bush & V. Berisha, S. Wang, A. LaCross, J. Liss \\ \hline
 	28 & Vector-space topic models for detecting Alzheimer's disease & M. Yancheva, F. Rudzicz \\ \hline
 \end{longtable}
