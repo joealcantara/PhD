@@ -1,0 +1,412 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.13)  11 OCT 2019 16:55
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**PresidentsCorpus.tex
+(./PresidentsCorpus.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./arxiv.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/03/24 v5.7 Page Geometry
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip43
+\f@nch@O@elh=\skip44
+\f@nch@O@erh=\skip45
+\f@nch@O@olh=\skip46
+\f@nch@O@orh=\skip47
+\f@nch@O@elf=\skip48
+\f@nch@O@erf=\skip49
+\f@nch@O@olf=\skip50
+\f@nch@O@orf=\skip51
+)
+\@abovecaptionskip=\skip52
+\@belowcaptionskip=\skip53
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count91
+\float@exts=\toks16
+\float@box=\box26
+\@float@everytoks=\toks17
+\@floatcapt=\box27
+)
+(./PresidentsCorpus.aux
+
+LaTeX Warning: Label `tab:table-name' multiply defined.
+
+
+LaTeX Warning: Label `tab:table-name' multiply defined.
+
+
+LaTeX Warning: Label `tab:table-name' multiply defined.
+
+
+LaTeX Warning: Label `tab:table-name' multiply defined.
+
+)
+\openout1 = `PresidentsCorpus.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 30.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.27pt, 469.75499pt, 72.27pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43pt, 72.27pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75499pt
+* \textheight=650.43pt
+* \oddsidemargin=0.00002pt
+* \evensidemargin=0.00002pt
+* \topmargin=-39.0pt
+* \headheight=14.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 31.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 31.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 33.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 35.
+
+LaTeX Warning: Citation `AlzheimersSociety2014' on page 1 undefined on input li
+ne 40.
+
+LaTeX Font Info:    Font shape `OT1/ptm/m/ui' in size <10> not available
+(Font)              Font shape `OT1/ptm/m/it' tried instead on input line 40.
+
+LaTeX Warning: Citation `Prince2015' on page 1 undefined on input line 40.
+
+
+LaTeX Warning: Citation `McKhann2011' on page 1 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Cummings2014' on page 1 undefined on input line 44.
+
+
+LaTeX Warning: Citation `Cummings2014' on page 1 undefined on input line 44.
+
+[1
+
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Citation `Albert2011' on page 2 undefined on input line 46.
+
+
+LaTeX Warning: Citation `Orimaye2014' on page 2 undefined on input line 48.
+
+
+LaTeX Warning: Citation `Fraser2015' on page 2 undefined on input line 48.
+
+
+LaTeX Warning: Citation `Berisha2015' on page 2 undefined on input line 48.
+
+
+LaTeX Warning: Citation `Berisha2015' on page 2 undefined on input line 48.
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
+
+LaTeX Warning: Citation `Bird2009' on page 3 undefined on input line 59.
+
+
+LaTeX Warning: Citation `Richards1987' on page 3 undefined on input line 62.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
+
+ []
+
+
+LaTeX Warning: Citation `Berisha2015' on page 3 undefined on input line 82.
+
+
+LaTeX Warning: Citation `Bird2000' on page 3 undefined on input line 82.
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 89--89
+[]\OT1/ptm/m/it/10 "well", "so", "ba-si-cally", "ac-tu-ally",
+ []
+
+[3]
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 107.
+
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlptm.fd
+File: omlptm.fd 
+)
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 107.
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+[]\OT1/ptm/m/n/10 3423.91
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+[]\OT1/ptm/m/n/10 2607.72
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+[]\OT1/ptm/m/n/10 1848.65
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]\OT1/ptm/m/n/10 894.13
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]\OT1/ptm/m/n/10 667.76
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]\OT1/ptm/m/n/10 481.82
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+[]\OT1/ptm/m/n/10 12.72
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+[]\OT1/ptm/m/n/10 6.78
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+[]\OT1/ptm/m/n/10 7.41
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+[]\OT1/ptm/m/n/10 124.22
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+[]\OT1/ptm/m/n/10 103.45
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+[]\OT1/ptm/m/n/10 84.48
+ []
+
+
+LaTeX Warning: Citation `Berisha2015' on page 4 undefined on input line 122.
+
+
+LaTeX Warning: Citation `Le2011' on page 4 undefined on input line 122.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+[]\OT1/ptm/m/n/10 RR v
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 128--128
+[]\OT1/ptm/m/n/10 GHWB v
+ []
+
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <9> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 133.
+[4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+
+LaTeX Warning: Citation `Garrard2005' on page 6 undefined on input line 206.
+
+
+LaTeX Warning: Citation `Le2011' on page 6 undefined on input line 206.
+
+
+LaTeX Warning: Citation `Almor1999' on page 6 undefined on input line 208.
+
+
+LaTeX Warning: Citation `Wendelstein2015' on page 6 undefined on input line 208
+.
+
+
+LaTeX Warning: Citation `Wendelstein2015' on page 6 undefined on input line 208
+.
+
+
+LaTeX Warning: Citation `Almor1999' on page 6 undefined on input line 208.
+
+
+LaTeX Warning: Citation `Jarrold2014' on page 6 undefined on input line 210.
+
+
+LaTeX Warning: Citation `Wendelstein2014' on page 6 undefined on input line 210
+.
+
+
+LaTeX Warning: Citation `Fraser2015' on page 6 undefined on input line 216.
+
+No file PresidentsCorpus.bbl.
+[6] (./PresidentsCorpus.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1043 strings out of 492649
+ 14038 string characters out of 6129622
+ 95699 words of memory out of 5000000
+ 4952 multiletter control sequences out of 15000+600000
+ 24953 words of font info for 42 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,10n,45p,1576b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texl
+ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
+2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/201
+8/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/f
+onts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
+1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on PresidentsCorpus.pdf (6 pages, 141889 bytes).
+PDF statistics:
+ 72 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
