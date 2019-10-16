@@ -9,17 +9,23 @@
 	Aston University\\
 	\texttt{alcantaj@aston.ac.uk} \\
 		\and
-	Peter Sawyer \\
+	\textbf{Peter Sawyer} \\
 	Department of Computer Science\\
 	School of Engineering and Applied Sciences\\
 	Aston University\\
-	\texttt{p.sawyer@aston.ac.uk}
-		\and
+	\texttt{p.sawyer@aston.ac.uk} \\
+		\AND
 	George Vogiatzis\\
 	Department of Computer Science\\
 	School of Engineering and Applied Sciences\\
 	Aston University \\
 	\texttt{g.vogiatzis@aston.ac.uk} \\
+		\and
+	\textbf{Felipe Campelo Franca Pinto}\\
+	Department of Computer Science\\
+	School of Engineering and Applied Sciences\\
+	Aston University\\
+	\texttt{f.campelo@aston.ac.uk}
 }
 	
 \date{\today}
@@ -47,26 +53,26 @@ One of the challenges of this approach is differentiating natural cognitive decl
 \par 
 There has been a significant research in the area of language deterioration as a means of detecting Alzheimer's Disease. This usually takes the form analysis of speech recorded as part of a cognitive assessment such as the Picture Description Task \cite{Orimaye2014,Fraser2015}. Given that language samples are relatively easy to collect, research has moved towards analysis of spontaneous speech. An good example of this type of research is the study conducted by Berisha and Liss which looked at the differences in language use between two US presidents, Ronald Reagan (RR), who would go on to receive a diagnosis of Dementia and George H. W. Bush (GHWB) who acted as a matched control based on Age \cite{Berisha2015}. They found several differences in language use over time which they felt acted as indicators of RR's difficulties with language due to dementia. These significant differences were in the number of unique words used per speech, the use of non-specific nouns and fillers and low-imageability verbs \cite{Berisha2015}. 
 \par   
-This study replicates work done by Berisha and Liss and extends this by adding Donald Trump (DJT) as an alternative, more appropriate comparison to RR as he is much closer in age than GHWB. This work contributes to our understanding of the pre-diagnosis phase of alzheimer's disease and it's effect on language. We explore a wider range of features than previously looked at with this dataset and our hypothesis is that there will be features of RR's language which change more noticably over time when compared with the two closest appropriate controls.
+This study replicates work done by Berisha and Liss and extends this by adding Donald Trump (DJT) as an alternative, more appropriate comparison to RR as he is much closer in age than GHWB. This work contributes to our understanding of the pre-diagnosis phase of Alzheimer's Disease and it's effect on language. We explore a wider range of features than previously looked at with this dataset and our hypothesis is that there will be features of RR's language which change more noticably over time when compared with the two closest appropriate controls. In addition, our assumption is that any language deterioration found will be non-linear and so we will be looking at non linear and linear correlations within the data to see if decline is constant over time
 
 \section{Methodology}\label{methodology}
-We took 46 transcripts of Ronald Reagan’s (RR) press conferences from 1981 to 1988 and compared them with 134 press conferences by George H. W. Bush (GHWB) and 29 press conferences conducted by Donald J. Trump (DJT).  We analyzed transcripts for lexical features shown to change longitudinally with dementia. These features encompassed, word level, sentence level and document level features and included a number of features contained in the study by Berisha and Liss with the aim of replicating and extending on their findings. We compared the trends described in the transcripts of RR and GHWB, but also included DJT. Berisha and Liss originally made the comparison as it GHWB (GHWB - age at the start of presidency - 64 years, 222 days) was the closest match to RR in terms of age (RR  - age at the start of presidency, 69 yeaars and 349 days). However, with the inauguration of Trump, he now is the closest comparible president in terms of age (DJT - age at the start of presidency - 70 years, 220 days). It would be interesting to look at a comparison of RR and DJT to see whether the comparisons made by Berisha and Liss hold true with this more appropriate match (in terms of age). DJT as with GHWB has no known diagnosis of AD. I used the press conference transcripts in the American Presidency Project (APP) archive as a data source for this project. The APP is a comprehensive and organized searchable database of presidential documents, including transcripts of speeches, transcripts of news conferences, and other public documents.
+We took 46 transcripts of Ronald Reagan’s (RR) press conferences from 1981 to 1988 and compared them with 134 press conferences by George H. W. Bush (GHWB) and 29 press conferences conducted by Donald J. Trump (DJT).  We analyzed transcripts for lexical features shown to change longitudinally with dementia. These features encompassed, word level, sentence level and document level features and included a number of features contained in the study by Berisha and Liss with the aim of replicating and extending on their findings. We compared the trends described in the transcripts of RR and GHWB, but also included DJT. Berisha and Liss originally made the comparison as it GHWB (GHWB - age at the start of presidency - 64 years, 222 days) was the closest match to RR in terms of age (RR  - age at the start of presidency, 69 yeaars and 349 days). However, with the inauguration of Trump, he now is the closest comparible president in terms of age (DJT - age at the start of presidency - 70 years, 220 days). It would be interesting to look at a comparison of RR and DJT to see whether the comparisons made by Berisha and Liss hold true with this more appropriate match (in terms of age). DJT as with GHWB has no known diagnosis of AD. We used the press conference transcripts in the American Presidency Project (APP) archive as a data source for this project. The APP is a comprehensive and organized searchable database of presidential documents, including transcripts of speeches, transcripts of news conferences, and other public documents.
 
 \subsection{Pre-processing}
-To generate the files necessary for analysis, I downloaded each transcript and performed the following changes. I omitted the prepared statement by the president and any speech by other individuals. I started each transcript at the beginning of the first answer to a question. I filtered any annotations that were added to the transcript, including any references or clarifications, and any laughter. It's worth noting that there appears to be a difference in how 'hesitations' were marked down between each president, for RR hesitations were marked by a single hyphen whereas for GHWB hesitations are marked by a double hyphen. In order to maintain consistency when parsing through the documents, We have changed both types of hesitation to be marked by a single hyphen. We also omitted one word sentences as this data would, from a theoretical perspective, not be relevant for language analysis. We did not control for the length of the document, but generated features which would normalise by the length of the document. We therefore was able to include all press conferences by both Ronald Reagan and George H.W. Bush where there was a question and answer session conducted at least in part by the sitting president (2 press conferences of GHWB were omitted due to a lack of a question and answer session).
+To generate the files necessary for analysis, we downloaded each transcript and performed the following changes. We omitted the prepared statement by the president and any speech by other individuals and started each transcript at the beginning of the first answer to a question by a member of the press. We filtered any annotations that were added to the transcript, including any references or clarifications, and any laughter. It's worth noting that there appears to be a difference in how 'hesitations' were marked down between each president, for RR \& DJT hesitations were marked by a single hyphen whereas for GHWB hesitations are marked by a double hyphen. In order to maintain consistency when parsing through the documents, We have changed both types of hesitation to be marked by a single hyphen. We also omitted one word sentences as this data would, from a theoretical perspective, not be relevant for language analysis. We did not control for the length of the document, but generated features which would normalise by the length of the document. We therefore was able to include all press conferences by all presidents analysed where there was a question and answer session conducted at least in part by the president in question (2 press conferences of GHWB were omitted due to a lack of a question and answer session).
 
-\subsection{Feature Selection}
-We calculated the following features for each transcript in turn using the NLTK (see section 2 for a description) \cite{Bird2009}, Linguistic Inquiry and Word Count (LIWC) and Python. 
+\subsection{Feature Generation}
+We calculated the following features for each transcript in turn using the Natural Language ToolKit (NLTK) package \cite{Bird2009}, Linguistic Inquiry and Word Count (LIWC) \cite{Pennebaker2015} and Python. Words were stemmed to their root form using the Porter2 (Snowball) stemmer algorithm. 
 \par 
-\subsubsection{Measures of lexical variation}
-Lexical variation is a measure of the variety of language used within a given document. A document is said to have high lexical variation if the number of unique words is large. We constructed four features of lexical variation. Firstly we looked at the number of unique words. To do this we were able to split each transcript into individual words and changed them to lowercase using NLTK and were then count the number of unique words that appeared in each transcript. We also used the TTR formula, Brunet's Index and Honore's Statistic as other measures of lexical diversity \cite{Richards1987}. 
-
+\subsubsection{Measures of lexical diversity}
+Lexical diversity is a measure of the variety of language used within a given document. A document is said to have high lexical diversity if the number of unique words is large. We constructed four features of lexical variation. Firstly we looked at the number of unique words. To do this we were able to split each transcript into individual words and changed them to lowercase using NLTK and were then count the number of unique words that appeared in each transcript. We also used the TTR formula, Brunet's Index and Honore's Statistic as other measures of lexical diversity \cite{Richards1987}. 
+\par 
 Type token ratio (TTR) is the ratio obtained by dividing the types (The total number of different words) by the tokens (the total number of words in an utterance).
 \begin{equation} \label{x1}
 TTR = numberOfUniqueWords / totalNumberOfWords.
 \end{equation}
 \par 
-Brunet's Index (W) differentiates itself for TTR, as it is not impacted by the length of the text itself. Brunet's Index is defined by the following equation:
+Brunet's Index (W) differentiates itself from TTR, as it is not impacted by the length of the text itself. Brunet's Index is defined by the following equation:
 \begin{equation} \label{x2}
 W = N^{V(-0.165)}
 \end{equation}
@@ -78,30 +84,29 @@ Honore's Statistic is based on the idea that vocabulary richness is implied when
 R = (100 \log N) / (1 - V1/V)
 \end{equation}
 where v1 is equal to the number of unique words, V is the total vocabulary used and N is the total number of words in the utterance being measured.
-\subsubsection{Fillers, Non-Specific Nouns and LI Verbs}
-For these features, we counted the number of occurrences for different categories (see table for list of categories tracked and the words counted). The features were used by Berisha and Liss in their research \cite{Berisha2015} and were taken from work done by Bird et al \cite{Bird2000}. These findings were. number of unique words, non-specific nouns and fillers and low imageability (LI) verbs. Imageability is characterized, according to Berisha and Liss, as the ease with which a term gives rise to a sensory .mental image.
+\subsubsection{Fillers, Non-Specific Nouns and Low Imageability Verbs}
+Fillers, Non-Specific Nouns and Low Imageability Verbs were features used by Berisha and Liss in their research \cite{Berisha2015} and were taken from work done by Bird et al \cite{Bird2000}. Fillers can be described as a potentially meaningless word that marks a pause or hesitation in speech. In those with MCI and AD, these words can be used to temporarily disguise problems in thought processes or word finding difficulties. Non-Specific Nouns refer to a category or an unspecified member of a given category, once again this can be characterised as a compensatory strategy for word finding difficulties. Imageability is characterized, according to Berisha and Liss, as the ease with which a word provokes a mental image of what the word describes. 
 
 \begin{table}[H]
 	\begin{center}
-	\begin{tabular}{ | p{3cm} | p{6cm} |}
+	\begin{tabular}{ | p{3cm} | p{10cm} |}
 		\hline
 		Category & Words \\ \hline
-		Fillers & \textit{"well", "so", "basically", "actually", "literally", "um", "ah"} \\ \hline
+		Fillers & \textit{"um", "uh", "er", "ah", "like", "okay", "right",  "you know", "well", "so", "basically", "actually", "literally"} \\ \hline
 		Non Specific Nouns & \textit{"something", "anything", "thing", "everything"} \\ \hline
 		LI Verbs & \textit{"be", "come", "do", "get", "give", go", "know", "look", "make", "see", "tell", "think", "want"} \\ \hline
-
 	\end{tabular}
-	\caption{\label{tab:table-name}Categories and Words Counted}
+	\caption{\label{tab:table-name}Examples of words belonging to the categories Fillers, Non-Specific Nouns and Low Imageability Verbs}
 	\end{center} 
 \end{table}
 
 \subsubsection{Usage of parts of speech}
-This section involves using a Part of Speech tagger (PoS) which analyses a sentence and assigns a 'tag' to each word based on the function the word has in a sentence. At a basic level this can be divided into the eight defined parts of speech: 'nouns', 'pronouns', verbs', 'adjectives', 'adverbs', 'conjunctions', 'prepositions' and 'interjections' but can be further subcategorised. We used the PoS tagger built into NLTK to tag each transcript in turn and used these the counts from each of these eight categories in our analysis. In addition to frequency counts we also normalised these features by dividing the frequency count by the number of words in the document to take into account transcript length.
+Using a Part of Speech tagger (PoS) on each transcript analyses each sentence within the transcript and assigns a 'tag' to each word based on the function the word has in a sentence. At a basic level this can be divided into the eight defined parts of speech: 'nouns', 'pronouns', verbs', 'adjectives', 'adverbs', 'conjunctions', 'prepositions' and 'interjections' but can be further subcategorised. We used the PoS tagger built into NLTK to tag each transcript in turn and used these the counts from each of these eight categories in our analysis. In addition to frequency counts we also normalised these features by dividing the frequency count by the number of words in the document to take into account transcript length.
 
 \subsubsection{Linguistic Inquiry and Word Count(LIWC)}
-The LIWC 
-
-
+The LIWC is a text processor which analysis words within a given a document and compares the words in the LIWC dictionary file. The LIWC dictionary file contains over 6000 words which are categorised into approximately 90 different types. For example the word 'cried' is part of five word categories: sadness, negative emotion, overall affect, verbs and past focus \cite{Pennebaker2015}. Each word in the document or set of documents is searched for in the dictionary file and if found, the appropriate type is incremented by 1. What is output is an analysis of word usage in reference to each category. This is particularly useful in analysing both structural language changes but also the content or themes of language for a given transcript or set of transcripts.
+\par 
+As with Berisha and Liss, we analysed the transcripts over time in order to determine if there was an underlying temporal trend that may indicate that different parts of language increase or decrease over time. In AD, cognitive abilities are said to deteriorate over time and therefore it may be useful to analyse temporal trends that indicate a potential deterioration of cognition.
 
 \section{Results}\label{results}
 One of the most important thing to note is the wide variety of samples between the three presidents and also the varying timescales. RR participated in 46 press conferences over eight years (an average of 5.75 a year) which is the fewest number of press conferences given by an American president during their term of office. GHWB participated in 136 press conferences over four years (an average of  34 a year) and DJT participated in 29 press conferences to date (an average of 19.3 per year). Equally, there are variances in the average number of words. RR produced an average of 3424 words per conference compared to 2608 by GHWB (unpaired t = 4.434, p\textless 0.001) and DJT at 1849 words (unpaired t = 6.524, p\textless 0.001).
@@ -199,8 +204,8 @@ Given the number of hypotheses being tested, it is necessary to apply some corre
 
 
 \section{Discussion}\label{discussion}
-\section{Discussion}
-President Reagan received his diagnosis of AD in August 1994 but using transcripts of speeches he made in his two terms as President (January 1981 - January 1989) we have be able to identify certain changes in his use of language that we might ascribe to the onset of MCI and early AD. Despite differences in our methodology, our research supports the findings of Berisha and Liss in that we both find a significant decrease in unique words over time and an increase in non-specifc noun usage. Compared to our controls (GWHB andDJT), we find some slight trends with GWHB but no such trends with DJT in his speech albeit his samples of speech span a shorter amount of time.
+President Reagan received his diagnosis of AD in August 1994 but using transcripts of speeches he made in his two terms as President (January 1981 - January 1989) we have be able to identify certain changes in his use of language that we might ascribe to the onset of MCI and early AD. Despite differences in our methodology, our research supports some of the findings of Berisha and Liss in that we find an increase in non-specifc noun usage. Compared to our controls (GWHB and DJT), we find some slight trends with GWHB but no such trends with DJT in his speech albeit his samples of speech span a shorter amount of time.
+\par 
 
 
 A criticism of Berisha and Liss's work is the problems they had with normalising the transcripts in terms of length. This was also a problem in the work of Garrard et al \cite{Garrard2005, Le2011}. Whilst it is important to control for outliers, there are other ways in which we can control for length of sample.  
@@ -208,15 +213,13 @@ A criticism of Berisha and Liss's work is the problems they had with normalising
 Interestingly, when we normalised the various types of words used by the presidents we found some interesting patterns that further differentiated RR from the controls. Whilst Non-specific nouns increased over time, we found that noun usage in general significantly decreased and pronouns increased similarly significantly. The increase in pronoun for those with early AD has been identified in literature, although there are only a few studies that explore this \cite{Almor1999, Wendelstein2015}. Wendlestein et al propose that the increased used of pronouns is an expression of an impaired ability to adapt language to the listener's needs \cite{Wendelstein2015}. Almor et al attributed this reliance on pronouns due to a impaired working memory \cite{Almor1999}.
 \par 
 The decrease in overall noun usage has also been identified as a feature. Jarrold et al found that AD patients would use more pronouns, verbs and fewer nouns than controls \cite{Jarrold2014}. Wendlestein in their investigations into noun usage found that decreased later on in AD progression and was unaffected in the pre-clinical stages of AD \cite{Wendelstein2014}. Our results are supported by existing literature and this potentially means that language analysis in the way we have structured it may have diagnostic or prognostic properties.
+One of the most striking differences between this study and the original is when looking at Unique Words. Whilst Unique Words as a feature is significant, which was a finding in the original study, when we controlled via normalisation, we found that this was not significant. 
 
 
  
 There are limitations of this research. Whilst in terms of age, DJT is certainly more suitable as a control to match with RR, in some ways they held very different styles of press conferences in that RR preferred to do solo press conferences and DJT has shown a preference for doing joint press conferences which have an impact on the amount of language produced. This artifact of the data is in itself notable as it illustrates the problems we may have with smaller amounts of speech. Also, the problem of finding an appropriate control is a common one in this domain. Given that those with MCI and early dementia have such variable presentations, it might prove of limited value in matched pairs design. 
 \par 
 With further work, it is not feasible to the vast array of samples over a timeframe, as we have had with the president corpus and so it would be worth exploring how the quality of these predictions might lessen when faced with considerably fewer samples and over a smaller time period. It would also be worth extending this research further to encompass more of the linguistic features Fraser used in her work \cite{Fraser2015} to see if there are any further insights to be gained. In addition, this replication and extension has demonstrated the potential utility of using longitudinal data as a means of comparing language use of a person at two or more time periods and using this information as a diagnostic aid for MCI and therefore more work would be helpful from a longitudinal perspective to see if this approach may be valid in moving towards a solution for this particular problem. 
-\par 
-
-
 
 \section{Conclusions}\label{conclusions}
 The results of this work show that we can track a person's use of language through time in a number of ways, and it is possible for an individual to be his or her own control. This is important as it means the heterogenous nature of the MCI population does not impact results as much as if we were comparing those with MCI to controls. Equally, it would be helpful to have controls to ascertain what would be usual to expect in the decline of language in a healthy older adult. 
