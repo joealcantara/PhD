@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  16 OCT 2019 12:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  17 OCT 2019 08:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -77,7 +77,30 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks17
 \@floatcapt=\box27
 )
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
 (./PresidentsCorpus.aux
+
+LaTeX Warning: Label `tab:table-name' multiply defined.
+
 
 LaTeX Warning: Label `tab:table-name' multiply defined.
 
@@ -93,19 +116,19 @@ LaTeX Warning: Label `tab:table-name' multiply defined.
 )
 \openout1 = `PresidentsCorpus.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 37.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -175,21 +198,90 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count91
+\scratchdimen=\dimen113
+\scratchbox=\box28
+\nofMPsegments=\count92
+\nofMParguments=\count93
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count94
+\MPscratchDim=\dimen114
+\MPnumerator=\count95
+\makeMPintoPDFobject=\count96
+\everyMPtoPDFconversion=\toks19
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 37.
+(Font)              <7> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
+(Font)              <5> on input line 38.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 39.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 41.
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 42.
+
 
 LaTeX Warning: Citation `AlzheimersSociety2014' on page 1 undefined on input li
-ne 46.
+ne 47.
+
+
+LaTeX Warning: Citation `Prince2015' on page 1 undefined on input line 47.
 
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
@@ -198,35 +290,32 @@ Missing character: There is no £ in font ptmr7t!
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
 
-LaTeX Warning: Citation `Prince2015' on page 1 undefined on input line 46.
+LaTeX Warning: Citation `McKhann2011' on page 1 undefined on input line 49.
 
 
-LaTeX Warning: Citation `McKhann2011' on page 1 undefined on input line 48.
+LaTeX Warning: Citation `Cummings2014' on page 1 undefined on input line 51.
 
 
-LaTeX Warning: Citation `Cummings2014' on page 1 undefined on input line 50.
-
-
-LaTeX Warning: Citation `Cummings2014' on page 1 undefined on input line 50.
+LaTeX Warning: Citation `Cummings2014' on page 1 undefined on input line 51.
 
 [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Citation `Albert2011' on page 2 undefined on input line 52.
+LaTeX Warning: Citation `Albert2011' on page 2 undefined on input line 53.
 
 
-LaTeX Warning: Citation `Orimaye2014' on page 2 undefined on input line 54.
+LaTeX Warning: Citation `Orimaye2014' on page 2 undefined on input line 55.
 
 
-LaTeX Warning: Citation `Fraser2015' on page 2 undefined on input line 54.
+LaTeX Warning: Citation `Fraser2015' on page 2 undefined on input line 55.
 
 
-LaTeX Warning: Citation `Berisha2015' on page 2 undefined on input line 54.
+LaTeX Warning: Citation `Berisha2015' on page 2 undefined on input line 55.
 
 
-LaTeX Warning: Citation `Berisha2015' on page 2 undefined on input line 54.
+LaTeX Warning: Citation `Berisha2015' on page 2 undefined on input line 55.
 
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
@@ -239,110 +328,80 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [2]
 
-LaTeX Warning: Citation `Bird2009' on page 3 undefined on input line 65.
+LaTeX Warning: Citation `Bird2009' on page 3 undefined on input line 66.
 
 
-LaTeX Warning: Citation `Pennebaker2015' on page 3 undefined on input line 65.
+LaTeX Warning: Citation `Pennebaker2015' on page 3 undefined on input line 66.
 
 
-LaTeX Warning: Citation `Richards1987' on page 3 undefined on input line 68.
+LaTeX Warning: Citation `Richards1987' on page 3 undefined on input line 69.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
  []
 
 
-LaTeX Warning: Citation `Berisha2015' on page 3 undefined on input line 88.
+LaTeX Warning: Citation `Berisha2015' on page 3 undefined on input line 89.
 
 
-LaTeX Warning: Citation `Bird2000' on page 3 undefined on input line 88.
+LaTeX Warning: Citation `Bird2000' on page 3 undefined on input line 89.
 
 [3]
 
-LaTeX Warning: Citation `Pennebaker2015' on page 4 undefined on input line 107.
+LaTeX Warning: Citation `Pennebaker2015' on page 4 undefined on input line 108.
 
 
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 112.
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 113.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 112.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 113.
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 []\OT1/ptm/m/n/10 3423.91
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 []\OT1/ptm/m/n/10 2607.72
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 []\OT1/ptm/m/n/10 1848.65
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
 []\OT1/ptm/m/n/10 894.13
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
 []\OT1/ptm/m/n/10 667.76
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
 []\OT1/ptm/m/n/10 481.82
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
 []\OT1/ptm/m/n/10 23.17
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
 []\OT1/ptm/m/n/10 18.71
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-[]\OT1/ptm/m/n/10 481.82
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[]\OT1/ptm/m/n/10 12.72
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[]\OT1/ptm/m/n/10 6.78
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[]\OT1/ptm/m/n/10 7.41
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 122--122
-[]\OT1/ptm/m/n/10 124.22
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
-[]\OT1/ptm/m/n/10 103.45
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
-[]\OT1/ptm/m/n/10 84.48
+[]\OT1/ptm/m/n/10 13.84
  []
 
 
@@ -364,45 +423,61 @@ Underfull \hbox (badness 2941) in paragraph at lines 134--134
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <9> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 140.
 
-Underfull \vbox (badness 2894) has occurred while \output is active []
+Underfull \vbox (badness 5578) has occurred while \output is active []
 
  [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
 
-LaTeX Warning: Citation `Garrard2005' on page 6 undefined on input line 213.
+LaTeX Warning: Citation `Garrard2005' on page 6 undefined on input line 245.
 
 
-LaTeX Warning: Citation `Le2011' on page 6 undefined on input line 213.
-
-
-LaTeX Warning: Citation `Almor1999' on page 6 undefined on input line 215.
-
-
-LaTeX Warning: Citation `Wendelstein2015' on page 6 undefined on input line 215
-.
-
-
-LaTeX Warning: Citation `Wendelstein2015' on page 6 undefined on input line 215
-.
-
-
-LaTeX Warning: Citation `Almor1999' on page 6 undefined on input line 215.
-
-
-LaTeX Warning: Citation `Jarrold2014' on page 6 undefined on input line 217.
-
-
-LaTeX Warning: Citation `Wendelstein2014' on page 6 undefined on input line 217
-.
-
-
-LaTeX Warning: Citation `Fraser2015' on page 6 undefined on input line 224.
+LaTeX Warning: Citation `Le2011' on page 6 undefined on input line 245.
 
 [6]
-No file PresidentsCorpus.bbl.
-[7] (./PresidentsCorpus.aux)
+
+LaTeX Warning: Citation `Almor1999' on page 7 undefined on input line 247.
+
+
+LaTeX Warning: Citation `Wendelstein2015' on page 7 undefined on input line 247
+.
+
+
+LaTeX Warning: Citation `Wendelstein2015' on page 7 undefined on input line 247
+.
+
+
+LaTeX Warning: Citation `Almor1999' on page 7 undefined on input line 247.
+
+
+LaTeX Warning: Citation `Jarrold2014' on page 7 undefined on input line 249.
+
+
+LaTeX Warning: Citation `Wendelstein2014' on page 7 undefined on input line 249
+.
+
+<RRppromLM.jpg, id=33, 351.3125pt x 351.3125pt>
+File: RRppromLM.jpg Graphic file (type jpg)
+<use RRppromLM.jpg>
+Package pdftex.def Info: RRppromLM.jpg  used on input line 256.
+(pdftex.def)             Requested size: 301.14722pt x 301.14722pt.
+File: RRppromLM.jpg Graphic file (type jpg)
+<use RRppromLM.jpg>
+Package pdftex.def Info: RRppromLM.jpg  used on input line 262.
+(pdftex.def)             Requested size: 301.14722pt x 301.14722pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./RRppromLM.jpg>]
+
+LaTeX Warning: Citation `Fraser2015' on page 8 undefined on input line 268.
+
+(./PresidentsCorpus.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [8] (./PresidentsCorpus.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -411,13 +486,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1054 strings out of 494880
- 14045 string characters out of 6179602
- 89082 words of memory out of 5000000
- 4403 multiletter control sequences out of 15000+600000
+ 2232 strings out of 494880
+ 31637 string characters out of 6179602
+ 109011 words of memory out of 5000000
+ 5521 multiletter control sequences out of 15000+600000
  24953 words of font info for 42 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 30i,10n,45p,1570b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,45p,1570b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/
@@ -430,10 +505,10 @@ cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
 are/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on PresidentsCorpus.pdf (7 pages, 144491 bytes).
+Output written on PresidentsCorpus.pdf (8 pages, 168612 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
