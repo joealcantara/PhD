@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  17 OCT 2019 08:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  18 OCT 2019 11:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -457,21 +457,27 @@ LaTeX Warning: Citation `Jarrold2014' on page 7 undefined on input line 249.
 LaTeX Warning: Citation `Wendelstein2014' on page 7 undefined on input line 249
 .
 
-<RRppromLM.jpg, id=33, 351.3125pt x 351.3125pt>
-File: RRppromLM.jpg Graphic file (type jpg)
-<use RRppromLM.jpg>
-Package pdftex.def Info: RRppromLM.jpg  used on input line 256.
-(pdftex.def)             Requested size: 301.14722pt x 301.14722pt.
-File: RRppromLM.jpg Graphic file (type jpg)
-<use RRppromLM.jpg>
-Package pdftex.def Info: RRppromLM.jpg  used on input line 262.
-(pdftex.def)             Requested size: 301.14722pt x 301.14722pt.
+<RRppronLM.jpg, id=33, 351.3125pt x 351.3125pt>
+File: RRppronLM.jpg Graphic file (type jpg)
+<use RRppronLM.jpg>
+Package pdftex.def Info: RRppronLM.jpg  used on input line 257.
+(pdftex.def)             Requested size: 150.56825pt x 150.56825pt.
+
+Underfull \hbox (badness 1107) in paragraph at lines 258--258
+[]\OT1/ptm/m/n/10 Figure 1: RR Per-sonal Pro-nouns - Lin-ear
+ []
+
+<RRppronLOESS.jpg, id=34, 351.3125pt x 351.3125pt>
+File: RRppronLOESS.jpg Graphic file (type jpg)
+<use RRppronLOESS.jpg>
+Package pdftex.def Info: RRppronLOESS.jpg  used on input line 262.
+(pdftex.def)             Requested size: 150.56825pt x 150.56825pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7 <./RRppromLM.jpg>]
+ [7 <./RRppronLM.jpg> <./RRppronLOESS.jpg>]
 
-LaTeX Warning: Citation `Fraser2015' on page 8 undefined on input line 268.
+LaTeX Warning: Citation `Fraser2015' on page 8 undefined on input line 269.
 
 (./PresidentsCorpus.bbl
 
@@ -486,10 +492,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2232 strings out of 494880
- 31637 string characters out of 6179602
+ 2237 strings out of 494880
+ 31736 string characters out of 6179602
  109011 words of memory out of 5000000
- 5521 multiletter control sequences out of 15000+600000
+ 5525 multiletter control sequences out of 15000+600000
  24953 words of font info for 42 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  41i,10n,45p,1570b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -505,10 +511,10 @@ cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
 are/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on PresidentsCorpus.pdf (8 pages, 168612 bytes).
+Output written on PresidentsCorpus.pdf (8 pages, 190232 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
+ 82 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
