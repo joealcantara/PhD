@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=latex 2019.10.18)  18 OCT 2019 16:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=latex 2019.10.18)  18 OCT 2019 17:19
 entering extended mode
 **./PresidentsCorpus.tex
 (PresidentsCorpus.tex
@@ -353,10 +353,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  1380 strings out of 492974
  18838 string characters out of 3135957
- 105332 words of memory out of 3000000
+ 106532 words of memory out of 3000000
  5267 multiletter control sequences out of 15000+200000
  11854 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,10n,45p,1736b,335s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on PresidentsCorpus.dvi (9 pages, 47668 bytes).
+Output written on PresidentsCorpus.dvi (9 pages, 47852 bytes).

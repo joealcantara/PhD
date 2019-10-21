@@ -1,78 +1,74 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{}
 
-\bibitem{Albert2011}
-Marilyn~S. Albert, Steven~T. DeKosky, Dennis Dickson, Bruno Dubois, Howard~H.
-  Feldman, Nick~C. Fox, Anthony Gamst, David~M. Holtzman, William~J. Jagust,
-  Ronald~C. Petersen, Peter~J. Snyder, Maria~C. Carrillo, Bill Theis, and
-  Creighton~H. Phelps.
+\bibitem[Albert et~al., 2011]{Albert2011}
+Albert, M.~S., DeKosky, S.~T., Dickson, D., Dubois, B., Feldman, H.~H., Fox,
+  N.~C., Gamst, A., Holtzman, D.~M., Jagust, W.~J., Petersen, R.~C., Snyder,
+  P.~J., Carrillo, M.~C., Theis, B., and Phelps, C.~H. (2011).
 \newblock {The diagnosis of mild cognitive impairment due to Alzheimer's
   disease: Recommendations from the National Institute on Aging-Alzheimer's
   Association workgroups on}.
-\newblock {\em Alzheimer's {\&} Dementia}, 7(3):270--279, 2011.
+\newblock {\em Alzheimer's {\&} Dementia}, 7(3):270--279.
 
-\bibitem{Prince2015}
-Martin Prince, Anders Wimo, M~Guerchet, Gemma-Claire Ali, Yu-Tzu Wu, and
-  Matthew Prina.
-\newblock {World Alzheimer Report 2015 The Global Impact of Dementia}.
-\newblock Technical report, 2015.
-
-\bibitem{McKhann2011}
-Guy~M. McKhann, David~S. Knopman, Howard Chertkow, Bradley~T. Hyman,
-  Clifford~R. Jack, Claudia~H. Kawas, William~E. Klunk, Walter~J. Koroshetz,
-  Jennifer~J. Manly, Richard Mayeux, Richard~C. Mohs, John~C. Morris, Martin~N.
-  Rossor, Philip Scheltens, Maria~C. Carrillo, Bill Thies, Sandra Weintraub,
-  and Creighton~H. Phelps.
-\newblock {The diagnosis of dementia due to Alzheimer's disease:
-  Recommendations from the National Institute on Aging-Alzheimer's Association
-  workgroups on diagnostic guidelines for Alzheimer's disease}.
-\newblock {\em Alzheimer's and Dementia}, 7(3):263--269, 2011.
-
-\bibitem{Orimaye2014}
-Sylvester~Olubolu Orimaye, Jojo Sze, Meng Wong, Judyanne Sharmini, and Gilbert
-  Fernandez.
-\newblock {Deep-Deep Neural Network Language Models for Predicting Mild
-  Cognitive Impairment}.
-\newblock 2014.
-
-\bibitem{Berisha2015}
-Visar Berisha, Shuai Wang, Amy LaCross, and Julie Liss.
-\newblock {Tracking Discourse Complexity Preceding Alzheimer's Disease
-  Diagnosis: A Case Study Comparing the Press Conferences of Presidents Ronald
-  Reagan and George Herbert Walker Bush}.
-\newblock {\em Journal of Alzheimer's Disease}, 45(3):959--963, 2015.
-
-\bibitem{Pennebaker2015}
-James~W Pennebaker, Ryan~L Boyd, Kayla Jordan, and Kate Blackburn.
-\newblock {The Development and Psychometric Properties of LIWC2015}.
-\newblock {\em UT Faculty/Researcher Works}, 2015.
-
-\bibitem{Bird2000}
-Helen Bird, Matthew~A. {Lambon Ralph}, Karalyn Patterson, and John~R. Hodges.
-\newblock {The rise and fall of frequency and imageability: Noun and verb
-  production in semantic dementia}.
-\newblock {\em Brain and Language}, 73(1):17--49, 2000.
-
-\bibitem{Le2011}
-Xuan Le, Ian Lancashire, Graeme Hirst, Regina Jokel, Canada Ms, Ian Lancashire,
-  Canada Mr, Graeme Hirst, Canada Ms, and Regina Jokel.
-\newblock {Longitudinal detection of dementia through lexical and syntactic
-  changes in writing: A case study of three British novelists}.
-\newblock {\em Literary and Linguistic Computing}, 26(4):435--461, 2011.
-
-\bibitem{Almor1999}
-Amit Almor, Maryellen~C Macdonald, Elaine~S Andersen, and Lorraine~K Tyler.
+\bibitem[Almor et~al., 1999]{Almor1999}
+Almor, A., Macdonald, M.~C., Andersen, E.~S., and Tyler, L.~K. (1999).
 \newblock {Why Do Alzheimer Patients Have Difficulty with Pronouns ? Working
   Memory , Semantics , and Reference in Comprehension and Production in
   Alzheimer ' s Disease and PRONOUNS , NOUNS , ALZHEIMER ' S DISEASE}.
-\newblock 227:202--227, 1999.
+\newblock 227:202--227.
 
-\bibitem{Jarrold2014}
-William Jarrold, Bart Peintner, David Wilkins, Dimitra Vergryi, Colleen Richey,
-  Maria~Luisa Gorno-Tempini, and Jennifer Ogar.
+\bibitem[Berisha et~al., 2015]{Berisha2015}
+Berisha, V., Wang, S., LaCross, A., and Liss, J. (2015).
+\newblock {Tracking Discourse Complexity Preceding Alzheimer's Disease
+  Diagnosis: A Case Study Comparing the Press Conferences of Presidents Ronald
+  Reagan and George Herbert Walker Bush}.
+\newblock {\em Journal of Alzheimer's Disease}, 45(3):959--963.
+
+\bibitem[Bird et~al., 2000]{Bird2000}
+Bird, H., {Lambon Ralph}, M.~A., Patterson, K., and Hodges, J.~R. (2000).
+\newblock {The rise and fall of frequency and imageability: Noun and verb
+  production in semantic dementia}.
+\newblock {\em Brain and Language}, 73(1):17--49.
+
+\bibitem[Jarrold et~al., 2014]{Jarrold2014}
+Jarrold, W., Peintner, B., Wilkins, D., Vergryi, D., Richey, C., Gorno-Tempini,
+  M.~L., and Ogar, J. (2014).
 \newblock {Aided diagnosis of dementia type through computer-based analysis of
   spontaneous speech}.
 \newblock {\em Proceedings of the Workshop on Computational Linguistics and
   Clinical Psychology: From Linguistic Signal to Clinical Reality}, pages
-  27--37, 2014.
+  27--37.
+
+\bibitem[Le et~al., 2011]{Le2011}
+Le, X., Lancashire, I., Hirst, G., Jokel, R., Ms, C., Lancashire, I., Mr, C.,
+  Hirst, G., Ms, C., and Jokel, R. (2011).
+\newblock {Longitudinal detection of dementia through lexical and syntactic
+  changes in writing: A case study of three British novelists}.
+\newblock {\em Literary and Linguistic Computing}, 26(4):435--461.
+
+\bibitem[McKhann et~al., 2011]{McKhann2011}
+McKhann, G.~M., Knopman, D.~S., Chertkow, H., Hyman, B.~T., Jack, C.~R., Kawas,
+  C.~H., Klunk, W.~E., Koroshetz, W.~J., Manly, J.~J., Mayeux, R., Mohs, R.~C.,
+  Morris, J.~C., Rossor, M.~N., Scheltens, P., Carrillo, M.~C., Thies, B.,
+  Weintraub, S., and Phelps, C.~H. (2011).
+\newblock {The diagnosis of dementia due to Alzheimer's disease:
+  Recommendations from the National Institute on Aging-Alzheimer's Association
+  workgroups on diagnostic guidelines for Alzheimer's disease}.
+\newblock {\em Alzheimer's and Dementia}, 7(3):263--269.
+
+\bibitem[Orimaye et~al., 2014]{Orimaye2014}
+Orimaye, S.~O., Sze, J., Wong, M., Sharmini, J., and Fernandez, G. (2014).
+\newblock {Deep-Deep Neural Network Language Models for Predicting Mild
+  Cognitive Impairment}.
+
+\bibitem[Pennebaker et~al., 2015]{Pennebaker2015}
+Pennebaker, J.~W., Boyd, R.~L., Jordan, K., and Blackburn, K. (2015).
+\newblock {The Development and Psychometric Properties of LIWC2015}.
+\newblock {\em UT Faculty/Researcher Works}.
+
+\bibitem[Prince et~al., 2015]{Prince2015}
+Prince, M., Wimo, A., Guerchet, M., Ali, G.-C., Wu, Y.-T., and Prina, M.
+  (2015).
+\newblock {World Alzheimer Report 2015 The Global Impact of Dementia}.
+\newblock Technical report.
 
 \end{thebibliography}

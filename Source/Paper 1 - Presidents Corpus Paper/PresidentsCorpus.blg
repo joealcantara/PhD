@@ -1,5 +1,5 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: PresidentsCorpus.aux
-The style file: unsrt.bst
+The style file: apalike.bst
 Database file #1: main3.bib
 Warning--I didn't find a database entry for "AlzheimersSociety2014"
 Warning--I didn't find a database entry for "Cummings2014"
@@ -9,7 +9,7 @@ Warning--I didn't find a database entry for "Richards1987"
 Warning--I didn't find a database entry for "Garrard2005"
 Warning--I didn't find a database entry for "Wendelstein2015"
 Warning--I didn't find a database entry for "Wendelstein2014"
-Warning--empty institution in Prince2015
-Warning--empty journal in Orimaye2014
 Warning--empty journal in Almor1999
+Warning--empty journal in Orimaye2014
+Warning--empty institution in Prince2015
 (There were 11 warnings)
