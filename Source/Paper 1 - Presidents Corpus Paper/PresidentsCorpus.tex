@@ -54,7 +54,12 @@ One of the challenges associated with the early detection of AD is differentiati
 \par 
 There has been a significant research in the area of language deterioration as a method of detecting AD at an earlier stage. This usually takes the form of recording speech whilst patients' undertake a cognitive assessment such as the Picture Description Task \cite{Orimaye2014,Fraser2015}. Given that language samples are relatively easy to collect, research has moved towards analysis of spontaneous speech. The work of Berisha and Liss is a good example of this, this study compared the differences in language use between two US presidents, Ronald Reagan (RR), who would go on to receive a diagnosis of Dementia and George H. W. Bush (GHWB) who acted as a matched control based on Age \cite{Berisha2015}. They found several differences in language use over time which they felt acted as indicators of RR's difficulties with language due to AD. Differences in features of language identified to be statistically significant included the number of unique words used per speech, the use of non-specific nouns and fillers and low imageability verbs \cite{Berisha2015}. 
 \par   
-This study replicates the research of Berisha and Liss and extends this by adding Donald Trump (DJT) as an additional comparison to RR. This study aims to contribute to our understanding of the pre-diagnosis phase of Alzheimer's Disease and it's effect on language. Our hypothesis is that there will be features of RR's language which change more noticably over time when compared with the two closest appropriate controls. Compared to the previous research study, we explored a wider range of language features within this dataset. In addition, our assumption was that any language deterioration found would be non-linear and so we will be looking at non linear and linear correlations within the data were looked at to see if language decline is constant over time
+Berisha and Liss have developed some very interesting ideas about how we might track changes over time in various lexical features which have been associated with the development of Alzheimer's Disease. We refine these ideas with the aim of exploring the potential for a protocol that can be used for analyzing language deterioration. This study extends the work of Berisha and Liss in a number of ways. Our hypotheses are:
+\begin{enumerate}
+	\item Language use of RR will be significantly different to our controls (GHWB, DJT).
+	\item Additional lexical features will illustrate significant cognitive decline in RR.
+	\item Correlations of lexical features over time will be a significantly improved using non-linear models compared to linear models.
+\end{enumerate}
 
 \section{Methodology}\label{methodology}
 We took 46 transcripts of press conferences given by RR (from 1981 to 1988) and compared them with 134 press conferences (from 1989 to 1993) given by GHWB and 29 press conferences (from 2016 to 2019) conducted by DJT.  We analysed transcripts for language features (described below) shown to change longitudinally with AD. These language features are analysed at the word level, sentence level and document level. 
@@ -256,8 +261,14 @@ One of the most striking differences between this study and the original is when
 Another observation is that when conducting fitting a linear model to this data does not tell the whole story. For example, consider the following two plots. One shows a model fit to a linear  model, and the other shows a model fit using local polynomial regression model which aims to model the data more closely. 
 
 \begin{figure}
-\centering
-\includegraphics[width=5cm, height=5cm]{comp1.png}
+	\centering
+	\begin{minipage}[b]{.45\textwidth}
+		\includegraphics[width=6cm, height=5cm]{comp1.png}
+	\end{minipage}
+	\hfill
+		\begin{minipage}[b]{.45\textwidth}
+		\includegraphics[width=6cm, height=5cm]{comp2.png}
+	\end{minipage}
 \end{figure}
  
 There are limitations of this research. Whilst in terms of age, DJT is certainly more suitable as a control to match with RR, in some ways they held very different styles of press conferences in that RR preferred to do solo press conferences and DJT has shown a preference for doing joint press conferences which have an impact on the amount of language produced. This artifact of the data is in itself notable as it illustrates the problems we may have with smaller amounts of speech. Also, the problem of finding an appropriate control is a common one in this domain. Given that those with MCI and early dementia have such variable presentations, it might prove of limited value in matched pairs design. 
