@@ -1,5 +1,7 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: PresidentsCorpus.aux
-The style file: apalike.bst
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: PresidentsCorpus.aux
+The style file: ieeetr.bst
 Database file #1: main3.bib
 Warning--I didn't find a database entry for "AlzheimersSociety2014"
 Warning--I didn't find a database entry for "Cummings2014"
@@ -9,7 +11,48 @@ Warning--I didn't find a database entry for "Richards1987"
 Warning--I didn't find a database entry for "Garrard2005"
 Warning--I didn't find a database entry for "Wendelstein2015"
 Warning--I didn't find a database entry for "Wendelstein2014"
-Warning--empty journal in Almor1999
-Warning--empty journal in Orimaye2014
 Warning--empty institution in Prince2015
+Warning--empty journal in Orimaye2014
+Warning--empty journal in Almor1999
+You've used 10 entries,
+            1876 wiz_defined-function locations,
+            559 strings with 7016 characters,
+and the built_in function-call counts, 3417 in all, are:
+= -- 287
+> -- 248
+< -- 0
++ -- 86
+- -- 76
+* -- 303
+:= -- 546
+add.period$ -- 10
+call.type$ -- 10
+change.case$ -- 11
+chr.to.int$ -- 0
+cite$ -- 13
+duplicate$ -- 139
+empty$ -- 251
+format.name$ -- 76
+if$ -- 768
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 9
+newline$ -- 33
+num.names$ -- 10
+pop$ -- 25
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 94
+stack$ -- 0
+substring$ -- 208
+swap$ -- 59
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 31
+width$ -- 12
+write$ -- 98
 (There were 11 warnings)
