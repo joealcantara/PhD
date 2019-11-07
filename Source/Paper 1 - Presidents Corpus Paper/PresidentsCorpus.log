@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  7 NOV 2019 09:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  7 NOV 2019 11:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -278,7 +278,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <12> not available
 
 
 LaTeX Warning: Citation `AlzheimersSociety2014' on page 1 undefined on input li
-ne 50.
+ne 49.
 
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
@@ -291,13 +291,13 @@ Missing character: There is no £ in font ptmr7t!
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Citation `Cummings2014' on page 2 undefined on input line 54.
+LaTeX Warning: Citation `Cummings2014' on page 2 undefined on input line 53.
 
 
-LaTeX Warning: Citation `Cummings2014' on page 2 undefined on input line 54.
+LaTeX Warning: Citation `Cummings2014' on page 2 undefined on input line 53.
 
 
-LaTeX Warning: Citation `Fraser2015' on page 2 undefined on input line 58.
+LaTeX Warning: Citation `Fraser2015' on page 2 undefined on input line 57.
 
 
 Underfull \vbox (badness 5741) has occurred while \output is active []
@@ -311,113 +311,113 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [2]
 
-LaTeX Warning: Citation `Bird2009' on page 3 undefined on input line 80.
+LaTeX Warning: Citation `Bird2009' on page 3 undefined on input line 79.
 
 
-LaTeX Warning: Citation `Richards1987' on page 3 undefined on input line 83.
+LaTeX Warning: Citation `Richards1987' on page 3 undefined on input line 82.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
 
 [3]
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 132.
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 131.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 132.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 131.
  [4]
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 []\OT1/ptm/m/n/10 3423.91
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 []\OT1/ptm/m/n/10 2607.72
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 []\OT1/ptm/m/n/10 1848.65
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 []\OT1/ptm/m/n/10 894.13
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 []\OT1/ptm/m/n/10 667.76
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 []\OT1/ptm/m/n/10 481.82
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 []\OT1/ptm/m/n/10 23.17
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 []\OT1/ptm/m/n/10 18.71
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 []\OT1/ptm/m/n/10 13.84
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
 []\OT1/ptm/m/n/10 RR v
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 153--153
+Underfull \hbox (badness 2941) in paragraph at lines 152--152
 []\OT1/ptm/m/n/10 GHWB v
  []
 
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <9> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 159.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 158.
 [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
 
-LaTeX Warning: Citation `Garrard2005' on page 7 undefined on input line 264.
+LaTeX Warning: Citation `Garrard2005' on page 7 undefined on input line 263.
 
 
-LaTeX Warning: Citation `Wendelstein2015' on page 7 undefined on input line 266
+LaTeX Warning: Citation `Wendelstein2015' on page 7 undefined on input line 265
 .
 
 
-LaTeX Warning: Citation `Wendelstein2015' on page 7 undefined on input line 266
+LaTeX Warning: Citation `Wendelstein2015' on page 7 undefined on input line 265
 .
 
 
-LaTeX Warning: Citation `Wendelstein2014' on page 7 undefined on input line 268
+LaTeX Warning: Citation `Wendelstein2014' on page 7 undefined on input line 267
 .
 
 <comp1.png, id=33, 2048.65375pt x 1701.35625pt>
 File: comp1.png Graphic file (type png)
 <use comp1.png>
-Package pdftex.def Info: comp1.png  used on input line 276.
+Package pdftex.def Info: comp1.png  used on input line 275.
 (pdftex.def)             Requested size: 170.7103pt x 142.26393pt.
 <comp2.png, id=35, 2048.65375pt x 1701.35625pt>
 File: comp2.png Graphic file (type png)
 <use comp2.png>
-Package pdftex.def Info: comp2.png  used on input line 280.
+Package pdftex.def Info: comp2.png  used on input line 279.
 (pdftex.def)             Requested size: 170.7103pt x 142.26393pt.
 [7]
 
-LaTeX Warning: Citation `Fraser2015' on page 8 undefined on input line 290.
+LaTeX Warning: Citation `Fraser2015' on page 8 undefined on input line 289.
 
 (./PresidentsCorpus.bbl [8 <./comp1.png> <./comp2.png>]) [9]
 (./PresidentsCorpus.aux)
@@ -448,7 +448,7 @@ cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
 are/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on PresidentsCorpus.pdf (9 pages, 630095 bytes).
+Output written on PresidentsCorpus.pdf (9 pages, 630345 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream
