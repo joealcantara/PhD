@@ -40,7 +40,7 @@
 \keywords{Mild Cognitive Impairment \and Alzheimer's Disease \and Machine Learning \and Diagnosis \and Natural Language Processing} 
 \bigskip
 \begin{abstract}
-This is the paper's abstract \ldots
+This paper looks at evidence of cognitive decline in three presidents speeches. Ronald Reagan, who would later go on to receive a diagnosis of Alzheimer's Disease and both George Herbert Walker Bush and Donald Trump who have no known diagnosis of dementia. This study used the methodology used by Berisha and Liss as a starting off point and offers some refinements in how the data was pre-processed, how the features were generated and how the analysis was conducted. We hypothesized that there would be features identified which would decline over time for RR, but not for our controls. We also hypothesised that a non-linear model would map decline more accurately than linear models. We collected data from the Question and Answer portions of the presidents press conferences and used Natural Language Processing to generate features for analysis. We found that there were a number of lexical features that significantly changed over time for RR but did not change for either GHWB or DJT. These features have a foundation in psychological literature and have been linked to cognitive decline in Alzheimer's Disease. Also, we found that non-linear models were able to more accurately map declines in RR's language over time. 
 \end{abstract}
 
 \section{Introduction}\label{introduction}
@@ -57,8 +57,7 @@ There has been a significant research in the area of language deterioration as a
 Berisha and Liss have developed some very interesting ideas about how we might track changes over time in various lexical features which have been associated with the development of Alzheimer's Disease. We refine these ideas with the aim of exploring the potential for a protocol that can be used for analyzing language deterioration. This study extends the work of Berisha and Liss in a number of ways. Our hypotheses are:
 \begin{enumerate}
 	\item Language use of RR will be significantly different to our controls (GHWB, DJT).
-	\item Additional lexical features will illustrate significant cognitive decline in RR.
-	\item Correlations of lexical features over time will be a significantly improved using non-linear models compared to linear models.
+	\item Modelling the dynamics of lexical features over time can be improved using non-linear models compared to linear models.
 \end{enumerate}
 
 \section{Methodology}\label{methodology}
@@ -115,7 +114,8 @@ Using a Part of Speech tagger (PoS) on each transcript analyses each sentence wi
 
 \subsubsection{Linguistic Inquiry and Word Count(LIWC)}
 The LIWC is a text processor which analysis words within a given a document and compares the words in the LIWC dictionary file. The LIWC dictionary file contains over 6000 words which are categorised into approximately 90 different types. For example the word 'cried' is part of five word categories: sadness, negative emotion, overall affect, verbs and past focus \cite{Pennebaker2015}. Each word in the document or set of documents is searched for in the dictionary file and if found, the appropriate type is incremented by 1. What is output is an analysis of word usage in reference to each category. This is particularly useful in analysing both structural language changes but also the content or themes of language for a given transcript or set of transcripts.
-\par 
+
+\subsubsection{Longitudinal Analysis}
 As with Berisha and Liss, we analysed the transcripts over time in order to determine if there was an underlying temporal trend that may indicate that different parts of language increase or decrease over time. In AD, cognitive abilities are said to deteriorate over time and therefore it may be useful to analyse temporal trends that indicate a potential deterioration of cognition. In order to get a accurate measure of deterioration over time, we time stamped each transcript in relation to number of days from the first transcript to the date of the transcript being analysed as the press conferences were not evenly spaced out during the presidencies.
 
 \section{Results}\label{results}
@@ -271,12 +271,18 @@ Another observation is that when conducting fitting a linear model to this data 
 	\end{minipage}
 \end{figure}
  
-There are limitations of this research. Whilst in terms of age, DJT is certainly more suitable as a control to match with RR, in some ways they held very different styles of press conferences in that RR preferred to do solo press conferences and DJT has shown a preference for doing joint press conferences which have an impact on the amount of language produced. This artifact of the data is in itself notable as it illustrates the problems we may have with smaller amounts of speech. Also, the problem of finding an appropriate control is a common one in this domain. Given that those with MCI and early dementia have such variable presentations, it might prove of limited value in matched pairs design. 
+There are limitations of this research. Whilst in terms of age, DJT is certainly more suitable as a control to match with RR, in some ways they held very different styles of press conferences in that RR preferred to do solo press conferences and DJT has shown a preference for doing joint press conferences which have an impact on the amount of language produced. This artifact of the data is in itself notable as it illustrates the problems we may have with smaller amounts of speech. Also, the problem of finding an appropriate control is a common one in this domain. This variability in the number and quality of the transcriptions raises some doubts as to the results of DJT. Is it the lack of instances of data, or that the number of words per transcript is significantly less than with RR or GHWB. This does have further implications for using a protocol such as this in a more general way, as it will impact how data is collected. 
+\par 
+
+
+Given that those with MCI and early dementia have such variable presentations, it might prove of limited value in matched pairs design. 
 \par 
 With further work, it is not feasible to the vast array of samples over a timeframe, as we have had with the president corpus and so it would be worth exploring how the quality of these predictions might lessen when faced with considerably fewer samples and over a smaller time period. It would also be worth extending this research further to encompass more of the linguistic features Fraser used in her work \cite{Fraser2015} to see if there are any further insights to be gained. In addition, this replication and extension has demonstrated the potential utility of using longitudinal data as a means of comparing language use of a person at two or more time periods and using this information as a diagnostic aid for MCI and therefore more work would be helpful from a longitudinal perspective to see if this approach may be valid in moving towards a solution for this particular problem. 
 
 \section{Conclusions}\label{conclusions}
 The results of this work show that we can track a person's use of language through time in a number of ways, and it is possible for an individual to be his or her own control. This is important as it means the heterogenous nature of the MCI population does not impact results as much as if we were comparing those with MCI to controls. Equally, it would be helpful to have controls to ascertain what would be usual to expect in the decline of language in a healthy older adult. 
+\par 
+The results of this work also identify some clues as to what
 
 \bibliographystyle{ieeetr}
 \bibliography{main3}

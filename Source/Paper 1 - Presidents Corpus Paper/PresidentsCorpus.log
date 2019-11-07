@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.13)  23 OCT 2019 20:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.13)  29 OCT 2019 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -296,10 +296,6 @@ LaTeX Warning: Citation `Cummings2014' on page 2 undefined on input line 51.
 LaTeX Warning: Citation `Fraser2015' on page 2 undefined on input line 55.
 
 
-Underfull \vbox (badness 1577) has occurred while \output is active []
-
-
-
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
@@ -307,13 +303,13 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [2]
 
-LaTeX Warning: Citation `Bird2009' on page 3 undefined on input line 75.
+LaTeX Warning: Citation `Bird2009' on page 3 undefined on input line 74.
 
 
-LaTeX Warning: Citation `Richards1987' on page 3 undefined on input line 78.
+LaTeX Warning: Citation `Richards1987' on page 3 undefined on input line 77.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--90
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
 
  []
 
@@ -382,11 +378,16 @@ Underfull \hbox (badness 2941) in paragraph at lines 143--143
 
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <9> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 149.
-[5]
 
-LaTeX Warning: Citation `Garrard2005' on page 6 undefined on input line 254.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[6]
+ [5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+
+LaTeX Warning: Citation `Garrard2005' on page 7 undefined on input line 254.
+
 
 LaTeX Warning: Citation `Wendelstein2015' on page 7 undefined on input line 256
 .
@@ -409,10 +410,11 @@ File: comp2.png Graphic file (type png)
 <use comp2.png>
 Package pdftex.def Info: comp2.png  used on input line 270.
 (pdftex.def)             Requested size: 170.7103pt x 142.26393pt.
+[7]
 
-LaTeX Warning: Citation `Fraser2015' on page 7 undefined on input line 276.
+LaTeX Warning: Citation `Fraser2015' on page 8 undefined on input line 280.
 
-(./PresidentsCorpus.bbl [7 <./comp1.png> <./comp2.png>]) [8]
+(./PresidentsCorpus.bbl [8 <./comp1.png> <./comp2.png>]) [9]
 (./PresidentsCorpus.aux)
 
 LaTeX Warning: There were undefined references.
@@ -422,13 +424,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2230 strings out of 492649
- 31921 string characters out of 6129622
- 119839 words of memory out of 5000000
- 6078 multiletter control sequences out of 15000+600000
+ 2229 strings out of 492649
+ 31905 string characters out of 6129622
+ 123839 words of memory out of 5000000
+ 6077 multiletter control sequences out of 15000+600000
  24953 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,45p,1734b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,45p,1735b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texl
@@ -442,10 +444,10 @@ xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/f
 onts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on PresidentsCorpus.pdf (8 pages, 628000 bytes).
+Output written on PresidentsCorpus.pdf (9 pages, 630038 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 88 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
