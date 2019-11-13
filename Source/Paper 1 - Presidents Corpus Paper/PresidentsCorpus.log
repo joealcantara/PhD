@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.9.13)  7 NOV 2019 11:14
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  7 NOV 2019 11:45
+>>>>>>> d44d05317ddce2d3eee83f766e8c9fed51c19962
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -124,12 +128,16 @@ LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
+<<<<<<< HEAD
 LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
+=======
+>>>>>>> d44d05317ddce2d3eee83f766e8c9fed51c19962
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
+<<<<<<< HEAD
 LaTeX Font Info:    Try loading font information for TU+ptm on input line 36.
 LaTeX Font Info:    No file TUptm.fd. on input line 36.
 
@@ -137,6 +145,12 @@ LaTeX Font Info:    No file TUptm.fd. on input line 36.
 LaTeX Font Warning: Font shape `TU/ptm/m/n' undefined
 (Font)              using `TU/lmr/m/n' instead on input line 36.
 
+=======
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 36.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+>>>>>>> d44d05317ddce2d3eee83f766e8c9fed51c19962
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -216,17 +230,69 @@ LaTeX Font Warning: Font shape `TU/ptm/bx/n' undefined
 (Font)              using `TU/ptm/m/n' instead on input line 37.
 
 
+<<<<<<< HEAD
 LaTeX Font Warning: Font shape `TU/ptm/bx/it' undefined
 (Font)              using `TU/ptm/bx/n' instead on input line 39.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/bx/sc' undefined
 (Font)              using `TU/ptm/bx/n' instead on input line 41.
+=======
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 37.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 37.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 39.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 41.
+>>>>>>> d44d05317ddce2d3eee83f766e8c9fed51c19962
 
 
 LaTeX Warning: Citation `AlzheimersSociety2014' on page 1 undefined on input li
 ne 48.
 
+<<<<<<< HEAD
+=======
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+>>>>>>> d44d05317ddce2d3eee83f766e8c9fed51c19962
 [1
 
 
@@ -260,7 +326,11 @@ LaTeX Warning: Citation `Richards1987' on page 3 undefined on input line 81.
 [3]
 Underfull \hbox (badness 10000) in paragraph at lines 91--93
 
+<<<<<<< HEAD
  []
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
+>>>>>>> d44d05317ddce2d3eee83f766e8c9fed51c19962
 
 
 LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
@@ -271,53 +341,103 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--137
 []\TU/ptm/m/it/10 3423.91
  []
 
+<<<<<<< HEAD
 
 Underfull \hbox (badness 10000) in paragraph at lines 137--137
 []\TU/ptm/m/it/10 2607.72
+=======
+[3]
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 130.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptm.fd
+File: omlptm.fd 
+)
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 130.
+ [4]
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+[]\OT1/ptm/m/n/10 3423.91
+>>>>>>> d44d05317ddce2d3eee83f766e8c9fed51c19962
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 137--137
+<<<<<<< HEAD
 []\TU/ptm/m/it/10 1848.65
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 138--138
 []\TU/ptm/m/it/10 894.13
+=======
+[]\OT1/ptm/m/n/10 2607.72
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+[]\OT1/ptm/m/n/10 1848.65
+>>>>>>> d44d05317ddce2d3eee83f766e8c9fed51c19962
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 138--138
+<<<<<<< HEAD
 []\TU/ptm/m/it/10 667.76
+=======
+[]\OT1/ptm/m/n/10 894.13
+>>>>>>> d44d05317ddce2d3eee83f766e8c9fed51c19962
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 138--138
+<<<<<<< HEAD
 []\TU/ptm/m/it/10 481.82
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 139--139
 []\TU/ptm/m/it/10 23.17
+=======
+[]\OT1/ptm/m/n/10 667.76
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]\OT1/ptm/m/n/10 481.82
+>>>>>>> d44d05317ddce2d3eee83f766e8c9fed51c19962
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 139--139
+<<<<<<< HEAD
 []\TU/ptm/m/it/10 18.71
+=======
+[]\OT1/ptm/m/n/10 23.17
+>>>>>>> d44d05317ddce2d3eee83f766e8c9fed51c19962
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 139--139
+<<<<<<< HEAD
 []\TU/ptm/m/it/10 13.84
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 151--151
 []\TU/ptm/m/it/10 RR v
+=======
+[]\OT1/ptm/m/n/10 18.71
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+[]\OT1/ptm/m/n/10 13.84
+>>>>>>> d44d05317ddce2d3eee83f766e8c9fed51c19962
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 151--151
+<<<<<<< HEAD
 []\TU/ptm/m/it/10 RR v
  []
 
@@ -327,6 +447,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--198
  []
 
 
+=======
+[]\OT1/ptm/m/n/10 RR v
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 151--151
+[]\OT1/ptm/m/n/10 GHWB v
+ []
+
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <9> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 157.
+[5]
+>>>>>>> d44d05317ddce2d3eee83f766e8c9fed51c19962
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
@@ -336,6 +469,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 231--231
 
 [7]
 
+<<<<<<< HEAD
 LaTeX Warning: Citation `Garrard2005' on page 8 undefined on input line 262.
 
 
@@ -357,6 +491,35 @@ File: comp2.png Graphic file (type bmp)
 
 LaTeX Warning: Citation `Fraser2015' on page 8 undefined on input line 288.
 
+=======
+LaTeX Warning: Citation `Garrard2005' on page 7 undefined on input line 262.
+
+
+LaTeX Warning: Citation `Wendelstein2015' on page 7 undefined on input line 264
+.
+
+
+LaTeX Warning: Citation `Wendelstein2015' on page 7 undefined on input line 264
+.
+
+
+LaTeX Warning: Citation `Wendelstein2014' on page 7 undefined on input line 266
+.
+
+<comp1.png, id=33, 2048.65375pt x 1701.35625pt>
+File: comp1.png Graphic file (type png)
+<use comp1.png>
+Package pdftex.def Info: comp1.png  used on input line 274.
+(pdftex.def)             Requested size: 170.7103pt x 142.26393pt.
+<comp2.png, id=35, 2048.65375pt x 1701.35625pt>
+File: comp2.png Graphic file (type png)
+<use comp2.png>
+Package pdftex.def Info: comp2.png  used on input line 278.
+(pdftex.def)             Requested size: 170.7103pt x 142.26393pt.
+[7]
+
+LaTeX Warning: Citation `Fraser2015' on page 8 undefined on input line 288.
+>>>>>>> d44d05317ddce2d3eee83f766e8c9fed51c19962
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
