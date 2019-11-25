@@ -39,9 +39,13 @@
 \keywords{Mild Cognitive Impairment \and Alzheimer's Disease \and Machine Learning \and Diagnosis \and Natural Language Processing} 
 \bigskip
 \begin{abstract}
+<<<<<<< HEAD
 Several research efforts aimed at improving the early diagnosis of Alzheimer's Disease have focused on the longitudinal analysis of lexical features which have been implicated in the pre-clinical progression of this disease. We build on these studies and continue to refine a method for extracting and analysing language from transcripts. This method is based on a statistical evaluation of the most relevant features, as well as on the use of Generalised Additive Models instead of Linear Regression as a way to more adequately model the declines in language over time. We evaluate this method using the unscripted question and answer portions of news conferences from three U.S Presidents: Ronald Reagan (RR), who would later go on to receive a diagnosis of Alzheimer's Disease; George H. W. Bush (GB) and Donald Trump (DT), who have no known diagnosis of dementia. Our controls were the closest in  age to RR when they became president. Our analysis uncovered several lexical features that did not change significantly for GB and DT, but presented significant changes for RR, including significant decreases in unique words and noun usage, and significant increases in pronouns, conjunctions and words which are related to social processes significantly increase over time. We also show that non-linear models provide a more appropriate way to model these changes over time. These findings are consistent with the psychological literature, which documents a link between these features and cognitive decline in Alzheimer's Disease.  This work points the way to developing a comparatively non-invasive protocol that could be used in clinical settings that help to spot atypical declines in language use over time, potentially contributing to earlier, more accurate diagnoses of Alzheimer's Disease.
 
 
+=======
+Several research efforts aimed at improving the early diagnosis of Alzheimer's Disease have focused on the longitudinal analysis of lexical features which have been implicated in the pre-clinical progression of this disease. We build on these studies and continue to refine a method for extracting and analysing language from transcripts. This method is based on a statistical evaluation of the most relevant features, as well as on the use of Generalised Additive Models instead of Linear Regression as a way to more adequately model the declines in language over time. We evaluate this method using the unscripted question and answer portions of news conferences from three U.S Presidents: Ronald Reagan (RR), who would later go on to receive a diagnosis of Alzheimer's Disease; George H. W. Bush (GB) and Donald Trump (DT), who have no known diagnosis of dementia. Our analysis uncovered several lexical features that did not change significantly for GB and DT, but presented significant changes for RR, including significant decreases in unique words and noun usage, and significant increases in pronouns (particularly personal pronouns), conjunctions and words which are related to social processes significantly increase over time. These findings are consistent with the psychological literature, which documents a link between these features and cognitive decline in Alzheimer's Disease. This work points the way to developing a comparatively non-invasive protocol that could be used in clinical settings that help to spot atypical declines in language use over time, potentially contributing to earlier, more accurate diagnoses of Alzheimer's Disease.
+>>>>>>> d0615e96c4e9dc24e79fb8e2afbe34f945a413e3
 \end{abstract}
 
 \section{Introduction}\label{introduction}
@@ -266,7 +270,9 @@ Interestingly, when we normalised the various types of words used by the preside
 The decrease in overall noun usage has also been identified as a feature. Jarrold et al found that AD patients would use more pronouns, verbs and fewer nouns than controls \cite{Jarrold2014}. Wendlestein in their investigations into noun usage found that decreased later on in AD progression and was unaffected in the pre-clinical stages of AD \cite{Wendelstein2014}. Our results are supported by existing literature and this potentially means that language analysis in the way we have structured it may have diagnostic or prognostic properties.
 One of the most striking differences between this study and the original is when looking at Unique Words. Whilst Unique Words as a feature is significant, which was a finding in the original study, when we controlled via normalisation, we found that this was not significant. 
 \par
-Another observation is that when conducting fitting a linear model to this data does not tell the whole story. For example, consider the following two plots. One shows a model fit to a linear  model, and the other shows a model fit using local polynomial regression model which aims to model the data more closely. 
+Another observation is that when conducting fitting a linear model to this data does not tell the whole story. For example, consider the following two plots. One shows a model fit to a linear  model, and the other shows a model fit using local polynomial regression model which aims to model the data more closely. It is clear to see that both models can track the movements of language use over time however, the linear model is quite a rigid model which does not allow for different inflection points. It is not the case that language declines in a linear way, as demonstrated by figure  and whilst we have a number of data points that we can use to model RR's decline, in a clinical setting we will often not have this luxury. 
+\par 
+
 
 \begin{figure}
 	\centering
@@ -290,7 +296,11 @@ With further work, it is not feasible to the vast array of samples over a timefr
 \section{Conclusions}\label{conclusions}
 The results of this work show that we can track a person's use of language through time in a number of ways and that it is possible for an individual to be his or her own control. This is important as it means the heterogenous nature of the MCI population does not impact results as much as if we were comparing those with group of MCI patients with a group of controls. Equally, it would be helpful to have controls to ascertain what would be usual to expect in the decline of language in a healthy older adult. 
 \par 
+<<<<<<< HEAD
 The results of this work also identify some clues as to what 
+=======
+The results of this work also identify some clues as to what could work in a clinical setting, or how we might be able to collect data in a way that accurately tracks language decline without making incorrect assumptions. 
+>>>>>>> d0615e96c4e9dc24e79fb8e2afbe34f945a413e3
 
 \bibliographystyle{ieeetr}
 \bibliography{main3}
