@@ -1,16 +1,27 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 
 \bibitem{Albert2011}
 M.~S. Albert, S.~T. DeKosky, D.~Dickson, B.~Dubois, H.~H. Feldman, N.~C. Fox,
   A.~Gamst, D.~M. Holtzman, W.~J. Jagust, R.~C. Petersen, P.~J. Snyder, M.~C.
-  Carrillo, B.~Theis, and C.~H. Phelps, ``{The diagnosis of mild cognitive
+  Carrillo, B.~Thies, and C.~H. Phelps, ``{The diagnosis of mild cognitive
   impairment due to Alzheimer's disease: Recommendations from the National
-  Institute on Aging-Alzheimer's Association workgroups on},'' {\em Alzheimer's
-  {\&} Dementia}, vol.~7, no.~3, pp.~270--279, 2011.
+  Institute on Aging-Alzheimer's Association workgroups on diagnostic
+  guidelines for Alzheimer's disease},'' {\em Alzheimer's {\&} Dementia},
+  vol.~7, pp.~270--279, may 2011.
+
+\bibitem{AlzheimersSociety2014}
+{Alzheimer's Society}, ``{Alzheimer's Society - Dementia UK: Second Edition},''
+  tech. rep., 2014.
 
 \bibitem{Prince2015}
-M.~Prince, A.~Wimo, M.~Guerchet, G.-C. Ali, Y.-T. Wu, and M.~Prina, ``{World
-  Alzheimer Report 2015 The Global Impact of Dementia},'' tech. rep., 2015.
+M.~Prince, A.~Wimo, G.~M, A.~GC, W.~YT, and P.~M, ``{World Alzheimer Report
+  2015 The Global Impact of Dementia An analysis of prevalence, incidence, cost
+  and trends},'' {\em Alzheimer's Disease International}, 2015.
+
+\bibitem{Duong2017}
+S.~Duong, T.~Patel, and F.~Chang, ``{Dementia: What Pharmacists need to
+  know},'' {\em Canadian Pharmacists Journal / Revue des Pharmaciens du
+  Canada}, vol.~150, pp.~118--129, mar 2017.
 
 \bibitem{McKhann2011}
 G.~M. McKhann, D.~S. Knopman, H.~Chertkow, B.~T. Hyman, C.~R. Jack, C.~H.
@@ -19,13 +30,18 @@ G.~M. McKhann, D.~S. Knopman, H.~Chertkow, B.~T. Hyman, C.~R. Jack, C.~H.
   S.~Weintraub, and C.~H. Phelps, ``{The diagnosis of dementia due to
   Alzheimer's disease: Recommendations from the National Institute on
   Aging-Alzheimer's Association workgroups on diagnostic guidelines for
-  Alzheimer's disease},'' {\em Alzheimer's and Dementia}, vol.~7, no.~3,
-  pp.~263--269, 2011.
+  Alzheimer's disease},'' {\em Alzheimer's {\&} Dementia}, vol.~7,
+  pp.~263--269, may 2011.
 
-\bibitem{Orimaye2014}
-S.~O. Orimaye, J.~Sze, M.~Wong, J.~Sharmini, and G.~Fernandez, ``{Deep-Deep
-  Neural Network Language Models for Predicting Mild Cognitive Impairment},''
-  2014.
+\bibitem{Cummings2014}
+J.~L. Cummings, T.~Morstorf, and K.~Zhong, ``{Alzheimer's disease
+  drug-development pipeline: few candidates, frequent failures},'' {\em
+  Alzheimer's Research {\&} Therapy}, vol.~6, no.~4, p.~37, 2014.
+
+\bibitem{Fraser2015}
+K.~C. Fraser, J.~A. Meltzer, and F.~Rudzicz, ``{Linguistic Features Identify
+  Alzheimer's Disease in Narrative Speech},'' {\em Journal of Alzheimer's
+  Disease}, vol.~49, pp.~407--422, oct 2015.
 
 \bibitem{Berisha2015}
 V.~Berisha, S.~Wang, A.~LaCross, and J.~Liss, ``{Tracking Discourse Complexity
@@ -33,34 +49,8 @@ V.~Berisha, S.~Wang, A.~LaCross, and J.~Liss, ``{Tracking Discourse Complexity
   Conferences of Presidents Ronald Reagan and George Herbert Walker Bush},''
   {\em Journal of Alzheimer's Disease}, vol.~45, no.~3, pp.~959--963, 2015.
 
-\bibitem{Pennebaker2015}
-J.~W. Pennebaker, R.~L. Boyd, K.~Jordan, and K.~Blackburn, ``{The Development
-  and Psychometric Properties of LIWC2015},'' {\em UT Faculty/Researcher
-  Works}, 2015.
-
-\bibitem{Bird2000}
-H.~Bird, M.~A. {Lambon Ralph}, K.~Patterson, and J.~R. Hodges, ``{The rise and
-  fall of frequency and imageability: Noun and verb production in semantic
-  dementia},'' {\em Brain and Language}, vol.~73, no.~1, pp.~17--49, 2000.
-
-\bibitem{Le2011}
-X.~Le, I.~Lancashire, G.~Hirst, R.~Jokel, C.~Ms, I.~Lancashire, C.~Mr,
-  G.~Hirst, C.~Ms, and R.~Jokel, ``{Longitudinal detection of dementia through
-  lexical and syntactic changes in writing: A case study of three British
-  novelists},'' {\em Literary and Linguistic Computing}, vol.~26, no.~4,
-  pp.~435--461, 2011.
-
-\bibitem{Almor1999}
-A.~Almor, M.~C. Macdonald, E.~S. Andersen, and L.~K. Tyler, ``{Why Do Alzheimer
-  Patients Have Difficulty with Pronouns ? Working Memory , Semantics , and
-  Reference in Comprehension and Production in Alzheimer ' s Disease and
-  PRONOUNS , NOUNS , ALZHEIMER ' S DISEASE},'' vol.~227, pp.~202--227, 1999.
-
-\bibitem{Jarrold2014}
-W.~Jarrold, B.~Peintner, D.~Wilkins, D.~Vergryi, C.~Richey, M.~L.
-  Gorno-Tempini, and J.~Ogar, ``{Aided diagnosis of dementia type through
-  computer-based analysis of spontaneous speech},'' {\em Proceedings of the
-  Workshop on Computational Linguistics and Clinical Psychology: From
-  Linguistic Signal to Clinical Reality}, pp.~27--37, 2014.
+\bibitem{Hastie1986}
+T.~Hastie and R.~Tibshirani, ``{Generalized Additive Models},'' {\em
+  Statistical Science}, vol.~1, pp.~297--310, aug 1986.
 
 \end{thebibliography}
