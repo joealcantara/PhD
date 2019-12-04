@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.13)  2 DEC 2019 13:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.13)  4 DEC 2019 11:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -177,17 +177,7 @@ Overfull \hbox (8.44878pt too wide) in paragraph at lines 60--61
 r con-trols (GHWB,
  []
 
-[5]
-
-LaTeX Warning: Citation `Bird2009' on page 6 undefined on input line 75.
-
-
-LaTeX Warning: Citation `Pennebaker2015' on page 6 undefined on input line 75.
-
-
-LaTeX Warning: Citation `Richards1987' on page 6 undefined on input line 78.
-
-[6]
+[5] [6]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 81.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -199,9 +189,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
 
-
-LaTeX Warning: Citation `Bird2000' on page 7 undefined on input line 97.
-
 [7]
 Underfull \hbox (badness 10000) in paragraph at lines 105--105
 []\OT1/cmr/m/n/12 Non Spe-cific
@@ -211,10 +198,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--105
 Overfull \hbox (3.88582pt too wide) in paragraph at lines 101--108
  [] 
  []
-
-
-LaTeX Warning: Citation `Pennebaker2015' on page 8 undefined on input line 116.
-
 
 [8]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 124.
@@ -280,10 +263,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--133
  []
 
 [9]
-
-LaTeX Warning: Citation `Le2011' on page 10 undefined on input line 139.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 145--145
 []\OT1/cmr/m/n/12 RR v
  []
@@ -336,66 +315,43 @@ Overfull \hbox (1.57088pt too wide) in paragraph at lines 177--177
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-[]\OT1/cmr/m/n/12 RR R-
+Overfull \hbox (8.55896pt too wide) in paragraph at lines 190--214
+ [] 
  []
 
+[12] [13]
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-[]\OT1/cmr/m/n/12 GWB R-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-[]\OT1/cmr/m/n/12 DJT R-
- []
-
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
-[]\OT1/cmr/m/n/12 GAM Press
- []
-
-[13]
-
-LaTeX Warning: Citation `Garrard2005' on page 14 undefined on input line 256.
+LaTeX Warning: Citation `Wendelstein2014' on page 14 undefined on input line 25
+6.
 
 
-LaTeX Warning: Citation `Le2011' on page 14 undefined on input line 256.
-
-
-LaTeX Warning: Citation `Almor1999' on page 14 undefined on input line 258.
-
-
-LaTeX Warning: Citation `Wendelstein2015' on page 14 undefined on input line 25
-8.
-
-
-LaTeX Warning: Citation `Wendelstein2015' on page 14 undefined on input line 25
-8.
-
-
-LaTeX Warning: Citation `Almor1999' on page 14 undefined on input line 258.
-
-
-LaTeX Warning: Citation `Jarrold2014' on page 14 undefined on input line 260.
-
-
-LaTeX Warning: Citation `Wendelstein2014' on page 14 undefined on input line 26
-0.
+LaTeX Warning: Citation `Garrard2005' on page 14 undefined on input line 258.
 
 [14]
-<plots/comp1.png, id=61, 2048.65375pt x 1701.35625pt>
+<plots/comparison1.png, id=61, 2044.63875pt x 1697.34125pt>
+File: plots/comparison1.png Graphic file (type png)
+<use plots/comparison1.png>
+Package pdftex.def Info: plots/comparison1.png  used on input line 266.
+(pdftex.def)             Requested size: 170.68773pt x 142.239pt.
+<plots/comp1.png, id=63, 2044.63875pt x 1697.34125pt>
 File: plots/comp1.png Graphic file (type png)
 <use plots/comp1.png>
-Package pdftex.def Info: plots/comp1.png  used on input line 270.
-(pdftex.def)             Requested size: 170.7103pt x 142.26393pt.
-<plots/comp2.png, id=63, 2048.65375pt x 1701.35625pt>
+Package pdftex.def Info: plots/comp1.png  used on input line 275.
+(pdftex.def)             Requested size: 170.68773pt x 142.239pt.
+ [15 <./plots/comparison1.png>]
+<plots/comp2.png, id=68, 2044.63875pt x 1697.34125pt>
 File: plots/comp2.png Graphic file (type png)
 <use plots/comp2.png>
-Package pdftex.def Info: plots/comp2.png  used on input line 274.
-(pdftex.def)             Requested size: 170.7103pt x 142.26393pt.
- [15 <./plots/comp1.png> <./plots/comp2.png>] (./PresidentsCorpus.bbl
-[16] [17]) [18] (./PresidentsCorpus.aux)
+Package pdftex.def Info: plots/comp2.png  used on input line 281.
+(pdftex.def)             Requested size: 170.68773pt x 142.239pt.
+ [16 <./plots/comp1.png> <./plots/comp2.png>] (./PresidentsCorpus.bbl [17] [18]
+
+Underfull \hbox (badness 2460) in paragraph at lines 91--95
+[]\OT1/cmr/m/n/12 B. Wen-del-stein, J. Stegmeier, C. Franken-berg, E. Felder, a
+nd
+ []
+
+[19]) [20] (./PresidentsCorpus.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -404,10 +360,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1602 strings out of 492649
- 23277 string characters out of 6129622
- 94301 words of memory out of 5000000
- 5473 multiletter control sequences out of 15000+600000
+ 1618 strings out of 492649
+ 23524 string characters out of 6129622
+ 92333 words of memory out of 5000000
+ 5488 multiletter control sequences out of 15000+600000
  10227 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,25p,1822b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -425,10 +381,10 @@ xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texli
 ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texliv
 e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmu10.pfb>
-Output written on PresidentsCorpus.pdf (18 pages, 670942 bytes).
+Output written on PresidentsCorpus.pdf (20 pages, 806579 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
+ 132 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

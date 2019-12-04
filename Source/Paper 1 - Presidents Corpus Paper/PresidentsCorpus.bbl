@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Albert2011}
 M.~S. Albert, S.~T. DeKosky, D.~Dickson, B.~Dubois, H.~H. Feldman, N.~C. Fox,
@@ -49,8 +49,55 @@ V.~Berisha, S.~Wang, A.~LaCross, and J.~Liss, ``{Tracking Discourse Complexity
   Conferences of Presidents Ronald Reagan and George Herbert Walker Bush},''
   {\em Journal of Alzheimer's Disease}, vol.~45, no.~3, pp.~959--963, 2015.
 
+\bibitem{Bird2009}
+S.~Bird, E.~Klein, and E.~Loper, {\em {Natural Language Processing with Python:
+  Analyzing Text with the Natural Language Toolkit}}.
+\newblock 2009.
+
+\bibitem{Pennebaker2015}
+J.~W. Pennebaker, R.~L. Boyd, K.~Jordan, and K.~Blackburn, ``{The Development
+  and Psychometric Properties of LIWC2015},'' {\em Departement of Psychology},
+  p.~1, 2015.
+
+\bibitem{Bucks2000}
+R.~S. Bucks, S.~Singh, J.~M. Cuerden, and G.~K. Wilcock, ``{Analysis of
+  spontaneous, conversational speech in dementia of Alzheimer type: Evaluation
+  of an objective technique for analysing lexical performance},'' {\em
+  Aphasiology}, vol.~14, no.~1, pp.~71--91, 2000.
+
+\bibitem{Bird2000}
+H.~Bird, M.~A. {Lambon Ralph}, K.~Patterson, and J.~R. Hodges, ``{The rise and
+  fall of frequency and imageability: Noun and verb production in semantic
+  dementia},'' {\em Brain and Language}, vol.~73, no.~1, pp.~17--49, 2000.
+
 \bibitem{Hastie1986}
 T.~Hastie and R.~Tibshirani, ``{Generalized Additive Models},'' {\em
   Statistical Science}, vol.~1, pp.~297--310, aug 1986.
+
+\bibitem{Le2011}
+X.~Le, I.~Lancashire, G.~Hirst, and R.~Jokel, ``{Longitudinal detection of
+  dementia through lexical and syntactic changes in writing: A case study of
+  three British novelists},'' {\em Literary and Linguistic Computing}, vol.~26,
+  no.~4, pp.~435--461, 2011.
+
+\bibitem{Almor1999}
+A.~Almor, D.~Kempler, M.~C. MacDonald, E.~S. Andersen, L.~K. Tyler, L.~Willis,
+  L.~Altmann, M.~Gil, L.~Lalami, K.~Mar-blestone, S.~Schuster, and K.~Stevens,
+  ``{Why Do Alzheimer Patients Have Difficulty with Pronouns? Working Memory,
+  Semantics, and Reference in Comprehension and Production in Alzheimer's
+  Disease},'' {\em Brain and Language}, vol.~67, pp.~202--227, 1999.
+
+\bibitem{Wendelstein2015}
+B.~Wendelstein, J.~Stegmeier, C.~Frankenberg, E.~Felder, and J.~Schr{\"{o}}der,
+  ``{Changes in the use of pronouns in spoken language in the course of
+  preclinical to early stages of Alzheimer's disease},'' {\em Alzheimer's {\&}
+  Dementia}, 2015.
+
+\bibitem{Jarrold2014}
+W.~Jarrold, B.~Peintner, D.~Wilkins, D.~Vergryi, C.~Richey, M.~L.
+  Gorno-Tempini, and J.~Ogar, ``{Aided diagnosis of dementia type through
+  computer-based analysis of spontaneous speech},'' {\em Proceedings of the
+  Workshop on Computational Linguistics and Clinical Psychology: From
+  Linguistic Signal to Clinical Reality}, pp.~27--37, 2014.
 
 \end{thebibliography}
