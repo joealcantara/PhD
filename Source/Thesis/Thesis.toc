@@ -1,77 +1,127 @@
-\contentsline {chapter}{\numberline {1.}Introduction}{16}
-\contentsline {section}{\numberline {1.1}Background}{17}
-\contentsline {section}{\numberline {1.2}Statement of the Problem}{19}
-\contentsline {section}{\numberline {1.3}Research Questions}{25}
-\contentsline {section}{\numberline {1.4}Structure of thesis}{26}
-\contentsline {chapter}{\numberline {2.}Background and Related Work, Systematic Review of NLP and Machine Learning Research}{29}
-\contentsline {section}{\numberline {2.1}Existing Neuropsychological Measures of Cognitive Impairment, and Repeatable Battery of Neuropsychological Tests}{30}
-\contentsline {subsection}{\numberline {2.1.1}Repeatable Battery for the Assessment of Neuropsychological Status}{30}
-\contentsline {subsection}{\numberline {2.1.2}Digit Span Test}{32}
-\contentsline {subsection}{\numberline {2.1.3}Rey Auditory-Verbal learning test}{32}
-\contentsline {subsection}{\numberline {2.1.4}Digit Symbol Substitution Test}{33}
-\contentsline {subsection}{\numberline {2.1.5}Verbal Fluency}{34}
-\contentsline {subsection}{\numberline {2.1.6}Naming Tests}{35}
-\contentsline {subsection}{\numberline {2.1.7}Rey-Osterrieth Complex Figure Task}{36}
-\contentsline {subsection}{\numberline {2.1.8}Hayling Sentence Completion Test}{37}
-\contentsline {subsection}{\numberline {2.1.9}Grooved Pegboard Test}{38}
-\contentsline {subsection}{\numberline {2.1.10}Visual Search}{38}
-\contentsline {subsection}{\numberline {2.1.11}Free Cued Selective Reminding Test}{39}
-\contentsline {subsection}{\numberline {2.1.12}Conclusions}{40}
-\contentsline {section}{\numberline {2.2}Types of Language Assessment}{41}
-\contentsline {subsection}{\numberline {2.2.1}Picture Description Tasks}{41}
-\contentsline {subsection}{\numberline {2.2.2}Narrative description task}{43}
-\contentsline {subsection}{\numberline {2.2.3}Interviews}{43}
-\contentsline {subsection}{\numberline {2.2.4}Conclusions}{44}
-\contentsline {section}{\numberline {2.3}How do we analyse language, issues and debates}{45}
-\contentsline {subsection}{\numberline {2.3.1}Single Word Language tasks vs Connected Language tasks}{45}
-\contentsline {subsection}{\numberline {2.3.2}Semantics vs Pragmatics}{46}
-\contentsline {subsection}{\numberline {2.3.3}Semantic Content}{46}
-\contentsline {subsubsection}{Type token ratio(TTR)}{47}
-\contentsline {subsection}{\numberline {2.3.4}Thematic and Content elements in relation to the Picture description task}{47}
-\contentsline {subsection}{\numberline {2.3.5}General Information Units or Content Information Units}{49}
-\contentsline {subsection}{\numberline {2.3.6}Conciseness of information}{49}
-\contentsline {subsection}{\numberline {2.3.7}Efficiency}{50}
-\contentsline {subsection}{\numberline {2.3.8}Total number of words}{51}
-\contentsline {section}{\numberline {2.4}Syntax and Morphology (Language Form)}{51}
-\contentsline {subsubsection}{N-grams}{52}
-\contentsline {subsection}{\numberline {2.4.1}Formulaic Language}{52}
-\contentsline {section}{\numberline {2.5}Pragmatic Language}{53}
-\contentsline {subsection}{\numberline {2.5.1}Coherence}{53}
-\contentsline {subsection}{\numberline {2.5.2}Perseveration}{54}
-\contentsline {subsection}{\numberline {2.5.3}Empty Speech}{54}
-\contentsline {subsection}{\numberline {2.5.4}Conclusions}{55}
-\contentsline {section}{\numberline {2.6}State of literature into Machine Learning and Natural Language processing techniques}{55}
-\contentsline {subsection}{\numberline {2.6.1}Natural Language Processing}{56}
-\contentsline {subsubsection}{Natural Language Toolkit}{57}
-\contentsline {subsubsection}{CoreNLP}{57}
-\contentsline {subsubsection}{Linguistic Inquiry and Word Count}{59}
-\contentsline {subsection}{\numberline {2.6.2}Traditional methods of Machine Learning}{60}
-\contentsline {subsection}{\numberline {2.6.3}The case for Deep Learning}{62}
-\contentsline {subsection}{\numberline {2.6.4}Conclusions}{63}
-\contentsline {section}{\numberline {2.7}Discussion}{63}
-\contentsline {subsection}{\numberline {2.7.1}Future Work}{65}
-\contentsline {chapter}{\numberline {3.}Delphi Methodology and developing consensus on how best to collect language samples using technology}{67}
-\contentsline {section}{\numberline {3.1}Introduction}{68}
-\contentsline {subsection}{\numberline {3.1.1}Subsection Heading Here}{68}
-\contentsline {section}{\numberline {3.2}Conclusion}{68}
-\contentsline {chapter}{\numberline {4.}Development of a pipeline that processes language data accurately}{69}
-\contentsline {section}{\numberline {4.1}Background}{70}
-\contentsline {section}{\numberline {4.2}One-class classification}{70}
-\contentsline {chapter}{\numberline {5.}Analysis of DementiaBank dataset}{71}
-\contentsline {section}{\numberline {5.1}Background}{72}
-\contentsline {section}{\numberline {5.2}Methods}{72}
-\contentsline {subsection}{\numberline {5.2.1}Pre-processing}{73}
-\contentsline {subsection}{\numberline {5.2.2}Feature Selection}{74}
-\contentsline {subsubsection}{Measures of lexical variation}{74}
-\contentsline {subsubsection}{Fillers, Non-Specific Nouns and LI Verbs}{74}
-\contentsline {subsubsection}{Usage of parts of speech}{75}
-\contentsline {section}{\numberline {5.3}Results}{76}
-\contentsline {section}{\numberline {5.4}Discussion}{78}
-\contentsline {chapter}{\numberline {6.}Pilot study of the methodology developed}{83}
-\contentsline {section}{\numberline {6.1}Introduction}{84}
-\contentsline {subsection}{\numberline {6.1.1}Subsection Heading Here}{84}
-\contentsline {section}{\numberline {6.2}Conclusion}{84}
-\contentsline {chapter}{\numberline {7.}General Discussion, Conclusions and Future Work}{85}
-\contentsline {section}{\numberline {7.1}Introduction}{86}
-\contentsline {subsection}{\numberline {7.1.1}Subsection Heading Here}{86}
-\contentsline {section}{\numberline {7.2}Conclusion}{86}
+\contentsline {chapter}{\numberline {1.}Introduction}{17}
+\contentsline {section}{\numberline {1.1}Background}{18}
+\contentsline {section}{\numberline {1.2}Statement of the Problem}{21}
+\contentsline {section}{\numberline {1.3}Research Questions}{27}
+\contentsline {section}{\numberline {1.4}Structure of thesis}{27}
+\contentsline {chapter}{\numberline {2.}Background and Related Work, Systematic Review of NLP and Machine Learning Research}{30}
+\contentsline {section}{\numberline {2.1}Existing Neuropsychological Measures of Cognitive Impairment, and Repeatable Battery of Neuropsychological Tests}{31}
+\contentsline {subsection}{\numberline {2.1.1}Repeatable Battery for the Assessment of Neuropsychological Status}{31}
+\contentsline {subsection}{\numberline {2.1.2}Digit Span Test}{33}
+\contentsline {subsection}{\numberline {2.1.3}Rey Auditory-Verbal learning test}{33}
+\contentsline {subsection}{\numberline {2.1.4}Digit Symbol Substitution Test}{34}
+\contentsline {subsection}{\numberline {2.1.5}Verbal Fluency}{35}
+\contentsline {subsection}{\numberline {2.1.6}Naming Tests}{36}
+\contentsline {subsection}{\numberline {2.1.7}Rey-Osterrieth Complex Figure Task}{37}
+\contentsline {subsection}{\numberline {2.1.8}Hayling Sentence Completion Test}{38}
+\contentsline {subsection}{\numberline {2.1.9}Grooved Pegboard Test}{39}
+\contentsline {subsection}{\numberline {2.1.10}Visual Search}{39}
+\contentsline {subsection}{\numberline {2.1.11}Free Cued Selective Reminding Test}{40}
+\contentsline {subsection}{\numberline {2.1.12}Conclusions}{41}
+\contentsline {section}{\numberline {2.2}Types of Language Assessment}{42}
+\contentsline {subsection}{\numberline {2.2.1}Picture Description Tasks}{42}
+\contentsline {subsection}{\numberline {2.2.2}Narrative description task}{44}
+\contentsline {subsection}{\numberline {2.2.3}Interviews}{44}
+\contentsline {subsection}{\numberline {2.2.4}Conclusions}{45}
+\contentsline {section}{\numberline {2.3}How do we analyse language, issues and debates}{46}
+\contentsline {subsection}{\numberline {2.3.1}Single Word Language tasks vs Connected Language tasks}{46}
+\contentsline {subsection}{\numberline {2.3.2}Semantics vs Pragmatics}{47}
+\contentsline {subsection}{\numberline {2.3.3}Semantic Content}{47}
+\contentsline {subsubsection}{Type token ratio(TTR)}{48}
+\contentsline {subsection}{\numberline {2.3.4}Thematic and Content elements in relation to the Picture description task}{48}
+\contentsline {subsection}{\numberline {2.3.5}General Information Units or Content Information Units}{50}
+\contentsline {subsection}{\numberline {2.3.6}Conciseness of information}{50}
+\contentsline {subsection}{\numberline {2.3.7}Efficiency}{51}
+\contentsline {subsection}{\numberline {2.3.8}Total number of words}{52}
+\contentsline {section}{\numberline {2.4}Syntax and Morphology (Language Form)}{52}
+\contentsline {subsubsection}{N-grams}{53}
+\contentsline {subsection}{\numberline {2.4.1}Formulaic Language}{53}
+\contentsline {section}{\numberline {2.5}Pragmatic Language}{54}
+\contentsline {subsection}{\numberline {2.5.1}Coherence}{54}
+\contentsline {subsection}{\numberline {2.5.2}Perseveration}{55}
+\contentsline {subsection}{\numberline {2.5.3}Empty Speech}{55}
+\contentsline {subsection}{\numberline {2.5.4}Conclusions}{56}
+\contentsline {section}{\numberline {2.6}State of literature into Machine Learning and Natural Language processing techniques}{56}
+\contentsline {subsection}{\numberline {2.6.1}Natural Language Processing}{57}
+\contentsline {subsubsection}{Natural Language Toolkit}{58}
+\contentsline {subsubsection}{CoreNLP}{58}
+\contentsline {subsubsection}{Linguistic Inquiry and Word Count}{60}
+\contentsline {subsection}{\numberline {2.6.2}Traditional methods of Machine Learning}{61}
+\contentsline {subsection}{\numberline {2.6.3}The case for Deep Learning}{63}
+\contentsline {subsection}{\numberline {2.6.4}Conclusions}{64}
+\contentsline {section}{\numberline {2.7}Discussion}{64}
+\contentsline {subsection}{\numberline {2.7.1}Future Work}{66}
+\contentsline {section}{\numberline {2.8}Introduction}{67}
+\contentsline {section}{\numberline {2.9}Methodology}{69}
+\contentsline {subsection}{\numberline {2.9.1}Search strategy}{70}
+\contentsline {subsection}{\numberline {2.9.2}Study selection}{72}
+\contentsline {subsection}{\numberline {2.9.3}Data collection}{75}
+\contentsline {section}{\numberline {2.10}Results}{75}
+\contentsline {subsection}{\numberline {2.10.1}Features of Language}{75}
+\contentsline {subsubsection}{Measures of Semantic Complexity}{76}
+\contentsline {subsection}{\numberline {2.10.2}Quantity - Total number of words}{77}
+\contentsline {subsection}{\numberline {2.10.3}Syntax and Morphology (Language Form)}{77}
+\contentsline {subsection}{\numberline {2.10.4}N-grams and skip-grams}{78}
+\contentsline {subsection}{\numberline {2.10.5}Mean length of utterance (MLU)}{79}
+\contentsline {subsection}{\numberline {2.10.6}Proportion of verbs to nouns plus verbs}{80}
+\contentsline {subsection}{\numberline {2.10.7}Syntactic Complexity - Composite measures of MLU, syntactic errors and verbs}{80}
+\contentsline {subsection}{\numberline {2.10.8}Semantic features}{80}
+\contentsline {subsection}{\numberline {2.10.9}Syntactic features}{81}
+\contentsline {subsection}{\numberline {2.10.10}Pragmatic features.}{81}
+\contentsline {subsubsection}{Go-ahead Utterances}{81}
+\contentsline {subsection}{\numberline {2.10.11}Formulaic Language}{82}
+\contentsline {subsection}{\numberline {2.10.12}Number of syllables and Characters}{82}
+\contentsline {subsection}{\numberline {2.10.13}Number of fillers}{82}
+\contentsline {subsection}{\numberline {2.10.14}Readability}{82}
+\contentsline {subsection}{\numberline {2.10.15}Polarity}{82}
+\contentsline {subsection}{\numberline {2.10.16}Frequency}{82}
+\contentsline {subsection}{\numberline {2.10.17}Dysfluencies}{83}
+\contentsline {section}{\numberline {2.11}Machine Learning methods}{83}
+\contentsline {subsection}{\numberline {2.11.1}Traditional Machine Learning methods}{83}
+\contentsline {subsubsection}{Logistic Regression}{83}
+\contentsline {subsubsection}{Support Vector Machines}{84}
+\contentsline {subsubsection}{Linear Discriminant Analysis}{85}
+\contentsline {subsubsection}{Decision Trees}{85}
+\contentsline {subsubsection}{Naive Bayes}{86}
+\contentsline {subsubsection}{Artificial Neural Networks}{86}
+\contentsline {subsubsection}{K-nearest neighbours}{86}
+\contentsline {subsubsection}{Best Results}{87}
+\contentsline {subsection}{\numberline {2.11.2}Deep Learning methods}{87}
+\contentsline {subsubsection}{Deep language space neural network for classifying mild cognitive impairment and Alzheimer-type dementia - Orimaye, Wong and Wong (2018)}{87}
+\contentsline {subsection}{\numberline {2.11.3}What type of data is used by the studies?}{87}
+\contentsline {subsection}{\numberline {2.11.4}Picture Description Tasks}{88}
+\contentsline {subsection}{\numberline {2.11.5}Narrative description task}{89}
+\contentsline {subsection}{\numberline {2.11.6}Interviews}{90}
+\contentsline {subsection}{\numberline {2.11.7}Conclusions}{91}
+\contentsline {subsection}{\numberline {2.11.8}What are the goals of the studies that employ ML or Statistical Learning techniques for diagnosis of MCI or AD?}{91}
+\contentsline {subsection}{\numberline {2.11.9}Do the studies focus on a one point in time or looking at cognitive deterioration over time?}{91}
+\contentsline {section}{\numberline {2.12}Discussion and conclusions}{91}
+\contentsline {subsection}{\numberline {2.12.1}Discussion of the current evidence}{91}
+\contentsline {subsection}{\numberline {2.12.2}Methodological Issues}{93}
+\contentsline {subsection}{\numberline {2.12.3}Limitations}{93}
+\contentsline {subsection}{\numberline {2.12.4}The future of the field}{93}
+\contentsline {section}{\numberline {2.13}Conclusions}{95}
+\contentsline {chapter}{\numberline {3.}Delphi Methodology and developing consensus on how best to collect language samples using technology}{97}
+\contentsline {section}{\numberline {3.1}Introduction}{98}
+\contentsline {subsection}{\numberline {3.1.1}Subsection Heading Here}{98}
+\contentsline {section}{\numberline {3.2}Conclusion}{98}
+\contentsline {chapter}{\numberline {4.}Development of a pipeline that processes language data accurately}{99}
+\contentsline {section}{\numberline {4.1}Background}{100}
+\contentsline {section}{\numberline {4.2}One-class classification}{100}
+\contentsline {chapter}{\numberline {5.}Analysis of the Presidents Corpus, Three Authors and DementiaBank datasets}{101}
+\contentsline {section}{\numberline {5.1}Background}{102}
+\contentsline {section}{\numberline {5.2}Methods}{102}
+\contentsline {subsection}{\numberline {5.2.1}Pre-processing}{103}
+\contentsline {subsection}{\numberline {5.2.2}Feature Selection}{104}
+\contentsline {subsubsection}{Measures of lexical variation}{104}
+\contentsline {subsubsection}{Fillers, Non-Specific Nouns and LI Verbs}{104}
+\contentsline {subsubsection}{Usage of parts of speech}{105}
+\contentsline {section}{\numberline {5.3}Results}{106}
+\contentsline {section}{\numberline {5.4}Discussion}{108}
+\contentsline {chapter}{\numberline {6.}Pilot study of the methodology developed}{113}
+\contentsline {section}{\numberline {6.1}Introduction}{114}
+\contentsline {subsection}{\numberline {6.1.1}Subsection Heading Here}{114}
+\contentsline {section}{\numberline {6.2}Conclusion}{114}
+\contentsline {chapter}{\numberline {7.}General Discussion, Conclusions and Future Work}{115}
+\contentsline {section}{\numberline {7.1}Introduction}{116}
+\contentsline {subsection}{\numberline {7.1.1}Subsection Heading Here}{116}
+\contentsline {section}{\numberline {7.2}Conclusion}{116}
