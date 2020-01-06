@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.13)  6 JAN 2020 11:23
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.7)  6 JAN 2020 13:19
+>>>>>>> 1340eaa883004dbe1c537fae5c57b5c3be049e89
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -170,268 +174,285 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 43.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 43.
+<<<<<<< HEAD
 
 [2] [3] [4]
 Overfull \hbox (8.44878pt too wide) in paragraph at lines 64--65
+=======
+Missing character: There is no Â in font cmr12!
+Missing character: There is no £ in font cmr12!
+Missing character: There is no Â in font cmr12!
+Missing character: There is no £ in font cmr12!
+Missing character: There is no Â in font cmr12!
+Missing character: There is no £ in font cmr12!
+ [2] [3] [4]
+<plots/comparison1.png, id=21, 2044.63875pt x 1697.34125pt>
+File: plots/comparison1.png Graphic file (type png)
+<use plots/comparison1.png>
+Package pdftex.def Info: plots/comparison1.png  used on input line 60.
+(pdftex.def)             Requested size: 170.68773pt x 142.239pt.
+
+Overfull \hbox (8.44878pt too wide) in paragraph at lines 67--68
+>>>>>>> 1340eaa883004dbe1c537fae5c57b5c3be049e89
 []\OT1/cmr/m/n/12 Language use of RR will be sig-nif-i-cantly dif-fer-ent to ou
 r con-trols (GHWB,
  []
 
-[5]
+[5 <./plots/comparison1.png>] [6]
 
-LaTeX Warning: Citation `Le2012' on page 6 undefined on input line 82.
+LaTeX Warning: Citation `Le2012' on page 7 undefined on input line 86.
 
-[6]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 85.
+(Font)              <12> on input line 89.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 85.
+(Font)              <8> on input line 89.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 85.
+(Font)              <6> on input line 89.
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--94
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 []\OT1/cmr/m/n/12 Non Spe-cific
  []
 
 
-Overfull \hbox (3.88582pt too wide) in paragraph at lines 104--111
+Overfull \hbox (3.88582pt too wide) in paragraph at lines 108--115
  [] 
  []
 
-[7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 []\OT1/cmr/m/n/12 3423.91
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 []\OT1/cmr/m/n/12 2607.72
  []
 
 
-Overfull \hbox (4.97316pt too wide) in paragraph at lines 136--136
+Overfull \hbox (4.97316pt too wide) in paragraph at lines 140--140
 \OT1/cmr/m/n/12 (1210.38)| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 []\OT1/cmr/m/n/12 1848.65
  []
 
 
-Overfull \hbox (4.97316pt too wide) in paragraph at lines 136--136
+Overfull \hbox (4.97316pt too wide) in paragraph at lines 140--140
 \OT1/cmr/m/n/12 (1549.38)| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 []\OT1/cmr/m/n/12 894.13
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 []\OT1/cmr/m/n/12 667.76
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 []\OT1/cmr/m/n/12 481.82
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 []\OT1/cmr/m/n/12 23.17
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 []\OT1/cmr/m/n/12 18.71
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 []\OT1/cmr/m/n/12 13.84
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 150--150
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 []\OT1/cmr/m/n/12 RR v
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--150
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 []\OT1/cmr/m/n/12 GHWB v
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 []\OT1/cmr/m/n/12 6.6751
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 \OT1/cmr/m/n/12 (574.8808,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 []\OT1/cmr/m/n/12 5.352
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 \OT1/cmr/m/n/12 (974.6629,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 []\OT1/cmr/m/n/12 2.4774
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 \OT1/cmr/m/n/12 (137.5811,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--152
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 []\OT1/cmr/m/n/12 10.878
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--152
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 \OT1/cmr/m/n/12 (161.1580,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--152
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 []\OT1/cmr/m/n/12 10.11
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--152
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 \OT1/cmr/m/n/12 (275.4688,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--152
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 []\OT1/cmr/m/n/12 4.148
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--152
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 \OT1/cmr/m/n/12 (75.86722,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 []\OT1/cmr/m/n/12 16.175
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 \OT1/cmr/m/n/12 (3.915869,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 []\OT1/cmr/m/n/12 25.084
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 \OT1/cmr/m/n/12 (8.453404,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 []\OT1/cmr/m/n/12 13.484
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 \OT1/cmr/m/n/12 (4.021601,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 []\OT1/cmr/m/n/12 Non Spe-cific
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 []\OT1/cmr/m/n/12 9.2052
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 \OT1/cmr/m/n/12 (5.881447,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 []\OT1/cmr/m/n/12 3.8627
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 \OT1/cmr/m/n/12 (3.275567,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 []\OT1/cmr/m/n/12 -0.37956
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 \OT1/cmr/m/n/12 (-4.037218,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 []\OT1/cmr/m/n/12 4.0434
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 \OT1/cmr/m/n/12 (10.84689,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 []\OT1/cmr/m/n/12 2.804
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 \OT1/cmr/m/n/12 (10.91107,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 []\OT1/cmr/m/n/12 1.2836 (-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 \OT1/cmr/m/n/12 11.06486,
  []
 
 [10] [11]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 168.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 172.
 
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 168.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 172.
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+<<<<<<< HEAD
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 194.
 
 [12] [13] [14] [15]
@@ -452,6 +473,28 @@ Package pdftex.def Info: plots/comp1.png  used on input line 285.
 File: plots/comp2.png Graphic file (type png)
 <use plots/comp2.png>
 Package pdftex.def Info: plots/comp2.png  used on input line 291.
+=======
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 198.
+ [12]
+[13] [14] [15]
+
+LaTeX Warning: Citation `Wendelstein2014' on page 16 undefined on input line 27
+6.
+
+
+LaTeX Warning: Citation `Garrard2005' on page 16 undefined on input line 278.
+
+[16]
+<plots/comp1.png, id=69, 2044.63875pt x 1697.34125pt>
+File: plots/comp1.png Graphic file (type png)
+<use plots/comp1.png>
+Package pdftex.def Info: plots/comp1.png  used on input line 289.
+(pdftex.def)             Requested size: 170.68773pt x 142.239pt.
+<plots/comp2.png, id=70, 2044.63875pt x 1697.34125pt>
+File: plots/comp2.png Graphic file (type png)
+<use plots/comp2.png>
+Package pdftex.def Info: plots/comp2.png  used on input line 295.
+>>>>>>> 1340eaa883004dbe1c537fae5c57b5c3be049e89
 (pdftex.def)             Requested size: 170.68773pt x 142.239pt.
  [17 <./plots/comp1.png>] [18 <./plots/comp2.png>] (./PresidentsCorpus.bbl
 [19] [20]
@@ -469,6 +512,7 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  1617 strings out of 492649
  23448 string characters out of 6129622
  94336 words of memory out of 5000000
@@ -494,6 +538,31 @@ Output written on PresidentsCorpus.pdf (22 pages, 675353 bytes).
 PDF statistics:
  136 PDF objects out of 1000 (max. 8388607)
  93 compressed objects within 1 object stream
+=======
+ 1629 strings out of 494880
+ 23357 string characters out of 6179602
+ 83695 words of memory out of 5000000
+ 4940 multiletter control sequences out of 15000+600000
+ 9932 words of font info for 35 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 41i,10n,25p,1903b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on PresidentsCorpus.pdf (22 pages, 796663 bytes).
+PDF statistics:
+ 134 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
+>>>>>>> 1340eaa883004dbe1c537fae5c57b5c3be049e89
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
