@@ -21,7 +21,7 @@
 	Aston University \\
 	\texttt{g.vogiatzis@aston.ac.uk} \\
 		\and
-	\textbf{Felipe Campelo Franca Pinto}\\
+	\textbf{Felipe Campelo}\\
 	Department of Computer Science\\
 	School of Engineering and Applied Sciences\\
 	Aston University\\
@@ -148,20 +148,18 @@ In terms of more specific language differences between the presidents, as we fou
 	\begin{tabular}{ | p{3cm} | p{2.2cm} | p{2.2cm} | p{2.2cm} |}
 		\hline
 		& RR v GHWB & RR v DJT & GHWB v DJT \\ \hline
-		Total Words & \textbf{4.434***} & \textbf{6.524***} & \textbf{2.899**} \\ \hline
-		Unique Stems & \textbf{10.878***} & \textbf{10.111***} & \textbf{4.148***} \\ \hline
-		Mean Length of Utterance & \textbf{16.175***} & \textbf{25.084***} & \textbf{13.484***} \\ \hline	
-		Non Specific Nouns & \textbf{7.877***} & \textbf{3.426**} & -0.574 \\ \hline
-		LI Verbs & \textbf{2.656**} & \textbf{3.420***} & 1.628 \\ \hline
-		\multicolumn{4}{@{}p{1.5in}}{\footnotesize * denotes p\textless 0.05} \\
-		\multicolumn{4}{@{}p{1.5in}}{\footnotesize ** denotes p\textless 0.01} \\
-		\multicolumn{4}{@{}p{1.5in}}{\footnotesize *** denotes p\textless 0.001} \\
+		Total Words & 6.6751 (574.8808, 1057.5324) & 5.352 (974.6629, 2175.8489) & 2.4774 (137.5811, 1380.5176) \\ \hline
+		Unique Stems & 10.878 (161.1580, 232.6168) & 10.11 (275.4688, 414.0975) & 4.148 (75.86722, 219.92432) \\ \hline
+		Mean Length of Utterance & 16.175 (3.915869, 5.009114) & 25.084 (8.453404, 9.922328)  & 13.484 (4.021601, 5.429148) \\ \hline	
+		Non Specific Nouns & 9.2052 (5.881447, 9.13725) & 3.8627 (3.275567, 10.474625) & -0.37956 (-4.037218, 2.770237) \\ \hline
+		LI Verbs & 4.0434 (10.84689, 31.53291) & 2.804 (10.91107, 67.41231) & 1.2836 (-11.06486, 49.00844)\\ \hline
 	\end{tabular}
-	\caption{\label{tab:table-name}RR T-tests vs GWB and DJT}
+	\caption{\label{tab:table-name}RR T-tests vs GWB and DJT, T-statistic and 95\%confidence intervals}
 	\end{center} 
 \end{table}
 
-\subsection{Longitudinal Analysis - Comparison of Ronald Reagan and George H.W. Bush}
+\subsection{Longitudinal Analysis}
+\subsubsection{Comparison of Ronald Reagan and George H.W. Bush}
 We then looked at the data from a longitudinal perspective as we were interested seeing whether we can track various language variables and their progress over time. We ran a number of Pearsons correlations with number of days as a time reference (we calculated this as the total number of days from the first sample) and the dependant variables. We also calculated these Pearsons correlations with transcript index number as a time reference and the dependant variables as a replication of the Berisha and LIss study \cite{Berisha2015} and these results are described in the supplementary material.
 
 
@@ -173,33 +171,65 @@ Given the number of hypotheses being tested, we felt it was necessary to control
 
 \begin{table}[H]
 	\begin{center}
-	\begin{tabular}{ | l | c | c | c |}
+	\begin{tabular}{ | l | c | c |}
 		\hline
-		& RR R-Squared  & GWB R-Squared & DJT R-Squared \\ \hline
-		ppron & \textbf{0.700***} & 0.007 & -0.196 \\ \hline
-		social & \textbf{0.698***} & 0.204 & 0.032 \\ \hline
-		NounsNormalised & \textbf{-0.689***} & -0.023 & 0.194 \\ \hline
-		function & \textbf{0.670***} & -0.169 & -0.243 \\ \hline
-		conj &\textbf{0.644***} & -0.452 & -0.187 \\ \hline
-		PronounsNormalised & \textbf{0.631***} & 0.131 & 0.002 \\ \hline
-		Analytic & \textbf{-0.626***} & -0.013 & 0.366 \\ \hline
-		NN & \textbf{-0.601***} & -0.197 & 0.116 \\ \hline
-		male & \textbf{0.585***} & 0.024 & 0.042 \\ \hline
-		UniqueWords & \textbf{-0.578***} & -0.257 & 0.204 \\ \hline
-		WDT & \textbf{-0.577***} & -0.173 & -0.105 \\ \hline
-		shehe & \textbf{0.529*} & -0.005 & 0.064 \\ \hline
-		VBZ & \textbf{-0.521*} & -0.157 & 0.136 \\ \hline
-		JJ & \textbf{-0.518*} & -0.206 & 0.062 \\ \hline
-		Fillers & -0.076 & \textbf{-0.359**}  & -0.032 \\ \hline	
-		EX & -0.193* & \textbf{-0.337**}  & 0.339 \\ \hline	
-		achieve & -0.248 & \textbf{0.334**}  & 0.169 \\ \hline		
-		\multicolumn{4}{@{}p{1.5in}}{\footnotesize * denotes p\textless 0.05} \\
-    	\multicolumn{4}{@{}p{1.5in}}{\footnotesize ** denotes p\textless 0.01} \\
-    	\multicolumn{4}{@{}p{1.5in}}{\footnotesize *** denotes p\textless 0.001} \\
+		& RR R-Squared  & GWB R-Squared \\ \hline
+		ppron & \textbf{0.700***} & 0.007 \\ \hline
+		social & \textbf{0.698***} & 0.204 \\ \hline
+		NounsNormalised & \textbf{-0.689***} & -0.023 \\ \hline
+		function & \textbf{0.670***} & -0.169 \\ \hline
+		conj &\textbf{0.644***} & -0.452 \\ \hline
+		PronounsNormalised & \textbf{0.631***} & 0.131 \\ \hline
+		Analytic & \textbf{-0.626***} & -0.013 \\ \hline
+		NN & \textbf{-0.601***} & -0.197 \\ \hline
+		male & \textbf{0.585***} & 0.024 \\ \hline
+		UniqueWords & \textbf{-0.578***} & -0.257 \\ \hline
+		WDT & \textbf{-0.577***} & -0.173 \\ \hline
+		shehe & \textbf{0.529*} & -0.005 \\ \hline
+		VBZ & \textbf{-0.521*} & -0.157 \\ \hline
+		JJ & \textbf{-0.518*} & -0.206 \\ \hline
+		Fillers & -0.076 & \textbf{-0.359**} \\ \hline	
+		EX & -0.193* & \textbf{-0.337**} \\ \hline	
+		achieve & -0.248 & \textbf{0.334**} \\ \hline		
+		\multicolumn{3}{@{}p{1.5in}}{\footnotesize * denotes p\textless 0.05} \\
+    	\multicolumn{3}{@{}p{1.5in}}{\footnotesize ** denotes p\textless 0.01} \\
+    	\multicolumn{3}{@{}p{1.5in}}{\footnotesize *** denotes p\textless 0.001} \\
 	\end{tabular}
 	\caption{\label{tab:table-name}Pearson Correlations for Features}
 	\end{center} 
 \end{table}
+
+\subsubsection{Comparison of Ronald Reagan and Donald J. Trump}
+\begin{table}[H]
+	\begin{center}
+	\begin{tabular}{ | l | c | c |}
+		\hline
+		& RR R-Squared & DJT R-Squared \\ \hline
+		ppron & \textbf{0.700***} & 0.007 \\ \hline
+		social & \textbf{0.698***} & 0.204 \\ \hline
+		NounsNormalised & \textbf{-0.689***} & -0.023 \\ \hline
+		function & \textbf{0.670***} & -0.169 \\ \hline
+		conj &\textbf{0.644***} & -0.452 \\ \hline
+		PronounsNormalised & \textbf{0.631***} & 0.131 \\ \hline
+		Analytic & \textbf{-0.626***} & -0.013 \\ \hline
+		NN & \textbf{-0.601***} & -0.197 \\ \hline
+		male & \textbf{0.585***} & 0.024 \\ \hline
+		UniqueWords & \textbf{-0.578***} & -0.257 \\ \hline
+		WDT & \textbf{-0.577***} & -0.173 \\ \hline
+		shehe & \textbf{0.529*} & -0.005 \\ \hline
+		VBZ & \textbf{-0.521*} & -0.157 \\ \hline
+		JJ & \textbf{-0.518*} & -0.206 \\ \hline
+		Fillers & -0.076 & \textbf{-0.359**} \\ \hline	
+		EX & -0.193* & \textbf{-0.337**} \\ \hline	
+		achieve & -0.248 & \textbf{0.334**} \\ \hline		
+		\multicolumn{3}{@{}p{1.5in}}{\footnotesize * denotes p\textless 0.05} \\
+    	\multicolumn{3}{@{}p{1.5in}}{\footnotesize ** denotes p\textless 0.01} \\
+    	\multicolumn{3}{@{}p{1.5in}}{\footnotesize *** denotes p\textless 0.001} \\
+	\end{tabular}
+	\caption{\label{tab:table-name}Pearson Correlations for Features}
+	\end{center} 
+\end{table}
+
 
 \subsection{Comparing linear models and non-linear models}
 In terms of comparing the general additive model and linear models. We calculated the predicted residual error sum of squares (PRESS) statistic for each feature is a form of cross-validation used in regression analysis to provide a summary measure of the fit of a model to a sample of observations that were not themselves used to estimate the model. There were no significant differences (paired t-test: t=1.8875, df  = 21, p-value = 0.07299). 
@@ -236,22 +266,19 @@ In terms of comparing the general additive model and linear models. We calculate
 	\end{center} 
 \end{table}
 
-
 \section{Discussion}\label{discussion}
-President Reagan received his diagnosis of AD in August 1994 but using transcripts of speeches he made in his two terms as President (January 1981 - January 1989) we have be able to identify certain changes in his use of language that we might ascribe to the onset of MCI and early AD. Despite differences in our methodology, our research supports some of the findings of Berisha and Liss in that we find an increase in non-specifc noun usage. Compared to our controls (GWHB and DJT), we find some slight trends with GWHB but no such trends with DJT in his speech albeit his samples of speech span a shorter amount of time. Interestingly, when we normalised the various types of words used by the presidents we found some interesting patterns that further differentiated RR from the controls. Whilst Non-specific nouns increased over time, we found that noun usage in general significantly decreased and pronouns increased similarly significantly. The increase in pronoun for those with early AD has been identified in literature, although there are only a few studies that explore this \cite{Wendelstein2015}. Wendlestein et al propose that the increased used of pronouns is an expression of an impaired ability to adapt language to the listener's needs \cite{Wendelstein2015}. Almor et al attributed this reliance on pronouns due to a impaired working memory \cite{Almor1999}.
+President Reagan received his diagnosis of AD in August 1994 but using transcripts of speeches he made in his two terms as President (January 1981 - January 1989) we have been able to identify a number of changes in his use of language that we might ascribe to the onset of MCI and early AD. Despite differences in our methodology, our research supports some of the findings of Berisha and Liss in that we find an increase in non-specifc noun usage. Compared to our controls (GWHB and DJT), we find some slight trends with GWHB but no such trends with DJT in his speech albeit his samples of speech span a shorter period of time. Interestingly, when we normalised the various types of words used by the presidents we found some interesting patterns that further differentiated RR from the controls. Whilst Non-specific nouns increased over time, we found that noun usage in general significantly decreased and pronouns increased similarly significantly. The increase in pronoun for those with early AD has been identified in literature, although there are only a few studies that explore this \cite{Wendelstein2015}. Wendlestein et al propose that the increased used of pronouns is an expression of an impaired ability to adapt language to the listener's needs \cite{Wendelstein2015}. Almor et al attributed this reliance on pronouns due to an impaired working memory \cite{Almor1999}.
 \par 
-The decrease in overall noun usage has also been identified as a feature. Jarrold et al found that AD patients would use more pronouns, verbs and fewer nouns than controls \cite{Jarrold2014}. Wendlestein in their investigations into noun usage found that decreased later on in AD progression and was unaffected in the pre-clinical stages of AD \cite{Wendelstein2014}. Our results are supported by existing literature and this potentially means that language analysis in the way we have structured it may have diagnostic or prognostic properties.
+The decrease in overall noun usage has also been identified as a feature. Jarrold et al found that AD patients would use more pronouns, more verbs and fewer nouns than controls \cite{Jarrold2014}. Wendlestein in their investigations into noun usage found that noun usage decreased later on in AD progression and was unaffected in the pre-clinical stages of AD \cite{Wendelstein2014}. Our results are supported by existing literature and this potentially means that language analysis in the way we have structured it may have diagnostic or prognostic properties.
 \par 
-A criticism of Berisha and Liss's work is the problems they had with normalising the transcripts in terms of length. This was also a problem in the work of Garrard et al \cite{Garrard2005, Le2011}. Whilst it is important to control for outliers, there are other ways in which we can control for length of sample. In this paper, we controlled for transcript length by dividing any features that were raw counts by the total length of the transcript. When we did this, we found that there was a significant decrease in the number of unique words (R=-0.56, p\textless0.001) used however when we controlled via normalisation, we found that this was not a significant feature (R=-0.172, p=0.25). 
+A criticism of Berisha and Liss's work is the problems they had with normalising the transcripts in terms of length. This was also a problem in the work of Garrard et al \cite{Garrard2005, Le2011}. Whilst it is important to control for outliers, there are other ways in which we can control for length of sample. In this paper, we controlled for transcript length by dividing any features that were raw counts by the total length of the transcript. When we did this, we found that there was a significant decrease in the number of unique words (R=-0.56, p\textless0.001) used. However when we controlled via normalisation as described above, we found that this was not a significant feature (R=-0.172, p=0.25). 
 \par 
-Overall, we are able to show differences in the a number of language features between RR, GHWB and DJT over time and the psychological literature confirms our findings in reference to these changes.
+Overall, we are able to show differences in the a number of language features between RR, GHWB and DJT over time and the psychological literature confirms our findings with reference to these changes.
 \par
-Our next hypothesis involved exploring whether linear models were the most appropriate way to track this longitudinal data. In our analysis, we found there was no significant difference in terms of mean sum of squares errors between the linear model and the generalised additive model however this does not mean that these are equivalent. For example, considering the plot below. We compare a model fit to a linear model with a generalised additive model which aims to model the data more closely. It is clear to see that both models can track the movements of language use over time however, the linear model is quite a rigid model which does not allow for different inflection points. We can see that RR's decline is not linear, and that there are periods of relative stability and some periods where the decline is more severe. We argue that these more nuanced changes over time can only be modelled by a model such as a GAM.
+Our next hypothesis involved exploring whether linear models were the most appropriate way to track this longitudinal data. In our analysis, we found there was no significant difference in terms of mean sum of squares errors between the linear model and the generalised additive model. However this does not mean that these are equivalent. For example, consider Figure 2. We compare a model fit to a linear model with a generalised additive model which aims to model the data more closely. It is clear to see that both models can track the movements of language use over time however, the linear model is quite a rigid model which does not allow for different inflection points. We can see that RR's decline is not linear, and that there are periods of relative stability and some periods where the decline is more severe. We argue that these more nuanced changes over time can only be modelled by a model such as a GAM.
 \par
-
-
 In her paper on developing diagnositic criteria for Mild Cognitive Impairment, Albert et all \cite{Albert2011} states 'it is important to obtain longitudinal assessments of cognition, whenever possible' and 'obtaining objective evidence of progressive declines in cognition over time is important for establishing the accuracy of the diagnosis, as well as for
-assessing any potential treatment response.' As we have shown, it is not the case that language declines in a linear way and whilst we have a number of data points that we can use to model RR's decline, in a clinical setting it would be impractical to have upwards of 40 data collection points. We feel that  it is important that we have more than just two. In the figures below, we can see that if we measured language at Reagan's first transcript to a point after 700 days the vast majority of points would point to a decline in language. However, the next figure shows what would happen if we measured language from Reagan's second transcript, just 34 days later. In this case, we can see that in some cases we would mark Reagan as improving when it is clear that he is not.
+assessing any potential treatment response.' As we have shown, it is not the case that language declines in a linear way and whilst we have a number of data points that we can use to model RR's decline, in a clinical setting it would be impractical to have upwards of 40 data collection points. We feel that  it is important that we have more than just two. In the figure 2 and figure 3 below, we can see that if we measured language at Reagan's first transcript to a point after 700 days the vast majority of points would point to a decline in language. However, the next figure shows what would happen if we measured language from Reagan's second transcript, just 34 days later. In this case, we can see that in some cases we would mark Reagan as improving when it is clear that he is not.
 
 \begin{figure}[H]
 	\centering
@@ -267,7 +294,7 @@ assessing any potential treatment response.' As we have shown, it is not the cas
 \par 
 There are limitations of this research. Whilst in terms of age, DJT is certainly more suitable as a control to match with RR, in some ways they held very different styles of press conferences in that RR preferred to do solo press conferences and DJT has shown a preference for doing joint press conferences which have an impact on the amount of language produced. This artefact of the data is in itself notable as it illustrates the problems we may have with smaller amounts of speech and the problem of finding an appropriate control is a common one in this domain, given the considerable variation in factors such as age, language ability and education. As mentioned above, we are lucky enough to have numerous samples of data collected over a long period of time and this is not something that can be easily translated to a clinical protocol. Finally, the variability in the number and quality of the transcriptions raises some doubts as to the results of DJT. Is it the lack of instances of data, or that the number of words per transcript is significantly less than with RR or GHWB. This does have further implications for using a protocol such as this in a more general way as it will impact how data is collected. 
 \par 
-With further work, it is not feasible to the vast array of samples over a timeframe, as we have had with the president corpus and so it would be worth exploring how the quality of these predictions may lessen when faced with considerably fewer samples and over a smaller time period. It would also be worth extending this research further to encompass more of the linguistic features Fraser used in her work \cite{Fraser2015} to see if there are any further insights to be gained. In addition, this replication and extension has demonstrated the potential utility of using longitudinal data as a means of comparing language use of a person at two or more time periods and using this information as a diagnostic aid for MCI and therefore more work would be helpful from a longitudinal perspective to see if this approach may be valid in moving towards a solution for this particular problem. 
+With further work, it is not feasible to have a vast array of samples over a timeframe, as we have had with the president corpus and so it would be worth exploring how the quality of these predictions may lessen when faced with considerably fewer samples and over a smaller time period. It would also be worth extending this research further to encompass more of the linguistic features Fraser used in her work \cite{Fraser2015} to see if there are any further insights to be gained. In addition, this replication and extension has demonstrated the potential utility of using longitudinal data as a means of comparing language use of a person at two or more time periods and using this information as a diagnostic aid for MCI and therefore more work would be helpful from a longitudinal perspective to see if this approach may be valid in moving towards a solution for this particular problem. 
 
 \section{Conclusions}\label{conclusions}
 The results of this work show that we can track a person's use of language through time in a number of ways and that it is possible for an individual to be his or her own control. This is important as it means the heterogenous nature of the MCI population does not impact results as much as if we were comparing those with group of MCI patients with a group of controls. Equally, it would be helpful to have controls to ascertain what would be usual to expect in the decline of language in a healthy older adult. 
