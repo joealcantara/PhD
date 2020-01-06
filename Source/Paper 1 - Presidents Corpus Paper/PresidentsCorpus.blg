@@ -1,51 +1,53 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: PresidentsCorpus.aux
 The style file: ieeetr.bst
 Database file #1: main.bib
+Warning--I didn't find a database entry for "Le2012"
 Warning--I didn't find a database entry for "Wendelstein2014"
 Warning--I didn't find a database entry for "Garrard2005"
+Warning--empty institution in Patel2018
 Warning--empty institution in AlzheimersSociety2014
 Warning--empty publisher in Bird2009
-You've used 17 entries,
+You've used 21 entries,
             1876 wiz_defined-function locations,
-            592 strings with 8201 characters,
-and the built_in function-call counts, 5313 in all, are:
-= -- 481
-> -- 324
+            616 strings with 8772 characters,
+and the built_in function-call counts, 5879 in all, are:
+= -- 525
+> -- 357
 < -- 0
-+ -- 114
-- -- 97
-* -- 446
-:= -- 817
-add.period$ -- 18
-call.type$ -- 17
-change.case$ -- 17
++ -- 127
+- -- 106
+* -- 481
+:= -- 910
+add.period$ -- 22
+call.type$ -- 21
+change.case$ -- 22
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 233
-empty$ -- 416
-format.name$ -- 97
-if$ -- 1229
+cite$ -- 24
+duplicate$ -- 256
+empty$ -- 481
+format.name$ -- 106
+if$ -- 1361
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 17
-newline$ -- 55
-num.names$ -- 17
-pop$ -- 38
+int.to.str$ -- 21
+missing$ -- 18
+newline$ -- 67
+num.names$ -- 21
+pop$ -- 59
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 165
+skip$ -- 175
 stack$ -- 0
 substring$ -- 334
-swap$ -- 104
+swap$ -- 105
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 52
-width$ -- 19
-write$ -- 167
-(There were 4 warnings)
+warning$ -- 3
+while$ -- 56
+width$ -- 23
+write$ -- 197
+(There were 6 warnings)

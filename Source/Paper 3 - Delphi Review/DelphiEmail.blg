@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+=======
+This is BibTeX, Version 0.99d (TeX Live 2018)
+>>>>>>> f18dc20b4f06456cd7a435647fa0ae321a5ad0e2
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: DelphiEmail.aux
 I found no \citation commands---while reading file DelphiEmail.aux
