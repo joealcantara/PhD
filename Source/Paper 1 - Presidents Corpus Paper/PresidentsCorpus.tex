@@ -52,7 +52,6 @@ One of the challenges associated with the early detection of AD is differentiati
 \par 
 There has been significant research in the area of language deterioration as a method of detecting AD at an earlier stage. This usually takes the form of recording speech whilst patients' undertake a cognitive assessment such as the Picture Description Task \cite{Fraser2015}. Given that language samples are relatively easy to collect, research has moved towards analysis of spontaneous speech. The work of Berisha and Liss is a good example of this, their study compared the differences in language use between two US presidents, Ronald Reagan (RR), who would go on to receive a diagnosis of Dementia and George H. W. Bush (GHWB) who acted as a matched control based on Age \cite{Berisha2015}. They found several differences in language use over time which they felt acted as indicators of RR's difficulties with language due to AD. Differences in features of language identified to be statistically significant included the number of unique words used per speech, the use of non-specific nouns and fillers and low imageability verbs \cite{Berisha2015}. 
 \par
-% Stronger motivation
 Berisha and Liss have developed interesting ideas about how we might track changes over time in various lexical features which have been associated with the development of Alzheimer's Disease. However we feel that cognitive decline in pre-clinical AD is not accurately modeled as a linear process and therefore we explored the application of generalised additive models (GAMs) to this data which have no assumed understanding of the distribution of the data. We refine these ideas with the aim of exploring the potential for a protocol that can be used for analyzing language deterioration. 
 
 \begin{figure}[H]
@@ -123,7 +122,7 @@ Using a Part of Speech tagger (PoS) on each transcript analyses each sentence wi
 The LIWC is a text processor / semantic tagger which analysis words within a given a document and compares the words in the LIWC dictionary file. The LIWC dictionary file contains over 6000 words which are categorised into approximately 90 different types. For example the word 'cried' is part of five word categories: sadness, negative emotion, overall affect, verbs and past focus \cite{Pennebaker2015}. Each word in the document or set of documents is searched for in the dictionary file and if found, the appropriate types is incremented by 1. What is output is an analysis of word usage in reference to each category. This is particularly useful in analysing both structural language changes but also the content or themes of language for a given transcript or set of transcripts.
 
 \subsection{Longitudinal Analysis}
-As with Berisha and Liss\cite{Berisha2015}, we analysed the transcripts over time in order to determine if there was an underlying temporal trend that may indicate that different parts of language increase or decrease over time. In AD, cognitive abilities are said to deteriorate over time and therefore it may be useful to analyse temporal trends that indicate a potential deterioration of cognition. In order to get a accurate measure of deterioration over time, we time stamped each transcript in relation to number of days from the first transcript to the date of the transcript being analysed as the press conferences were not evenly spaced out during the presidencies.
+As with Berisha and Liss\cite{Berisha2015}, we analysed the transcripts over time in order to determine if there was an underlying temporal trend that may indicate that different parts of language increase or decrease over time. In AD, cognitive abilities are said to deteriorate over time and therefore it may be useful to analyse temporal trends that indicate a potential deterioration of cognition. In order to get a accurate measure of deterioration over time, we time stamped each transcript in relation to number of days from the first transcript to the date of the transcript being analysed as the press conferences were not evenly spaced out during the presidencies. We then applied a pearsons product moment correlation to examine whether these language features increased or decreased significantly over time. Finally, for the features we found significant for RR we compared these results with GHWB and DJT using ??? to look at whether the difference was significant given the sample size. 
 \par
 We looked also compared the results of linear models and a non linear model in terms of best fit. The non linear model we used was the generalised additive model \cite{Hastie1986}.
 There is evidence to support the idea that language deterioration. In figure 1, we look at the difference of between a linear model of Reagan's use of personal pronouns vs a non linear model. Whilst they are broadly similar in that they track an increase in his use of personal pronouns, they do not capture the variation in this increase as closely as a non linear model might. We therefore decided to apply this to all the features we extracted.
@@ -149,127 +148,118 @@ In terms of more specific language differences between the presidents, as we fou
 
 \begin{table}[H]
 	\begin{center}
-	\begin{tabular}{ | p{3cm} | p{2.2cm} | p{2.2cm} | p{2.2cm} |}
+	\begin{tabular}{ | p{3cm} | p{3cm} | p{3cm} | p{3cm} |}
 		\hline
 		& RR v GHWB & RR v DJT & GHWB v DJT \\ \hline
-		Total Words & 6.6751 (574.8808, 1057.5324) & 5.352 (974.6629, 2175.8489) & 2.4774 (137.5811, 1380.5176) \\ \hline
-		Unique Stems & 10.878 (161.1580, 232.6168) & 10.11 (275.4688, 414.0975) & 4.148 (75.86722, 219.92432) \\ \hline
-		Mean Length of Utterance & 16.175 (3.915869, 5.009114) & 25.084 (8.453404, 9.922328)  & 13.484 (4.021601, 5.429148) \\ \hline	
-		Non Specific Nouns & 9.2052 (5.881447, 9.13725) & 3.8627 (3.275567, 10.474625) & -0.37956 (-4.037218, 2.770237) \\ \hline
-		LI Verbs & 4.0434 (10.84689, 31.53291) & 2.804 (10.91107, 67.41231) & 1.2836 (-11.06486, 49.00844)\\ \hline
+		Total Words & 6.6751 (479.77, 1134.64) & 5.352 (766.95, 2383.60) & 2.4774 (-74.34, 1592.44) \\ \hline
+		Unique Stems & 10.878 (149.73, 244.04) & 10.11 (251.17, 437.85) & 4.148 (51.53, 244.26) \\ \hline
+		Mean Length of Utterance & 16.175 (3.73, 5.19) & 25.084 (8.21, 10.17)  & 13.484 (3.78, 5.66) \\ \hline	
+		Non Specific Nouns & 9.2052 (5.35, 9.66) & 3.8627 (2.06, 11.69) & -0.37956 (-5.21, 3.95) \\ \hline
+		LI Verbs & 4.0434 (7.54, 34.84) & 2.804 (0.78, 79.55) & 1.2836 (-21.35, 59.30)\\ \hline
 	\end{tabular}
-	\caption{\label{tab:table-name}RR T-tests vs GWB and DJT, T-statistic and 95\%confidence intervals}
+	\caption{\label{tab:table-name}RR T-tests vs GWB and DJT, T-statistic and 99\% confidence intervals rounded to 2.d.p}
 	\end{center} 
 \end{table}
 
 \subsection{Longitudinal Analysis}
 \subsubsection{Comparison of Ronald Reagan and George H.W. Bush}
 We then looked at the data from a longitudinal perspective as we were interested in seeing whether we can track various language features and their progress over time. We ran a number of Pearsons correlations with number of days as a time reference (we calculated this as the total number of days from the first sample) and the dependent variables. We also calculated these Pearsons correlations with transcript index number as a time reference and the dependant variables as a replication of the Berisha and LIss study \cite{Berisha2015} and these results are described in the supplementary material.
-
-
+\par 
 For our controls, we found them to be stable for the most part with the main highlights being a decrease in Adverb usage for DJT (R=-0.36, p=0.049) and a steady but not severe decline in a number of variables for GWHB, namely total word count, unique words, low imageability words and verb usage.
 \par 
 For RR, his decline is more marked and more widespread through his language use. We noticed an significant increase in adverb (R=0.41, p=0.004) and pronoun usage (R=0.65, p\textless0.001), as well as a slight usage increase in Non-specific nouns(R=0.30, p=0.03). There was also a significant decrease in number of unique words (R=-0.56, p\textless0.001) and noun usage (R=-0.70, p\textless0.001). Also there was a significant decrease in adjective usage (R=-0.40, p=0.005) and a significant decrease in total word count (R=-0.31, p=0.03). 
 \par
-Given the number of hypotheses being tested, we felt it was necessary to control for false discovery rate and therefore Benjamii-Yekutieli procedure was applied to the results of the analysis. By applying this, we produced a final list of important features for each president. For RR, this was 22 features and for GHWB this was 14 features.  The features were generated from multiple sources and therefore there was some significant overlap between the features but for completeness we have included all features in Table 6. 
+Given the number of features being compared, we felt it was necessary to control for false discovery rate and therefore Benjamii-Yekutieli procedure was applied to the results of the analysis. By applying this, we produced a final list of important features for each president. For RR, this was 22 features and for GHWB this was 14 features.  The features were generated from multiple sources and therefore there was some significant overlap between the features. Where this was the case, for example total nouns and nouns normalised,  we selected selected the feature that best controlled for document length (see Table 6). We also removed any features which calculated the use of punctuation as this was added later by the transcriptionist. This reduced the number of features that were significant for RR to 14 and for GHWB to 3. The majority of these features was significantly different in terms of movement over time when comparing RR to GHWB. The three features that were significant for GHWB in terms of correlation coefficient were not significant when comparing them with RR.
 
 \begin{table}[H]
 	\begin{center}
 	\begin{tabular}{ | l | c | c |}
 		\hline
 		& RR R-Squared  & GWB R-Squared \\ \hline
-		ppron & \textbf{0.700***} & 0.007 \\ \hline
-		social & \textbf{0.698***} & 0.204 \\ \hline
-		NounsNormalised & \textbf{-0.689***} & -0.023 \\ \hline
-		function & \textbf{0.670***} & -0.169 \\ \hline
-		conj &\textbf{0.644***} & -0.452 \\ \hline
-		PronounsNormalised & \textbf{0.631***} & 0.131 \\ \hline
-		Analytic & \textbf{-0.626***} & -0.013 \\ \hline
-		NN & \textbf{-0.601***} & -0.197 \\ \hline
-		male & \textbf{0.585***} & 0.024 \\ \hline
-		UniqueWords & \textbf{-0.578***} & -0.257 \\ \hline
-		WDT & \textbf{-0.577***} & -0.173 \\ \hline
+		ppron & \textbf{0.700*} & 0.007 \\ \hline
+		social & \textbf{0.698*} & 0.204 \\ \hline
+		NounsNormalised & \textbf{-0.689*} & -0.023 \\ \hline
+		function & \textbf{0.670*} & -0.169 \\ \hline
+		conj &\textbf{0.644*} & -0.452 \\ \hline
+		PronounsNormalised & \textbf{0.631*} & 0.131 \\ \hline
+		Analytic & \textbf{-0.626*} & -0.013 \\ \hline
+		NN & \textbf{-0.601*} & -0.197 \\ \hline
+		male & \textbf{0.585*} & 0.024 \\ \hline
+		UniqueWords & \textbf{-0.578*} & -0.257 \\ \hline
+		WDT & \textbf{-0.577*} & -0.173 \\ \hline
 		shehe & \textbf{0.529*} & -0.005 \\ \hline
 		VBZ & \textbf{-0.521*} & -0.157 \\ \hline
 		JJ & \textbf{-0.518*} & -0.206 \\ \hline
-		Fillers & -0.076 & \textbf{-0.359**} \\ \hline	
-		EX & -0.193* & \textbf{-0.337**} \\ \hline	
-		achieve & -0.248 & \textbf{0.334**} \\ \hline		
+		Fillers & -0.076 & \textbf{-0.359*} \\ \hline	
+		EX & -0.193* & \textbf{-0.337*} \\ \hline	
+		achieve & -0.248 & \textbf{0.334*} \\ \hline		
 		\multicolumn{3}{@{}p{1.5in}}{\footnotesize * denotes p\textless 0.05} \\
-    	\multicolumn{3}{@{}p{1.5in}}{\footnotesize ** denotes p\textless 0.01} \\
-    	\multicolumn{3}{@{}p{1.5in}}{\footnotesize *** denotes p\textless 0.001} \\
 	\end{tabular}
-	\caption{\label{tab:table-name}Pearson Correlations for Features}
+	\caption{\label{tab:table-name}Pearson Correlations for Features for RR and GHWB}
 	\end{center} 
 \end{table}
 
 \subsubsection{Comparison of Ronald Reagan and Donald J. Trump}
+We then used DJT as another control to see our results from our comparison with GHWB held true. We found that the same 53 features were significantly different between RR and DJT and all of the features which we deemed significant in terms of increase or decrease were included. This confirms our results from our original comparison.
+
 \begin{table}[H]
 	\begin{center}
 	\begin{tabular}{ | l | c | c |}
 		\hline
 		& RR R-Squared & DJT R-Squared \\ \hline
-		ppron & \textbf{0.700***} & 0.007 \\ \hline
-		social & \textbf{0.698***} & 0.204 \\ \hline
-		NounsNormalised & \textbf{-0.689***} & -0.023 \\ \hline
-		function & \textbf{0.670***} & -0.169 \\ \hline
-		conj &\textbf{0.644***} & -0.452 \\ \hline
-		PronounsNormalised & \textbf{0.631***} & 0.131 \\ \hline
-		Analytic & \textbf{-0.626***} & -0.013 \\ \hline
-		NN & \textbf{-0.601***} & -0.197 \\ \hline
-		male & \textbf{0.585***} & 0.024 \\ \hline
-		UniqueWords & \textbf{-0.578***} & -0.257 \\ \hline
-		WDT & \textbf{-0.577***} & -0.173 \\ \hline
-		shehe & \textbf{0.529*} & -0.005 \\ \hline
-		VBZ & \textbf{-0.521*} & -0.157 \\ \hline
-		JJ & \textbf{-0.518*} & -0.206 \\ \hline
-		Fillers & -0.076 & \textbf{-0.359**} \\ \hline	
-		EX & -0.193* & \textbf{-0.337**} \\ \hline	
-		achieve & -0.248 & \textbf{0.334**} \\ \hline		
+		ppron & \textbf{0.700*} & -0.196 \\ \hline
+		social & \textbf{0.698*} & 0.032 \\ \hline
+		NounsNormalised & \textbf{-0.689*} & 0.194 \\ \hline
+		function & \textbf{0.670*} & -0.244 \\ \hline
+		conj &\textbf{0.644*} & -0.187 \\ \hline
+		PronounsNormalised & \textbf{0.631*} & 0.002 \\ \hline
+		Analytic & \textbf{-0.626*} & 0.367 \\ \hline
+		NN & \textbf{-0.601*} & 0.116 \\ \hline
+		male & \textbf{0.585*} & 0.043 \\ \hline
+		UniqueWords & \textbf{-0.578*} & 0.204 \\ \hline
+		WDT & \textbf{-0.577*} & -0.106 \\ \hline
+		shehe & \textbf{0.529*} & 0.065 \\ \hline
+		VBZ & \textbf{-0.521*} & 0.136 \\ \hline
+		JJ & \textbf{-0.518*} & 0.063 \\ \hline	
 		\multicolumn{3}{@{}p{1.5in}}{\footnotesize * denotes p\textless 0.05} \\
-    	\multicolumn{3}{@{}p{1.5in}}{\footnotesize ** denotes p\textless 0.01} \\
-    	\multicolumn{3}{@{}p{1.5in}}{\footnotesize *** denotes p\textless 0.001} \\
 	\end{tabular}
-	\caption{\label{tab:table-name}Pearson Correlations for Features}
+	\caption{\label{tab:table-name}Pearson Correlations for Features for RR and DJT}
 	\end{center} 
 \end{table}
 % Needs explanation
 
 \subsection{Comparing linear models and non-linear models}
-In terms of comparing the general additive model and linear models. We calculated the predicted residual error sum of squares (PRESS) statistic for each feature is a form of cross-validation used in regression analysis to provide a summary measure of the fit of a model to a sample of observations that were not themselves used to estimate the model. There were no significant differences (paired t-test: t=1.8875, df  = 21, p-value = 0.07299). 
+In terms of comparing the general additive model and linear models. We calculated the predicted residual error sum of squares (PRESS) statistic for each feature. The PRESS statistic
+is a form of cross-validation used in regression analysis to provide a summary measure of the fit of a model to a sample of observations that were not themselves used to estimate the model. There were no significant differences when comparing the models (paired t-test, t = 1.8875, df = 21, p = 0.07299). 
 
 \begin{table}[H]
-	\begin{center}
-	\begin{tabular}{ | l | c | c |}
-		\hline
-		Feature & GAM Press Statistic & LM Press Statistic \\ \hline
-		ppron & 18.591104613 & 20.001055542 \\ \hline
-		social & 21.681732112 & 24.906646115  \\ \hline
-		NounsNormalised & 0.002818941 & 0.002797798\\ \hline
-		function & 46.546071705 & 46.031993602 \\ \hline
-		conj & 8.812330188 & 8.354974826 \\ \hline
-		PronounsNormalised & 0.002284437 & 0.002356129\\ \hline
-		Analytic & 2272.200519272 & 2239.224863610 \\ \hline
-		Pronoun & 44.557282749 & 46.894576916 \\ \hline		
-		NN & 101685.870974277 & 96485.575598505 \\ \hline
-		male & 5.191815443 & 5.278559152 \\ \hline
-		UniqueWords & 255114.636660673 & 238042.427437454 \\ \hline
-		WDT & 1987.149134694 & 1958.781236655 \\ \hline
-		nouns & 276723.222762842 & 262192.120091097 \\ \hline
-		nouns/100 & 27.670762078 & 26.219212009 \\ \hline
-		UniqueStems & 170450.645283172 & 166302.725530118 \\ \hline
-		shehe & 5.188136314 & 5.265385185 \\ \hline
-		VBZ & 13889.871831536 & 13721.175422577 \\ \hline
-		JJ & 24950.440222526 & 24692.043386181 \\ \hline
-		article & 13.500676675 & 13.468083961 \\ \hline	
-		Adjectives & 30210.006270270 & 29865.240707991 \\ \hline	
-		Adjectives.100 & 3.020898615 & 2.986524071 \\ \hline
-		Dic & 40.099289973 & 38.501060715 \\ \hline	
-	\end{tabular}
-	\caption{\label{tab:table-name}Comparison of GAM and Linear Model using the PRESS statistic}
-	\end{center} 
+\centering
+\begin{tabular}{lrr}
+  \hline
+feature & gamPRESS & lmPRESS \\ 
+  \hline
+ppron & 18.59 & 20.00 \\ 
+  social & 21.68 & 24.91 \\ 
+  NounsNormalised & 0.00 & 0.00 \\ 
+  function. & 46.55 & 46.03 \\ 
+  conj & 8.81 & 8.35 \\ 
+  PronounsNormalised & 0.00 & 0.00 \\ 
+  Analytic & 2272.20 & 2239.22 \\ 
+  NN & 101685.87 & 96485.58 \\ 
+  male & 5.19 & 5.28 \\ 
+  UniqueWords & 255114.64 & 238042.43 \\ 
+  WDT & 1987.15 & 1958.78 \\ 
+  Nouns/100 & 27.67 & 26.22 \\ 
+  UniqueStems & 170450.65 & 166302.73 \\ 
+  shehe & 5.19 & 5.27 \\ 
+  VBZ & 13889.87 & 13721.18 \\ 
+  JJ & 24950.44 & 24692.04 \\ 
+  article & 13.50 & 13.47 \\ 
+  Adjectives.100 & 3.02 & 2.99 \\ 
+  Dic & 40.10 & 38.50 \\ 
+   \hline
+\end{tabular}
 \end{table}
-
 \section{Discussion}\label{discussion}
 President Reagan received his diagnosis of AD in August 1994 but using transcripts of speeches he made in his two terms as President (January 1981 - January 1989) we have been able to identify a number of changes in his use of language that we might ascribe to the onset of MCI and early AD. Despite differences in our methodology, our research supports some of the findings of Berisha and Liss in that we find an increase in non-specifc noun usage. Compared to our controls (GWHB and DJT), we find some slight trends with GWHB but no such trends with DJT in his speech albeit his samples of speech span a shorter period of time. Interestingly, when we normalised the various types of words used by the presidents we found some interesting patterns that further differentiated RR from the controls. Whilst Non-specific nouns increased over time, we found that noun usage in general significantly decreased and pronouns increased similarly significantly. The increase in pronoun for those with early AD has been identified in literature, although there are only a few studies that explore this \cite{Wendelstein2015}. Wendlestein et al propose that the increased used of pronouns is an expression of an impaired ability to adapt language to the listener's needs \cite{Wendelstein2015}. Almor et al attributed this reliance on pronouns due to an impaired working memory \cite{Almor1999}.
 \par 
@@ -277,9 +267,17 @@ The decrease in overall noun usage has also been identified as a feature. Jarrol
 \par 
 A criticism of Berisha and Liss's work is the problems they had with normalising the transcripts in terms of length. This was also a problem in the work of Garrard et al \cite{Garrard2005, Le2011}. Whilst it is important to control for outliers, there are other ways in which we can control for length of sample. In this paper, we controlled for transcript length by dividing any features that were raw counts by the total length of the transcript. When we did this, we found that there was a significant decrease in the number of unique words (R=-0.56, p\textless0.001) used. However when we controlled via normalisation as described above, we found that this was not a significant feature (R=-0.172, p=0.25). 
 \par 
+Another we did was to look at the difference in decline between the presidents. We compared both RR v GHWB and RR v DJT. We found that for those features that were significant in terms of language decline for RR, they were significantly different for both our controls. This does appear to mean that for RR, his language changed in a considerably different way as he got older and we could attribute this decline to a pre-clinical stage of alzheimer's disease.
+\par
 Overall, we are able to show differences in the a number of language features between RR, GHWB and DJT over time and the psychological literature confirms our findings with reference to these changes.
 \par
-Our next hypothesis involved exploring whether linear models were the most appropriate way to track this longitudinal data. In our analysis, we found there was no significant difference in terms of mean sum of squares errors between the linear model and the generalised additive model. However this does not mean that these are equivalent. For example, consider Figure 2. We compare a model fit to a linear model with a generalised additive model which aims to model the data more closely. It is clear to see that both models can track the movements of language use over time however, the linear model is quite a rigid model which does not allow for different inflection points. We can see that RR's decline is not linear, and that there are periods of relative stability and some periods where the decline is more severe. We argue that these more nuanced changes over time can only be modelled by a model such as a GAM.
+Our next hypothesis involved exploring whether linear models were the most appropriate way to track this longitudinal data. In our analysis, we found there was no significant difference in terms of mean sum of squares errors between the linear model and the generalised additive model. However this does not mean that these are equivalent. For example, consider Figure 2. We compare a model fit to a linear model with a generalised additive model which aims to model the data more closely. It is clear to see that both models can track the movements of language use over time however, the linear model is quite a rigid model which does not allow for different inflection points. We can see that RR's decline is not linear, and that there are periods of relative stability and some periods where the decline is more severe. We argue that these more nuanced changes over time can only be modelled by a model such as a GAM. In Le's et al's paper, he looks at the written work of Iris Murdoch who would go on to receive a diganosis of Alzheimer's disease. He describes something called 'Murdoch's trough' which is a period of decline in her late 40's and early 50's, however there was a significant period following this of an improvement in her linguistic ability before a subsequent severe decline in her last novel. Figure 2 illustrates this, as well as what a non-linear model would look like vs a linear model.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=6cm, height=5cm]{plots/IMStems.png}
+	\caption{Measuring unique word stems in the novels of Iris Murdoch over time}
+\end{figure}
+We can clearly see that a linear model is insufficient for modelling this particular case and whilst Iris Murdoch may be an atypical case, we can see the value in using non-linear models that may be able to map these unusual cases whilst retaining the ability to illustrate fluctuations in language use.
 \par
 In her paper on developing diagnositic criteria for Mild Cognitive Impairment, Albert et all \cite{Albert2011} states 'it is important to obtain longitudinal assessments of cognition, whenever possible' and 'obtaining objective evidence of progressive declines in cognition over time is important for establishing the accuracy of the diagnosis, as well as for
 assessing any potential treatment response.' As we have shown, it is not the case that language declines in a linear way and whilst we have a number of data points that we can use to model RR's decline, in a clinical setting it would be impractical to have upwards of 40 data collection points. We feel that  it is important that we have more than just two. In the figure 2 and figure 3 below, we can see that if we measured language at Reagan's first transcript to a point after 700 days the vast majority of points would point to a decline in language. However, the next figure shows what would happen if we measured language from Reagan's second transcript, just 34 days later. In this case, we can see that in some cases we would mark Reagan as improving when it is clear that he is not.
@@ -301,7 +299,7 @@ There are limitations of this research. Whilst in terms of age, DJT is certainly
 With further work, it is not feasible to have a vast array of samples over a timeframe, as we have had with the president corpus and so it would be worth exploring how the quality of these predictions may lessen when faced with considerably fewer samples and over a smaller time period. It would also be worth extending this research further to encompass more of the linguistic features Fraser used in her work \cite{Fraser2015} to see if there are any further insights to be gained. In addition, this replication and extension has demonstrated the potential utility of using longitudinal data as a means of comparing language use of a person at two or more time periods and using this information as a diagnostic aid for MCI and therefore more work would be helpful from a longitudinal perspective to see if this approach may be valid in moving towards a solution for this particular problem. 
 
 \section{Conclusions}\label{conclusions}
-The results of this work show that we can track a person's use of language through time in a number of ways and that it is possible for an individual to be his or her own control. This is important as it means the heterogenous nature of the MCI population does not impact results as much as if we were comparing those with group of MCI patients with a group of controls. Equally, it would be helpful to have controls to ascertain what would be usual to expect in the decline of language in a healthy older adult. 
+The results of this work show that we can track a person's use of language through time in a number of ways and that it is possible for an individual to be his or her own control. This is important as it means the heterogenous nature of the MCI population does not impact results as much as if we were comparing those with group of MCI patients with a group of controls. Equally, it would be helpful to have controls to ascertain what would be usual to expect in the decline of language in a healthy older adult. We were able to identify a number of linguistic features that merit further exploration in those with MCI or AD. 
 \par 
 The results of this work also identify some clues as to what could work in a clinical setting, or how we might be able to collect data in a way that accurately tracks language decline without making incorrect assumptions. 
 \par
