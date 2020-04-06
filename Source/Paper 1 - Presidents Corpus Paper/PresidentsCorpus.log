@@ -1,14 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.13)  13 JAN 2020 13:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.11)  6 APR 2020 09:15
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**PresidentsCorpus.tex
-(./PresidentsCorpus.tex
-LaTeX2e <2018-04-01> patch level 2
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+**./PresidentsCorpus.tex
+(PresidentsCorpus.tex
+LaTeX2e <2018-04-01> patch level 5
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size12.clo
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -23,7 +20,7 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count88
 \float@exts=\toks14
@@ -31,39 +28,39 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks15
 \@floatcapt=\box27
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-(./PresidentsCorpus.aux
+(PresidentsCorpus.aux
 
 LaTeX Warning: Label `tab:table-name' multiply defined.
 
@@ -91,7 +88,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
- (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (C:\Users\jomar\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count89
 \scratchdimen=\dimen105
@@ -104,31 +101,31 @@ LaTeX Font Info:    ... okay on input line 36.
 \MPnumerator=\count93
 \makeMPintoPDFobject=\count94
 \everyMPtoPDFconversion=\toks18
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -137,11 +134,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -155,234 +152,228 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
+) [1
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-[1
-
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{C:/Users/jomar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 43.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 43.
-
-[2] [3] [4]
-<plots/comparison1.png, id=22, 2044.63875pt x 1697.34125pt>
+ [2] [3] [4]
+<plots/comparison1.png, id=21, 2044.63875pt x 1697.34125pt>
 File: plots/comparison1.png Graphic file (type png)
 <use plots/comparison1.png>
-Package pdftex.def Info: plots/comparison1.png  used on input line 59.
-(pdftex.def)             Requested size: 170.68773pt x 142.239pt.
+Package pdftex.def Info: plots/comparison1.png  used on input line 63.
+(pdftex.def)             Requested size: 341.40666pt x 256.06647pt.
 
-Overfull \hbox (8.44878pt too wide) in paragraph at lines 66--67
+Overfull \hbox (8.44878pt too wide) in paragraph at lines 69--70
 []\OT1/cmr/m/n/12 Language use of RR will be sig-nif-i-cantly dif-fer-ent to ou
 r con-trols (GHWB,
  []
 
 [5 <./plots/comparison1.png>] [6]
 
-LaTeX Warning: Citation `Le2012' on page 7 undefined on input line 85.
+LaTeX Warning: Citation `Le2012' on page 7 undefined on input line 88.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 88.
+(Font)              <12> on input line 91.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 88.
+(Font)              <8> on input line 91.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 88.
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--97
+(Font)              <6> on input line 91.
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
 []\OT1/cmr/m/n/12 Non Spe-cific
  []
 
 
-Overfull \hbox (3.88582pt too wide) in paragraph at lines 107--114
+Overfull \hbox (3.88582pt too wide) in paragraph at lines 110--117
  [] 
  []
 
 [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 []\OT1/cmr/m/n/12 3423.91
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 []\OT1/cmr/m/n/12 2607.72
  []
 
 
-Overfull \hbox (4.97316pt too wide) in paragraph at lines 139--139
+Overfull \hbox (4.97316pt too wide) in paragraph at lines 142--142
 \OT1/cmr/m/n/12 (1210.38)| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 []\OT1/cmr/m/n/12 1848.65
  []
 
 
-Overfull \hbox (4.97316pt too wide) in paragraph at lines 139--139
+Overfull \hbox (4.97316pt too wide) in paragraph at lines 142--142
 \OT1/cmr/m/n/12 (1549.38)| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 []\OT1/cmr/m/n/12 894.13
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 []\OT1/cmr/m/n/12 667.76
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 []\OT1/cmr/m/n/12 481.82
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 []\OT1/cmr/m/n/12 23.17
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 []\OT1/cmr/m/n/12 18.71
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 []\OT1/cmr/m/n/12 13.84
  []
 
 [10]
-Underfull \hbox (badness 7685) in paragraph at lines 154--154
+Underfull \hbox (badness 7685) in paragraph at lines 157--157
 []\OT1/cmr/m/n/12 6.6751 (479.77,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 []\OT1/cmr/m/n/12 5.352 (766.95,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 []\OT1/cmr/m/n/12 2.4774 (-74.34,
  []
 
 
-Underfull \hbox (badness 7685) in paragraph at lines 155--155
+Underfull \hbox (badness 7685) in paragraph at lines 158--158
 []\OT1/cmr/m/n/12 10.878 (149.73,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 []\OT1/cmr/m/n/12 10.11 (251.17,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 []\OT1/cmr/m/n/12 4.148 (51.53,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 []\OT1/cmr/m/n/12 16.175 (3.73,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 []\OT1/cmr/m/n/12 25.084 (8.21,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 []\OT1/cmr/m/n/12 13.484 (3.78,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
 []\OT1/cmr/m/n/12 Non Spe-cific
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
 []\OT1/cmr/m/n/12 9.2052 (5.35,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
 []\OT1/cmr/m/n/12 3.8627 (2.06,
  []
 
 
-Underfull \hbox (badness 3439) in paragraph at lines 157--157
+Underfull \hbox (badness 3439) in paragraph at lines 160--160
 []\OT1/cmr/m/n/12 -0.37956 (-5.21,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 []\OT1/cmr/m/n/12 4.0434 (7.54,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 []\OT1/cmr/m/n/12 2.804 (0.78,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 []\OT1/cmr/m/n/12 1.2836 (-21.35,
  []
 
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 170.
+[11]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 173.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omlcmr.fd
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 170.
- [11]
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 173.
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 196.
- [12]
-[13] [14] [15]
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 199.
+ [12] [13]
+[14] [15]
 
 LaTeX Warning: Citation `Wendelstein2014' on page 16 undefined on input line 26
-6.
+8.
 
 
-LaTeX Warning: Citation `Garrard2005' on page 16 undefined on input line 268.
+LaTeX Warning: Citation `Garrard2005' on page 16 undefined on input line 270.
 
-<plots/IMStems.png, id=67, 1957.3125pt x 1342.01375pt>
+<plots/IMStems.png, id=66, 1957.3125pt x 1342.01375pt>
 File: plots/IMStems.png Graphic file (type png)
 <use plots/IMStems.png>
-Package pdftex.def Info: plots/IMStems.png  used on input line 277.
+Package pdftex.def Info: plots/IMStems.png  used on input line 279.
 (pdftex.def)             Requested size: 170.71489pt x 142.25687pt.
 [16] [17 <./plots/IMStems.png>]
-<plots/comp1.png, id=75, 2044.63875pt x 1697.34125pt>
+<plots/comp1.png, id=74, 2044.63875pt x 1697.34125pt>
 File: plots/comp1.png Graphic file (type png)
 <use plots/comp1.png>
-Package pdftex.def Info: plots/comp1.png  used on input line 287.
+Package pdftex.def Info: plots/comp1.png  used on input line 289.
 (pdftex.def)             Requested size: 170.68773pt x 142.239pt.
-<plots/comp2.png, id=76, 2044.63875pt x 1697.34125pt>
+<plots/comp2.png, id=75, 2044.63875pt x 1697.34125pt>
 File: plots/comp2.png Graphic file (type png)
 <use plots/comp2.png>
-Package pdftex.def Info: plots/comp2.png  used on input line 293.
+Package pdftex.def Info: plots/comp2.png  used on input line 295.
 (pdftex.def)             Requested size: 170.68773pt x 142.239pt.
  [18 <./plots/comp1.png> <./plots/comp2.png>]
-[19] (./PresidentsCorpus.bbl [20] [21]
+[19] (PresidentsCorpus.bbl [20] [21]
 Underfull \hbox (badness 2460) in paragraph at lines 99--103
 []\OT1/cmr/m/n/12 B. Wen-del-stein, J. Stegmeier, C. Franken-berg, E. Felder, a
 nd
  []
 
-) [22] (./PresidentsCorpus.aux)
+) [22] (PresidentsCorpus.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -391,31 +382,29 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1627 strings out of 492649
- 23664 string characters out of 6129622
- 92337 words of memory out of 5000000
- 5496 multiletter control sequences out of 15000+600000
- 10227 words of font info for 36 fonts, out of 8000000 for 9000
+ 1625 strings out of 492973
+ 23451 string characters out of 3135932
+ 94167 words of memory out of 3000000
+ 5484 multiletter control sequences out of 15000+200000
+ 10227 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,25p,1903b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
-l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texliv
-e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmu10.pfb>
-Output written on PresidentsCorpus.pdf (22 pages, 923304 bytes).
+ 41i,10n,25p,1906b,356s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmu10.pfb>
+Output written on PresidentsCorpus.pdf (22 pages, 938114 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 138 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

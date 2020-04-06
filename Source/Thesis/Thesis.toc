@@ -1,13 +1,13 @@
-\contentsline {chapter}{\numberline {1.}Introduction}{17}
+\contentsline {chapter}{\numberline {1.}Introduction}{18}
 \contentsline {section}{\numberline {1.1}Background}{18}
 \contentsline {section}{\numberline {1.2}Statement of the Problem}{21}
 \contentsline {section}{\numberline {1.3}Research Questions}{27}
-\contentsline {section}{\numberline {1.4}Structure of thesis}{27}
-\contentsline {chapter}{\numberline {2.}Background and Related Work, Systematic Review of NLP and Machine Learning Research}{30}
+\contentsline {section}{\numberline {1.4}Structure of thesis}{28}
+\contentsline {chapter}{\numberline {2.}Background and Related Work, Systematic Review of NLP and Machine Learning Research}{31}
 \contentsline {section}{\numberline {2.1}Existing Neuropsychological Measures of Cognitive Impairment, and Repeatable Battery of Neuropsychological Tests}{31}
 \contentsline {subsection}{\numberline {2.1.1}Repeatable Battery for the Assessment of Neuropsychological Status}{31}
 \contentsline {subsection}{\numberline {2.1.2}Digit Span Test}{33}
-\contentsline {subsection}{\numberline {2.1.3}Rey Auditory-Verbal learning test}{33}
+\contentsline {subsection}{\numberline {2.1.3}Rey Auditory-Verbal learning test}{34}
 \contentsline {subsection}{\numberline {2.1.4}Digit Symbol Substitution Test}{34}
 \contentsline {subsection}{\numberline {2.1.5}Verbal Fluency}{35}
 \contentsline {subsection}{\numberline {2.1.6}Naming Tests}{36}
@@ -40,44 +40,45 @@
 \contentsline {subsection}{\numberline {2.5.2}Perseveration}{55}
 \contentsline {subsection}{\numberline {2.5.3}Empty Speech}{55}
 \contentsline {subsection}{\numberline {2.5.4}Conclusions}{56}
-\contentsline {section}{\numberline {2.6}State of literature into Machine Learning and Natural Language processing techniques}{56}
-\contentsline {subsection}{\numberline {2.6.1}Natural Language Processing}{57}
+\contentsline {section}{\numberline {2.6}Argument for one class classification}{57}
+\contentsline {section}{\numberline {2.7}State of literature into Machine Learning and Natural Language processing techniques}{57}
+\contentsline {subsection}{\numberline {2.7.1}Natural Language Processing}{57}
 \contentsline {subsubsection}{Natural Language Toolkit}{58}
-\contentsline {subsubsection}{CoreNLP}{58}
-\contentsline {subsubsection}{Linguistic Inquiry and Word Count}{60}
-\contentsline {subsection}{\numberline {2.6.2}Traditional methods of Machine Learning}{61}
-\contentsline {subsection}{\numberline {2.6.3}The case for Deep Learning}{63}
-\contentsline {subsection}{\numberline {2.6.4}Conclusions}{64}
-\contentsline {section}{\numberline {2.7}Discussion}{64}
-\contentsline {subsection}{\numberline {2.7.1}Future Work}{66}
-\contentsline {section}{\numberline {2.8}Introduction}{67}
-\contentsline {section}{\numberline {2.9}Methodology}{69}
-\contentsline {subsection}{\numberline {2.9.1}Search strategy}{70}
-\contentsline {subsection}{\numberline {2.9.2}Study selection}{72}
-\contentsline {subsection}{\numberline {2.9.3}Data collection}{75}
-\contentsline {section}{\numberline {2.10}Results}{75}
-\contentsline {subsection}{\numberline {2.10.1}Features of Language}{75}
+\contentsline {subsubsection}{CoreNLP}{60}
+\contentsline {subsubsection}{Linguistic Inquiry and Word Count}{61}
+\contentsline {subsection}{\numberline {2.7.2}Traditional methods of Machine Learning}{61}
+\contentsline {subsection}{\numberline {2.7.3}The case for Deep Learning}{63}
+\contentsline {subsection}{\numberline {2.7.4}Conclusions}{64}
+\contentsline {section}{\numberline {2.8}Discussion}{64}
+\contentsline {subsection}{\numberline {2.8.1}Future Work}{66}
+\contentsline {section}{\numberline {2.9}Introduction}{67}
+\contentsline {section}{\numberline {2.10}Methodology}{69}
+\contentsline {subsection}{\numberline {2.10.1}Search strategy}{70}
+\contentsline {subsection}{\numberline {2.10.2}Study selection}{73}
+\contentsline {subsection}{\numberline {2.10.3}Data collection}{75}
+\contentsline {section}{\numberline {2.11}Results}{75}
+\contentsline {subsection}{\numberline {2.11.1}Features of Language}{75}
 \contentsline {subsubsection}{Measures of Semantic Complexity}{76}
-\contentsline {subsection}{\numberline {2.10.2}Quantity - Total number of words}{77}
-\contentsline {subsection}{\numberline {2.10.3}Syntax and Morphology (Language Form)}{77}
-\contentsline {subsection}{\numberline {2.10.4}N-grams and skip-grams}{78}
-\contentsline {subsection}{\numberline {2.10.5}Mean length of utterance (MLU)}{79}
-\contentsline {subsection}{\numberline {2.10.6}Proportion of verbs to nouns plus verbs}{80}
-\contentsline {subsection}{\numberline {2.10.7}Syntactic Complexity - Composite measures of MLU, syntactic errors and verbs}{80}
-\contentsline {subsection}{\numberline {2.10.8}Semantic features}{80}
-\contentsline {subsection}{\numberline {2.10.9}Syntactic features}{81}
-\contentsline {subsection}{\numberline {2.10.10}Pragmatic features.}{81}
+\contentsline {subsection}{\numberline {2.11.2}Quantity - Total number of words}{77}
+\contentsline {subsection}{\numberline {2.11.3}Syntax and Morphology (Language Form)}{77}
+\contentsline {subsection}{\numberline {2.11.4}N-grams and skip-grams}{78}
+\contentsline {subsection}{\numberline {2.11.5}Mean length of utterance (MLU)}{80}
+\contentsline {subsection}{\numberline {2.11.6}Proportion of verbs to nouns plus verbs}{80}
+\contentsline {subsection}{\numberline {2.11.7}Syntactic Complexity - Composite measures of MLU, syntactic errors and verbs}{80}
+\contentsline {subsection}{\numberline {2.11.8}Semantic features}{80}
+\contentsline {subsection}{\numberline {2.11.9}Syntactic features}{81}
+\contentsline {subsection}{\numberline {2.11.10}Pragmatic features.}{81}
 \contentsline {subsubsection}{Go-ahead Utterances}{81}
-\contentsline {subsection}{\numberline {2.10.11}Formulaic Language}{82}
-\contentsline {subsection}{\numberline {2.10.12}Number of syllables and Characters}{82}
-\contentsline {subsection}{\numberline {2.10.13}Number of fillers}{82}
-\contentsline {subsection}{\numberline {2.10.14}Readability}{82}
-\contentsline {subsection}{\numberline {2.10.15}Polarity}{82}
-\contentsline {subsection}{\numberline {2.10.16}Frequency}{82}
-\contentsline {subsection}{\numberline {2.10.17}Dysfluencies}{83}
-\contentsline {section}{\numberline {2.11}Machine Learning methods}{83}
-\contentsline {subsection}{\numberline {2.11.1}Traditional Machine Learning methods}{83}
-\contentsline {subsubsection}{Logistic Regression}{83}
+\contentsline {subsection}{\numberline {2.11.11}Formulaic Language}{82}
+\contentsline {subsection}{\numberline {2.11.12}Number of syllables and Characters}{82}
+\contentsline {subsection}{\numberline {2.11.13}Number of fillers}{82}
+\contentsline {subsection}{\numberline {2.11.14}Readability}{82}
+\contentsline {subsection}{\numberline {2.11.15}Polarity}{83}
+\contentsline {subsection}{\numberline {2.11.16}Frequency}{83}
+\contentsline {subsection}{\numberline {2.11.17}Dysfluencies}{83}
+\contentsline {section}{\numberline {2.12}Machine Learning methods}{83}
+\contentsline {subsection}{\numberline {2.12.1}Traditional Machine Learning methods}{84}
+\contentsline {subsubsection}{Logistic Regression}{84}
 \contentsline {subsubsection}{Support Vector Machines}{84}
 \contentsline {subsubsection}{Linear Discriminant Analysis}{85}
 \contentsline {subsubsection}{Decision Trees}{85}
@@ -85,43 +86,56 @@
 \contentsline {subsubsection}{Artificial Neural Networks}{86}
 \contentsline {subsubsection}{K-nearest neighbours}{86}
 \contentsline {subsubsection}{Best Results}{87}
-\contentsline {subsection}{\numberline {2.11.2}Deep Learning methods}{87}
+\contentsline {subsection}{\numberline {2.12.2}Deep Learning methods}{87}
 \contentsline {subsubsection}{Deep language space neural network for classifying mild cognitive impairment and Alzheimer-type dementia - Orimaye, Wong and Wong (2018)}{87}
-\contentsline {subsection}{\numberline {2.11.3}What type of data is used by the studies?}{87}
-\contentsline {subsection}{\numberline {2.11.4}Picture Description Tasks}{88}
-\contentsline {subsection}{\numberline {2.11.5}Narrative description task}{89}
-\contentsline {subsection}{\numberline {2.11.6}Interviews}{90}
-\contentsline {subsection}{\numberline {2.11.7}Conclusions}{91}
-\contentsline {subsection}{\numberline {2.11.8}What are the goals of the studies that employ ML or Statistical Learning techniques for diagnosis of MCI or AD?}{91}
-\contentsline {subsection}{\numberline {2.11.9}Do the studies focus on a one point in time or looking at cognitive deterioration over time?}{91}
-\contentsline {section}{\numberline {2.12}Discussion and conclusions}{91}
-\contentsline {subsection}{\numberline {2.12.1}Discussion of the current evidence}{91}
-\contentsline {subsection}{\numberline {2.12.2}Methodological Issues}{93}
-\contentsline {subsection}{\numberline {2.12.3}Limitations}{93}
-\contentsline {subsection}{\numberline {2.12.4}The future of the field}{93}
-\contentsline {section}{\numberline {2.13}Conclusions}{95}
+\contentsline {subsection}{\numberline {2.12.3}What type of data is used by the studies?}{88}
+\contentsline {subsection}{\numberline {2.12.4}Picture Description Tasks}{88}
+\contentsline {subsection}{\numberline {2.12.5}Narrative description task}{89}
+\contentsline {subsection}{\numberline {2.12.6}Interviews}{90}
+\contentsline {subsection}{\numberline {2.12.7}Conclusions}{91}
+\contentsline {subsection}{\numberline {2.12.8}What are the goals of the studies that employ ML or Statistical Learning techniques for diagnosis of MCI or AD?}{91}
+\contentsline {subsection}{\numberline {2.12.9}Do the studies focus on a one point in time or looking at cognitive deterioration over time?}{91}
+\contentsline {section}{\numberline {2.13}Discussion and conclusions}{91}
+\contentsline {subsection}{\numberline {2.13.1}Discussion of the current evidence}{91}
+\contentsline {subsection}{\numberline {2.13.2}Methodological Issues}{94}
+\contentsline {subsection}{\numberline {2.13.3}Limitations}{94}
+\contentsline {subsection}{\numberline {2.13.4}The future of the field}{94}
+\contentsline {section}{\numberline {2.14}Conclusions}{95}
 \contentsline {chapter}{\numberline {3.}Delphi Methodology and developing consensus on how best to collect language samples using technology}{97}
-\contentsline {section}{\numberline {3.1}Introduction}{98}
-\contentsline {subsection}{\numberline {3.1.1}Subsection Heading Here}{98}
-\contentsline {section}{\numberline {3.2}Conclusion}{98}
-\contentsline {chapter}{\numberline {4.}Development of a pipeline that processes language data accurately}{99}
-\contentsline {section}{\numberline {4.1}Background}{100}
-\contentsline {section}{\numberline {4.2}One-class classification}{100}
-\contentsline {chapter}{\numberline {5.}Analysis of the Presidents Corpus, Three Authors and DementiaBank datasets}{101}
-\contentsline {section}{\numberline {5.1}Background}{102}
-\contentsline {section}{\numberline {5.2}Methods}{102}
-\contentsline {subsection}{\numberline {5.2.1}Pre-processing}{103}
-\contentsline {subsection}{\numberline {5.2.2}Feature Selection}{104}
-\contentsline {subsubsection}{Measures of lexical variation}{104}
-\contentsline {subsubsection}{Fillers, Non-Specific Nouns and LI Verbs}{104}
-\contentsline {subsubsection}{Usage of parts of speech}{105}
-\contentsline {section}{\numberline {5.3}Results}{106}
-\contentsline {section}{\numberline {5.4}Discussion}{108}
-\contentsline {chapter}{\numberline {6.}Pilot study of the methodology developed}{113}
-\contentsline {section}{\numberline {6.1}Introduction}{114}
-\contentsline {subsection}{\numberline {6.1.1}Subsection Heading Here}{114}
-\contentsline {section}{\numberline {6.2}Conclusion}{114}
-\contentsline {chapter}{\numberline {7.}General Discussion, Conclusions and Future Work}{115}
-\contentsline {section}{\numberline {7.1}Introduction}{116}
-\contentsline {subsection}{\numberline {7.1.1}Subsection Heading Here}{116}
-\contentsline {section}{\numberline {7.2}Conclusion}{116}
+\contentsline {section}{\numberline {3.1}Introduction}{97}
+\contentsline {subsection}{\numberline {3.1.1}Subsection Heading Here}{97}
+\contentsline {section}{\numberline {3.2}Conclusion}{97}
+\contentsline {chapter}{\numberline {4.}Development of a pipeline that processes language data accurately}{98}
+\contentsline {section}{\numberline {4.1}Background}{98}
+\contentsline {section}{\numberline {4.2}One-class classification}{98}
+\contentsline {chapter}{\numberline {5.}Analysis of the Presidents Corpus, Three Authors and DementiaBank datasets}{99}
+\contentsline {section}{\numberline {5.1}Background}{99}
+\contentsline {section}{\numberline {5.2}Methods}{100}
+\contentsline {subsection}{\numberline {5.2.1}Pre-processing}{101}
+\contentsline {subsection}{\numberline {5.2.2}Feature Selection}{101}
+\contentsline {subsubsection}{Measures of lexical variation}{101}
+\contentsline {subsubsection}{Fillers, Non-Specific Nouns and LI Verbs}{102}
+\contentsline {subsubsection}{Usage of parts of speech}{102}
+\contentsline {section}{\numberline {5.3}Results}{103}
+\contentsline {section}{\numberline {5.4}Discussion}{105}
+\contentsline {section}{\numberline {5.5}Introduction}{109}
+\contentsline {section}{\numberline {5.6}Methodology}{113}
+\contentsline {subsection}{\numberline {5.6.1}Pre-processing}{114}
+\contentsline {subsection}{\numberline {5.6.2}Feature Generation}{114}
+\contentsline {subsubsection}{Measures of lexical diversity}{115}
+\contentsline {subsubsection}{Fillers, Non-Specific Nouns and Low Imageability Verbs}{116}
+\contentsline {subsubsection}{Usage of parts of speech}{117}
+\contentsline {subsubsection}{Linguistic Inquiry and Word Count(LIWC)}{117}
+\contentsline {subsubsection}{Longitudinal Analysis}{117}
+\contentsline {section}{\numberline {5.7}Results}{118}
+\contentsline {subsection}{\numberline {5.7.1}Longitudinal Analysis}{120}
+\contentsline {section}{\numberline {5.8}Discussion}{125}
+\contentsline {section}{\numberline {5.9}Conclusions}{128}
+\contentsline {chapter}{\numberline {6.}Pilot study of the methodology developed}{130}
+\contentsline {section}{\numberline {6.1}Introduction}{130}
+\contentsline {subsection}{\numberline {6.1.1}Subsection Heading Here}{130}
+\contentsline {section}{\numberline {6.2}Conclusion}{130}
+\contentsline {chapter}{\numberline {7.}General Discussion, Conclusions and Future Work}{131}
+\contentsline {section}{\numberline {7.1}Introduction}{131}
+\contentsline {subsection}{\numberline {7.1.1}Subsection Heading Here}{131}
+\contentsline {section}{\numberline {7.2}Conclusion}{131}

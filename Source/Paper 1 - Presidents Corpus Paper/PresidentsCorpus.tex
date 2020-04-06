@@ -46,7 +46,11 @@ A diagnosis of dementia is generally made when there is a decline in brain funct
 \par 
 There are different types of dementia including Alzheimer's Disease (AD), vascular dementia, dementia with Lewy bodies and fronto-temporal dementia, all of which are currently incurable. AD is a progressive neurodegenerative disease and is the most common type of dementia, responsible for approximately 60\% to 80\% of all cases \cite{Duong2017}. Currently, a definitive diagnosis for AD can only be produced post-mortem. However, there are a number of psychological and physiological indicators that can indicate that AD is is present. These physiological changes lead to the development of some of the psychological symptoms associated with AD, primarily cognitive deficits such as problems with episodic and semantic memory, organizing and planning and other problems with executive function, difficulties with language, and visuospatial deficits \cite{McKhann2011}. These cognitive symptoms are often accompanied by emotional problems such as depression and behavioural difficulties. As more neurons die throughout the brain, a person with AD gradually loses the ability to think, remember, make decisions and function independently.
 \par
-Despite the increasing prevalence of AD and an improved understanding about how it affects the brain there are no medications that improve prognosis. All the medications that are currently on the market are designed to manage symptoms. Whilst there are numerous investigational drugs in development for the treatment of AD, a larger than normal percentage of these drugs fail in the clinical trial stage of the drug discovery process (99.6\% failure rate vs 80\% for systemic anti-cancer drugs) \cite{Cummings2014}. Cummings et al proposed that a possible reason for the lack of success is that the drug treatments are initiated too far along in the progression of the disease and thus much of the degeneration of the brain has already occurred \cite{Cummings2014}. Research focus has now started to shift to the earlier stages of AD (i.e. symptomatic pre-dementia phase of AD) which some literature describes as 'Mild Cognitive Impairment (MCI) due to AD'.
+Despite the increasing prevalence of AD and an improved understanding about how it affects the brain there are no medications that improve prognosis. All the medications that are currently on the market are designed to manage symptoms. Whilst there are numerous investigational drugs in development for the treatment of AD, a larger than normal percentage of these drugs fail in the clinical trial stage of the drug discovery process (99.6\% failure rate vs 80\% for systemic anti-cancer drugs) \cite{Cummings2014}. Cummings et al proposed that a possible reason for the lack of success is that the drug treatments are initiated too far along in the progression of the disease and thus much of the degeneration of the brain has already occurred \cite{Cummings2014}. 
+\par 
+
+
+Research focus has now started to shift to the earlier stages of AD (i.e. symptomatic pre-dementia phase of AD) which some literature describes as 'Mild Cognitive Impairment (MCI) due to AD'.
 \par
 One of the challenges associated with the early detection of AD is differentiating natural age associated memory impairment and cognitive decline due to aging from decline due to AD \cite{Lo2017}. This challenge is often complicated further due to the large variation in the cognitive abilities and educational background of individuals \cite{Harada2013}. The work of Albert et al helps to address this by the development of clinical criteria which professionals can use to diagnose MCI due to AD. One of the most important observations from this piece of work is that a diagnosis of MCI requires evidence of intra-individual change and optimally requires evaluation at two or more points \cite{Albert2011}.This is essentially to place more importance on the trajectory of a person's cognitive abilities rather than a person's cognitive ability in general. Berisha and Liss used the transcripts of press conferences of Ronald Reagan who would go on to be diagnosed with AD, and George Bush Sr who had no diagnosis. These speeches are in the public domain and provide a good opportunity of analysing the spontaneous language use of someone with AD, before a diagnosis was made. 
 \par 
@@ -56,10 +60,9 @@ Berisha and Liss have developed interesting ideas about how we might track chang
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=6cm, height=5cm]{plots/comparison1.png}
+	\includegraphics[width=12cm, height=9cm]{plots/comparison1.png}
 	\caption{Comparing linear model with a non-linear model}
 \end{figure}
-
 
 This study extends the work of Berisha and Liss in a number of ways. Our hypotheses are:
 \begin{enumerate}
@@ -229,34 +232,33 @@ We then used DJT as another control to see our results from our comparison with 
 % Needs explanation
 
 \subsection{Comparing linear models and non-linear models}
-In terms of comparing the general additive model and linear models. We calculated the predicted residual error sum of squares (PRESS) statistic for each feature. The PRESS statistic
-is a form of cross-validation used in regression analysis to provide a summary measure of the fit of a model to a sample of observations that were not themselves used to estimate the model. There were no significant differences when comparing the models (paired t-test, t = 1.8875, df = 21, p = 0.07299). 
+In terms of comparing the general additive model and linear models. We calculated the predicted residual error sum of squares (PRESS) statistic for each feature. The PRESS statistic is a form of leave one out cross-validation (LOOCV) used in regression analysis to provide a summary measure of the fit of a model to a sample of observations that were not themselves used to estimate the model. There were no significant differences when comparing the models (paired t-test, t = 1.8875, df = 21, p = 0.07299). 
 
 \begin{table}[H]
 \centering
-\begin{tabular}{lrr}
+\begin{tabular}{| l | r | r | r |}
   \hline
-feature & gamPRESS & lmPRESS \\ 
+feature & gamPRESS & lmPRESS & Best Model\\ 
   \hline
-ppron & 18.59 & 20.00 \\ 
-  social & 21.68 & 24.91 \\ 
-  NounsNormalised & 0.00 & 0.00 \\ 
-  function. & 46.55 & 46.03 \\ 
-  conj & 8.81 & 8.35 \\ 
-  PronounsNormalised & 0.00 & 0.00 \\ 
-  Analytic & 2272.20 & 2239.22 \\ 
-  NN & 101685.87 & 96485.58 \\ 
-  male & 5.19 & 5.28 \\ 
-  UniqueWords & 255114.64 & 238042.43 \\ 
-  WDT & 1987.15 & 1958.78 \\ 
-  Nouns/100 & 27.67 & 26.22 \\ 
-  UniqueStems & 170450.65 & 166302.73 \\ 
-  shehe & 5.19 & 5.27 \\ 
-  VBZ & 13889.87 & 13721.18 \\ 
-  JJ & 24950.44 & 24692.04 \\ 
-  article & 13.50 & 13.47 \\ 
-  Adjectives.100 & 3.02 & 2.99 \\ 
-  Dic & 40.10 & 38.50 \\ 
+ppron & 18.59 & 20.00 & GAM\\ 
+  social & 21.68 & 24.91 & GAM\\ 
+  NounsNormalised & 0.00281 & 0.00279 & LM\\ 
+  function. & 46.55 & 46.03 & LM\\ 
+  conj & 8.81 & 8.35 & LM \\ 
+  PronounsNormalised & 0.00228 & 0.00235 & GAM \\ 
+  Analytic & 2272.20 & 2239.22 & LM\\ 
+  NN & 101685.87 & 96485.58 & LM\\ 
+  male & 5.19 & 5.28 & GAM\\ 
+  UniqueWords & 255114.64 & 238042.43 & LM\\ 
+  WDT & 1987.15 & 1958.78 & LM \\ 
+  Nouns/100 & 27.67 & 26.22 & LM\\ 
+  UniqueStems & 170450.65 & 166302.73 & LM \\ 
+  shehe & 5.19 & 5.27 & GAM\\ 
+  VBZ & 13889.87 & 13721.18 & LM\\ 
+  JJ & 24950.44 & 24692.04 & LM\\ 
+  article & 13.50 & 13.47 & LM\\ 
+  Adjectives.100 & 3.02 & 2.99 & LM\\ 
+  Dic & 40.10 & 38.50 & LM\\ 
    \hline
 \end{tabular}
 \end{table}
@@ -267,7 +269,7 @@ The decrease in overall noun usage has also been identified as a feature. Jarrol
 \par 
 A criticism of Berisha and Liss's work is the problems they had with normalising the transcripts in terms of length. This was also a problem in the work of Garrard et al \cite{Garrard2005, Le2011}. Whilst it is important to control for outliers, there are other ways in which we can control for length of sample. In this paper, we controlled for transcript length by dividing any features that were raw counts by the total length of the transcript. When we did this, we found that there was a significant decrease in the number of unique words (R=-0.56, p\textless0.001) used. However when we controlled via normalisation as described above, we found that this was not a significant feature (R=-0.172, p=0.25). 
 \par 
-Another we did was to look at the difference in decline between the presidents. We compared both RR v GHWB and RR v DJT. We found that for those features that were significant in terms of language decline for RR, they were significantly different for both our controls. This does appear to mean that for RR, his language changed in a considerably different way as he got older and we could attribute this decline to a pre-clinical stage of alzheimer's disease.
+Another we did was to look at the difference in decline between the presidents. We compared both RR v GHWB and RR v DJT. We found that for those features that were significant in terms of language decline for RR, they were significantly different for both our controls. This does appear to mean that for RR, his language changed in a considerably different way as he got older and we could attribute this decline to a pre-clinical stage of AD.
 \par
 Overall, we are able to show differences in the a number of language features between RR, GHWB and DJT over time and the psychological literature confirms our findings with reference to these changes.
 \par
@@ -277,9 +279,9 @@ Our next hypothesis involved exploring whether linear models were the most appro
 	\includegraphics[width=6cm, height=5cm]{plots/IMStems.png}
 	\caption{Measuring unique word stems in the novels of Iris Murdoch over time}
 \end{figure}
-We can clearly see that a linear model is insufficient for modelling this particular case and whilst Iris Murdoch may be an atypical case, we can see the value in using non-linear models that may be able to map these unusual cases whilst retaining the ability to illustrate fluctuations in language use.
+We can clearly see that a linear model is insufficient for modeling this particular case and whilst Iris Murdoch may be an atypical case, we can see the value in using non-linear models that may be able to map these unusual cases whilst retaining the ability to illustrate fluctuations in language use.
 \par
-In her paper on developing diagnositic criteria for Mild Cognitive Impairment, Albert et all \cite{Albert2011} states 'it is important to obtain longitudinal assessments of cognition, whenever possible' and 'obtaining objective evidence of progressive declines in cognition over time is important for establishing the accuracy of the diagnosis, as well as for
+In her paper on developing diagnostic criteria for Mild Cognitive Impairment, Albert et al \cite{Albert2011} states 'it is important to obtain longitudinal assessments of cognition, whenever possible' and 'obtaining objective evidence of progressive declines in cognition over time is important for establishing the accuracy of the diagnosis, as well as for
 assessing any potential treatment response.' As we have shown, it is not the case that language declines in a linear way and whilst we have a number of data points that we can use to model RR's decline, in a clinical setting it would be impractical to have upwards of 40 data collection points. We feel that  it is important that we have more than just two. In the figure 2 and figure 3 below, we can see that if we measured language at Reagan's first transcript to a point after 700 days the vast majority of points would point to a decline in language. However, the next figure shows what would happen if we measured language from Reagan's second transcript, just 34 days later. In this case, we can see that in some cases we would mark Reagan as improving when it is clear that he is not.
 
 \begin{figure}[H]

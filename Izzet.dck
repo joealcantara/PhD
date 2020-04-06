@@ -1,0 +1,28 @@
+NAME:Izzet Mill
+4 [THB:159] Thrill of Possibility
+4 [GRN:257] Steam Vents
+4 [THS:112] Anger of the Gods
+4 [M15:245] Radiant Fountain
+4 [XLN:48] Chart a Course
+4 [KTK:59] Treasure Cruise
+4 [M20:253] Temple of Epiphany
+3 [THB:251] Island
+4 [ORI:76] Sphinx's Tutelage
+1 [ORI:221] Alhammarret's Archive
+2 [THB:253] Mountain
+1 [KTK:36] Dig Through Time
+2 [DTK:151] Roast
+4 [KLD:249] Spirebluff Canal
+2 [BNG:57] Whelming Wave
+2 [ELD:244] Fabled Passage
+4 [ORI:155] Magmatic Insight
+4 [ORI:251] Shivan Reef
+2 [ORI:71] Send to Sleep
+1 [FRF:43] Monastery Siege
+SB: 4 [ELD:58] Mystical Dispute
+SB: 3 [M15:237] Tormod's Crypt
+SB: 1 [M20:69] Negate
+SB: 3 [DTK:54] Encase in Ice
+SB: 4 [SOI:92] Thing in the Ice
+LAYOUT MAIN:(1,1)(NONE,false,50)|([THB:159],[THB:159],[THB:159],[THB:159],[GRN:257],[GRN:257],[GRN:257],[GRN:257],[THS:112],[THS:112],[THS:112],[THS:112],[M15:245],[M15:245],[M15:245],[M15:245],[XLN:48],[XLN:48],[XLN:48],[XLN:48],[KTK:59],[KTK:59],[KTK:59],[KTK:59],[M20:253],[M20:253],[M20:253],[M20:253],[THB:251],[THB:251],[THB:251],[ORI:76],[ORI:76],[ORI:76],[ORI:76],[ORI:221],[THB:253],[THB:253],[KTK:36],[DTK:151],[DTK:151],[KLD:249],[KLD:249],[KLD:249],[KLD:249],[BNG:57],[BNG:57],[ELD:244],[ELD:244],[ORI:155],[ORI:155],[ORI:155],[ORI:155],[ORI:251],[ORI:251],[ORI:251],[ORI:251],[ORI:71],[ORI:71],[FRF:43])
+LAYOUT SIDEBOARD:(1,1)(NONE,false,50)|([ELD:58],[ELD:58],[ELD:58],[ELD:58],[M15:237],[M15:237],[M15:237],[M20:69],[DTK:54],[DTK:54],[DTK:54],[SOI:92],[SOI:92],[SOI:92],[SOI:92])
